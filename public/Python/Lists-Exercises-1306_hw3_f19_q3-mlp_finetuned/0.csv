@@ -1,0 +1,456 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0039,, 
+1,2,2019-11-04 00:49:25,0.5340497489895512,0.48,SyntaxError: bad input on line 9,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+2,3,2019-11-04 01:28:27,0.5697775344891101,0.4896,SyntaxError: bad input on line 10,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    if inplace == True:
+        
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+3,4,2019-11-04 01:31:22,0.7191332361954008,0.5984,ValueError: invalid literal for int() with base 10: '' on line 15,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+4,5,2019-11-04 01:36:58,0.969088786492077,0.8512,ValueError: invalid literal for int() with base 10: 'None' on line 22,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = mylist
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in listcopy:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+5,6,2019-11-04 01:48:13,0.9646367296664404,0.8556,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = []
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in listcopy:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+6,7,2019-11-04 01:48:45,0.9633001220673408,0.8323,IndexError: list assignment index out of range on line 13,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = []
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+7,8,2019-11-04 01:52:53,0.9632687114886813,0.8021,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = [0, 0, 0]
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+8,9,2019-11-04 02:33:06,1.0,0.8681,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+9,10,2019-11-04 02:46:45,0.9878727149467366,0.8529,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return mylist
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+10,11,2019-11-04 02:48:17,0.8947131887301967,0.787,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return mylist
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+#print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+11,12,2019-11-04 02:48:42,0.8968898149139016,0.8055,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+#print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+12,13,2019-11-04 02:49:18,0.8984030932883633,0.791,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+#print(mylist, SmartSquare(mylist,False))
+
+"
+13,14,2019-11-04 02:49:41,1.0,0.8681,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+14,15,2019-11-04 02:58:27,0.8968898149139016,0.8055,success,"
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+#print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+15,16,2019-11-04 03:01:32,1.0,0.8681,TimeLimitError: Program exceeded run time limit. on line 27,"# My code will print the correct result, but only if I comment out line 28
+# or line 29
+
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+16,17,2019-11-04 03:02:34,1.0,0.8681,success,"# My code will print the correct result only if I comment out line 28
+# or line 29
+
+# Define your function here
+def SmartSquare(mylist, inplace):
+    count = 0
+    listcopy = list(mylist)
+    if inplace == True:
+        for num in mylist:
+            mylist[count] = num*num
+            count = count + 1
+        return mylist
+    if inplace == False:
+        for num in mylist:
+            listcopy[count] = num*num
+            count = count + 1
+        return listcopy
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"

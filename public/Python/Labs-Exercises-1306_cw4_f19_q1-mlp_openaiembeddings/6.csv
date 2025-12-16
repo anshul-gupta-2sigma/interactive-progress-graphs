@@ -1,0 +1,426 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-18 04:32:16,0.4094341954407188,0.6495,success,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+        if (mystring.find(""T"")!=-1):
+            print(""T"")
+        if (mystring.find(""e"")!=-1):
+            print(""e"")
+        if (mystring.find(""x"")!=-1):
+            print(""x"")
+        if (mystring.find(""a"")!=-1):
+            print(""a"")
+        if (mystring.find(""s"")!=-1):
+            print(""s"")
+        print("""")
+    
+
+    
+"
+2,3,2019-10-18 05:06:40,0.4104902504529485,0.6464,success,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")!=-1):
+                print(""T"")
+          if (mystring.find(""e"")!=-1):
+                print(""e"")
+          if (mystring.find(""x"")!=-1):
+                print(""x"")
+          if (mystring.find(""a"")!=-1):
+                print(""a"")
+          if (mystring.find(""s"")!=-1):
+                print(""s"")
+          print("""")     
+                
+            
+        "
+3,4,2019-10-18 05:07:52,0.40548073833592413,0.6719,success,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")):
+                print(""T"")
+          if (mystring.find(""e"")):
+                print(""e"")
+          if (mystring.find(""x"")):
+                print(""x"")
+          if (mystring.find(""a"")):
+                print(""a"")
+          if (mystring.find(""s"")):
+                print(""s"")
+          print("""")             "
+4,5,2019-10-18 05:08:44,0.49258141329244776,0.7564,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")):
+                print(""T"")
+          if (mystring.find(""e"")):
+                print(""e"")
+          if (mystring.find(""x"")):
+                print(""x"")
+          if (mystring.find(""a"")):
+                print(""a"")
+          if (mystring.find(""s"")):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+    CommonLetters(s) "
+5,6,2019-10-18 05:08:57,0.4974991379771171,0.7762,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")):
+                print(""T"")
+          if (mystring.find(""e"")):
+                print(""e"")
+          if (mystring.find(""x"")):
+                print(""x"")
+          if (mystring.find(""a"")):
+                print(""a"")
+          if (mystring.find(""s"")):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+    CommonLetters(t) "
+6,7,2019-10-18 05:09:29,0.5001744088725355,0.7754,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")):
+                print(""T"")
+          if (mystring.find(""e"")):
+                print(""e"")
+          if (mystring.find(""x"")):
+                print(""x"")
+          if (mystring.find(""a"")):
+                print(""a"")
+          if (mystring.find(""s"")):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+    CommonLetters(mystring) "
+7,8,2019-10-18 05:10:30,0.49992011010273096,0.7458,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")!=-1):
+                print(""T"")
+          if (mystring.find(""e"")!=-1):
+                print(""e"")
+          if (mystring.find(""x"")!=-1):
+                print(""x"")
+          if (mystring.find(""a"")!=-1):
+                print(""a"")
+          if (mystring.find(""s"")!=-1):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+    CommonLetters(mystring) "
+8,9,2019-10-18 05:11:40,0.5015332858073478,0.7462,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")!=-1):
+                print(""T"")
+          if (mystring.find(""e"")!=-1):
+                print(""e"")
+          if (mystring.find(""x"")!=-1):
+                print(""x"")
+          if (mystring.find(""a"")!=-1):
+                print(""a"")
+          if (mystring.find(""s"")!=-1):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+CommonLetters(mystring) "
+9,10,2019-10-18 05:11:50,0.49594248049442236,0.7568,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")!=-1):
+                print(""T"")
+          if (mystring.find(""e"")!=-1):
+                print(""e"")
+          if (mystring.find(""x"")!=-1):
+                print(""x"")
+          if (mystring.find(""a"")!=-1):
+                print(""a"")
+          if (mystring.find(""s"")!=-1):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+CommonLetters(t) "
+10,11,2019-10-18 05:11:57,0.49987003950242204,0.7505,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    for char in stringnamedTexas:
+          if (mystring.find(""T"")!=-1):
+                print(""T"")
+          if (mystring.find(""e"")!=-1):
+                print(""e"")
+          if (mystring.find(""x"")!=-1):
+                print(""x"")
+          if (mystring.find(""a"")!=-1):
+                print(""a"")
+          if (mystring.find(""s"")!=-1):
+                print(""s"")
+          print("""")
+while True:
+    t=input(""Enter a string: "")
+    if t=="""":
+    CommonLetters(t) "
+11,12,2019-10-18 21:50:07,0.47777803747648073,0.6651,success,"texas= ""Texas""
+mystring =input(""Enter a string"")
+def CommonLetters(mystring):
+    common_letters = """"
+    for letter in mystring:
+        if(letter in texas and letter not in common_letters):
+            common_letters=common_letters + letter
+        return common_letters
+print(CommonLetters(mystring))"
+12,13,2019-10-18 21:52:42,0.47777803747648073,0.6651,success,"texas= ""Texas""
+mystring =input(""Enter a string"")
+def CommonLetters(mystring):
+    common_letters = """"
+    for letter in mystring:
+        if(letter in texas and letter not in common_letters):
+            common_letters=common_letters + letter
+        return common_letters
+    
+print(CommonLetters(mystring))"
+13,14,2019-10-18 21:55:47,0.48516420688874007,0.8011,SyntaxError: bad input on line 13,"texas= ""Texas""
+mystring =input(""Enter a string:"")
+def CommonLetters(mystring):
+    common_letters = """"
+    for letter in mystring:
+        if(letter in texas and letter not in common_letters):
+            common_letters=common_letters + letter
+        return common_letters
+    
+print(CommonLetters(mystring))
+
+user_string = '2'
+while (user_string != """")
+    user_string = input(""Enter a string:"")
+    if(user_string != """"):
+        print(""Common letters between"", user_string, ""and Texas are:"", CommonLetters(user_string))"
+14,15,2019-10-18 21:55:59,0.48418608207107205,0.8012,success,"texas= ""Texas""
+mystring =input(""Enter a string:"")
+def CommonLetters(mystring):
+    common_letters = """"
+    for letter in mystring:
+        if(letter in texas and letter not in common_letters):
+            common_letters=common_letters + letter
+        return common_letters
+    
+print(CommonLetters(mystring))
+
+user_string = '2'
+while (user_string != """"):
+    user_string = input(""Enter a string:"")
+    if(user_string != """"):
+        print(""Common letters between"", user_string, ""and Texas are:"", CommonLetters(user_string))"
+15,16,2019-10-19 00:57:45,0.7541031626714422,0.9101,SyntaxError: bad input on line 24,"def CommonLetters(s):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print( ""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+while(1):
+    mystring= input(str(""Enter a string:""))
+    print(CommonLetters(mystring))
+    if mystring == """"    
+        
+    "
+16,17,2019-10-19 03:42:26,0.7537807129297772,0.9162,NameError: name 't' is not defined on line 6,"def CommonLetters(s):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print( ""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+while(1):
+    mystring= input(str(""Enter a string:""))
+    print(CommonLetters(mystring))
+    if mystring == """":
+           break
+        
+    "
+17,18,2019-10-19 03:43:21,0.976888211853984,0.865,success,"def CommonLetters(t):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print( ""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+while(1):
+    mystring= input(str(""Enter a string:""))
+    print(CommonLetters(mystring))
+    if mystring == """":
+           break
+        
+    "
+18,19,2019-10-19 03:50:31,0.7330094166502448,0.8157,SyntaxError: bad input on line 22,"def CommonLetters(t):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print(""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+user_string= '2'
+while (user_string != """")
+    user_string= input(""Enter a string:"")
+    if(user_string !=""""):
+        print(""Common letters between"", user_string,""and Texas are:"", CommonLetters(user_string)"
+19,20,2019-10-19 03:51:16,0.7326910354333858,0.8274,SyntaxError: EOF in multi-line statement on line 26\n\n^\n,"def CommonLetters(t):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print(""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+user_string= '2'
+while(user_string != """"):
+    user_string= input(""Enter a string:"")
+    if(user_string !=""""):
+        print(""Common letters between"", user_string,""and Texas are:"", CommonLetters(user_string)"
+20,21,2019-10-19 03:51:54,0.726326693253899,0.8181,SyntaxError: EOF in multi-line statement on line 27\n\n^\n,"def CommonLetters(t):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print(""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+user_string='2'
+while(user_string != """"):
+    user_string= input(""Enter a string:"")
+    if(user_string !=""""):
+        print(""Common letters between"", user_string,""and Texas are:"", CommonLetters(user_string)
+          "
+21,22,2019-10-19 03:52:37,0.7268083146186146,0.8227,success,"def CommonLetters(t):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print(""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+user_string='2'
+while(user_string != """"):
+    user_string= input(""Enter a string:"")
+    if(user_string !=""""):
+        print(""Common letters between"", user_string,""and Texas are:"", CommonLetters(user_string))
+          "
+22,23,2019-10-19 04:03:51,0.9999999708381622,0.8641,success,"def CommonLetters(t):
+    string1= ""Texas""
+    string2= """"
+    string3= """"
+    
+    if t==""Taxes"":
+        print(""T e x a s"")
+    else:
+        for x in t:
+            if x in string1:
+                string2 = string2 + x
+                
+        for x in string2:
+            if x not in string3:
+                string3=string3+x
+                string3=string3+ "" ""
+                
+    return string3
+
+#PARTB
+while(1):
+    mystring= input(str(""Enter a string:""))
+    print(CommonLetters(mystring))
+    if mystring == """":
+            break
+          "

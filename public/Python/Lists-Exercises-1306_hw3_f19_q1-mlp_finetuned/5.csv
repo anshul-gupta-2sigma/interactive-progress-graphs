@@ -1,0 +1,2501 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-10-29 15:14:12,0.5165311036899449,0.5504,NameError: name 'totalwords' is not defined on line 11,"
+def CoolPara(words):
+    book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+print(""Total number of words is"", totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+2,3,2019-10-29 15:18:33,0.621345749220499,0.6757,SyntaxError: EOF in multi-line statement on line 20\n\n^\n,"
+def CoolPara(words):
+    book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+print(""Total number of words is"", totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""))
+
+"
+3,4,2019-10-29 15:18:38,0.5909933841810111,0.6362,SyntaxError: EOF in multi-line statement on line 20\n\n^\n,"
+def CoolPara(words):
+    book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+#print(""Total number of words is"", totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""))
+
+"
+4,5,2019-10-29 15:18:49,0.5951952703479542,0.6389,success,"
+def CoolPara(words):
+    book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+#print(""Total number of words is"", totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort."")))
+
+"
+5,6,2019-10-29 15:19:26,0.47636274280755053,0.524,SyntaxError: EOF in multi-line statement on line 20\n\n^\n,"
+def CoolPara(words):
+    book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text ""))
+
+"
+6,7,2019-10-29 15:19:31,0.48033930993708407,0.5255,success,"
+def CoolPara(words):
+    book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+7,8,2019-10-29 15:19:54,0.26722467207696843,0.3501,NameError: name 'book' is not defined on line 6,"
+def CoolPara(words):
+    #book=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+8,9,2019-10-29 15:20:27,0.4804792163195065,0.525,NameError: name 'book' is not defined on line 6,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=book.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+9,10,2019-10-29 15:20:51,0.4798838647756356,0.5209,NameError: name 'wordslist' is not defined on line 7,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in wordslist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+10,11,2019-10-29 15:20:59,0.4811064798228598,0.5248,success,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+11,12,2019-10-29 15:22:00,0.41806419004425255,0.4902,success,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        #if len(i) >=8:
+            #longwords = longwords+1
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+12,13,2019-10-29 15:22:22,0.43319815697356523,0.4964,SyntaxError: bad input on line 11,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        #if len(i) >=8:
+            #longwords = longwords+1
+    return totalwords:
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+13,14,2019-10-29 15:22:26,0.43099838663427714,0.4975,success,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        #if len(i) >=8:
+            #longwords = longwords+1
+    return totalwords
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+14,15,2019-10-29 15:22:34,0.49480019216021764,0.5347,success,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+    return totalwords
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+15,16,2019-10-29 15:22:50,0.5076418376656104,0.5425,success,"
+def CoolPara(words):
+    words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+    return totalwords
+    return longwords
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+16,17,2019-10-29 15:23:09,0.2949565144325881,0.3776,success,"
+def CoolPara(words):
+    #words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+    return totalwords
+    return longwords
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+17,18,2019-10-29 15:24:26,0.2951935435778511,0.3776,success,"
+def CoolPara(words):
+    #words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        if len(i) >=8:
+            longwords = longwords+1
+    return longwords
+    return totalwords
+    #return longwords
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+18,19,2019-10-29 15:25:24,0.2936123542416772,0.375,SyntaxError: bad input on line 10,"
+def CoolPara(words):
+    #words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+    return totalwords
+        if len(i) >=8:
+            longwords = longwords+1
+    return longwords
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+19,20,2019-10-29 15:26:05,0.3204068750505725,0.407,success,"
+def CoolPara(words):
+    #words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+    return totalwords
+    for i in booklist:
+
+        if len(i) >=8:
+            longwords = longwords+1
+    return longwords
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+20,21,2019-10-29 15:26:31,0.32055657896354717,0.4169,success,"
+def CoolPara(words):
+    #words=""In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.""
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+    return totalwords
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    return longwords
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+21,22,2019-10-29 15:27:31,0.32055657896354717,0.4169,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+    return totalwords
+
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    return longwords
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+22,23,2019-10-29 15:27:54,0.3203699942642192,0.4186,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+    
+
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    return totalwords
+    return longwords
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+23,24,2019-10-29 15:28:10,0.3203699942642192,0.4186,SyntaxError: bad input on line 16,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+    
+
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+return totalwords
+    return longwords
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+24,25,2019-10-29 15:29:59,0.3389512952332435,0.4378,NameError: name 'longterm' is not defined on line 18,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    #return totalwords
+    
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+
+    #return longwords
+    print(longterm)
+    print(totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+25,26,2019-10-29 15:30:23,0.3411290391241204,0.4407,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    #return totalwords
+    
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+
+    #return longwords
+    print(longwords)
+    print(totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+26,27,2019-10-29 15:30:41,0.3411290391241204,0.4407,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    
+    
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+
+    
+    print(longwords)
+    print(totalwords)
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+27,28,2019-10-29 15:37:53,0.6187054572705952,0.7483,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y)>0:
+            if y == j or x or q or z:
+                rare = rare+1
+                
+            
+
+    print(totalwords)
+    print(longwords)
+    print(rare)
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+28,29,2019-10-29 15:38:44,0.6394864191891769,0.7723,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y)>0:
+            if y == j or x or q or z:
+                rare = rare+1
+                
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+29,30,2019-10-29 15:39:25,0.6176983119024215,0.7436,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y) == j or x or q or z:
+            
+                rare = rare+1
+                
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+30,31,2019-10-29 15:40:12,0.6428871964416993,0.7686,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y) == j or x or q or z:
+            
+                rare = rare+1
+        else:
+            y=0
+                
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+31,32,2019-10-29 15:40:22,0.643873690192325,0.7733,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y) == j or x or q or z:
+            
+                rare = rare+1
+        else:
+            rare=0
+                
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+32,33,2019-10-29 15:43:44,0.634401649359478,0.7504,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y) == j or x or q or z:
+            
+                rare = rare+1
+        else:
+            rare=0
+    if ""j"" in booklist:
+        rare = rare+1
+                
+            
+
+    #print(totalwords)
+    print(rare)
+    #print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+33,34,2019-10-29 15:44:43,0.630538078671681,0.7489,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y) == j or x or q or z:
+            
+                rare = rare+1
+        else:
+            rare=0
+    if ""j"" in words:
+        rare = rare+1
+                
+            
+
+    #print(totalwords)
+    print(rare)
+    #print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+34,35,2019-10-29 15:45:45,0.7094429239594415,0.8365,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if len(y) == j or x or q or z:
+            
+                rare = rare+1
+        else:
+            rare=0
+    if ""j"" in booklist:
+        rare = rare+1
+                
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+35,36,2019-10-29 15:49:56,0.5902895478229626,0.698,SyntaxError: bad input on line 25,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        else:
+           
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+36,37,2019-10-29 15:50:27,0.5778072591952952,0.6942,success,"
+def CoolPara(words):
+    j =""j""
+    x=""x""
+    q=""q""
+    z=""z""
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        
+           
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+37,38,2019-10-29 15:51:46,0.6564839181299471,0.7524,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+        
+           
+            
+
+    print(totalwords)
+    print(rare)
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+38,39,2019-10-29 15:52:27,0.719396517764034,0.8208,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(""long words"",longwords)
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+39,40,2019-10-29 15:52:50,0.7403446737708175,0.8648,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+40,41,2019-10-29 15:59:16,0.9189664698681376,0.9668,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>10
+    return true
+    else:
+    return false
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+41,42,2019-10-29 15:59:26,0.9224027939241501,0.9683,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>10:
+    return true
+    else:
+    return false
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+42,43,2019-10-29 15:59:36,0.9218939767001789,0.969,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+    return true
+    else:
+    return false
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+43,44,2019-10-29 15:59:58,0.9142934701518349,0.9591,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+        return true
+    else:
+    return false
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+44,45,2019-10-29 16:00:02,0.9092368756949458,0.9631,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+        return true
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+45,46,2019-10-29 16:00:05,0.9067581409444422,0.9631,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+            return true
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+46,47,2019-10-29 16:00:12,0.9075760154242857,0.9637,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+    return true
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+47,48,2019-10-29 16:00:22,0.9099883665137667,0.9606,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+            return true:
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+48,49,2019-10-29 16:02:27,0.9310638944332119,0.9619,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: and Check>=10:
+            return true:
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+49,50,2019-10-29 16:02:35,0.9119215572090636,0.9571,SyntaxError: bad input on line 31,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: #and Check>=10:
+            return true:
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+50,51,2019-10-29 16:02:41,0.9114426480458722,0.9545,SyntaxError: bad input on line 31,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: #and Check>=10:
+        return true:
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+51,52,2019-10-29 16:03:09,0.9119215572090636,0.9571,SyntaxError: bad input on line 31,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(x) >=10: #and Check>=10:
+            return true:
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+52,53,2019-10-29 16:03:30,0.911843790232997,0.9549,SyntaxError: bad input on line 31,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if len(N) >=10: #and Check>=10:
+            return true:
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+53,54,2019-10-29 16:03:56,0.9193095671620133,0.9521,SyntaxError: bad input on line 31,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10): #and Check>=10:
+            return true:
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+54,55,2019-10-29 16:04:10,0.9155933927367821,0.9547,NameError: name 'true' is not defined on line 31,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10): #and Check>=10:
+            return true
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+55,56,2019-10-29 16:04:20,0.9134034792452,0.9538,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10): #and Check>=10:
+            return True
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+56,57,2019-10-29 16:04:40,0.9345456259071676,0.9607,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10): and Check>=10:
+            return True
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+57,58,2019-10-29 16:04:50,0.9353843676083217,0.9596,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10): and Check > 10:
+            return True
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+58,59,2019-10-29 16:05:04,0.927806289714747,0.9575,SyntaxError: bad input on line 30,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10): and Check > 10:
+            #return True
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+59,60,2019-10-29 16:06:47,0.931206753868383,0.9608,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10) and Check > 10:
+            return True
+    print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+60,61,2019-10-29 16:07:21,0.9087086609176708,0.9605,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    for N in booklist:
+
+        if (len(N) >=10) and Check > 10:
+            return True
+    #print(Check)
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+61,62,2019-10-29 16:11:43,0.9659792450015933,0.9795,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+    Check = (100/totalwords)*rare
+    Varx = (longwords/totalwords)*100
+    if totalwords > 10 and Check > 10 and Varx> 10 :
+        return True
+    else:
+        return False
+    
+    #for N in booklist:
+
+        #if (len(N) >=10) and Check > 10:
+            #return True
+    #print(Check)
+        
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+62,63,2019-10-29 16:12:26,0.9601589571844845,0.9784,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+     
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+    
+    Check = (100/totalwords)*rare
+    Varx = (longwords/totalwords)*100
+    if totalwords > 10 and Check > 10 and Varx> 10 :
+        return True
+    else:
+        return False
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+63,64,2019-10-29 16:14:24,0.9601589571844845,0.9784,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+            
+####################################################
+     
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+    
+####################################################
+
+    Check = (100/totalwords)*rare
+    Varx = (longwords/totalwords)*100
+    if totalwords > 10 and Check > 10 and Varx> 10 :
+        return True
+    else:
+        return False
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"
+64,65,2019-12-02 07:59:11,0.46512240083614464,0.6002,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rare=[""j"",""x"",""q"",""Z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rare:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    return rare        
+
+print(CoolPara(input(""Enter: "")))
+
+"
+65,66,2019-12-02 23:27:38,0.4720474775987542,0.6068,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rarez=[""j"",""x"",""q"",""Z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rarez:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    return rare        
+
+print(CoolPara(input(""Enter: "")))
+
+"
+66,67,2019-12-02 23:28:39,0.5002221584859177,0.6488,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rarez=[""j"",""x"",""q"",""Z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rarez:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    return rare 
+    return eight_long
+
+    return count
+
+print(CoolPara(input(""Enter: "")))
+
+"
+67,68,2019-12-02 23:29:27,0.5338178576536916,0.684,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rarez=[""j"",""x"",""q"",""Z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rarez:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    print(count)
+    print(eight_long)
+    print(rare)
+
+print(CoolPara(input(""Enter: "")))
+
+"
+68,69,2019-12-02 23:29:38,0.5120431873396913,0.6633,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rarez=[""j"",""x"",""q"",""Z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rarez:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    print(count)
+    print(eight_long)
+    #print(rare)
+
+print(CoolPara(input(""Enter: "")))
+
+"
+69,70,2019-12-02 23:29:57,0.5336727929222114,0.6828,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rarez=[""j"",""x"",""q"",""Z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rarez:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    print(count)
+    print(rare)
+    print(eight_long)
+    
+
+print(CoolPara(input(""Enter: "")))
+
+"
+70,71,2019-12-02 23:30:15,0.5339527512471016,0.6929,success,"
+def CoolPara(words):
+    count=0
+    rare=0#letter defined as j,x,q, or z.
+    rarez=[""j"",""x"",""q"",""z""]
+    eight_long=0#8 or more letters per word
+    Word_split=words.split()
+    count=len(Word_split) 
+    for i in Word_split:
+        if len(i) >= 8:
+            eight_long+=1
+            
+    for x in rarez:
+        for k in Word_split:
+            if x in k:
+                rare+=1
+    print(count)
+    print(rare)
+    print(eight_long)
+    
+
+print(CoolPara(input(""Enter: "")))
+
+"
+71,72,2019-12-02 23:31:20,0.9999999803688839,0.9781,success,"
+def CoolPara(words):
+    
+    totalwords=0
+    longwords =0
+    rare= 0 
+    booklist=words.split()
+    for i in booklist:
+        totalwords=totalwords+1
+        
+    for x in booklist:
+
+        if len(x) >=8:
+            longwords = longwords+1
+            
+    for y in booklist:
+        if ""j"" in y:
+            rare = rare+1
+        if ""x"" in y:
+            rare = rare+1
+        if ""q"" in y:
+            rare = rare+1
+        if ""z"" in y:
+            rare = rare+1
+    print(rare)
+            
+####################################################
+    Check = (100/totalwords)*rare
+    Varx = (longwords/totalwords)*100
+    if totalwords > 10 and Check > 10 and Varx> 10 :
+        return True
+    else:
+        return False
+    
+    #for N in booklist:
+
+        #if (len(N) >=10) and Check > 10:
+            #return True
+    #print(Check)
+        
+    
+            
+        
+           
+            
+
+    print(totalwords,""words in the input paragraph"")
+    print(rare,""word with a rare character"")
+    print(longwords,""words that have 8 letters or more"")
+   
+    
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter Text "")))
+
+"

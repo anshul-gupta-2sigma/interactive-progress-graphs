@@ -1,0 +1,121 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-17 18:50:57,0.7844341148647924,0.5381,success,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+    if a == b:
+        print(""Summation:"",s)
+        
+    
+NUM(100,110)"
+2,3,2019-10-17 19:02:08,0.7844341148647924,0.5381,success,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a == b:
+            print(""Summation:"",s)
+        
+    
+NUM(100,110)"
+3,4,2019-10-17 19:02:29,0.9084219270058369,0.708,success,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a == b:
+            print(""Number to sum is:"",a)
+            print(""Summation:"",s)
+        
+    
+NUM(100,110)"
+4,5,2019-10-17 19:02:46,0.9510606092972562,0.7319,success,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a == b:
+            print(""Number to sum is:"",a)
+            s = s+a
+            print(""Summation:"",s)
+        
+    
+NUM(100,110)"
+5,6,2019-10-17 19:03:05,0.9510606092972562,0.7319,success,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a == b:
+            print(""Number to sum is:"",a)
+            s = s+a
+            print(""Summation:"",s)
+    
+NUM(100,110)"
+6,7,2019-10-17 19:03:37,0.9552567481739593,0.7262,TimeLimitError: Program exceeded run time limit. on line 10,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a == b:
+            print(""Number to sum is:"",a)
+            s = s+a
+            print(""Summation:"",s)
+    
+NUM(100,200)"
+7,8,2019-10-17 19:08:33,0.9722325804823482,0.7413,TimeLimitError: Program exceeded run time limit. on line 10,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a != b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a <= b:
+            print(""Number to sum is:"",a)
+            s = s+a
+            print(""Summation:"",s)
+    
+NUM(100,200)"
+8,9,2019-10-18 01:44:59,1.0,0.7481,success,"# Write your code here
+def NUM (a,b):
+    s = 0
+    i = 1
+    while a <= b:
+        s = s+a
+        print(""Number to sum is:"",a)
+        a = a+i
+        i = i+1
+        if a >= b:
+            print(""Number to sum is:"",a)
+            s = s+a
+            print(""Summation:"",s)
+    
+NUM(100,200)"

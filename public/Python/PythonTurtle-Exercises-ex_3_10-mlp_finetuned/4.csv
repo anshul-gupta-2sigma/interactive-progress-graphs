@@ -1,0 +1,131 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0492,, 
+1,2,2020-09-23 23:11:46,0.921787275772688,0.8887,AttributeError: 'Turtle' object has no attribute 'bg_color' on line 4,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.bg_color(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward
+    ck.left(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.pendown(15)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+2,3,2020-09-27 21:16:39,0.9166425275092576,0.8937,TypeError: pendown() takes 1 positional argument but 2 were  given on line 14,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward
+    ck.left(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.pendown(15)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+3,4,2020-09-27 21:18:09,0.9368459563813724,0.9066,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+4,5,2020-09-27 21:19:28,0.9669474065410938,0.9505,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(-130)
+    ck.right(30)
+   
+    ck.stamp()
+    ck.left(360 / 12)
+"
+5,6,2020-09-27 21:20:51,0.93020583750122,0.9434,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.stamp()
+    ck.forward(15)
+    ck.right(30)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+6,7,2020-09-27 21:22:42,0.9825660398684216,0.9304,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+   
+"
+7,8,2020-09-27 21:24:41,1.0,0.9357,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.forward(-130)
+    ck.right(30)
+    
+   
+"

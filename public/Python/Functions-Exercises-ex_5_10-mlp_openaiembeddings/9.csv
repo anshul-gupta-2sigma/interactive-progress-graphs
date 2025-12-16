@@ -1,0 +1,83 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-01-28 22:24:28,0.0,0.0,success,"# AnonFirstName AnonLastName
+# Problem 10
+"
+2,3,2020-01-29 01:32:58,0.848644044404713,0.7029,success,"# AnonFirstName AnonLastName
+# Problem 10
+import turtle
+wn = turtle.Screen()
+crush = turtle.Turtle()
+crush.speed(0)
+crush.penup()
+crush.backward(360)
+crush.pendown()
+def star(turtle, point):
+    for shape in range(point):
+        crush.forward(100)
+        crush.right(720 / point)
+for big_star in range(5):
+    star(crush, 5)
+    crush.penup()
+    crush.forward(360)
+    crush.right(144)
+    crush.pendown()"
+3,4,2020-01-29 01:33:04,0.8512312329528304,0.7128,success,"# AnonFirstName AnonLastName
+# Problem 10
+import turtle
+wn = turtle.Screen()
+crush = turtle.Turtle()
+crush.speed(0)
+crush.penup()
+crush.backward(200)
+crush.pendown()
+def star(turtle, point):
+    for shape in range(point):
+        crush.forward(100)
+        crush.right(720 / point)
+for big_star in range(5):
+    star(crush, 5)
+    crush.penup()
+    crush.forward(360)
+    crush.right(144)
+    crush.pendown()"
+4,5,2020-01-29 01:33:24,0.8564847575286276,0.7145,success,"# AnonFirstName AnonLastName
+# Problem 10
+import turtle
+wn = turtle.Screen()
+crush = turtle.Turtle()
+crush.speed(0)
+crush.penup()
+crush.goto(-190, 50)
+crush.pendown()
+def star(turtle, point):
+    for shape in range(point):
+        crush.forward(100)
+        crush.right(720 / point)
+for big_star in range(5):
+    star(crush, 5)
+    crush.penup()
+    crush.forward(360)
+    crush.right(144)
+    crush.pendown()"
+5,6,2020-01-29 01:33:54,1.0,0.7849,success,"# AnonFirstName AnonLastName
+# Problem 10
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+crush = turtle.Turtle()
+crush.color(""magenta"")
+crush.speed(0)
+crush.penup()
+crush.goto(-190, 50)
+crush.pendown()
+def star(turtle, point):
+    for shape in range(point):
+        crush.forward(100)
+        crush.right(720 / point)
+for big_star in range(5):
+    star(crush, 5)
+    crush.penup()
+    crush.forward(360)
+    crush.right(144)
+    crush.pendown()"

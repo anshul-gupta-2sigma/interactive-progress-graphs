@@ -1,0 +1,498 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0129,, 
+1,2,2019-11-04 20:40:21,0.5346878077976517,0.7036,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            print('x')
+    
+
+print(capTitle(input(""Enter title: "")))"
+2,3,2019-11-04 20:47:01,0.5895552996008677,0.8063,TypeError: 'str' does not support item assignment on line 13,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]=word[0].upper()
+    return line
+    
+
+print(capTitle(input(""Enter title: "")))"
+3,4,2019-11-04 20:47:27,0.5835936759765648,0.7931,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]==word[0].upper()
+    return line
+    
+
+print(capTitle(input(""Enter title: "")))"
+4,5,2019-11-04 20:47:54,0.583224014880616,0.7816,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]==word[0].upper()
+    return word
+    
+
+print(capTitle(input(""Enter title: "")))"
+5,6,2019-11-04 21:02:14,0.583224014880616,0.7816,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]==word[0].upper()
+            return word
+    
+
+print(capTitle(input(""Enter title: "")))"
+6,7,2019-11-04 21:02:35,0.6047366794662781,0.8138,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]==word[0].upper()
+            return word
+        else:
+            return word
+    
+
+print(capTitle(input(""Enter title: "")))"
+7,8,2019-11-04 21:03:20,0.6317575739816503,0.8146,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]==word[0].upper()
+            print(word)
+        else:
+            print(word)
+    
+
+print(capTitle(input(""Enter title: "")))"
+8,9,2019-11-04 21:04:22,0.5977489842381062,0.7804,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word[0]==word[0].upper()
+            print(word)
+    
+
+print(capTitle(input(""Enter title: "")))"
+9,10,2019-11-04 21:15:11,0.6553897482720856,0.8549,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            w1=word[0].upper()
+            w2=word[1:]
+            print(w1+w2)
+    
+
+print(capTitle(input(""Enter title: "")))"
+10,11,2019-11-04 21:24:36,0.689909901657555,0.8686,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            w1=word[0].upper()
+            w2=word[1:]
+            print(w1+w2)
+        else:
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+11,12,2019-11-04 21:24:47,0.7000313893331445,0.8647,NameError: name 'n' is not defined on line 15,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            w1=word[0].upper()
+            w2=word[1:]
+            print(w1+w2/n)
+        else:
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+12,13,2019-11-04 21:25:00,0.689909901657555,0.8686,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            w1=word[0].upper()
+            w2=word[1:]
+            print(w1+w2)
+        else:
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+13,14,2019-11-04 21:25:42,0.6553071436688164,0.8689,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+            print(word)
+        else:
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+14,15,2019-11-04 21:26:04,0.6074659253669661,0.87,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+    return line
+
+print(capTitle(input(""Enter title: "")))"
+15,16,2019-11-04 21:28:18,0.8352439574551767,0.9618,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        print(line[0])
+
+print(capTitle(input(""Enter title: "")))"
+16,17,2019-11-04 21:29:02,0.83796133335545,0.9573,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if line[0] in specialWords:
+            line[0]=line[0][0].upper()+line[0][1:]
+            print(line[0])
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+
+print(capTitle(input(""Enter title: "")))"
+17,18,2019-11-04 21:31:10,0.8635636181095172,0.95,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if line[0] in specialWords:
+            line[0]=line[0][0].upper()+line[0][1:]
+            print(line[0])
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+18,19,2019-11-04 21:31:38,0.8970572218135835,0.928,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    for word in line:
+        if line[0] in specialWords:
+            line[0]=line[0][0].upper()+line[0][1:]
+            print(line[0])
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+            print(word)
+        else:
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+19,20,2019-11-04 21:32:00,0.8980059684756803,0.9528,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        print(line[0])
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+            print(word)
+        else:
+            print(word)
+
+print(capTitle(input(""Enter title: "")))"
+20,21,2019-11-04 21:34:43,0.8871457997290912,0.9535,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        print(line[0])
+        
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+            print(word)
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"
+21,22,2019-11-04 21:34:54,0.8425447399050575,0.9639,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+            print(word)
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"
+22,23,2019-11-04 21:35:02,0.8153471883641582,0.9723,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        
+    for word in line:
+        if word not in specialWords:
+            word=word[0].upper()+word[1:]
+
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"
+23,24,2019-11-04 21:37:15,0.9307331985611936,0.9378,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        
+    for x in range(len(line)):
+        if line[x] not in specialWords:
+            line[x]=line[x][0].upper()+line[x][1:]
+
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"
+24,25,2019-11-04 21:39:10,0.9746891948737388,0.8789,AttributeError: 'list' object has no attribute 'join' on line 19,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        
+    for x in range(len(line)):
+        if line[x] not in specialWords:
+            line[x]=line[x][0].upper()+line[x][1:]
+
+    line=line.join()
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"
+25,26,2019-11-04 21:40:48,0.9792768279841947,0.8546,AttributeError: 'list' object has no attribute 'join' on line 18,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        
+    for x in range(len(line)):
+        if line[x] not in specialWords:
+            line[x]=line[x][0].upper()+line[x][1:]
+            line=line.join(x)
+
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"
+26,27,2019-11-04 21:42:04,1.0,0.8587,success,"#AnonFirstName AnonLastName
+
+import string
+
+specialWords=['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    line=line.split()
+    
+    if line[0] in specialWords:
+        line[0]=line[0][0].upper()+line[0][1:]
+        
+    for x in range(len(line)):
+        if line[x] not in specialWords:
+            line[x]=line[x][0].upper()+line[x][1:]
+            
+    line=' '.join(line)
+    return(line)
+
+print(capTitle(input(""Enter title: "")))"

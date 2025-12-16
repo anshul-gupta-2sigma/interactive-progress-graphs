@@ -1,0 +1,218 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 15:06:24,0.7836867297556728,0.7878,SyntaxError: bad input on line 2,"# Your function goes here
+def printsquare 
+    step1 = 2 * N
+    step2 = step1 * S
+    return step2
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 15:09:56,0.8434932883458249,0.768,TypeError: printsquare() takes exactly 1 arguments (2 given) on line 18,"# Your function goes here
+def printsquare(N):
+    step1 = 2 * N
+    step2 = step1 * S
+    return step2
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 15:11:15,0.8431133568086213,0.7634,TypeError: printsquare() takes exactly 1 arguments (2 given) on line 18,"# Your function goes here
+def printsquare(N):
+    step1 = 2 * N
+    step2 = step1 * S
+    return step1
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 15:14:26,0.849684510338379,0.849,TypeError: printsquare() takes exactly 1 arguments (2 given) on line 21,"# Your function goes here
+def printsquare(N):
+    int(N)
+    int(S)
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N):
+        print(step2)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 15:15:30,0.8669198237035723,0.8681,ValueError: invalid literal for int() with base 10: 'None' on line 3,"# Your function goes here
+def printsquare(N,S):
+    int(N)
+    int(S)
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N):
+        print(step2)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 15:15:50,0.8705170552749989,0.8249,ValueError: invalid literal for int() with base 10: '$' on line 4,"# Your function goes here
+def printsquare(N,S):
+    int(N)
+    int(S)
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N):
+        print(step2)
+    return
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 15:16:04,0.9072233438871702,0.8553,TypeError: can't multiply sequence by non-int of type 'str' on line 5,"# Your function goes here
+def printsquare(N,S):
+    int(N)
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N):
+        print(step2)
+    return
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+8,9,2019-10-01 15:18:32,0.9078234648603443,0.853,TypeError: can't multiply sequence by non-int of type 'str' on line 5,"# Your function goes here
+def printsquare(N,S):
+    int(N)
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N): 
+        print(step2)
+    return
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+9,10,2019-10-01 15:20:47,0.897779886102957,0.8942,success,"# Your function goes here
+def printsquare(N,S):
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N): 
+        print(step2)
+    return
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = int(input(""Enter N: ""))
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+10,11,2019-10-01 15:23:20,0.897779886102957,0.8942,success,"# Your function goes here
+def printsquare(N,S):
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N): 
+        print(step2)
+    return
+
+
+# Leave the following lines as they are
+
+N = int(input(""Enter N: ""))
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+11,12,2019-10-01 15:24:52,0.9999999782397799,0.9293,success,"# Your function goes here
+def printsquare(N,S):
+    N = int(N)
+    step1 = 2 * N
+    step2 = step1 * S
+    for i in range (N): 
+        print(step2)
+    return
+
+
+# Leave the following lines as they are
+
+N = (input(""Enter N: ""))
+S = input(""Enter S: "")
+printsquare(N,S)
+"

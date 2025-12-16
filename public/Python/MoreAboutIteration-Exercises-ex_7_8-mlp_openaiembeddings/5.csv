@@ -1,0 +1,375 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2020-03-22 22:50:15,0.6263799563133953,0.6254,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=3*a-2
+    for a in range(n):
+        a=1
+        b=3*a-2
+        print(a,b)
+    return a
+print(print_triangular_numbers4))"
+2,3,2020-03-22 22:53:57,0.6263799563133953,0.6254,SyntaxError: bad input on line 24,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=3*a-2
+    for a in range(n):
+        a=1
+        b=3*a-2
+        print(a,b)
+    return a
+print(print_triangular_numbers4))"
+3,4,2020-03-22 22:54:04,0.6167455535564917,0.6333,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=3*a-2
+    for a in range(n):
+        a=1
+        b=3*a-2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+4,5,2020-03-22 22:54:15,0.6142365326797561,0.6327,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=3*a-2
+    for a in range(n):
+        a=1
+        b=3*a-2
+        a=b
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+5,6,2020-03-22 22:54:55,0.5934344464419239,0.6274,UnboundLocalError: local variable 'a' referenced before assignment on line 17,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    b=3*a-2
+    for a in range(n):
+        b=3*n-2
+        n=b
+        print(n,b)
+    return a
+print(print_triangular_numbers(4))"
+6,7,2020-03-22 22:55:12,0.6029073764256452,0.6382,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    b=3*n-2
+    for a in range(n):
+        b=3*n-2
+        n=b
+        print(n,b)
+    return a
+print(print_triangular_numbers(4))"
+7,8,2020-03-22 22:57:08,0.6679307474928045,0.6586,SyntaxError: bad input on line 18,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=
+    for a in range(n):
+        a=1
+        b=(a)(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+8,9,2020-03-22 22:57:27,0.6556355878942369,0.6542,TypeError: 'int' object is not callable on line 18,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=(a)(a + 1) / 2
+    for a in range(n):
+        a=1
+        b=(a)(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+9,10,2020-03-22 22:57:52,0.6685617198847527,0.6604,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=a*(a + 1) / 2
+    for a in range(n):
+        a=1
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+10,11,2020-03-22 22:58:20,0.6568562456447496,0.6635,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=n
+    b=a*(a + 1) / 2
+    for a in range(n):
+        a=n
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+11,12,2020-03-22 22:58:32,0.6685617198847527,0.6604,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=a*(a + 1) / 2
+    for a in range(n):
+        a=1
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+12,13,2020-03-22 22:58:59,0.6694170676820403,0.6584,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    a=1
+    b=a*(a + 1) / 2
+    for a in range(n):
+        a=1
+        b=a*(a + 1) / 2
+        print(a,b)
+        a=b
+    return a
+print(print_triangular_numbers(4))"
+13,14,2020-03-22 22:59:58,0.6594181345303478,0.6606,UnboundLocalError: local variable 'a' referenced before assignment on line 17,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    b=a*(a + 1) / 2
+    for a in range(n):
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+14,15,2020-03-22 23:00:08,0.6895621175039602,0.6788,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    for a in range(n):
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(4))"
+15,16,2020-03-22 23:00:46,0.9645625551095554,0.7868,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    for a in range(n):
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(5))"
+16,17,2020-04-26 23:35:40,0.9999999728615393,0.7927,success,"
+
+#Write a function ``print_triangular_numbers(n)`` that prints out the first
+#n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+#produce the following output::
+
+#    1       1
+#    2       3
+#    3       6
+#    4       10
+#   5       15
+
+#(*hint: use a web search to find out what a triangular number is.*)
+#~~~~3a-2
+def print_triangular_numbers(n):
+    # your code here
+    for a in range(n+1):
+        b=a*(a + 1) / 2
+        print(a,b)
+    return a
+print(print_triangular_numbers(5))"

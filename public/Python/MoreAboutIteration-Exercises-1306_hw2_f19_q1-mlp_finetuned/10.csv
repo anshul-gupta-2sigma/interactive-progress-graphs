@@ -1,0 +1,162 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-11 01:50:02,0.9364243993153947,0.9615,SyntaxError: bad input on line 2,"def isPrimes(number):
+    if number >2
+    for i in range(2, number):
+        if number%i ==0
+        return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    cout = 0
+    for i in range(1, P):
+        if isPrime(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+2,3,2019-10-11 02:00:11,0.9425296692190793,0.9677,SyntaxError: bad input on line 3,"def isPrimes(number):
+    if number >2:
+    for i in range(2, number):
+        if number%i ==0
+        return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    cout = 0
+    for i in range(1, P):
+        if isPrime(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+3,4,2019-10-11 02:01:18,0.9486219558613836,0.9652,SyntaxError: bad input on line 4,"def isPrimes(number):
+    if number >2:
+        for i in range(2, number):
+        if number%i ==0:
+        return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    cout = 0
+    for i in range(1, P):
+        if isPrime(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+4,5,2019-10-11 02:01:20,0.9472109820550452,0.9637,SyntaxError: bad input on line 4,"def isPrimes(number):
+    if number >2:
+        for i in range(2, number):
+        if number%i ==0
+        return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    cout = 0
+    for i in range(1, P):
+        if isPrime(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+5,6,2019-10-11 02:02:14,0.9510677265301736,0.9675,TimeLimitError: Program exceeded run time limit. on line undefined,"def isPrimes(number):
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    cout = 0
+    for i in range(1, P):
+        if isPrime(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+6,7,2019-10-11 02:02:51,0.9579420427924145,0.9681,success,"def isPrimes(number):
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    count = 0
+    for i in range(1, P):
+        if isPrime(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+7,8,2019-10-11 02:05:21,0.9708307378982739,0.9677,success,"def isPrimes(number):
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    count = 0
+    for i in range(1, P):
+        if isPrimes(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number?'))
+print('Input number', x)
+FindPrimes(x)"
+8,9,2019-10-15 15:00:26,1.0,0.9726,success,"def isPrimes(number):
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <=2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    count = 0
+    for i in range(1, P):
+        if isPrimes(i):
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+x = int(input('What is the input number (P)?'))
+print('Input number', x)
+FindPrimes(x)"

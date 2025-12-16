@@ -1,0 +1,71 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-19 02:07:58,0.9011236104097642,0.8912,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+nu = n*s
+for N in range(0,n,1):
+    print(nu)"
+2,3,2019-09-19 02:23:39,0.9028004195925136,0.8964,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+nu = n*s
+for N in range(0,n,2):
+    print(nu)"
+3,4,2019-09-19 02:24:38,0.8899433040952722,0.8863,TypeError: unsupported operand type(s) for Div: 'str' and 'int' on line 6,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+nu = n*s
+for N in range(0,n):
+    print(nu/n)"
+4,5,2019-09-19 02:24:58,0.8938421505682862,0.8806,ValueError: invalid literal for int() with base 10: '5\5' on line 2,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+nu = n*s
+for N in range(0,n):
+    print(nu/N)"
+5,6,2019-09-19 02:29:14,0.8758360941879919,0.8958,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+for N in range(0,n):
+    print(s)
+    s=s+s"
+6,7,2019-09-19 02:30:03,0.9001722850309275,0.8973,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+for N in range(0,n):
+    print(s)
+    s=(2*N+1)*s"
+7,8,2019-09-19 02:31:31,0.9588325853190787,0.9003,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+for N in range(0,n):
+    print(s*(2*n+1))"
+8,9,2019-09-19 02:31:54,0.9745464144339739,0.8997,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+for N in range(0,n):
+    print((2*n+1)*s)"
+9,10,2019-09-19 02:32:06,1.0,0.8946,success,"# Write your program here
+n = int(input(""Give an integer:
+""))
+s = input(""Give a character:
+"")
+for N in range(0,n):
+    print((2*N+1)*s)"

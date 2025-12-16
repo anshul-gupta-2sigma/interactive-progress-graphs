@@ -1,0 +1,146 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-17 18:20:21,1.0,0.8885,success,"def drugPotency(loss, expire):
+    effect = 100
+    month = 0
+    percentage = 0.96
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+            print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+2,3,2019-10-17 18:26:57,0.9219500247485046,0.8852,success,"def drugPotency(loss, expire):
+    effect = 100
+    month = 0
+    percentage = 0.1 - (loss/100)
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+            print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+3,4,2019-10-17 18:27:06,1.0,0.8885,success,"def drugPotency(loss, expire):
+    effect = 100
+    month = 0
+    percentage = 0.96
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+            print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+4,5,2019-10-17 18:27:19,0.98093066251295,0.8788,SyntaxError: bad input on line 11,"def drugPotency(loss, expire):
+    effect = 100
+    month = 0
+    percentage = 0.96
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+        print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+5,6,2019-10-17 18:27:26,1.0,0.8885,success,"def drugPotency(loss, expire):
+    effect = 100
+    month = 0
+    percentage = 0.96
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+            print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+6,7,2019-10-18 04:07:04,1.0,0.8885,IndentationError: unindent does not match any outer indentation level on line 4\n    month = 0\n\n    ^\n,"def drugPotency(loss, expire):
+    # your code here
+     effect = 100
+    month = 0
+    percentage = 0.96
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+            print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+    
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+7,8,2019-10-18 04:07:41,1.0,0.8885,success,"def drugPotency(loss, expire):
+    # your code here
+    effect = 100
+    month = 0
+    percentage = 0.96
+    print('Month 0: Effectiveness: 100.0')
+    while effect > 50.0:
+        effect = effect * percentage 
+        month = month + 1
+        print('Month', month, 'Effectiveness:', effect)
+        if effect < 50.0:
+            print('Month', month, 'Effectiveness:', effect, 'DISCARDED')
+    
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"

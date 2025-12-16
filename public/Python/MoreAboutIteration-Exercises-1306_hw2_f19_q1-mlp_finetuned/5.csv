@@ -1,0 +1,542 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-18 04:22:46,0.628872247260387,0.7418,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for i in range (2, number):
+        if (numberx = 0)
+        return False
+        break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+2,3,2019-10-18 04:27:28,0.6385918121930163,0.7635,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for i in range (2, number):
+        if (number%i = 0)
+        return False
+        break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+3,4,2019-10-18 04:27:43,0.648038432381011,0.7675,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for i in range (2, number):
+        if (number % i = 0):
+        return False
+        break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+4,5,2019-10-18 04:27:52,0.648038432381011,0.7675,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for i in range (2, number):
+        if (number%i = 0):
+        return False
+        break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+5,6,2019-10-18 04:27:58,0.648038432381011,0.7675,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i = 0):
+        return False
+        break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+6,7,2019-10-18 04:28:09,0.6489201647663257,0.765,SyntaxError: bad input on line 4,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i == 0):
+        return False
+        break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+7,8,2019-10-18 04:28:20,0.6450268001139573,0.7783,SyntaxError: bad input on line 10,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i == 0):
+            return False
+            break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K = 1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+8,9,2019-10-18 04:28:29,0.6506207274724812,0.8091,SyntaxError: bad input on line 10,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i == 0):
+            return False
+            break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K==1
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+9,10,2019-10-18 04:28:38,0.6614860018950273,0.8135,SyntaxError: bad input on line 16,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i == 0):
+            return False
+            break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K==1:
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x) = True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+10,11,2019-10-18 04:28:51,0.6610566466142156,0.8091,NameError: name 'FindPrimes2' is not defined on line 21,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i == 0):
+            return False
+            break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if K==1:
+        return 2
+    count = 1
+    x = 1 
+    while (count<K):
+        x = x + 2
+        if isPrimes(x)== True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter Q: ""))
+print(FindPrimes2(K))
+
+
+"
+11,12,2019-10-18 04:30:24,0.66697593189485,0.819,NameError: name 'P' is not defined on line 21,"def isPrimes(number):
+    for i in range (2, number):
+        if(number%i == 0):
+            return False
+            break
+    else:
+        return True 
+
+def FindPrimes(P):
+    if P==1:
+        return 2
+    count = 1
+    x = 1 
+    while (count<P):
+        x = x + 2
+        if isPrimes(x)== True:
+            count = count + 1
+    return x
+
+K = int(input (""Enter P: ""))
+print(FindPrimes(P))
+
+
+"
+12,13,2019-10-18 04:42:04,0.9517766675799949,0.9516,SyntaxError: bad input on line 2,"def isPrimes(numero):
+    for in in range(2, numero):
+        if(number%i == 0):
+            return False
+        break 
+        else:
+            return True
+numero = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+ p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+13,14,2019-10-18 04:42:13,0.9632410372370451,0.9569,SyntaxError: bad input on line 2,"def isPrimes(numero):
+    for in in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+        else:
+            return True
+numero = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+ p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+14,15,2019-10-18 04:42:20,0.9620008702675129,0.956,SyntaxError: bad input on line 2,"def isPrimes(numero):
+    for in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+        else:
+            return True
+numero = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+ p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+15,16,2019-10-18 04:42:32,0.9642124189179225,0.9572,SyntaxError: bad input on line 6,"def isPrimes(numero):
+    for n in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+        else:
+            return True
+numero = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+ p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+16,17,2019-10-18 04:42:48,0.9677091133756663,0.9599,"IndentationError: unindent does not match any outer indentation level on line 19\n p = int(input(""How many numbers would you like to try?""))\n\n ^\n","def isPrimes(numero):
+    for n in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+numero = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+ p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+17,18,2019-10-18 04:42:59,0.9677091133756663,0.9599,NameError: name 'number' is not defined on line 2,"def isPrimes(numero):
+    for n in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+numero = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+18,19,2019-10-18 04:43:08,0.9713787734869235,0.9597,NameError: name 'numero' is not defined on line 9,"def isPrimes(numero):
+    for n in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+number = int(input(""Enter Number:""))
+print(isPrimes(numero))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+19,20,2019-10-18 04:43:15,0.9813345147923982,0.9616,NameError: name 'i' is not defined on line 3,"def isPrimes(numero):
+    for n in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+number = int(input(""Enter Number:""))
+print(isPrimes(number))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+20,21,2019-10-18 04:43:54,0.9711067929210616,0.9626,ValueError: invalid literal for int() with base 10: '12'' on line 8,"def isPrimes(numero):
+    for n in range(2, number):
+        if(number%k == 0):
+            return False
+        break 
+    else:
+            return True
+number = int(input(""Enter Number:""))
+print(isPrimes(number))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+21,22,2019-10-18 04:44:10,0.9823064177464528,0.9619,NameError: name 'P' is not defined on line 20,"def isPrimes(numero):
+    for i in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+number = int(input(""Enter Number:""))
+print(isPrimes(number))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+p = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+22,23,2019-10-18 04:44:28,0.983869258545821,0.9621,NameError: name 'k' is not defined on line 14,"def isPrimes(numero):
+    for i in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+number = int(input(""Enter Number:""))
+print(isPrimes(number))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(k) == True):
+            count = count + 1
+            print (k, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+P = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"
+23,24,2019-10-18 04:44:53,0.9999999706575017,0.9661,success,"def isPrimes(numero):
+    for i in range(2, number):
+        if(number%i == 0):
+            return False
+        break 
+    else:
+            return True
+number = int(input(""Enter Number:""))
+print(isPrimes(number))
+
+def FindPrimes (P):
+    count = 0
+    for n in range(2, P+1):
+        if(isPrimes(n) == True):
+            count = count + 1
+            print (n, ""is a prime number"")
+            
+            print(""Number of prime numbers between 1 and"", P, ""is"", count)           
+P = int(input(""How many numbers would you like to try?""))
+print(FindPrimes(P))
+
+
+"

@@ -1,0 +1,458 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-07-21 14:25:31,0.7806277871131897,0.7633,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"")      
+
+
+for i in range(12):
+    mojito.forward(100)
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(25)"
+2,3,2020-07-21 14:34:51,0.7777016162872314,0.8023,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"")      
+
+
+for i in range(12):
+    mojito.forward(100)
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(50)"
+3,4,2020-07-21 14:35:43,0.8165081143379211,0.8045,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.forward(100)
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(35)"
+4,5,2020-07-21 14:37:55,0.9550108313560486,0.8399,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(50)
+    mojito.pendown()
+    mojito.forward(25)
+    mojito.penup()
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(30)"
+5,6,2020-07-21 14:38:47,0.8923218846321106,0.8478,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(50)
+    mojito.pendown()
+    mojito.forward(25)
+    mojito.penup()
+    mojito.forward(15)
+    mojito.stamp()
+"
+6,7,2020-07-21 14:39:43,0.8986666202545166,0.8483,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    mojito.pendown()
+    mojito.forward(50)
+    mojito.penup()
+    mojito.forward(25)
+    mojito.stamp()
+    mojito.home()
+"
+7,8,2020-07-21 14:41:03,0.9176265001296997,0.853,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(50)
+    mojito.pendown()
+    mojito.forward(25)
+    mojito.penup()
+    mojito.forward(15)
+    mojito.stamp()
+    mojito.right(36)
+    mojito.home()
+"
+8,9,2020-07-21 14:42:49,0.9178234338760376,0.8538,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(10):
+    mojito.penup()
+    mojito.forward(50)
+    mojito.pendown()
+    mojito.forward(25)
+    mojito.penup()
+    mojito.forward(15)
+    mojito.stamp()
+    mojito.right(36)
+    mojito.home()
+"
+9,10,2020-07-21 14:43:30,0.9461678266525269,0.857,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(10):
+    mojito.penup()
+    mojito.forward(50)
+    mojito.pendown()
+    mojito.forward(25)
+    mojito.penup()
+    mojito.forward(15)
+    mojito.stamp()
+    mojito.right(36)
+ 
+"
+10,11,2020-07-21 14:46:23,0.8004827499389648,0.8465,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(10):
+    mojito.penup()
+    mojito.forward(50)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-50)
+    mojito.right(36)
+ 
+"
+11,12,2020-07-21 14:46:42,0.8004005551338196,0.8448,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(50)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-50)
+    mojito.right(36)
+ 
+"
+12,13,2020-07-21 14:47:15,0.7997839450836182,0.8367,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(36)
+ 
+"
+13,14,2020-07-21 14:48:10,0.7939330339431763,0.8293,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(34)
+ 
+"
+14,15,2020-07-21 14:48:34,0.7899235486984253,0.8277,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(33)
+ 
+"
+15,16,2020-07-21 14:48:58,0.7944174408912659,0.8279,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(31)
+ 
+"
+16,17,2020-07-21 14:49:28,0.7901519536972046,0.8245,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(29)
+ 
+"
+17,18,2020-07-21 14:49:56,0.7980208992958069,0.8295,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(100)
+    #mojito.pendown()
+    #mojito.forward(25)
+    #mojito.penup()
+    #mojito.forward(15)
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"
+18,19,2020-07-21 14:52:33,0.9557516574859619,0.8412,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(90)
+    mojito.pendown()
+    mojito.forward(10)
+    mojito.penup()
+    #mojito.forward()
+    mojito.stamp()
+    #mojito.right(36)
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"
+19,20,2020-07-21 14:53:50,0.9617879986763,0.8449,TypeError: forward() missing 1 required argument: distance on line 16,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(90)
+    mojito.pendown()
+    mojito.forward(10)
+    mojito.penup()
+    mojito.forward()
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"
+20,21,2020-07-21 14:54:15,0.9557516574859619,0.8446,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(90)
+    mojito.pendown()
+    mojito.forward(10)
+    mojito.penup()
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"
+21,22,2020-07-21 14:55:06,0.9524440169334412,0.8444,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(80)
+    mojito.pendown()
+    mojito.forward(20)
+    mojito.penup()
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"
+22,23,2020-07-21 14:55:53,0.9766268134117126,0.8518,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(70)
+    mojito.pendown()
+    mojito.forward(20)
+    mojito.penup()
+    mojito.forward(10)
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"
+23,24,2020-07-21 14:56:16,1.0,0.8547,success,"
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+mojito = turtle.Turtle()
+mojito.shape(""turtle"") 
+mojito.color(""blue"")
+
+
+for i in range(12):
+    mojito.penup()
+    mojito.forward(70)
+    mojito.pendown()
+    mojito.forward(10)
+    mojito.penup()
+    mojito.forward(15)
+    mojito.stamp()
+    mojito.forward(-100)
+    mojito.right(30)
+ 
+"

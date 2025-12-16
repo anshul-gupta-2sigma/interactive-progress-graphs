@@ -1,0 +1,800 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2018-09-23 19:19:34,0.3983727693557739,0.4827,NameError: name 'arrow' is not defined on line 6,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+max.stamp
+max.forward(150)
+max.shape(arrow)
+max.stamp
+"
+2,3,2018-09-23 19:32:24,0.39603155851364136,0.4768,NameError: name 'arrow' is not defined on line 7,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+max.stamp
+max.up
+max.forward(150)
+max.shape(arrow)
+max.stamp
+"
+3,4,2018-09-23 19:32:53,0.3884087800979614,0.4769,NameError: name 'classic' is not defined on line 8,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp
+max.up
+max.forward(150)
+max.shape(classic)
+max.stamp
+"
+4,5,2018-09-23 19:33:00,0.386150598526001,0.4731,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp
+max.up
+max.forward(150)
+max.shape(turtle)
+max.stamp
+"
+5,6,2018-09-23 19:33:19,0.4226059913635254,0.4761,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(turtle)
+max.stamp()
+"
+6,7,2018-09-23 19:33:31,0.43301188945770264,0.4674,NameError: name 'circle' is not defined on line 8,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(circle)
+max.stamp()
+"
+7,8,2018-09-23 19:33:39,0.46851950883865356,0.4681,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""circle"")
+max.stamp()
+"
+8,9,2018-09-23 19:36:33,0.46639472246170044,0.4755,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""arrow"")
+max.stamp()
+"
+9,10,2018-09-23 19:36:41,0.47047513723373413,0.4753,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""classic"")
+max.stamp()
+"
+10,11,2018-09-23 19:36:45,0.4664735198020935,0.4781,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""turtle"")
+max.stamp()
+"
+11,12,2018-09-23 19:36:53,0.46851950883865356,0.4686,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""circle"")
+max.stamp()
+"
+12,13,2018-09-23 19:56:53,0.4378485679626465,0.4368,SyntaxError: bad token on line 5,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.color(""green"")
+max.color(""blue)
+          
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""circle"")
+max.stamp()
+"
+13,14,2018-09-23 19:57:02,0.4776342511177063,0.4466,AttributeError: 'Screen' object has no attribute 'color' on line 4,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.color(""green"")
+max.color(""blue"")
+          
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""circle"")
+max.stamp()
+"
+14,15,2018-09-23 19:57:08,0.4890817403793335,0.4507,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+          
+max.stamp()
+max.up()
+max.forward(150)
+max.shape(""circle"")
+max.stamp()
+"
+15,16,2018-09-23 19:59:36,0.5013404488563538,0.4566,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+max.up()
+max.forward(150)
+max.stamp()
+"
+16,17,2018-09-23 20:00:30,0.5085390210151672,0.4455,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+max.up()
+max.forward(125)
+
+max.down()
+max.forward(10)
+max.up
+max.forward(7)
+max.stamp()
+"
+17,18,2018-09-23 20:00:35,0.5134228467941284,0.444,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+max.up()
+max.forward(125)
+
+max.down()
+max.forward(10)
+max.up
+max.forward(10)
+max.stamp()
+"
+18,19,2018-09-23 20:00:39,0.5136700868606567,0.4447,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+max.up()
+max.forward(125)
+
+max.down()
+max.forward(10)
+max.up
+max.forward(20)
+max.stamp()
+"
+19,20,2018-09-23 20:00:44,0.513755202293396,0.4454,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+max.up()
+max.forward(125)
+
+max.down()
+max.forward(10)
+max.up()
+max.forward(20)
+max.stamp()
+"
+20,21,2018-09-23 20:01:10,0.5200116038322449,0.4482,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+max.up()
+max.forward(130)
+
+max.down()
+max.forward(10)
+max.up()
+max.forward(20)
+max.stamp()
+max.backward(160)
+"
+21,22,2018-09-23 20:01:20,0.5200116038322449,0.4483,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+
+max.up()
+max.forward(130)
+max.down()
+max.forward(10)
+max.up()
+max.forward(20)
+max.stamp()
+max.backward(160)
+"
+22,23,2018-09-23 20:08:55,0.5976409912109375,0.482,SyntaxError: bad input on line 10,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+
+for x in [0,13]
+max.up()
+max.forward(130)
+max.down()
+max.forward(10)
+max.up()
+max.forward(20)
+max.stamp()
+max.backward(160)
+"
+23,24,2018-09-23 20:09:06,0.7362264394760132,0.609,SyntaxError: bad input on line 10,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+
+for x in [0,13]
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+"
+24,25,2018-09-23 20:09:59,0.7364742755889893,0.6812,SyntaxError: bad input on line 10,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+
+for x in [0,13]
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+25,26,2018-09-23 20:10:26,0.7033266425132751,0.7089,SyntaxError: bad input on line 10,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+
+for numbers in [0,13]
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+26,27,2018-09-23 20:11:06,0.7294248938560486,0.6892,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for x in [0,13]
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+27,28,2018-09-23 20:11:34,0.7072669267654419,0.7114,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for x in [""one"", ""two"", ""three""]
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+28,29,2018-09-23 20:11:54,0.7456009984016418,0.68,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in [0,13]
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+29,30,2018-09-23 20:12:06,0.481475293636322,0.4896,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+
+"
+30,31,2018-09-23 20:12:15,0.7456009984016418,0.6096,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in [0,13]
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+31,32,2018-09-23 20:12:21,0.6808707118034363,0.6085,SyntaxError: bad input on line 13,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+32,33,2018-09-23 20:12:32,0.7456009984016418,0.652,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in [0,13]
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+33,34,2018-09-23 20:14:22,0.7260556221008301,0.6665,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for max in [0,13]
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+34,35,2018-09-23 20:14:47,0.7119845747947693,0.6504,SyntaxError: bad input on line 14,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+range = [0,13]
+
+for max in range
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+35,36,2018-09-23 20:15:18,0.7215406894683838,0.6725,AttributeError: 'int' object has no attribute 'up' on line 16,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+range = [0,13]
+
+for max in range:
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+36,37,2018-09-23 20:15:40,0.7267425060272217,0.6748,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+range = [0,13]
+
+for loop_variable in range:
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+37,38,2018-09-23 20:16:26,0.7247416973114014,0.6828,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+range = (0,13)
+
+for loop_variable in range:
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+38,39,2018-09-23 20:16:41,0.7364031076431274,0.712,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in [0,13]:
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+39,40,2018-09-23 20:17:24,0.7398635149002075,0.7307,TypeError: '<invalid type>' does not support indexing on line 12,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in range[0,13]:
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+40,41,2018-09-23 20:17:52,0.7255678176879883,0.7071,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+times = range(0,13)
+
+for loop_variable in times:
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+41,42,2018-09-23 20:18:35,0.7597823739051819,0.7419,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in range(0,12):
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+"
+42,43,2018-09-23 20:19:03,0.8489872217178345,0.7642,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in range(0,12):
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+
+wn.exitonclick()"
+43,44,2018-09-23 20:19:07,0.8519041538238525,0.7556,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in (0,12):
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+
+wn.exitonclick()"
+44,45,2018-09-23 20:22:19,0.8489872217178345,0.7653,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+print(""Hi"")
+
+max.stamp()
+
+for loop_variable in range(0,12):
+    print(""Hi again!"")
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+
+wn.exitonclick()"
+45,46,2018-09-23 20:22:58,1.0,0.7851,success,"import turtle
+wn = turtle.Screen()
+max = turtle.Turtle()
+wn.bgcolor(""green"")
+max.color(""blue"")
+max.shape(""turtle"")
+
+max.stamp()
+
+for loop_variable in range(0,12):
+    max.up()
+    max.forward(130)
+    max.down()
+    max.forward(10)
+    max.up()
+    max.forward(20)
+    max.stamp()
+    max.backward(160)
+    max.left(30)
+
+wn.exitonclick()"

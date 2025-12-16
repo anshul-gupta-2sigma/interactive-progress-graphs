@@ -1,0 +1,253 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0074,, 
+1,2,2020-03-26 23:07:47,0.48897417836324286,0.5316,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    a = n*(n+1)/2
+print(n,a)"
+2,3,2020-03-26 23:11:12,0.48897417836324286,0.5316,NameError: name 'n' is not defined on line 4,"
+def print_triangular_numbers(n):
+    a = n*(n+1)/2
+print(n,a)"
+3,4,2020-03-26 23:11:45,0.5418528627603874,0.6416,NameError: name 'n' is not defined on line 5,"
+def print_triangular_numbers(n):
+    n = n
+    a = n*(n+1)/2
+print(n,a)"
+4,5,2020-03-26 23:12:15,0.5401588576585261,0.6564,NameError: name 'x' is not defined on line 5,"
+def print_triangular_numbers(n):
+    x = n
+    a = n*(n+1)/2
+print(x,a)"
+5,6,2020-03-26 23:12:35,0.4583044893517946,0.4666,NameError: name 'a' is not defined on line 5,"
+def print_triangular_numbers(n):
+    
+    a = n*(n+1)/2
+print(a)"
+6,7,2020-03-26 23:19:17,0.6478446670362978,0.8117,SyntaxError: bad input on line 3,"
+def print_triangular_numbers(n):
+for i in range(1, n):    
+    n = n*(n+1)/2
+print(n)"
+7,8,2020-03-26 23:21:29,0.7943951911609157,0.886,SyntaxError: bad input on line 3,"
+def print_triangular_numbers(n):
+for i in range(1, n):    
+    n = n*(n+1)/2
+print(print_triangular_numbers(5))"
+8,9,2020-03-26 23:22:14,0.7943951911609157,0.886,SyntaxError: bad input on line 2,"def print_triangular_numbers(n):
+for i in range(1, n):    
+    n = n*(n+1)/2
+print(print_triangular_numbers(5))"
+9,10,2020-03-26 23:22:33,0.7974733431878753,0.8896,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+    n = n*(n+1)/2
+print(print_triangular_numbers(5))"
+10,11,2020-03-26 23:25:07,0.8077355790360896,0.9077,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+    n = i*(i+1)/2
+print(print_triangular_numbers(5))"
+11,12,2020-03-26 23:27:53,0.7942616853815585,0.9121,success,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        n = i*(i+1)/2
+print(print_triangular_numbers(5))"
+12,13,2020-03-26 23:28:59,0.7857017554363557,0.9168,SyntaxError: bad input on line 1,"def print_triangular_numbers(5):
+    for i in range(1, 5):    
+        n = i*(i+1)/2
+print(print_triangular_numbers(5))"
+13,14,2020-03-26 23:29:07,0.7942616853815585,0.9121,success,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        n = i*(i+1)/2
+print(print_triangular_numbers(5))"
+14,15,2020-03-26 23:34:36,0.7947850844463231,0.9162,success,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        a = i*(i+1)/2
+print(print_triangular_numbers(5))"
+15,16,2020-03-26 23:38:57,0.829320478438238,0.9118,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        while n = i*(i+1)/2
+              n = n
+            return n
+print(print_triangular_numbers(5))"
+16,17,2020-03-26 23:39:17,0.7942616853815585,0.9121,success,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+         n = i*(i+1)/2
+print(print_triangular_numbers(5))"
+17,18,2020-03-26 23:43:36,0.6058295897845569,0.6366,SyntaxError: bad input on line 4,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+         
+print(print_triangular_numbers(5))"
+18,19,2020-03-26 23:43:52,0.6406572945621906,0.7255,success,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        n=n  
+print(print_triangular_numbers(5))"
+19,20,2020-03-26 23:44:45,0.8095695484314483,0.9014,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        n = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+20,21,2020-03-26 23:45:10,0.8105235561668522,0.9088,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        a = i(i+1)/2
+        return a
+print(print_triangular_numbers(5))"
+21,22,2020-03-26 23:45:42,0.8107970354767704,0.9041,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        a = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+22,23,2020-03-26 23:46:14,0.8095695484314483,0.9014,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        n = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+23,24,2020-03-26 23:46:39,0.8891204043554182,0.9229,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    for i in range(1, n):    
+        n = int(n)
+        n = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+24,25,2020-03-26 23:48:19,0.8388010777851146,0.9154,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        n = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+25,26,2020-03-26 23:48:50,0.8404965725644618,0.9161,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        a = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+26,27,2020-03-26 23:48:57,0.8406751428096837,0.9211,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        i = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+27,28,2020-03-26 23:49:15,0.8741444540251824,0.9238,SyntaxError: can't assign to function call on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        int(i) = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+28,29,2020-03-26 23:51:11,0.8470061850540211,0.9523,UnboundLocalError: local variable 'i' referenced before assignment on line 3,"def print_triangular_numbers(n):
+    n=int(n)
+    i=int(i)
+    for i in range(1, n+1):    
+        i = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+29,30,2020-03-26 23:51:52,0.8469818032253966,0.9447,UnboundLocalError: local variable 'a' referenced before assignment on line 3,"def print_triangular_numbers(n):
+    n=int(n)
+    a=int(a)
+    for i in range(1, n+1):    
+        a = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+30,31,2020-03-26 23:52:26,0.904337709861953,0.9385,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    n=int(n)
+    for i in range(1, n+1):    
+        n = i(i+1)/2
+        return n
+print(print_triangular_numbers(5))"
+31,32,2020-03-27 00:03:24,0.8103146957585956,0.9105,TypeError: 'int' object is not callable on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        n = i(i+1)/2
+print(print_triangular_numbers(5))"
+32,33,2020-03-27 00:05:07,0.8279792819361147,0.9295,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        n = i*(i+1)/2
+print(print_triangular_numbers(5))"
+33,34,2020-03-27 00:06:23,0.6726464843748973,0.7828,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        n = 4
+print(print_triangular_numbers(5))"
+34,35,2020-03-27 00:14:35,0.8497716231926903,0.9488,NameError: name 'ptint' is not defined on line 4,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        n = i*(i+1)*0.5
+        ptint(i,"""",int(t))
+print(print_triangular_numbers(5))"
+35,36,2020-03-27 00:14:43,0.8715506736975526,0.9487,NameError: name 't' is not defined on line 4,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        n = i*(i+1)*0.5
+        print(i,"""",int(t))
+print(print_triangular_numbers(5))"
+36,37,2020-03-27 00:14:53,0.8760843240733373,0.9601,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):    
+        t = i*(i+1)*0.5
+        print(i,"""",int(t))
+print(print_triangular_numbers(5))"
+37,38,2020-05-03 12:11:26,0.7941404849870208,0.9401,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    a=0
+    for i in n
+    a=a+i
+    i=i+1
+    return(a,i)
+print (print_triangular_numbers(5))
+    
+    "
+38,39,2020-05-03 12:15:18,0.8699032730106369,0.9488,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    a=0
+    for i in range(1,n+1)
+    a=a+i
+    i=i+1
+    return(a,i)
+print (print_triangular_numbers(5))
+    
+    "
+39,40,2020-05-03 12:16:07,0.8743658487047469,0.9569,SyntaxError: bad input on line 4,"def print_triangular_numbers(n):
+    a=0
+    for i in range(1,n+1):
+    a=a+i
+    i=i+1
+    return(a,i)
+print (print_triangular_numbers(5))
+    
+    "
+40,41,2020-05-03 12:27:11,0.8255584636502451,0.9769,success,"def print_triangular_numbers(n):
+    for i in range (1,n+1):
+        b=(i*(i+1))/2
+        print(i,int(b))
+        i =i + 1
+print (print_triangular_numbers(5))
+    
+    "
+41,42,2020-05-03 12:31:30,0.8269669017453749,0.9708,success,"def print_triangular_numbers(n):
+    for i in range (1,n+1):
+        b=(i*(i+1))/2
+        print(i,int(b))
+        n =n + 1
+print (print_triangular_numbers(5))
+    
+    "
+42,43,2020-05-03 12:31:49,0.8871592803154117,0.9397,SyntaxError: bad input on line 5,"def print_triangular_numbers(n):
+    for i in range (1,n+1):
+        b=(i*(i+1))/2
+        print(i,int(b))
+        n print_triangular_numbers(5))
+    
+    "
+43,44,2020-05-03 12:32:21,0.8898344415684116,0.9776,success,"def print_triangular_numbers(n):
+    for i in range (1,n+1):
+        b=(i*(i+1))/2
+        print(i,int(b))
+        i =i + 1
+print_triangular_numbers(5)
+    
+    "
+44,45,2020-05-03 12:32:27,1.0,0.9647,success,"def print_triangular_numbers(n):
+    for i in range (1,n+1):
+        b=(i*(i+1))/2
+        print(i,int(b))
+        
+print_triangular_numbers(5)
+    
+    "

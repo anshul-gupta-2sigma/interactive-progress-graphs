@@ -1,0 +1,152 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 16:04:33,0.777209768948941,0.768,TypeError: start must be a integer on line 2,"def printsquare (N, S):
+    for i in range(N):
+        print(s)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 16:13:03,0.8255197036389551,0.7911,NameError: name 's' is not defined on line 3,"def printsquare (N, S):
+    for i in range(int(N)):
+        print(s)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 16:13:13,0.8383968108251989,0.7887,success,"def printsquare (N, S):
+    for i in range(int(N)):
+        print(S)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 16:14:41,0.7945973657144023,0.7537,NameError: name 'row' is not defined on line 4,"def printsquare (N, S):
+    for i in range(int(N)):
+        row = S*N     
+print(row)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 16:14:54,0.8164447432209121,0.7734,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"def printsquare (N, S):
+    for i in range(int(N)):
+        row = S*N     
+    print(row)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 16:15:21,0.7907111844421193,0.754,success,"def printsquare (N, S):
+    for i in range(int(N)):
+        row = S     
+    print(row)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 16:17:06,0.911423495898387,0.8943,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"def printsquare (N, S):
+    for i in range(int(N)):
+        print((2*N)*S)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+8,9,2019-10-01 16:17:33,0.9999999781632136,0.9374,success,"def printsquare (N, S):
+    for i in range(int(N)):
+        print((2*int(N))*S)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+9,10,2019-10-01 16:30:49,0.9999999781632136,0.9374,success,"def printsquare (N, S):
+    for i in range(int(N)):
+        print((2*int(N))*S)
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

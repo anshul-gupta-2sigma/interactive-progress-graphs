@@ -1,0 +1,1010 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-11-04 19:08:39,0.683876017181503,0.8923,SyntaxError: bad input on line 2,"def CoolPara(words):
+count=0
+rare=0
+length=0
+text=words.split()
+for word in text:
+count=count+1
+print(word)
+if ""j"" in word or ""x"" in word or ""q"" in word or ""z"" in word:
+rare=rare+1
+print(""rare:"",word)
+if len(word)>=8:
+length=length+1
+if count>10 and (10/100)*count <= rare and (10/100)*count <=length:
+f=True
+else:
+f=False
+print(count, ""words in the paragragh "")
+print(rare,""words with rare character "")
+print(length,""words that have 8 letters are more"")
+print(f)
+CoolPara(input(""Enter: ""))
+  "
+2,3,2019-11-04 20:31:00,0.683876017181503,0.8923,SyntaxError: bad input on line 2,"def CoolPara(words):
+count = 0
+rare = 0
+length = 0
+text=words.split()
+for word in text:
+count=count+1
+print(word)
+if ""j"" in word or ""x"" in word or ""q"" in word or ""z"" in word:
+rare=rare+1
+print(""rare:"",word)
+if len(word)>=8:
+length=length+1
+if count>10 and (10/100)*count <= rare and (10/100)*count <=length:
+f=True
+else:
+f=False
+print(count, ""words in the paragragh "")
+print(rare,""words with rare character "")
+print(length,""words that have 8 letters are more"")
+print(f)
+CoolPara(input(""Enter: ""))
+  "
+3,4,2019-11-04 20:31:11,0.683876017181503,0.8923,SyntaxError: bad input on line 2,"def CoolPara(words):
+count=0
+rare=0
+length=0
+text=words.split()
+for word in text:
+count=count+1
+print(word)
+if ""j"" in word or ""x"" in word or ""q"" in word or ""z"" in word:
+rare=rare+1
+print(""rare:"",word)
+if len(word)>=8:
+length=length+1
+if count>10 and (10/100)*count <= rare and (10/100)*count <=length:
+f=True
+else:
+f=False
+print(count, ""words in the paragragh "")
+print(rare,""words with rare character "")
+print(length,""words that have 8 letters are more"")
+print(f)
+CoolPara(input(""Enter: ""))
+  "
+4,5,2019-11-04 20:34:18,0.683876017181503,0.8923,SyntaxError: bad input on line 3,"
+def CoolPara(words):
+count=0
+rare=0
+length=0
+text=words.split()
+for word in text:
+count=count+1
+print(word)
+if ""j"" in word or ""x"" in word or ""q"" in word or ""z"" in word:
+rare=rare+1
+print(""rare:"",word)
+if len(word)>=8:
+length=length+1
+if count>10 and (10/100)*count <= rare and (10/100)*count <=length:
+f=True
+else:
+f=False
+print(count, ""words in the paragragh "")
+print(rare,""words with rare character "")
+print(length,""words that have 8 letters are more"")
+print(f)
+CoolPara(input(""Enter: ""))"
+5,6,2019-11-04 20:34:26,0.683876017181503,0.8923,SyntaxError: bad input on line 2,"def CoolPara(words):
+count=0
+rare=0
+length=0
+text=words.split()
+for word in text:
+count=count+1
+print(word)
+if ""j"" in word or ""x"" in word or ""q"" in word or ""z"" in word:
+rare=rare+1
+print(""rare:"",word)
+if len(word)>=8:
+length=length+1
+if count>10 and (10/100)*count <= rare and (10/100)*count <=length:
+f=True
+else:
+f=False
+print(count, ""words in the paragragh "")
+print(rare,""words with rare character "")
+print(length,""words that have 8 letters are more"")
+print(f)
+CoolPara(input(""Enter: ""))"
+6,7,2019-11-05 05:32:00,0.5996973639380787,0.768,SyntaxError: bad input on line 17,"#paragraph = input('Paste a paragraph here: ')
+#lists = paragraph.split()
+#num_words = 0
+
+#for x in range(len(lists)):
+#    nun_words = num_words+1
+#print(num_words)
+
+def CoolPara(words):
+    lists = words.split()
+    print(len(lists),'word in the input paragraph')
+    key_letters = 'jxqz'
+    key_words = 0
+    for eachChar in words:
+        if eachChar in key_letters:
+            key_words = key_words + 1
+            print(key_words 'words with a rare character')
+            count = 0
+            for elements in lists:
+                if len(elements) >= 8:
+                    count = count + 1
+            print(count 'word that have 8 letters or more')
+            if len(lists) > 10 and key_words/len(lists) >= 1/10 and count/len(lists)
+                return True
+            else:
+                return False
+            
+        print(CoolPara(input('Enter: ')))"
+7,8,2019-11-05 05:53:51,0.5968608118363663,0.7678,SyntaxError: bad input on line 17,"#paragraph = input('Paste a paragraph here: ')
+#lists = paragraph.split()
+#num_words = 0
+
+#for x in range(len(lists)):
+#    nun_words = num_words+1
+#print(num_words)
+
+def CoolPara(words):
+    lists = words.split()
+    print(len(lists),'word in the input paragraph')
+    key_letters = 'jxqz'
+    key_words = 0
+    for eachChar in words:
+        if eachChar in key_letters:
+            key_words = key_words + 1
+    print(key_words 'words with a rare character')
+            count = 0
+            for elements in lists:
+                if len(elements) >= 8:
+                    count = count + 1
+            print(count 'word that have 8 letters or more')
+            if len(lists) > 10 and key_words/len(lists) >= 1/10 and count/len(lists)
+                return True
+            else:
+                return False
+            
+        print(CoolPara(input('Enter: ')))"
+8,9,2019-11-05 06:01:10,0.683876017181503,0.8923,SyntaxError: bad input on line 2,"def CoolPara(words):
+count=0
+rare=0
+length=0
+text=words.split()
+for word in text:
+count=count+1
+print(word)
+if ""j"" in word or ""x"" in word or ""q"" in word or ""z"" in word:
+rare=rare+1
+print(""rare:"",word)
+if len(word)>=8:
+length=length+1
+if count>10 and (10/100)*count <= rare and (10/100)*count <=length:
+f=True
+else:
+f=False
+print(count, ""words in the paragragh "")
+print(rare,""words with rare character "")
+print(length,""words that have 8 letters are more"")
+print(f)
+CoolPara(input(""Enter: ""))
+  "
+9,10,2019-11-05 06:01:44,0.8075627632849967,0.9419,SyntaxError: bad input on line 4,"def CoolPara(s):
+  
+#splitting sentence by space to words
+words = s.split()
+  
+#printing number of words
+print(len(words),""words in the input paragraph"")
+  
+#counting no of rare words
+rare=0
+  
+#iterating each word
+for i in range(len(words)):
+  
+#iterating character of each word
+for j in range(0,len(words[i])):
+  
+#if character is rare, incrementing rare by 1
+if(words[i][j]=='j' or words[i][j]=='x' or words[i][j]=='q' or words[i][j]=='z'):
+rare = rare + 1
+break
+  
+#printing no of rare characters
+print(rare,""word with a rare character"")
+  
+#counting no of words equal to 8 or longer than 8
+longer_words = 0
+  
+#iterating each word
+for i in range(len(words)):
+  
+# if length of word is >= 8, increment longer_words by 1
+if len(words[i]) >= 8:
+longer_words = longer_words + 1
+  
+#printing no of words equal to 8 or longer than 8
+print(longer_words,""words that have 8 letters or more"")
+  
+#TO return true or false
+  
+#if no of words is greater than 10 and atleast 10% of words are rare, return True, otherwise return False
+if len(words) > 10 and rare >= len(words)/10 :
+return True
+  
+return False
+
+#sample string
+s = '''In a hole in the ground there lived a hobbit. Not a nasty,
+dirty, wet hole, filled with the ends of worms or an oozy smell, not
+yet a dry, bare, sory hole with nothing in it to sit down on or to
+eat; it was a hobbit-hole, or that means comfort.'''
+
+#calling method CoolPara()
+print(CoolPara(s))"
+10,11,2019-11-05 06:02:12,0.9545393307298327,0.9658,SyntaxError: bad input on line 3,"# function to Split string into characters
+def split(word):
+return [char for char in word]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+11,12,2019-11-05 06:02:52,0.9539775922714249,0.9665,SyntaxError: bad input on line 3,"# function to Split string into characters
+def split(word):
+return [character for character in word]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+12,13,2019-11-05 06:03:26,0.9583158586108823,0.9593,SyntaxError: bad input on line 3,"# function to Split string into characters
+def split(word):
+return [char for char]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+13,14,2019-11-05 06:06:32,0.9545393307298327,0.9658,SyntaxError: bad input on line 3,"# function to Split string into characters
+def split(word):
+return [char for char in word]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+14,15,2019-11-05 06:12:57,0.9514890037606876,0.9543,SyntaxError: bad input on line 4,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+15,16,2019-11-05 06:13:25,0.9158249345789502,0.9427,SyntaxError: bad input on line 6,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+16,17,2019-11-05 06:13:29,0.8502152221119605,0.9152,SyntaxError: bad input on line 7,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+17,18,2019-11-05 06:13:32,0.7714016477423329,0.8733,SyntaxError: bad input on line 9,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+18,19,2019-11-05 06:13:44,0.5989162710989508,0.7106,SyntaxError: bad input on line 16,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+3for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+19,20,2019-11-05 06:13:49,0.560894949873316,0.7037,SyntaxError: bad input on line 18,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+20,21,2019-11-05 06:14:03,0.34832744257670223,0.5365,SyntaxError: bad input on line 28,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+21,22,2019-11-05 06:14:11,0.2242094727906454,0.347,SyntaxError: bad input on line 34,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+#print(str(count) + "" word with a rare character "")
+#print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+22,23,2019-11-05 06:14:16,0.0865303072304292,0.1581,SyntaxError: bad input on line 35,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+#print(str(count) + "" word with a rare character "")
+#print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+#if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+23,24,2019-11-05 06:14:19,0.07941192356281046,0.146,SyntaxError: bad input on line 36,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+#print(str(count) + "" word with a rare character "")
+#print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+#if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+#return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+24,25,2019-11-05 06:14:24,0.0736514105655095,0.1362,SyntaxError: bad input on line 38,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+#print(str(count) + "" word with a rare character "")
+#print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+#if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+#return True
+#return False
+
+print(CoolPara(input(""Enter: "")))"
+25,26,2019-11-05 06:14:29,0.0224986539329457,0.0696,SyntaxError: bad input on line 39,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+#print(str(count) + "" word with a rare character "")
+#print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+#if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+#return True
+#return False
+
+#print(CoolPara(input(""Enter: "")))"
+26,27,2019-11-05 06:14:39,0.0224986539329457,0.0696,SyntaxError: bad input on line 40,"# function to Split string into characters
+def split(word):
+#return [char for char in word]
+#def CoolPara(words):
+# using split() to count words in string
+#num_of_words = len(words.split())
+#print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+#split_para = words.split()
+#initializing rare count to 0
+#count = 0
+#initializing num of 8 letters count to 0
+#len_word = 0
+#rare words list
+#test_list = [ 'j', 'x', 'q', 'z' ]
+#3for wrd in split_para:
+# split every word into character
+#split_char = split(wrd)
+#Initialize to increase count
+#increment = 0
+# to check len of each word
+#if(len(wrd) >= 8 ):
+#len_word += 1
+#for i in split_char:
+#if(i in test_list) :
+#increment = 1
+#count = count + increment
+#print(str(count) + "" word with a rare character "")
+#print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+#if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+#return True
+#return False
+
+
+#print(CoolPara(input(""Enter: "")))"
+27,28,2019-11-05 06:15:14,0.9545393307298327,0.9658,SyntaxError: bad input on line 3,"# function to Split string into characters
+def split(word):
+return [char for char in word]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+28,29,2019-11-05 06:15:20,0.9595785737586522,0.9672,SyntaxError: bad input on line 6,"# function to Split string into characters
+def split(word):
+ return [char for char in word]
+def CoolPara(words):
+# using split() to count words in string
+num_of_words = len(words.split())
+print ( str(num_of_words) + "" words in the input paragraph "")
+# splitting the paragraph in words
+split_para = words.split()
+#initializing rare count to 0
+count = 0
+#initializing num of 8 letters count to 0
+len_word = 0
+#rare words list
+test_list = [ 'j', 'x', 'q', 'z' ]
+for wrd in split_para:
+# split every word into character
+split_char = split(wrd)
+#Initialize to increase count
+increment = 0
+# to check len of each word
+if(len(wrd) >= 8 ):
+len_word += 1
+for i in split_char:
+if(i in test_list) :
+increment = 1
+count = count + increment
+print(str(count) + "" word with a rare character "")
+print(str(len_word) + "" words that have 8 letters or more "")
+  
+# return true if num_of_words > 10,
+# at least 10% of the words have rare letters in them
+# at least 10% of the words are 8 letters or longer. False otherwise
+if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+return True
+return False
+
+print(CoolPara(input(""Enter: "")))"
+29,30,2019-11-05 06:19:11,1.0,0.9724,success,"# function to Split string into characters
+def split(word):
+    return [char for char in word]
+def CoolPara(words):
+    # using split() to count words in string
+    num_of_words = len(words.split())
+    print ( str(num_of_words) + "" words in the input paragraph "")
+    # splitting the paragraph in words
+    split_para = words.split()
+    #initializing rare count to 0
+    count = 0
+    #initializing num of 8 letters count to 0
+    len_word = 0
+    #rare words list
+    test_list = [ 'j', 'x', 'q', 'z' ]
+    for wrd in split_para:
+        # split every word into character
+        split_char = split(wrd)
+        #Initialize to increase count
+        increment = 0
+        # to check len of each word
+        if(len(wrd) >= 8 ):
+            len_word += 1
+        for i in split_char:
+            if(i in test_list) :
+                increment = 1
+        count = count + increment
+    print(str(count) + "" word with a rare character "")
+    print(str(len_word) + "" words that have 8 letters or more "")
+  
+    # return true if num_of_words > 10,
+    # at least 10% of the words have rare letters in them
+    # at least 10% of the words are 8 letters or longer. False otherwise
+    if((num_of_words>10) and (count >= 0.1*num_of_words) and (len_word >= 0.1*num_of_words)):
+        return True
+    return False
+
+print(CoolPara(input(""Enter: "")))"

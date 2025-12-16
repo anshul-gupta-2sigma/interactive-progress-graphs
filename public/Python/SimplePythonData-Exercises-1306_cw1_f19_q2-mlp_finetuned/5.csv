@@ -1,0 +1,88 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:12:51,0.5711172481402362,0.6776,NameError: name 'Print' is not defined on line 6,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.1415 * R2
+
+Print(""The perimeter of this circle with a radius of"",R2,""is"",P,)"
+2,3,2019-09-03 15:18:44,0.5620830125546659,0.6725,NameError: name 'Print' is not defined on line 6,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.1415 * R2
+
+Print(""The perimeter of this circle with a radius of"",R2,""is"",P)"
+3,4,2019-09-03 15:18:53,0.5620830125546659,0.6725,NameError: name 'Print' is not defined on line 6,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.1415 * R2
+
+Print(""The perimeter of this circle with a radius of"", R2 ,""is"",P)"
+4,5,2019-09-03 15:19:03,0.5624610171005449,0.6714,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.1415 * R2
+
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P)"
+5,6,2019-09-03 15:19:38,0.5537043029095592,0.714,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P)"
+6,7,2019-09-03 15:21:21,0.922154306572799,0.8487,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.13 * (R2**R2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P)
+print(""The area of this circle with a radius of "",R2, ""is"" ,A)"
+7,8,2019-09-03 15:21:34,0.9214402816678962,0.8109,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.13 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P)
+print(""The area of this circle with a radius of "",R2, ""is"" ,A)"
+8,9,2019-09-03 15:21:43,0.9247824364609035,0.8357,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.14 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P)
+print(""The area of this circle with a radius of "",R2, ""is"" ,A)"
+9,10,2019-09-03 15:22:16,1.0,0.8785,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.14 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P,""."")
+print(""The area of this circle with a radius of "",R2, ""is"" ,A,""."")"
+10,11,2019-09-03 15:22:59,0.9597049147094521,0.847,SyntaxError: bad input on line 7,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.14 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P,""."")
+print(""The area of this circle with a radius of "",R2, ""is"" ,A.,""."")"
+11,12,2019-09-03 15:23:15,0.9631784695435092,0.8774,TypeError: unsupported operand type(s) for Add: 'float' and 'str' on line 7,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.14 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P,""."")
+print(""The area of this circle with a radius of "",R2, ""is"" ,A+""."",""."")"
+12,13,2019-09-03 15:23:28,0.9884928262143508,0.8817,TypeError: unsupported operand type(s) for Add: 'float' and 'str' on line 7,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.14 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P,""."")
+print(""The area of this circle with a radius of "",R2, ""is"" ,A+""."")"
+13,14,2019-09-03 15:23:37,1.0,0.8785,success,"# Write your program here
+R1 = input(""What is the radius?"")
+R2 = int(R1)
+P = 2 * 3.14 * R2
+A = 3.14 * (R2**2)
+print(""The perimeter of this circle with a radius of"", R2 ,""is"",P,""."")
+print(""The area of this circle with a radius of "",R2, ""is"" ,A,""."")"

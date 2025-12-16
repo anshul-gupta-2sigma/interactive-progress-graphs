@@ -1,0 +1,90 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-01-30 04:45:15,0.7264999816998143,0.6497,success,"import turtle
+k = turtle.Turtle()
+k.speed(15)
+k.back(350)
+for a in range(5):
+    for i in range(5):
+        k.right(144)
+        k.forward(100)
+    k.penup()
+    k.forward(100)
+    k.right(144)
+"
+2,3,2020-01-30 04:47:54,0.7549424001433969,0.7044,success,"import turtle
+k = turtle.Turtle()
+k.speed(15)
+k.penup()
+k.back(250)
+for a in range(5):
+    for i in range(5):
+        k.pendown()
+        k.right(144)
+        k.forward(100)
+    k.penup()
+    k.forward(100)
+    k.right(144)
+"
+3,4,2020-01-30 04:48:06,0.7435436862809381,0.6874,success,"import turtle
+k = turtle.Turtle()
+k.speed(15)
+k.penup()
+k.forward(250)
+for a in range(5):
+    for i in range(5):
+        k.pendown()
+        k.right(144)
+        k.forward(100)
+    k.penup()
+    k.forward(100)
+    k.right(144)
+"
+4,5,2020-01-30 04:48:22,0.7552557600693534,0.7043,success,"import turtle
+k = turtle.Turtle()
+k.speed(15)
+k.penup()
+k.back(100)
+for a in range(5):
+    for i in range(5):
+        k.pendown()
+        k.right(144)
+        k.forward(100)
+    k.penup()
+    k.forward(100)
+    k.right(144)
+"
+5,6,2020-01-30 04:49:19,0.9878831790964566,0.8702,success,"import turtle
+k = turtle.Turtle()
+k.speed(15)
+k.color(""pink"")
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+k.penup()
+k.back(50)
+for a in range(5):
+    for i in range(5):
+        k.pendown()
+        k.right(144)
+        k.forward(100)
+    k.penup()
+    k.forward(100)
+    k.right(144)
+"
+6,7,2020-01-30 04:49:44,0.9999999774545966,0.8703,success,"import turtle
+k = turtle.Turtle()
+k.speed(15)
+k.color(""pink"")
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+k.penup()
+k.back(50)
+for a in range(5):
+    for i in range(5):
+        k.pendown()
+        k.right(144)
+        k.forward(100)
+    k.penup()
+    k.forward(100)
+    k.left(144)
+"

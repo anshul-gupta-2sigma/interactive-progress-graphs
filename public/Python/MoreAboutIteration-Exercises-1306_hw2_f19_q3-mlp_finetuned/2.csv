@@ -1,0 +1,101 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-18 00:15:23,0.8526650910847283,0.7347,SyntaxError: bad token on line 10,"def drugPotency(loss, expire):
+    # your code here
+    i-0;
+    effect=100
+    while(true):
+        print(""Month""+str(i)+""effectivenss:""+str(effect))
+        if effect<expire:
+            print(""discard"")
+            break
+        effect=effect?*(1-loss/100)
+        i+=1
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+2,3,2019-10-18 00:17:51,0.8561750528002132,0.7328,UnboundLocalError: local variable 'i' referenced before assignment on line 3,"def drugPotency(loss, expire):
+    # your code here
+    i-0;
+    effect=100
+    while(true):
+        print(""Month""+str(i)+""effectivenss:""+str(effect))
+        if effect<expire:
+            print(""discard"")
+            break
+        effect=effect*(1-loss/100)
+        i+=1
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+3,4,2019-10-18 00:17:57,0.8554819271533429,0.7379,NameError: name 'true' is not defined on line 5,"def drugPotency(loss, expire):
+    # your code here
+    i=0;
+    effect=100
+    while(true):
+        print(""Month""+str(i)+""effectivenss:""+str(effect))
+        if effect<expire:
+            print(""discard"")
+            break
+        effect=effect*(1-loss/100)
+        i+=1
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+4,5,2019-10-18 00:24:57,0.9796005035334532,0.8805,SyntaxError: bad input on line 8,"def drugPotency(loss, expire):
+    # your code here
+    month=0
+    
+    effectiveness=100
+    while True:
+        print(""Month"",month,""effectivenss:"",effectiveness)
+        effectiveness -= effectiveness*/100
+        month+=1
+        if effectiveness < expire:
+            print(""Month:"",month,""	effectiveness:"",effectiveness,""	DISCARDED"")
+            break
+        
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+5,6,2019-10-18 00:25:07,0.99999991766848,0.897,success,"def drugPotency(loss, expire):
+    # your code here
+    month=0
+    
+    effectiveness=100
+    while True:
+        print(""Month"",month,""effectivenss:"",effectiveness)
+        effectiveness -= effectiveness*4/100
+        month+=1
+        if effectiveness < expire:
+            print(""Month:"",month,""	effectiveness:"",effectiveness,""	DISCARDED"")
+            break
+        
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"

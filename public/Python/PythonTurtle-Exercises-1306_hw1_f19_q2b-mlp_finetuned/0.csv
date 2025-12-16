@@ -1,0 +1,772 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-19 00:50:09,0.8429870787447797,0.8375,SyntaxError: bad input on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    for j in range(n+1):
+    print(s)"
+2,3,2019-09-19 01:11:00,0.8463947047552526,0.819,SyntaxError: bad input on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    for j in range(n+1):
+print(s)"
+3,4,2019-09-19 01:11:45,0.8027834604853537,0.8477,TypeError: start must be a integer on line 4,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n*s):
+    j = n+1
+print(s)"
+4,5,2019-09-19 01:12:43,0.8512317298020022,0.8507,NameError: name 'N' is not defined on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    j = n+1
+    p = N * s
+print(s)"
+5,6,2019-09-19 01:12:53,0.8515847484059005,0.857,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    j = n+1
+    p = n * s
+print(s)"
+6,7,2019-09-19 01:13:31,0.8740815808216752,0.8541,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    j = n+1
+    p = n * s
+print(j,p)"
+7,8,2019-09-19 01:15:21,0.876060374486705,0.8518,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    p = n * s
+    j = n + 1
+print(j,p)"
+8,9,2019-09-19 01:15:33,0.8550009808394952,0.8318,SyntaxError: bad input on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    p = n * s
+    j = n +
+print(j,p)"
+9,10,2019-09-19 01:15:48,0.7876034268485308,0.8472,NameError: name 'j' is not defined on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    p = n * s
+print(j,p)"
+10,11,2019-09-19 01:16:01,0.7592635345210424,0.8492,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    p = n * s
+print(p)"
+11,12,2019-09-19 01:21:45,0.8010242180034302,0.8379,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    p = i + 1
+    
+print(p*s)"
+12,13,2019-09-19 01:22:57,0.8321142836035277,0.8491,ValueError: invalid literal for int() with base 10: 'None' on line 2,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    range(0,i+1)
+    print(p*s)"
+13,14,2019-09-19 01:23:37,0.8350465074040443,0.8496,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n):
+    range(0,i+1)
+    print(i*s)"
+14,15,2019-09-19 01:25:29,0.8739456397843233,0.837,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(1,n,2):
+    range(0,i+1)
+    print(i*s)"
+15,16,2019-09-19 01:25:57,0.8678647175397933,0.8429,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(1,n,2):
+    range(0,i*2)
+    print(i*s)"
+16,17,2019-09-19 01:26:36,0.8724259482199721,0.841,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n,2):
+    range(0,i+1)
+    print(i*s)"
+17,18,2019-09-19 01:27:03,0.8834257980851341,0.836,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(n,n+1,2):
+    range(0,i+1)
+    print(i*s)"
+18,19,2019-09-19 01:27:26,0.8764470182829933,0.8266,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print(i*s)"
+19,20,2019-09-19 01:27:47,0.8716303624358231,0.8303,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+3):
+    range(0,i+1)
+    print(i*s)"
+20,21,2019-09-19 01:28:11,0.8764470182829933,0.8266,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print(i*s)"
+21,22,2019-09-19 01:28:26,0.8820934850874378,0.8319,TypeError: cannot concatenate 'str' and 'int' objects on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print(i*s+1)"
+22,23,2019-09-19 01:28:49,0.8806046753361922,0.8281,TypeError: cannot concatenate 'str' and 'int' objects on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print(i*(s+1))"
+23,24,2019-09-19 01:29:21,0.8347229553958571,0.7772,SyntaxError: EOF in multi-line statement on line 7\n\n^\n,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print((i*s)(+2)"
+24,25,2019-09-19 01:29:33,0.8570172053284486,0.8063,SyntaxError: EOF in multi-line statement on line 7\n\n^\n,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print((i*s)+2"
+25,26,2019-09-19 01:29:56,0.8764470182829933,0.8266,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+1)
+    print(i*s)"
+26,27,2019-09-19 01:30:22,0.8775602544216812,0.8289,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+2)
+    print(i*s)"
+27,28,2019-09-19 01:30:50,0.8719915439681372,0.8295,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+    range(0,i+3)
+    print(i*s)"
+28,29,2019-09-19 01:31:23,0.7698094163025468,0.8493,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+   
+    print(i*s)"
+29,30,2019-09-19 01:32:00,0.769806985648149,0.8546,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+2):
+       print(i*s)"
+30,31,2019-09-19 01:32:22,0.7956799596125371,0.8575,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+2,3):
+       print(i*s)"
+31,32,2019-09-19 01:32:38,0.769806985648149,0.8546,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+2):
+       print(i*s)"
+32,33,2019-09-19 01:33:08,0.7698094163025468,0.8493,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+       print(i*s)"
+33,34,2019-09-19 01:34:13,0.8810146454455461,0.8519,SyntaxError: bad input on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+       j  = i * 3
+        print(j,i*s)
+        "
+34,35,2019-09-19 01:34:40,0.9042884389533774,0.8492,SyntaxError: bad input on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1):
+       j  = i * 3
+        print(i*s)
+        print(j)
+        "
+35,36,2019-09-19 01:52:34,0.7698094163025468,0.8493,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1): 
+        print(i*s)
+    
+     
+         
+        
+     
+        "
+36,37,2019-09-19 01:52:59,0.769806985648149,0.8546,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+2): 
+        print(i*s)
+    
+     
+         
+        
+     
+        "
+37,38,2019-09-19 01:53:23,0.7700092168575746,0.8514,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n*1): 
+        print(i*s)
+    
+     
+         
+        
+     
+        "
+38,39,2019-09-19 01:53:59,0.7698094163025468,0.8493,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,n+1): 
+        print(i*s)
+    
+     
+         
+        
+     
+        "
+39,40,2019-09-19 01:54:26,0.7879769735841347,0.855,SyntaxError: bad input on line 4,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,2n+1): 
+        print(i*s)
+    
+     
+         
+        
+     
+        "
+40,41,2019-09-19 01:54:41,0.8053984841258709,0.8571,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= input(""Enter a symbol"")
+for i in range(0,2*n+1): 
+        print(i*s)
+    
+     
+         
+        
+     
+        "
+41,42,2019-09-19 01:55:19,0.7749002116375954,0.8288,SyntaxError: bad input on line 4,"# Write your program here
+n = int(input(""Enter a number""))
+s= int(input(""Enter a symbol"")
+for i in range(0,n+1): 
+        print(i*s+1)
+    
+     
+         
+        
+     
+        "
+42,43,2019-09-19 01:55:42,0.7473344473628512,0.8259,SyntaxError: bad input on line 4,"# Write your program here
+n = int(input(""Enter a number""))
+s= int(input(""Enter a symbol"")
+for i in range(0,n+1): 
+        print(s+1)
+    
+     
+         
+        
+     
+        "
+43,44,2019-09-19 01:56:00,0.71702066814273,0.8094,SyntaxError: bad input on line 4,"# Write your program here
+n = int(input(""Enter a number""))
+s= int(input(""Enter a symbol"")
+for i in range(0,n+1): 
+        print(s)
+    
+     
+         
+        
+     
+        "
+44,45,2019-09-19 01:56:23,0.8197154295069742,0.857,ValueError: invalid literal for int() with base 10: 'A' on line 3,"# Write your program here
+n = int(input(""Enter a number""))
+s= int(input(""Enter a symbol""))
+for i in range(0,n+1): 
+        print(s+1)
+    
+     
+         
+        
+     
+        "
+45,46,2019-09-19 01:56:47,0.8039394515449372,0.8523,TypeError: cannot concatenate 'str' and 'int' objects on line 5,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        print(s+1)
+    
+     
+         
+        
+     
+        "
+46,47,2019-09-19 01:57:08,0.8053670404859634,0.8529,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        print(s+s)
+    
+     
+         
+        
+     
+        "
+47,48,2019-09-19 01:57:36,0.8107263099706802,0.8475,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 5,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        print(i+s)
+    
+     
+         
+        
+     
+        "
+48,49,2019-09-19 01:58:03,0.8914457050840063,0.8499,ValueError: invalid literal for int() with base 10: '4A' on line 2,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        print(i*s)
+        print(s+s)
+    
+     
+         
+        
+     
+        "
+49,50,2019-09-19 01:58:46,0.8878003345026408,0.8627,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        s= i *3
+        print(i*s)
+        
+    
+     
+         
+        
+     
+        "
+50,51,2019-09-19 01:59:05,0.8635666223509477,0.866,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        s= i *3
+        print(s)
+        
+    
+     
+         
+        
+     
+        "
+51,52,2019-09-19 01:59:44,0.8833388199932495,0.8472,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        p= i *3
+        print(s*i)
+        
+    
+     
+         
+        
+     
+        "
+52,53,2019-09-19 01:59:58,0.8923677872057697,0.8482,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(0,n+1): 
+        p= i *3
+        print(s*i,p)
+        
+    
+     
+         
+        
+     
+        "
+53,54,2019-09-19 02:00:33,0.7730182595188052,0.8489,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1): 
+      
+        print(s*i)
+        
+    
+     
+         
+        
+     
+        "
+54,55,2019-09-19 02:00:51,0.8068250331618133,0.8476,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1,2): 
+      
+        print(s*i)
+        
+    
+     
+         
+        
+     
+        "
+55,56,2019-09-19 02:02:51,0.8630861461409121,0.7958,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1): 
+      print(s*i)
+for j in range(i+1):
+    print(i)
+        
+    
+     
+         
+        
+     
+        "
+56,57,2019-09-19 02:04:26,0.84084945243055,0.7814,SyntaxError: bad input on line 5,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1): 
+      print(s*i):
+            for j in range(i+1):
+    
+        
+    
+     
+         
+        
+     
+        "
+57,58,2019-09-19 02:04:53,0.7730182595188052,0.8489,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1): 
+      print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+58,59,2019-09-19 02:06:54,0.8381434370189116,0.8555,SyntaxError: bad input on line 6,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n):
+    j = n+3
+      print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+59,60,2019-09-19 02:07:04,0.8381434370189116,0.8555,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n):
+    j = n+3
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+60,61,2019-09-19 02:07:26,0.8711137252306377,0.8493,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1):
+    j = n+3
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+61,62,2019-09-19 02:07:44,0.8808554774110943,0.8519,SyntaxError: bad input on line 4,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(2n+1):
+    j = n+3
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+62,63,2019-09-19 02:07:56,0.8711137252306377,0.8493,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1):
+    j = n+3
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+63,64,2019-09-19 02:09:31,0.7730182595188052,0.8489,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1):
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+64,65,2019-09-19 02:10:26,0.7722082760773492,0.85,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+n):
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+65,66,2019-09-19 02:11:22,0.7730182595188052,0.8489,success,"# Write your program here
+n = int(input(""Enter a number""))
+s= (input(""Enter a symbol""))
+for i in range(n+1):
+    print(s*i)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+66,67,2019-09-19 02:14:11,0.9129209161135835,0.8357,IndentationError: unindent does not match any outer indentation level on line 8\n print(s*j)\n\n ^\n,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n+1):
+    j= i + 2
+   
+ print(s*j)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+67,68,2019-09-19 02:14:25,0.9302338485551888,0.8471,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n+1):
+    j= i + 2
+    print(s*j)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+68,69,2019-09-19 02:14:45,0.929568366210729,0.8386,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n+1):
+    j= i + 1
+    print(s*j)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+69,70,2019-09-19 02:15:07,0.9045579699955698,0.855,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n):
+    j= i + 2
+    print(s*j)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+70,71,2019-09-19 02:26:46,0.8638564814957246,0.8348,NameError: Undefined variable in expression on line 7,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(0,n+1):
+    j= j + i
+    print(j*s)* (j-1)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+71,72,2019-09-19 02:26:55,0.8638564814957246,0.8348,NameError: Undefined variable in expression on line 7,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(0,n+1):
+    j= j + i
+    print(j*s) * (j-1)
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+72,73,2019-09-19 02:27:07,0.9313302642726624,0.8405,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(0,n+1):
+    j= j + i
+    print(j*s) 
+            
+    
+        
+    
+     
+         
+        
+     
+        "
+73,74,2019-09-19 23:29:27,0.9313302642726624,0.8405,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(0,n+1):
+    j= j + i
+    print(j*s) 
+         "
+74,75,2019-09-19 23:47:15,0.9280738885025105,0.8445,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n+1):
+    j= j + i
+    print(j*s) 
+         "
+75,76,2019-09-20 00:15:41,0.8997376837215763,0.8512,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n):
+    j= j + i
+    print(j*s) 
+         "
+76,77,2019-09-20 00:30:55,0.9280738885025105,0.8445,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 0
+for i in range(n+1):
+    j= j + i
+    print(j*s) 
+         "
+77,78,2019-09-20 00:31:37,0.9322779279126577,0.8415,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 1
+for i in range(n+1):
+    j= j + i
+    print(j*s) 
+         "
+78,79,2019-09-20 00:32:31,0.903241887757542,0.849,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 1
+for i in range(n):
+    j= j + i
+    print(j*s) 
+         "
+79,80,2019-09-20 00:54:02,1.0,0.8345,success,"# Write your program here
+n = int(input(""Enter a number""))
+s = (input(""Enter a symbol""))
+j = 1
+for i in range(n):
+    print((i +j) *s) 
+    j = j + 1
+         "

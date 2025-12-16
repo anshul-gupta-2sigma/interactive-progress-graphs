@@ -1,0 +1,94 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0025,, 
+1,2,2020-09-27 21:02:59,0.8223956283558513,0.8557,TypeError: 'int' object is not iterable on line 8,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+for i in (12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+2,3,2020-09-27 21:17:46,0.854649414348277,0.896,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+ck.speed(5)
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+3,4,2020-09-27 21:18:41,0.8430440781359116,0.9004,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+ck.speed(5)
+for i in range(12):
+    ck.penup()
+    ck.forward(-120)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.left(360 / 12)
+"
+4,5,2020-09-27 21:20:24,0.8700603789977328,0.9236,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+ck.speed(5)
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.forward(-130)
+    ck.right(30)
+"
+5,6,2020-09-27 21:24:18,1.0,0.9451,success,"import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+wn.bgcolor(""lightgreen"")
+ck.shape(""turtle"")
+ck.pencolor(""blue"")
+ck.stamp()
+ck.speed(5)
+for i in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.forward(-130)
+    ck.right(30)
+
+wn.exitonclick()    "

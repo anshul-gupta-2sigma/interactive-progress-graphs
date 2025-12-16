@@ -1,0 +1,32 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-19 21:36:05,0.9306533739216292,0.8737,TypeError: cannot concatenate 'str' and 'int' objects on line 5,"# Write your program here
+N = int(input('Insert integer here: '))
+S = str(input('Insert symbol here: '))
+for i in range(N):
+    print(S*i+1)"
+2,3,2019-09-19 21:42:18,0.8277404806606607,0.8236,SyntaxError: bad input on line 4,"# Write your program here
+N = int(input('Insert integer here: '))
+S = (input('Insert symbol here: ')
+for i in range(N):
+    print(S*i+1)"
+3,4,2019-09-19 21:42:35,0.8421509838622107,0.8312,SyntaxError: bad input on line 4,"# Write your program here
+N = int(input('Insert integer here: '))
+S = (input('Insert symbol here: ')
+for i in range(N):
+    print((S*i+1)*S)"
+4,5,2019-09-19 21:42:50,0.9063576415639263,0.871,TypeError: cannot concatenate 'str' and 'int' objects on line 5,"# Write your program here
+N = int(input('Insert integer here: '))
+S = str(input('Insert symbol here: '))
+for i in range(N):
+    print((S*i+1)*S)"
+5,6,2019-09-19 21:43:00,0.9514475404754387,0.8746,TypeError: cannot concatenate 'str' and 'int' objects on line 5,"# Write your program here
+N = int(input('Insert integer here: '))
+S = input('Insert symbol here: ')
+for i in range(N):
+    print((S*i+1)*S)"
+6,7,2019-09-19 21:43:43,1.0,0.8778,success,"# Write your program here
+N = int(input('Insert integer here: '))
+S = input('Insert symbol here: ')
+for i in range(N):
+    print((2*i+1)*S)"

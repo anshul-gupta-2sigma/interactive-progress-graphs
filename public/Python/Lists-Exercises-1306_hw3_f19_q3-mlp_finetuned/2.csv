@@ -1,0 +1,456 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0039,, 
+1,2,2019-10-30 21:25:45,0.628110856264126,0.5725,"ValueError: invalid literal for int() with base 10: '2,11,7' on line 12","
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        newlist = inlist**2
+        print(inlist,newlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+2,3,2019-10-30 21:33:03,0.7093142896142701,0.6216,TypeError: object of type 'bool' has no len() on line 6,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    newlist = []
+    if inplace == 1:
+        for x in range(len(inplace)):
+            newlist[x] = inplace[x]**2
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+3,4,2019-10-30 21:33:40,0.7144321805548597,0.6364,TimeLimitError: Program exceeded run time limit. on line 16,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    newlist = []
+    if inplace == 1:
+        for x in range(len(inlist)):
+            newlist[x] = inplace[x]**2
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+4,5,2019-10-30 21:39:58,0.7413502473186802,0.6408,ValueError: invalid literal for int() with base 10: 'None' on line 15,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            newlist[i] = inlist[i]**2
+            print(inlist,newlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+5,6,2019-10-30 21:44:18,0.7684317483329102,0.6738,IndexError: list assignment index out of range on line 7,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    newlist = []
+    if inplace == 1:
+        for i in range(len(inlist)):
+            newlist[i] = inlist[i]**2
+            print(inlist,newlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+6,7,2019-10-30 21:44:50,0.7729607426890448,0.6984,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+            print(inlist,newlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+7,8,2019-10-30 21:45:33,0.7724438099113413,0.7111,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+8,9,2019-10-30 21:50:58,0.9287875318098715,0.8521,UnboundLocalError: local variable 'newlist' referenced before assignment on line 13,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,newlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+9,10,2019-10-30 21:51:32,0.9253106491353771,0.8446,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,otherlist)
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+10,11,2019-11-04 22:40:59,0.4449458601877959,0.4469,ValueError: invalid literal for int() with base 10: 'None' on line 11,"
+# Define your function here
+
+
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+11,12,2019-11-04 22:48:05,0.9253106491353771,0.8446,ValueError: invalid literal for int() with base 10: 'None' on line 21,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,otherlist)
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist asit is not supposed to change when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+12,13,2019-11-04 22:54:58,0.9528780405593255,0.7991,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,otherlist)
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist asit is not supposed to change when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+#print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+13,14,2019-11-04 22:55:21,0.9542493872719329,0.791,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,otherlist)
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist asit is not supposed to change when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+#print(mylist, SmartSquare(mylist,False))
+
+"
+14,15,2019-11-04 22:59:11,0.8258698478397731,0.8811,ValueError: invalid literal for int() with base 10: 'None' on line 23,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    list = inlist[:]
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        inlist = list[:]
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,otherlist)
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist as it is not supposed to change back to its previous value when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+15,16,2019-11-04 23:01:12,0.9253106491353771,0.8446,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return(inlist,newlist)
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return(inlist,otherlist)
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist as it is not supposed to change back to its previous value when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+16,17,2019-11-05 00:29:29,0.9942095371621728,0.8554,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return newlist
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return otherlist
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist as it is not supposed to change back to its previous value when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+17,18,2019-11-05 00:34:36,0.9891068636253519,0.859,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 0:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return newlist
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return otherlist
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist as it is not supposed to change back to its previous value when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+18,19,2019-11-05 00:36:03,1.0,0.8513,success,"
+# Define your function here
+def SmartSquare(inlist,inplace):
+    if inplace == 1:
+        for i in range(len(inlist)):
+            inlist[i] = inlist[i]**2
+            newlist = inlist
+        return newlist
+    else:
+        otherlist = inlist[:]
+        for i in range(len(otherlist)):
+            otherlist[i] = otherlist[i]**2
+        return otherlist
+# The print staments on the bottom of this code make it impossible to reset the 
+# value of mylist as it is not supposed to change back to its previous value when inplace is true.
+# If each of the print statemnts were done individually, the code would fully work.
+# I changed the order of the print statements so this problem could be resolved.
+
+# DO NOT CHANGE CODE BELOW
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,False))
+print(mylist, SmartSquare(mylist,True))
+
+"

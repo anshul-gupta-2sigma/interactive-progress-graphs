@@ -1,0 +1,236 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-16 00:23:14,0.7529576289440426,0.7845,NameError: name 'numberx' is not defined on line 7,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    numberx - number1+1
+    for i in (0, 1, 3, 6, 10):
+        number - number1 + i
+        print(""Number to sum is:"", number)
+numsum(100,110)"
+2,3,2019-10-17 18:16:46,0.7586585611212986,0.7869,NameError: name 'number' is not defined on line 9,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 - number1+1
+    for i in (0, 1, 3, 6, 10):
+        number - number1 + i
+        print(""Number to sum is:"", number)
+numsum(100,110)"
+3,4,2019-10-17 18:17:59,0.7586585611212986,0.7869,NameError: name 'number' is not defined on line 9,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 - number1+1
+    for i in (0, 1, 3, 6, 10):
+        number - number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)"
+4,5,2019-10-17 19:42:31,0.7586585611212986,0.7869,SyntaxError: bad input on line 2,"# Write your code here
+4.) # Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 - number1+1
+    for i in (0, 1, 3, 6, 10):
+        number - number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+"
+5,6,2019-10-17 19:42:42,0.7586585611212986,0.7869,NameError: name 'number' is not defined on line 9,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 - number1+1
+    for i in (0, 1, 3, 6, 10):
+        number - number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+"
+6,7,2019-10-17 19:46:50,0.7517562433828399,0.7884,NameError: name 'number' is not defined on line 7,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number - number1+1
+    for i in (0, 1, 3, 6, 10):
+        number - number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+"
+7,8,2019-10-17 19:55:06,0.7611067755642131,0.8064,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number = number1+1
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+"
+8,9,2019-10-17 20:11:36,0.7709133844721547,0.8076,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)"
+9,10,2019-10-17 20:13:07,0.9117754139369033,0.9027,NameError: name 'declare' is not defined on line 8,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    declare 
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+print(""Summation:"", sum (sumlist))"
+10,11,2019-10-17 20:13:22,0.9268576517165149,0.9085,NameError: name 'sumlist' is not defined on line 13,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+print(""Summation:"", sum (sumlist))"
+11,12,2019-10-17 20:13:32,0.9379459354936213,0.9048,NameError: name 'sumList' is not defined on line 13,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+print(""Summation:"", sum (sumList))"
+12,13,2019-10-17 20:13:43,0.9379459354936213,0.9048,NameError: name 'sumList' is not defined on line 13,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+numsum(100,110)
+print(""Summation:"", sum(sumList))"
+13,14,2019-10-17 20:16:23,0.9432005437050369,0.9057,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+        print(""Summation:"", sum(sumList))
+numsum(100,110)
+"
+14,15,2019-10-17 20:16:40,0.9402986147435652,0.9057,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+    print(""Summation:"", sum(sumList))
+numsum(100,110)
+"
+15,16,2019-10-17 20:18:06,0.9375620749701741,0.8952,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+        sumList = []
+    print(""Summation:"", sum(sumList))
+numsum(100,110)
+"
+16,17,2019-10-17 20:18:12,0.9375620749701741,0.8952,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+    sumList = []
+    print(""Summation:"", sum(sumList))
+numsum(100,110)
+"
+17,18,2019-10-17 20:19:06,0.9862321793120272,0.9198,NameError: name 'num' is not defined on line 12,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+        sumList += [num]
+    print(""Summation:"", sum(sumList))
+numsum(100,110)
+"
+18,19,2019-10-17 20:19:19,0.9999999721164883,0.9176,success,"# Write your code here
+def numsum(number1,number2):
+    number1 = int(number1)
+    number2 = int(number2)
+    print(""First Number:"",number1)
+    print(""Second Number:"",number2)
+    number2 = number1+1
+    sumList = []
+    for i in (0, 1, 3, 6, 10):
+        number = number1 + i
+        print(""Number to sum is:"",number)
+        sumList += [number]
+    print(""Summation:"", sum(sumList))
+numsum(100,110)
+"

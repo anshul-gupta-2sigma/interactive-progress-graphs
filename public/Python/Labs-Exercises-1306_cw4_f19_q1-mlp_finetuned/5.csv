@@ -1,0 +1,400 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2181,, 
+1,2,2019-10-17 15:18:49,0.4912063585579066,0.7876,SyntaxError: bad input on line 5,"#Your code goes here
+x =""texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common letters =""""
+    for x in mystring 
+        if(letters in x and letters not in common letters):
+            common letters = common letters + letters
+            return common letters
+        print(comonletters(mystring)"
+2,3,2019-10-17 15:24:22,0.5157892068114573,0.7507,SyntaxError: bad input on line 6,"#Your code goes here
+x =""texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for x in mystring 
+        if(letters in x and letters not in common_letters):
+            common_letters = common_letters + letters
+            return common letters
+        print(comonletters(mystring)"
+3,4,2019-10-17 15:24:36,0.514297060255617,0.7546,SyntaxError: bad input on line 6,"#Your code goes here
+x =""texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for x in mystring 
+        if(letters in x and letters not in common_letters):
+            common_letters = common_letters + letters
+        return common letters
+print(comonletters(mystring)"
+4,5,2019-10-17 15:25:52,0.5166954828449946,0.768,SyntaxError: bad input on line 6,"#Your code goes here
+x =""texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring 
+        if(letters in x and letters not in common_letters):
+            common_letters = common_letters + letters
+        return common letters
+print(comonletters(mystring)"
+5,6,2019-10-17 15:26:01,0.5347968288502885,0.8152,SyntaxError: bad input on line 9,"#Your code goes here
+x =""texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in x and letters not in common_letters):
+            common_letters = common_letters + letters
+        return common letters
+print(comonletters(mystring)"
+6,7,2019-10-17 15:27:11,0.5575330314387671,0.8422,NameError: name 'z' is not defined on line 7,"#Your code goes here
+x =""texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in z and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))"
+7,8,2019-10-17 15:27:31,0.5515956836105085,0.8134,NameError: name 'z' is not defined on line 7,"#Your code goes here
+x =""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in z and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))"
+8,9,2019-10-17 15:28:21,0.5533427385271039,0.8291,success,"#Your code goes here
+x =""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in x and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))"
+9,10,2019-10-17 15:29:19,0.5548318722850833,0.8437,success,"#Your code goes here
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))"
+10,11,2019-10-17 15:34:45,0.9168334275509413,0.9556,NameError: name 'Commonletters' is not defined on line 14,"#Your code goes here
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+    print(""Common letters between"",common,""and texas are "",Commonletters(common))
+    stringg=input(""Sring"")
+    "
+11,12,2019-10-17 15:41:09,0.7580526254315673,0.9224,NameError: name 'Commonletters' is not defined on line 20,"#Your code goes here
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+#print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    
+    
+    
+    
+    
+    print(""Common letters between"",common,""and texas are "",Commonletters(common))
+    #stringg=input(""Sring"")
+    "
+12,13,2019-10-17 15:41:56,0.7703648399955471,0.9342,TimeLimitError: Program exceeded run time limit. on line 20,"#Your code goes here
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+#print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    
+    
+    
+    
+    
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    #stringg=input(""Sring"")
+    "
+13,14,2019-10-17 15:43:49,0.8495281863622328,0.9515,success,"#Your code goes here
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+#print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    
+    
+    
+    
+    
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Sring"")
+    "
+14,15,2019-10-17 15:44:35,0.9294227627906697,0.9677,success,"#Your code goes here
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    
+    
+    
+    
+    
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Sring"")
+    "
+15,16,2019-10-17 22:53:18,0.9294227627906697,0.9677,success,"
+Ex=""Texas""
+mystring= input("""") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    
+    
+    
+    
+    
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Sring"")
+    "
+16,17,2019-10-17 22:56:35,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    
+    
+    
+    
+    
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+17,18,2019-10-17 23:53:17,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+18,19,2019-10-17 23:55:03,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+19,20,2019-10-17 23:55:11,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""): 
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+20,21,2019-10-17 23:55:18,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):      
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+21,22,2019-10-17 23:55:23,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):          
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+22,23,2019-10-17 23:55:27,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):               
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+23,24,2019-10-17 23:55:33,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):                    
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+24,25,2019-10-17 23:55:38,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):                         
+
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "
+25,26,2019-10-17 23:55:50,1.0,0.9766,success,"
+Ex=""Texas""
+mystring= input(""Input A String"") 
+def CommonLetters(mystring):
+    common_letters =""""
+    for letters in mystring:
+        if(letters in Ex and letters not in common_letters):
+            
+            common_letters = common_letters + letters
+    return common_letters
+print(CommonLetters(mystring))
+
+common=input("""")
+while(common!=""""):                         
+    print(""Common letters between"",common,""and texas are "",CommonLetters(common))
+    common=input(""Input A String"")
+    "

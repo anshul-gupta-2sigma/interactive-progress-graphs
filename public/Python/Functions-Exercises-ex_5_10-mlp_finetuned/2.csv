@@ -1,0 +1,168 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0718,, 
+1,2,2020-10-18 07:38:11,0.5008966864853022,0.5875,success,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.left(144)
+    
+wn=turtle.Screen()
+alex=turtle.Turtle()
+
+alex.goto(-80,0)
+for i in range(5):
+    drawstar(alex,100)
+
+"
+2,3,2020-10-18 07:39:45,0.49978469727182684,0.5833,success,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+alex=turtle.Turtle()
+
+alex.goto(-80,0)
+for i in range(5):
+    drawstar(alex,100)
+
+"
+3,4,2020-10-18 07:41:36,0.8498092628956427,0.8086,TimeLimitError: Program exceeded run time limit. on line 5,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+alex=turtle.Turtle()
+alex.color(""hotpink"")
+
+alex.goto(-100,0)
+for i in range(5):
+    drawstar(alex,100)
+    alex.up()
+    alex.forward(350)
+    alex.right(144)
+    alex.down()
+
+"
+4,5,2020-10-18 07:42:25,0.8506679329832609,0.8071,TimeLimitError: Program exceeded run time limit. on line 5,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+alex=turtle.Turtle()
+alex.color(""hotpink"")
+
+alex.goto(-140,0)
+for i in range(5):
+    drawstar(alex,100)
+    alex.up()
+    alex.forward(350)
+    alex.right(144)
+    alex.down()
+
+"
+5,6,2020-10-18 07:42:52,0.9301984898911697,0.8775,TimeLimitError: Program exceeded run time limit. on line 6,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+alex=turtle.Turtle()
+alex.color(""hotpink"")
+
+alex.up()
+alex.goto(-160,0)
+alex.down
+for i in range(5):
+    drawstar(alex,100)
+    alex.up()
+    alex.forward(350)
+    alex.right(144)
+    alex.down()
+
+"
+6,7,2020-10-18 07:43:18,0.9449796971695965,0.8898,TimeLimitError: Program exceeded run time limit. on line 6,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+alex=turtle.Turtle()
+alex.color(""hotpink"")
+
+alex.up()
+alex.goto(-160,0)
+alex.down()
+for i in range(5):
+    drawstar(alex,100)
+    alex.up()
+    alex.forward(350)
+    alex.right(144)
+    alex.down()
+
+"
+7,8,2020-10-18 07:52:18,0.9910207095786774,0.9243,success,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+alex=turtle.Turtle()
+alex.color(""hotpink"")
+alex.speed(10)
+
+alex.up()
+alex.goto(-160,0)
+alex.down()
+for i in range(5):
+    drawstar(alex,100)
+    alex.up()
+    alex.forward(350)
+    alex.right(144)
+    alex.down()
+
+"
+8,9,2020-10-18 07:52:38,1.0,0.925,success,"import turtle
+
+def drawstar(t,sz):
+    for star in range(5):
+        t.forward(sz)
+        t.right(144)
+    
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+alex=turtle.Turtle()
+alex.color(""hotpink"")
+alex.speed(10)
+
+alex.up()
+alex.goto(-160,50)
+alex.down()
+for i in range(5):
+    drawstar(alex,100)
+    alex.up()
+    alex.forward(350)
+    alex.right(144)
+    alex.down()
+
+"

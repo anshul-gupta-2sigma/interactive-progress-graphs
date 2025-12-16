@@ -1,0 +1,505 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0074,, 
+1,2,2020-03-27 07:10:39,0.5995056872538311,0.7583,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    # your code here
+    for x in range(1,n+1):
+        print x, x * (x + 1) / 2"
+2,3,2020-03-27 07:31:22,0.6368009437593296,0.817,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    # your code here
+    for x in range(1,n+1):
+        print (x, x * (x + 1) / 2)"
+3,4,2020-03-27 07:46:37,0.7092483206073936,0.9283,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    # your code here
+        for i in range(1, n + 1):   
+        print(""n = {0}, triangle = {1}"".format(i, (i ** 2 + i)//2))
+
+print_triangular_numbers(5)
+"
+4,5,2020-03-27 07:50:05,0.7277254994462659,0.9192,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, 5):   
+    print(""n = {0}, triangle = {1}"".format(i, (i ** 2 + i)//2))
+
+print_triangular_numbers(5)
+"
+5,6,2020-03-27 07:50:46,0.7632358819617594,0.9127,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, 5):   
+    print(format(i, (i ** 2 + i)//2))
+
+print_triangular_numbers(5)
+"
+6,7,2020-03-27 07:50:55,0.7518103184437431,0.9031,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, 5):   
+    print((i, (i ** 2 + i)//2))
+
+print_triangular_numbers(5)
+"
+7,8,2020-03-27 07:52:56,0.7012075565838144,0.8323,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+    print(n * ï¼n + 1ï¼/ 2)
+
+print_triangular_numbers(5)
+"
+8,9,2020-03-27 07:53:07,0.7012075565838144,0.8323,SyntaxError: bad input on line 4,"
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+    print(n * ï¼n + 1ï¼/ 2)
+
+print_triangular_numbers(5)
+"
+9,10,2020-03-27 07:53:10,0.7012075565838144,0.8323,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+    print(n * ï¼n + 1ï¼/ 2)
+
+print_triangular_numbers(5)
+"
+10,11,2020-03-27 07:53:24,0.7274646440940851,0.8376,SyntaxError: bad token on line 3,"def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(n * ï¼n + 1ï¼/ 2)
+
+print_triangular_numbers(5)
+"
+11,12,2020-03-27 07:53:42,0.7303775985470333,0.793,success,"def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print('n * ï¼n + 1ï¼/ 2')
+
+print_triangular_numbers(5)
+"
+12,13,2020-03-27 07:54:09,0.7559690324710444,0.8902,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print x, x * (x + 1) / 2
+
+print_triangular_numbers(5)
+"
+13,14,2020-03-27 07:54:23,0.7814467094367217,0.9115,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(x, x * (x + 1) / 2)
+
+print_triangular_numbers(5)
+"
+14,15,2020-03-27 07:54:35,0.7646085070526392,0.9013,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(n, n * (n + 1) / 2)
+
+print_triangular_numbers(5)
+"
+15,16,2020-03-27 07:55:03,0.6209717092185438,0.817,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(n, n * (n + 1) / 2)
+
+"
+16,17,2020-03-27 07:56:39,0.7846687039896129,0.9088,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(str(n, n * (n + 1) / 2))
+
+print_triangular_numbers(5)"
+17,18,2020-03-27 07:56:48,0.7646085070526392,0.9013,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(n, n * (n + 1) / 2)
+
+print_triangular_numbers(5)"
+18,19,2020-03-27 08:03:01,0.7258451702687153,0.9382,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(""n = {0}, triangle = {1}"".format(i, (i ** 2 + i)//2))
+
+print_triangular_numbers(5)"
+19,20,2020-03-27 08:03:21,0.7759258494534944,0.9406,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(""n"".format(i, (i ** 2 + i)//2))
+
+print_triangular_numbers(5)"
+20,21,2020-03-27 08:03:36,0.7781270406435818,0.9209,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):   
+        print(""n"".format(n, (n * 2 + i)//2))
+
+print_triangular_numbers(5)"
+21,22,2020-03-27 08:07:36,0.6009927247880256,0.9284,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1, n + 1):
+        n = n * (n + 1) / 2
+        print(""n"".format(n, ( n * (n + 1) / 2))
+
+print(print_triangular_numbers(5))"
+22,23,2020-03-27 08:08:14,0.5447166256144793,0.9223,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    n = 1
+    for i in range(1, n + 1):
+        n = n * (n + 1) / 2
+        print(""n"".format(n, ( n * (n + 1) / 2))
+
+print(print_triangular_numbers(5))"
+23,24,2020-03-27 08:09:23,0.595936482235931,0.9133,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    n = 1
+    for i in range(1, n + 1):
+        n = n * (n + 1) / 2
+        print(n  format(n, ( n * (n + 1) / 2))
+
+print(print_triangular_numbers(5))"
+24,25,2020-03-27 09:01:42,0.7883646650556777,0.9178,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for i in range(1,n+1):
+        print (n, n * (n + 1) / 2)
+
+print(print_triangular_numbers(5)) 
+"
+25,26,2020-03-27 09:07:34,0.7926739485332575,0.9096,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for n in range(1,n+1):
+        print (n, n * (n + 1) / 2)
+
+print(print_triangular_numbers(5)) 
+"
+26,27,2020-03-27 09:08:03,0.8145681127655944,0.933,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    for x in range(1,n+1):
+        print (x, x * (x + 1) / 2)
+
+print(print_triangular_numbers(5)) 
+"
+27,28,2020-03-27 09:27:44,1.0,0.9597,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    x = 1
+    while x <= n:
+        formula = x * (x + 1) / 2
+        print(x,'	', formula)
+        x = x + 1
+
+print_triangular_numbers(5)
+ 
+"
+28,29,2020-03-27 09:28:12,1.0,0.9597,success,"
+def print_triangular_numbers(n):
+    x = 1
+    while x <= n:
+        formula = x * (x + 1) / 2
+        print(x,'	', formula)
+        x = x + 1
+
+print_triangular_numbers(5)
+ 
+"
+29,30,2020-03-27 09:28:21,1.0,0.9597,success,"def print_triangular_numbers(n):
+    x = 1
+    while x <= n:
+        formula = x * (x + 1) / 2
+        print(x,'	', formula)
+        x = x + 1
+
+print_triangular_numbers(5)
+ 
+"

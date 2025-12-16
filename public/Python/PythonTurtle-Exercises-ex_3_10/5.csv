@@ -1,0 +1,414 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2018-09-12 00:26:11,0.6334294080734253,0.6271,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+
+heman.stamp
+
+for i in range(12):
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+2,3,2018-09-12 00:31:32,0.7241495847702026,0.7323,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+
+heman.penup()
+heman.stamp()
+
+for i in range(12):
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+3,4,2018-09-12 00:31:57,0.6128369569778442,0.7694,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+
+#heman.penup()
+heman.stamp()
+
+for i in range(12):
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+4,5,2018-09-12 00:33:55,0.6641096472740173,0.8061,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+
+#heman.penup()
+heman.stamp()
+
+for i in range(12):
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+5,6,2018-09-12 00:35:01,0.6509696245193481,0.8311,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+
+#heman.penup()
+heman.stamp()
+
+for i in range(12):
+    heman.forward(100)
+    heman.backward(100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+6,7,2018-09-12 00:35:54,0.7251040935516357,0.8357,TimeLimitError: Program exceeded run time limit. on line 13,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+#heman.penup()
+heman.stamp()
+
+for i in range(12):
+    heman.forward(100)
+    heman.backward(100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+7,8,2018-09-12 00:39:04,0.7956697344779968,0.8423,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.forward(100)
+    heman.backward(100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+8,9,2018-09-12 00:39:28,0.8034594058990479,0.8291,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    
+wn.exitonclick()
+"
+9,10,2018-09-12 00:42:07,0.751465916633606,0.863,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 13,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.heading(30)
+    #heman.forward(100)
+    #heman.forward(-100)
+    #heman.left(30)
+    
+wn.exitonclick()
+"
+10,11,2018-09-12 00:42:20,0.8006172180175781,0.8698,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 13,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.heading(30)
+    heman.forward(100)
+    #heman.forward(-100)
+    #heman.left(30)
+    
+wn.exitonclick()
+"
+11,12,2018-09-12 00:43:03,0.7992310523986816,0.8749,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(30)
+    #heman.forward(-100)
+    #heman.left(30)
+    
+wn.exitonclick()
+"
+12,13,2018-09-12 00:43:39,0.8499305844306946,0.8673,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(30)
+    heman.forward(-100)
+    #heman.left(30)
+    
+wn.exitonclick()
+"
+13,14,2018-09-12 00:45:17,0.8140822649002075,0.8553,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(1,360,30):
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(i)
+    heman.forward(-100)
+    
+    
+wn.exitonclick()
+"
+14,15,2018-09-12 00:45:37,0.7840102314949036,0.8282,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(1,360,30):
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(i)
+    heman.forward(-100)
+    print(i)
+    
+wn.exitonclick()
+"
+15,16,2018-09-12 00:46:59,0.7635895609855652,0.8088,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360]:
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(i)
+    heman.forward(-100)
+    print(i)
+    
+wn.exitonclick()
+"
+16,17,2018-09-12 00:47:19,0.7636775970458984,0.8021,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(1)
+
+heman.penup()
+
+
+for i in [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360]:
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(i)
+    heman.forward(-100)
+    print(i)
+    
+wn.exitonclick()
+"
+17,18,2018-09-12 00:48:06,0.7611546516418457,0.8229,TypeError: heading() takes exactly 0 positional argument(s) (1 given) on line 15,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(1)
+
+heman.penup()
+
+
+for i in [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360]:
+    heman.stamp()
+    
+    heman.forward(100)
+    heman.heading(60)
+    heman.forward(-100)
+    
+    
+wn.exitonclick()
+"
+18,19,2018-09-12 00:50:23,0.8443653583526611,0.825,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(1)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.forward(100)
+    break
+    heman.forward(-100)
+    break
+    heman.left(30)
+    
+    
+wn.exitonclick()
+"
+19,20,2018-09-12 00:50:49,0.863028883934021,0.848,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    
+    
+wn.exitonclick()
+"
+20,21,2018-09-12 00:51:03,0.8448264002799988,0.8605,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.forward(100)
+    heman.forward(-100)
+    heman.left(30)
+    heman.dot
+    
+    
+wn.exitonclick()
+"
+21,22,2018-09-12 00:53:06,0.9637698531150818,0.8669,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.stamp()
+    heman.forward(80)
+    heman.pendown()
+    heman.forward(10)
+    heman.penup()
+    heman.forward(10)
+    heman.forward(-100)
+    heman.left(30)
+    
+    
+    
+wn.exitonclick()
+"
+22,23,2018-09-12 00:53:45,1.0,0.8708,success,"import turtle
+wn= turtle.Screen()
+heman = turtle.Turtle()
+heman.shape('turtle')
+
+heman.speed(10)
+
+heman.penup()
+
+
+for i in range(12):
+    heman.forward(80)
+    heman.pendown()
+    heman.forward(10)
+    heman.penup()
+    heman.forward(10)
+    heman.stamp()
+    heman.forward(-100)
+    heman.left(30)
+    
+    
+    
+wn.exitonclick()
+"

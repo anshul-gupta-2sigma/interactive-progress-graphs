@@ -1,0 +1,973 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0025,, 
+1,2,2020-09-22 02:57:31,0.40910956194511816,0.5442,TimeLimitError: Program exceeded run time limit. on line 6,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(350)
+    ans.left(250)
+
+
+"
+2,3,2020-09-22 02:59:45,0.431685390367179,0.6111,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(150)
+    ans.left(150)
+
+
+"
+3,4,2020-09-22 02:59:46,0.408027105206086,0.6217,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(110)
+    ans.left(216)
+
+
+"
+4,5,2020-09-22 02:59:58,0.431685390367179,0.6111,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(150)
+    ans.left(150)
+
+
+"
+5,6,2020-09-22 03:00:17,0.41179192956108635,0.5988,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(100)
+    ans.left(100)
+
+
+"
+6,7,2020-09-22 03:00:34,0.4042049481331945,0.5652,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(90)
+    ans.left(90)
+
+
+"
+7,8,2020-09-22 03:00:49,0.4182678696271944,0.5633,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(90)
+    ans.left(100)
+
+
+"
+8,9,2020-09-22 03:01:01,0.41179192956108635,0.5988,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(100)
+    ans.left(100)
+
+
+"
+9,10,2020-09-22 03:01:23,0.4027304740028367,0.5452,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(120)
+    ans.left(100)
+
+
+"
+10,11,2020-09-22 03:01:43,0.4104592218786244,0.5471,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(120)
+    ans.left(140)
+
+
+"
+11,12,2020-09-22 03:02:09,0.4204799278714417,0.5959,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(10):
+    ans.forward(130)
+    ans.left(140)
+
+
+"
+12,13,2020-09-22 03:02:23,0.42926412269927505,0.6338,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(11):
+    ans.forward(130)
+    ans.left(140)
+
+
+"
+13,14,2020-09-22 03:02:38,0.4607780462992268,0.707,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+
+
+"
+14,15,2020-09-22 03:02:55,0.4064137102372487,0.6298,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(14):
+    ans.forward(130)
+    ans.left(140)
+
+
+"
+15,16,2020-09-22 03:03:15,0.42177603862302127,0.6719,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(15):
+    ans.forward(130)
+    ans.left(140)
+
+
+"
+16,17,2020-09-22 03:03:32,0.4607780462992268,0.707,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+
+
+"
+17,18,2020-09-22 03:06:42,0.49641861744274396,0.7808,NameError: name 'blue' is not defined on line 8,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    ans.color(blue)
+
+
+"
+18,19,2020-09-22 03:07:35,0.4607780462992268,0.707,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    
+
+
+"
+19,20,2020-09-22 03:09:44,0.5103695149288661,0.7911,SyntaxError: EOF in multi-line statement on line 14,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    ans.color(""blue""
+    
+
+
+"
+20,21,2020-09-22 03:10:04,0.5104110260690352,0.7978,success,"import turtle
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    ans.color(""blue"")
+    
+
+
+"
+21,22,2020-09-22 03:10:43,0.718096271596327,0.8758,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    ans.color(""blue"")
+    
+
+
+"
+22,23,2020-09-23 00:27:28,0.8597559313656489,0.8529,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(10):
+    ans.forward(50)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(36)
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    ans.color(""blue"")
+    
+
+
+"
+23,24,2020-09-23 00:39:14,0.842722478933295,0.8146,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+#ans.penup()
+for size in range(10):
+    ans.forward(50)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(36)
+
+for i in range(12):
+    ans.forward(130)
+    ans.left(140)
+    ans.color(""blue"")
+    
+
+
+"
+24,25,2020-09-23 00:39:53,0.8604584330451406,0.7587,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+#ans.penup()
+for size in range(12):
+    ans.forward(50)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+25,26,2020-09-23 00:40:06,0.8846268183002279,0.8164,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(50)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+26,27,2020-09-23 00:40:57,0.879044002893118,0.8419,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(70)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+27,28,2020-09-23 00:41:17,0.8044870396224808,0.8389,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(1,13):
+    ans.forward(70)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+28,29,2020-09-23 00:41:55,0.8811790484868449,0.8158,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(100)
+    ans.stamp()
+    ans.forward(-100)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+29,30,2020-09-23 00:42:23,0.8800547550604108,0.8237,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(100)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+30,31,2020-09-23 00:42:54,0.8618121018195928,0.8298,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(120)
+    ans.stamp()
+    ans.forward(-120)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+31,32,2020-09-23 00:43:12,0.7945531503479845,0.8191,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(13):
+    ans.forward(120)
+    ans.stamp()
+    ans.forward(-120)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+32,33,2020-09-23 00:43:34,0.7962032675921489,0.8471,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(1,13):
+    ans.forward(120)
+    ans.stamp()
+    ans.forward(-120)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+33,34,2020-09-23 00:44:08,0.7987731450546955,0.8451,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(1,13):
+    ans.forward(120)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+34,35,2020-09-23 00:44:39,0.7933001943903597,0.8517,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(1,13):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(36)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+35,36,2020-09-23 00:45:01,0.7961933463565782,0.8462,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(1,13):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+36,37,2020-09-23 00:45:29,0.7968659434984551,0.8191,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(13):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+37,38,2020-09-23 00:46:04,0.8680844759683839,0.8608,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+38,39,2020-09-23 00:46:40,0.8796432203232911,0.8801,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    ans.forward(50)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+39,40,2020-09-23 00:47:46,0.7495594974942414,0.794,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(9):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+40,41,2020-09-23 00:48:19,0.8680844759683839,0.8608,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(130)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+41,42,2020-09-23 00:48:40,0.8813170112345134,0.8139,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(140)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+42,43,2020-09-23 00:48:58,0.8594126997697752,0.8315,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(160)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+43,44,2020-09-23 00:49:34,0.8813170112345134,0.8139,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(140)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+44,45,2020-09-23 00:49:55,0.7678272361894964,0.6896,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(14):
+    ans.forward(140)
+    ans.stamp()
+    ans.forward(-140)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+45,46,2020-09-23 00:50:43,0.7847058976521983,0.6899,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(14):
+    ans.forward(50)
+    ans.stamp()
+    ans.forward(-50)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+46,47,2020-09-23 00:51:03,0.7778190699596399,0.6887,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(14):
+    ans.forward(100)
+    ans.stamp()
+    ans.forward(-100)
+    ans.right(40)
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+47,48,2020-09-23 00:52:06,0.8930669866034232,0.8141,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(100)
+    ans.stamp()
+    ans.forward(-100)
+    ans.stamp()
+    ans.right(40)
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+48,49,2020-09-23 00:52:30,0.8895331642543588,0.8059,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.stamp
+    ans.forward(100)
+    ans.stamp()
+    ans.forward(-100)
+    ans.stamp()
+    ans.right(40)
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+49,50,2020-09-23 00:53:00,0.9017172596346353,0.8145,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.stamp
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+50,51,2020-09-23 00:53:31,0.8932762205655654,0.7954,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.stamp
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    ans.stamp
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+51,52,2020-09-23 00:54:29,0.8884148581307838,0.8644,TimeLimitError: Program exceeded run time limit. on line 17,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.stamp
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    ans.stamp
+    ans.stamp
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    ans.stamp
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+52,53,2020-09-23 00:57:25,0.9333910925891061,0.8538,SyntaxError: bad input on line 16,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.stamp
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    ans.stamp
+    ans.color(""blue)
+    
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+53,54,2020-09-23 00:57:52,0.939779055415603,0.86,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.stamp
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    ans.stamp
+    ans.color(""blue"")
+    
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"
+54,55,2020-09-23 00:58:59,1.0,0.8775,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+ans = turtle.Turtle()
+ans.shape(""turtle"")
+ans.penup()
+for size in range(12):
+    ans.forward(150)
+    ans.stamp()
+    ans.forward(-150)
+    ans.stamp()
+    ans.right(40)
+    ans.stamp
+    ans.color(""blue"")
+    
+    
+    
+
+#for i in range(12):
+    #ans.forward(130)
+    #ans.left(140)
+    #ans.color(""blue"")
+    
+
+
+"

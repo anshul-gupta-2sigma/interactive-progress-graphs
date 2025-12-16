@@ -1,0 +1,651 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-16 03:41:48,0.8100054554977835,0.8336,IndentationError: unindent does not match any outer indentation level on line 6\n    print(sum)\n\n    ^\n,"N = int(input('EnterN'))
+S = input('EnterS')
+sum=0
+for number in range(0,N):
+        sum = sum +N
+    print(sum)
+"
+2,3,2019-09-16 03:43:31,0.8117165496265027,0.8351,ValueError: invalid literal for int() with base 10: 'None' on line 1,"N = int(input('EnterN'))
+S = input('EnterS')
+sum=0
+for number in range(0,N):
+    sum = sum + N
+    print(sum)
+"
+3,4,2019-09-16 03:44:06,0.8128609892046241,0.8417,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 5,"N = int(input('EnterN'))
+S = input('EnterS')
+sum=0
+for number in range(0,N):
+    sum = sum + S
+    print(sum)
+"
+4,5,2019-09-16 03:44:40,0.7745153714399472,0.8487,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum=0
+for number in range(0,N):
+    sum = sum + S
+    print(sum)
+"
+5,6,2019-09-16 03:44:53,0.7112806107528629,0.8415,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum=0
+for number in range(0,N):
+    sum = sum + str(S)
+    print(sum)
+"
+6,7,2019-09-16 03:45:31,0.7508166176637308,0.8337,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 6,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum=0
+for number in range(0,N):
+    
+    print(sum = sum + str(S))
+"
+7,8,2019-09-16 03:49:30,0.6711814247997342,0.8112,SyntaxError: bad input on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = 0
+for number in range(N):
+sum = sum + number
+print(""The total is"", sum)
+"
+8,9,2019-09-16 03:49:42,0.6896620706846449,0.808,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = 0
+for number in range(N):
+     sum = sum + number
+print(""The total is"", sum)
+"
+9,10,2019-09-16 03:50:02,0.6881104195879737,0.811,ValueError: invalid literal for int() with base 10: 'hh' on line 1,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = 0
+for number in range(S):
+     sum = sum + number
+print(""The total is"", sum)
+"
+10,11,2019-09-16 03:52:08,0.6570937546123798,0.8218,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = 0
+for number in range(N):
+     sum = sum + S+1
+print(""The total is"", sum)
+"
+11,12,2019-09-16 03:52:23,0.6491367150974303,0.8106,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = 0
+for number in range(N):
+     sum = sum + number +1
+print(""The total is"", sum)
+"
+12,13,2019-09-16 03:57:17,0.8692976471705898,0.8275,TypeError: unsupported operand type(s) for Add: '<native JS>' and 'int' on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(N):
+   sum = sum + i
+   print(S)
+"
+13,14,2019-09-16 03:57:47,0.8102079013935074,0.8374,SyntaxError: bad input on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = N
+for i in range(N):
+sum = sum + i
+   print(S)
+"
+14,15,2019-09-16 03:57:56,0.8081503556987414,0.8336,SyntaxError: bad input on line 5,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+sum = N
+for i in range(N):
+sum = sum + i
+   print(N)
+"
+15,16,2019-09-16 03:59:49,0.44235935988326747,0.7532,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+1): 
+          
+            # printing stars 
+            print(""* "",end="""") 
+       
+        # ending line after each row 
+        print("""") "
+16,17,2019-09-16 04:00:05,0.4895802285554708,0.7737,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+17,18,2019-09-16 04:00:23,0.48906181067185583,0.7748,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+2): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+18,19,2019-09-16 04:00:33,0.4895802285554708,0.7737,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+19,20,2019-09-16 04:00:44,0.4920693189243527,0.7665,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(1, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+20,21,2019-09-16 04:00:57,0.44400459343535714,0.7701,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N-1): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+21,22,2019-09-16 04:01:09,0.4445166066998085,0.7729,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N-1): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+2): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+22,23,2019-09-16 04:01:23,0.44041140334862783,0.779,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N-3): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+3): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+23,24,2019-09-16 04:01:37,0.4433390461244493,0.7721,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0-1, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+24,25,2019-09-16 04:01:48,0.4926981637607476,0.7673,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(1, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+25,26,2019-09-16 04:02:18,0.48906181067185583,0.7748,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+2): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+26,27,2019-09-16 04:02:46,0.6340129376865613,0.8112,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+2): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        #print("""") "
+27,28,2019-09-16 04:02:57,0.48906181067185583,0.7748,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(0, i+2): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+28,29,2019-09-16 04:04:56,0.5686751636942092,0.7827,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(1,6):
+    for j in range(i):
+        print(""*"", end="" "")
+    print()"
+29,30,2019-09-16 04:05:11,0.5724293598762924,0.7896,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(1,N):
+    for j in range(i):
+        print(""*"", end="" "")
+    print()"
+30,31,2019-09-16 04:05:27,0.5324425806047648,0.7759,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(1,N):
+    for j in range(i+1):
+        print(""*"", end="" "")
+    print()"
+31,32,2019-09-16 04:06:11,0.6157822748869022,0.8047,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(1,N):
+    for j in range(i):
+        print(S, end="" "")
+    print()"
+32,33,2019-09-16 04:06:20,0.6132284391086593,0.8114,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0,N):
+    for j in range(i):
+        print(S, end="" "")
+    print()"
+33,34,2019-09-16 04:06:47,0.7316425350570908,0.8098,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+for i in range(0,N):
+    for j in range(i):
+        print(S)
+    print()"
+34,35,2019-09-16 04:07:33,0.5938348453827915,0.8043,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+for i in range(0,N):
+    for j in range(i):
+        print(S, end="" "")
+    "
+35,36,2019-09-16 04:07:45,0.5733796042327056,0.8011,SyntaxError: bad input on line 9,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0,N):
+    for j in range(i):
+print(S, end="" "")
+    "
+36,37,2019-09-16 04:07:50,0.5716468079394675,0.8045,SyntaxError: bad input on line 9,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0,N):
+    for j in range(i):
+    print(S, end="" "")
+    "
+37,38,2019-09-16 04:07:55,0.5938348453827915,0.8043,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0,N):
+    for j in range(i):
+         print(S, end="" "")
+    "
+38,39,2019-09-16 04:08:12,0.5521560023795082,0.7951,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0,N):
+    for j in range(i+1):
+         print(S, end="" "")
+    "
+39,40,2019-09-16 04:08:25,0.3991453128350624,0.7489,SyntaxError: bad input on line 10,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0,N):
+    for j in range(i+1):
+         print(S, end="" "")
+            print("""") 
+    "
+40,41,2019-09-16 04:08:50,0.3991453128350624,0.7489,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0,N):
+    for j in range(i+1):
+         print(S, end="" "")
+print("""") 
+    "
+41,42,2019-09-16 04:09:41,0.32200372356220563,0.6972,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(""Nd"")
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(1, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+42,43,2019-09-16 04:10:09,0.3793640912829237,0.7435,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(1, i+1): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+43,44,2019-09-16 04:10:17,0.3801696070350393,0.746,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+print(S)
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(1, i+2): 
+          
+            # printing stars 
+            print(S,end="""") 
+       
+        # ending line after each row 
+        print("""") "
+44,45,2019-09-16 04:12:34,0.5787559495072343,0.765,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(1, i+2): 
+          
+            # printing stars 
+            print(S) 
+       
+        # ending line after each row 
+        print("""") "
+45,46,2019-09-16 04:12:48,0.7242538551543696,0.8025,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+        for j in range(1, i+2): 
+          
+            
+            print(S) 
+       
+     "
+46,47,2019-09-16 04:13:09,0.8656855416910778,0.8053,success,"N = int(input('EnterN'))
+S = str(input('EnterS'))
+
+
+for i in range(0, N): 
+      
+        # inner loop to handle number of columns 
+        # values changing acc. to outer loop 
+         
+          
+            
+            print(S) 
+       
+     "
+47,48,2019-09-17 14:58:24,0.6590660327054458,0.7924,SyntaxError: bad input on line 4,"olx = 0
+N = 4
+S = ""A""
+ for N in range(N+1) 
+    print(S * (2*N))
+"
+48,49,2019-09-17 14:59:34,0.6590660327054458,0.7924,SyntaxError: bad input on line 5,"olx = 0
+N = 4
+S = ""A""
+
+for N in range(N+1) 
+    print(S * (2*N))
+"
+49,50,2019-09-17 15:00:27,0.932002657631415,0.8101,SyntaxError: bad input on line 8,"
+
+
+N = int(input('EnterN'))
+S = input('EnterS')
+    
+
+for N in range(N+1) 
+    print(S * (2*N))
+"
+50,51,2019-09-17 15:00:40,0.932002657631415,0.8101,SyntaxError: bad input on line 8,"
+
+
+N = int(input('EnterN'))
+S = input('EnterS')
+    
+
+for N in range(N+1) 
+       print(S * (2*N))
+"
+51,52,2019-09-17 15:00:45,1.0,0.7926,success,"
+
+
+N = int(input('EnterN'))
+S = input('EnterS')
+    
+
+for N in range(N+1):
+       print(S * (2*N))
+"
+52,53,2019-09-17 15:00:59,0.9717286601904033,0.8021,success,"
+
+
+N = int(input('EnterN'))
+S = input('EnterS')
+    
+
+for N in range(N-1):
+       print(S * (2*N))
+"
+53,54,2019-09-17 15:01:08,0.9662042519996231,0.8179,success,"
+
+
+N = int(input('EnterN'))
+S = input('EnterS')
+    
+
+for N in range(N):
+       print(S * (2*N+1))
+"
+54,55,2019-09-20 00:27:50,0.9285593990187517,0.8185,success,"
+
+
+N = int(input('EnterN'))
+S = input('Enter Symbol')
+    
+
+for N in range(N):
+       print(S * (2*N+1))
+"
+55,56,2019-09-24 04:38:10,0.75889618497584,0.8559,IndentationError: unindent does not match any outer indentation level on line 7\n print(sum)\n\n ^\n,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(N):
+    sum = sum +S
+   
+ print(sum)"
+56,57,2019-09-24 04:41:06,0.75889618497584,0.8559,ValueError: invalid literal for int() with base 10: 'A' on line 1,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(N):
+    sum = sum +S
+    
+print(sum)
+   "
+57,58,2019-09-24 04:41:40,0.7608299564317293,0.8571,success,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(N):
+    sum = sum +S
+    
+    print(sum)
+   "
+58,59,2019-09-24 04:41:51,0.7417998950998155,0.8552,TypeError: unsupported operand type(s) for Sub: 'str' and 'str' on line 3,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S-S
+for i in range(N):
+    sum = sum +S
+    
+    print(sum)
+   "
+59,60,2019-09-24 04:42:01,0.7561497078607559,0.8589,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 5,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=0
+for i in range(N):
+    sum = sum +S
+    
+    print(sum)
+   "
+60,61,2019-09-24 04:42:12,0.7436153035471929,0.8535,success,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(N-1):
+    sum = sum +S
+    
+    print(sum)
+   "
+61,62,2019-09-24 04:42:37,0.74042931663696,0.8622,TypeError: unsupported operand type(s) for Sub: 'str' and 'int' on line 5,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(N):
+    sum = sum +S-1
+    
+    print(sum)
+   "
+62,63,2019-09-24 04:43:04,0.7114603923653338,0.8553,success,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(0,N,2):
+    sum = sum +S
+    
+    print(sum)
+   "
+63,64,2019-09-24 04:43:13,0.7117958398243824,0.8472,success,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(0,N,1):
+    sum = sum +S
+    
+    print(sum)
+   "
+64,65,2019-09-24 04:43:22,0.6963239771513994,0.8494,success,"N = int(input(""enterN""))
+S = str(input(""enterS""))
+sum=S
+for i in range(0,N,-1):
+    sum = sum +S
+    
+    print(sum)
+   "
+65,66,2019-09-24 04:43:54,1.0,0.7926,success,"
+
+
+N = int(input('EnterN'))
+S = input('EnterS')
+    
+
+for N in range(N+1):
+       print(S * (2*N))
+"

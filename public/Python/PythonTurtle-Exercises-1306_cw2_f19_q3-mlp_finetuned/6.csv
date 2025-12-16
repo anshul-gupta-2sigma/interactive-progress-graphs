@@ -1,0 +1,58 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:38:40,0.20124406960448982,0.3259,SyntaxError: bad input on line 3,"# Write your program here
+start = 0
+for start in range(0, start + 1)"
+2,3,2019-09-12 15:43:20,0.27635403754369203,0.4237,SyntaxError: bad input on line 4,"# Write your program here
+start = 0
+N = start + 1
+for start in range(0, start + 1)"
+3,4,2019-09-12 15:48:32,0.2702863300098578,0.4069,SyntaxError: bad input on line 4,"# Write your program here
+start = N + 1
+int = N 
+for start in range(0, start + 1)"
+4,5,2019-09-12 15:57:19,0.20436030668682625,0.3678,success,"# Write your program here
+N = 0 
+start = N + 1
+range(start + 1)"
+5,6,2019-09-12 15:57:29,0.2214948771417916,0.3874,success,"# Write your program here
+N = 0 
+start = N + 1
+range(start + 1)
+print"
+6,7,2019-09-12 16:00:32,0.29972154859938627,0.4528,success,"# Write your program here
+N = int(input(""How many numbers to average?"")) 
+start = N + 1
+print"
+7,8,2019-09-12 16:06:30,0.9560461124079797,0.9181,success,"# Write your program here
+N = int(input(""What is the value of N?"")) 
+start = int(input(""What is the value of start?""))
+average = 0
+for i in range(N):
+    average = (start + i)
+average = average / N
+print(""result:"" , average)"
+8,9,2019-09-12 16:17:09,0.964827437845902,0.9284,success,"# Write your program here
+N = int(input(""What is the value of N?"")) 
+start = int(input(""What is the value of start?""))
+average = 0
+for i in range(N-1):
+    average = (start + i)
+average = average / N
+print(""result:"" , average)"
+9,10,2019-09-12 16:23:53,0.9560461124082129,0.9181,success,"# Write your program here
+N = int(input(""What is the value of N?"")) 
+start = int(input(""What is the value of start?""))
+average = 0
+for i in range(N):
+    average = (start + i)
+average = average / N
+print(""result:"" , average)"
+10,11,2019-09-12 20:47:29,1.0,0.9307,success,"# Write your program here
+N = int(input(""What is the value of N?"")) 
+start = int(input(""What is the value of start?""))
+average = 0
+for i in range(N):
+    average = (start + i + average)
+average = average / N
+print(""result:"" , average)"

@@ -1,0 +1,1230 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-02-07 14:48:49,0.6919169596068508,0.8582,SyntaxError: bad input on line 5,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+def fiveStar()
+    for c in range(1,5)
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar()
+"
+2,3,2020-02-07 14:50:21,0.6972257110921014,0.8555,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+def fiveStar():
+    for c in range(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar()
+"
+3,4,2020-02-07 14:50:41,0.7086896501639242,0.8608,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.goto(-200,0)
+def fiveStar():
+    for c in range(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar()
+"
+4,5,2020-02-07 14:51:06,0.7131609109735579,0.8762,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-200,0)
+bob.pendown()
+def fiveStar():
+    for c in range(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar()
+"
+5,6,2020-02-07 14:51:16,0.7097853652373166,0.8854,TypeError: fiveStar() takes exactly 0 arguments (1 given) on line 18,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-200,0)
+bob.pendown()
+def fiveStar():
+    for c in range(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(5)
+"
+6,7,2020-02-07 14:51:22,0.6503410537270449,0.8441,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-200,0)
+bob.pendown()
+def fiveStar(d):
+    for c in range(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(5)
+"
+7,8,2020-02-07 14:51:47,0.6765976076696254,0.8858,TypeError: fiveStar() takes exactly 0 arguments (1 given) on line 18,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-200,0)
+bob.pendown()
+def fiveStar():
+    for c in fiveStar(d):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(5)
+"
+8,9,2020-02-07 14:51:52,0.6481615953617952,0.8508,ExternalError: RangeError: Maximum call stack size exceeded on line 9,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-200,0)
+bob.pendown()
+def fiveStar(d):
+    for c in fiveStar(d):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(5)
+"
+9,10,2020-02-07 14:52:03,0.6465900851707823,0.8483,ExternalError: RangeError: Maximum call stack size exceeded on line 9,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+def fiveStar(d):
+    for c in fiveStar(d):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(5)
+"
+10,11,2020-02-07 14:52:56,0.6180706350310874,0.8245,ExternalError: RangeError: Maximum call stack size exceeded on line 9,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+def fiveStar(d,e):
+    for c in fiveStar(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(1,5)
+"
+11,12,2020-02-07 14:53:28,0.7149976864789955,0.8843,SyntaxError: bad input on line 9,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+fiveStar = str(fiveStar)
+    for c in fiveStar(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(1,5)
+"
+12,13,2020-02-07 14:53:34,0.7315617933796804,0.8979,SyntaxError: bad input on line 9,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+fiveStar = int(fiveStar)
+    for c in fiveStar(1,5):
+        def drawStar(a,b):
+            for i in range(1,6):
+              bob.forward(a)
+              bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(1,5)
+"
+13,14,2020-02-07 14:54:19,0.7045411944554298,0.8767,NameError: name 'fiveStar' is not defined on line 8,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+for c in fiveStar(1,5):
+    def drawStar(a,b):
+        for i in range(1,6):
+           bob.forward(a)
+           bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+fiveStar(1,5)
+"
+14,15,2020-02-07 14:54:33,0.8534719406056136,0.8487,SyntaxError: bad input on line 8,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+    def drawStar(a,b):
+        for i in range(1,6):
+           bob.forward(a)
+           bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+
+"
+15,16,2020-02-07 14:54:43,0.846150478132689,0.8496,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+def drawStar(a,b):
+    for i in range(1,6):
+           bob.forward(a)
+           bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+
+"
+16,17,2020-02-07 14:54:50,0.8463900432846625,0.8452,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+def drawStar(a,b):
+    for i in range(1,6):
+        bob.forward(a)
+        bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(350)
+    bob.right(144)
+
+"
+17,18,2020-02-07 14:55:11,0.8483680807488316,0.8324,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+def drawStar(a,b):
+    for i in range(1,6):
+        bob.forward(a)
+        bob.left(b)
+drawStar(100,216)
+bob.penup()
+bob.forward(350)
+bob.right(144)
+
+"
+18,19,2020-02-07 14:55:28,0.8455563567979091,0.8392,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-100,0)
+bob.pendown()
+def drawStar(a,b):
+    for i in range(1,6):
+        bob.forward(a)
+        bob.left(b)
+drawStar(100,216)
+bob.penup()
+bob.forward(35)
+bob.right(14)
+
+"
+19,20,2020-02-07 14:55:43,0.8489999255676393,0.8467,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+def drawStar(a,b):
+    for i in range(1,6):
+        bob.forward(a)
+        bob.left(b)
+drawStar(100,216)
+bob.penup()
+bob.forward(100)
+bob.right(50)
+
+"
+20,21,2020-02-07 14:56:09,0.9306257523717494,0.8511,SyntaxError: bad input on line 8,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(5)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6)
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(100)
+    bob.right(50)
+
+"
+21,22,2020-02-07 14:56:31,0.9394423778230403,0.832,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed()
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(100)
+    bob.right(50)
+    bob.pendown()
+
+"
+22,23,2020-02-07 14:56:58,0.9507692865736065,0.8308,TimeLimitError: Program exceeded run time limit. on line 11,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(100)
+    bob.right(50)
+    bob.pendown()
+
+"
+23,24,2020-02-07 14:57:15,0.9494265366940516,0.8302,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(100)
+    bob.left(50)
+    bob.pendown()
+
+"
+24,25,2020-02-07 14:58:00,0.9497938027977788,0.8332,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.right(50)
+    bob.penup()
+    bob.forward(100)
+    bob.left(50)
+    bob.pendown()
+
+"
+25,26,2020-02-07 16:17:31,0.9395646374006431,0.8227,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+
+"
+26,27,2020-02-07 16:20:02,0.9389195615247199,0.8342,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+bob.penup()
+bob.forward(100)
+
+    
+
+"
+27,28,2020-02-07 16:20:12,0.9391511314024463,0.8316,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(100)
+
+
+    
+
+"
+28,29,2020-02-07 16:20:30,0.9494265366940516,0.8302,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(100)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+29,30,2020-02-07 16:20:37,0.9497978615784584,0.8301,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+30,31,2020-02-07 16:21:09,0.93673424881537,0.83,TimeLimitError: Program exceeded run time limit. on line 11,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(3)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.right(b)
+    drawStar(100,72)
+    bob.penup()
+    bob.forward(200)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+31,32,2020-02-07 16:21:42,0.9389440838338549,0.8393,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(10)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.rt(b)
+    drawStar(100,72)
+    bob.penup()
+    bob.forward(200)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+32,33,2020-02-07 16:21:55,0.9349257725127779,0.8399,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(10)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,)
+    bob.penup()
+    bob.forward(200)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+33,34,2020-02-07 16:22:11,0.9464655137896433,0.8376,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(10)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.right(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+34,35,2020-02-07 16:24:21,0.9464184161612985,0.8388,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(10)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.left(50)
+    bob.pendown()
+
+
+    
+
+"
+35,36,2020-02-07 16:24:38,0.9399485632707582,0.8413,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(10)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+36,37,2020-02-07 16:24:57,0.9452690892140665,0.8452,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(10)
+bob.penup()
+bob.goto(-150,50)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+37,38,2020-02-07 16:28:03,0.9448231372824293,0.8424,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(1)
+bob.penup()
+bob.goto(150,-20)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+38,39,2020-02-07 16:28:37,0.9478153623279689,0.839,TimeLimitError: Program exceeded run time limit. on line 11,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(150,-20)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+39,40,2020-02-07 16:28:50,0.9606462532360383,0.8354,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(100,-50)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+40,41,2020-02-07 16:28:57,0.9537212456604609,0.8371,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(75,-50)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+41,42,2020-02-07 16:29:04,0.9589442003767932,0.838,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,-75)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+42,43,2020-02-07 16:29:11,0.936453070488597,0.8326,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(25,-75)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.forward(200)
+    bob.pendown()
+
+
+    
+
+"
+43,44,2020-02-07 16:31:11,0.930262700451455,0.8301,SyntaxError: EOF in multi-line statement on line 22\n\n^\n,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(25,-75)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.left(
+    bob.pendown()
+
+
+    
+
+"
+44,45,2020-02-07 16:31:26,0.933579643167911,0.8305,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(25,-75)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.left(72)
+    bob.pendown()
+
+
+    
+
+"
+45,46,2020-02-07 16:31:40,0.9431005173274648,0.831,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(25,-75)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.left(72)
+    bob.forward(50)
+    bob.pendown()
+
+
+    
+
+"
+46,47,2020-02-07 16:33:20,0.9531082874940583,0.8321,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(-150,0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(50)
+    bob.pendown()
+
+
+    
+
+"
+47,48,2020-02-07 16:33:40,0.963286409784745,0.835,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,-25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(50)
+    bob.pendown()
+
+
+    
+
+"
+48,49,2020-02-07 16:33:47,0.9627873273275465,0.8346,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,-25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+49,50,2020-02-07 16:34:00,0.9721505774256357,0.8346,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,-0)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+50,51,2020-02-07 16:34:04,0.9738996395064131,0.8372,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+51,52,2020-02-07 16:34:16,0.9708593513048303,0.8383,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(65)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+52,53,2020-02-07 16:34:22,0.9727035083569546,0.8384,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(80)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+53,54,2020-02-07 16:34:27,0.9697353540876742,0.8379,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(75)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+54,55,2020-02-07 16:34:31,0.9738996395064131,0.8372,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+55,56,2020-02-26 14:51:54,0.9721377312047091,0.8368,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(104)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+56,57,2020-02-26 14:55:05,0.9738996395064131,0.8372,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+57,58,2020-02-26 14:55:19,0.9721972609481652,0.8375,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(60)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+58,59,2020-02-26 14:55:29,0.9727035083569546,0.8384,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(80)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+59,60,2020-02-26 14:55:37,0.9724034447622185,0.8377,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(73)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+60,61,2020-02-26 14:55:45,0.9722520313807147,0.8367,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,25)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(74)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"
+61,62,2020-02-26 14:56:03,0.9999999646150853,0.8376,success,"import turtle 
+wn = turtle.Screen()
+bob = turtle.Turtle()
+bob.speed(0)
+bob.penup()
+bob.goto(50,50)
+bob.pendown()
+for i in range(1,6):
+    def drawStar(a,b):
+        for i in range(1,6):
+            bob.forward(a)
+            bob.left(b)
+    drawStar(100,216)
+    bob.penup()
+    bob.right(72)
+    bob.forward(100)
+    bob.pendown()
+
+
+    
+
+"

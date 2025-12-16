@@ -1,0 +1,80 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0025,, 
+1,2,2020-01-21 01:32:51,0.6736292252368288,0.7289,success,"#AnonFirstName AnonLastName
+#Problem 7
+import turtle
+crush = turtle.Turtle()
+crush.stamp()
+crush.penup()
+
+for number in range(12):
+    crush.forward(80)
+    crush.pendown()
+    crush.forward(10)
+    crush.penup()
+    crush.forward(10)
+    crush.backward(100)"
+2,3,2020-01-21 01:53:29,0.8545625692681064,0.7998,NameError: name 'wn' is not defined on line 3,"import turtle             #AnonFirstName AnonLastName Problem 7
+crush = turtle.Turtle()
+wn.bgcolor(""green"")
+crush.shape(""turtle"")
+crush.color(""blue"")
+crush.stamp()
+crush.penup()
+for number in range(12):
+    crush.forward(80)
+    crush.pendown()
+    crush.forward(10)
+    crush.penup()
+    crush.forward(10)
+    crush.backward(100)
+    crush.left(30)"
+3,4,2020-01-21 01:53:48,0.8521762992010584,0.7495,AttributeError: 'module' object has no attribute 'wn' on line 3,"import turtle             #AnonFirstName AnonLastName Problem 7
+crush = turtle.Turtle()
+turtle.wn()
+wn.bgcolor(""green"")
+crush.shape(""turtle"")
+crush.color(""blue"")
+crush.stamp()
+crush.penup()
+for number in range(12):
+    crush.forward(80)
+    crush.pendown()
+    crush.forward(10)
+    crush.penup()
+    crush.forward(10)
+    crush.backward(100)
+    crush.left(30)"
+4,5,2020-01-21 01:54:32,0.9547573288520771,0.8736,success,"import turtle             #AnonFirstName AnonLastName Problem 7
+crush = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgcolor(""green"")
+crush.shape(""turtle"")
+crush.color(""blue"")
+crush.stamp()
+crush.penup()
+for number in range(12):
+    crush.forward(80)
+    crush.pendown()
+    crush.forward(10)
+    crush.penup()
+    crush.forward(10)
+    crush.backward(100)
+    crush.left(30)"
+5,6,2020-01-21 01:55:07,0.9999999923879807,0.8964,success,"import turtle             #AnonFirstName AnonLastName Problem 7
+crush = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+crush.shape(""turtle"")
+crush.color(""blue"")
+crush.stamp()
+crush.penup()
+for number in range(12):
+    crush.forward(80)
+    crush.pendown()
+    crush.forward(10)
+    crush.penup()
+    crush.forward(10)
+    crush.stamp()
+    crush.backward(100)
+    crush.left(30)"

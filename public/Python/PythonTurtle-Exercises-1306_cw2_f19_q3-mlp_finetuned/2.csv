@@ -1,0 +1,345 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:26:13,0.1763489483117464,0.3797,SyntaxError: bad token on line 3,"# Write your program here
+user_input - N 
+print ï¼Nï¼"
+2,3,2019-09-12 15:27:07,0.12206002296724539,0.3315,NameError: name 'user_input' is not defined on line 2,"# Write your program here
+user_input - N 
+prin(""N"")"
+3,4,2019-09-12 15:27:26,0.13866790555132957,0.3284,NameError: name 'user_input' is not defined on line 2,"# Write your program here
+user_input - N 
+prin(""user_input"")"
+4,5,2019-09-12 15:27:37,0.15313288938852854,0.3451,SyntaxError: bad input on line 2,"# Write your program here
+def user_input - N 
+prin(""user_input"")"
+5,6,2019-09-12 15:30:30,0.13278804989166348,0.3585,NameError: name 'user_input' is not defined on line 2,"# Write your program here
+N = user_input
+print(""N"")"
+6,7,2019-09-12 15:31:15,0.1737080999208317,0.4012,NameError: name 'user_input' is not defined on line 2,"# Write your program here
+N = input(user_input)
+print(""N"")"
+7,8,2019-09-12 15:31:45,0.1137911989231849,0.3404,success,"# Write your program here
+N = input
+print(""N"")"
+8,9,2019-09-12 15:32:09,0.19714105233793489,0.4237,success,"# Write your program here
+N = input(""user_input"")
+print(""N"")"
+9,10,2019-09-12 15:39:00,0.5197146343411485,0.5575,success,"# Write your program here
+N = input(""Please print an interger:"")
+Start = input(""Please reprit an interger:"")
+M = ""(Start+Start+1+Start+2+...+Start+N-1)/N-1"""
+10,11,2019-09-12 15:39:23,0.5728162732307756,0.5825,NameError: name 'Print' is not defined on line 5,"# Write your program here
+N = input(""Please print an interger:"")
+Start = input(""Please reprit an interger:"")
+M = ""(Start+Start+1+Start+2+...+Start+N-1)/N-1""
+Print(M)"
+11,12,2019-09-12 15:39:45,0.5851875068656287,0.5889,success,"# Write your program here
+N = input(""Please print an interger:"")
+Start = input(""Please reprit an interger:"")
+M = ""(Start+Start+1+Start+2+...+Start+N-1)/N-1""
+print(""M"")"
+12,13,2019-09-12 15:40:26,0.6603180259223165,0.6422,success,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+M = ""int((Start+Start+1+Start+2+...+Start+N-1)/N-1)""
+print(""M"")"
+13,14,2019-09-12 15:40:40,0.6817723258524984,0.6591,success,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+M = (""int((Start+Start+1+Start+2+...+Start+N-1)/N-1)"")
+print(""M"")"
+14,15,2019-09-12 15:53:58,0.7247784887102087,0.646,IndentationError: unindent does not match any outer indentation level on line 6\n print(average_of_number)\n\n ^\n,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+for i in range(N):
+    average_of_number = (Start+N)/N
+ print(average_of_number)"
+15,16,2019-09-12 15:54:24,0.7247784887102087,0.646,IndentationError: unindent does not match any outer indentation level on line 6\n print(average_of_number)\n\n ^\n,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+for i in range(N):
+        average_of_number = (Start+N)/N
+ print(average_of_number)"
+16,17,2019-09-12 15:55:10,0.7247784887102087,0.646,success,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+for i in range(N):
+       average_of_number = (Start+N)/N
+print(average_of_number)"
+17,18,2019-09-12 15:55:24,0.7247784887102087,0.646,success,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+for i in range(N):
+      average_of_number = (Start+N)/N
+print(average_of_number)"
+18,19,2019-09-12 15:55:32,0.7247784887102087,0.646,success,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+for i in range(N):
+    average_of_number = (Start+N)/N
+print(average_of_number)"
+19,20,2019-09-12 16:03:57,0.7582187381605738,0.7126,SyntaxError: bad input on line 4,"# Write your program here
+N = int(input(""Please print an interger:""))
+Start = int(input(""Please reprit an interger:""))
+for (int Start = 1; Start <= N; Start++)
+    result += sum of dights(Start)/(N-1);
+
+return result
+    "
+20,21,2019-09-12 22:49:04,0.6086400106819538,0.5806,SyntaxError: bad input on line 2,"# Write your program here
+N = int 10
+Start=int 0
+input(""Please print an integer"")
+      input(""Please reprit an interger:"")
+for (int j = 1; j <= N; j++)
+    Start=Start+j;
+
+return Start
+    "
+21,22,2019-09-12 23:04:25,0.10442654314620348,0.2894,SyntaxError: bad input on line 2,"# Write your program here
+int N = 10
+int Start=0
+input(""Please print an integer"")
+      input(""Please reprit an interger:"")
+for (int j = 1; j <= N; j++)
+    Start=Start+j;
+
+return Start
+    "
+22,23,2019-09-12 23:05:05,0.5906428583150437,0.5915,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+input(""Please print an integer"")
+      input(""Please reprit an interger:"")
+for (int j = 1; j <= N; j++)
+    Start=Start+j;
+
+return Start
+    "
+23,24,2019-09-12 23:05:16,0.36049284475035215,0.4429,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for (int j = 1; j <= N; j++)
+    Start=Start+j;
+
+return Start
+    "
+24,25,2019-09-12 23:05:31,0.34562158317647595,0.4447,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for (int j = 1; j <= N; j++)
+    Start=Start+j;
+
+ Start
+    "
+25,26,2019-09-12 23:05:46,0.3929741884549576,0.4723,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for (int j = 1; j <= N; j++)
+    Start=Start+j;
+
+ print(Start)
+    "
+26,27,2019-09-12 23:09:23,0.37166440736000894,0.4716,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for i in range(0,N)
+    Start=Start+i;
+    i++
+
+ print(Start)
+    "
+27,28,2019-09-12 23:10:16,0.3692099492637527,0.4705,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for i in range(0,10)
+    Start=Start+i;
+    i++
+
+ print(Start)
+    "
+28,29,2019-09-12 23:10:21,0.1721794694177402,0.3836,SyntaxError: bad input on line 3,"# Write your program here
+
+for i in range(0,10)
+    Start=Start+i;
+    i++
+
+ print(Start)
+    "
+29,30,2019-09-12 23:10:44,0.35036621902294407,0.4599,SyntaxError: bad input on line 5,"# Write your program here
+Start=0
+for i in range(0,10):
+    Start=Start+i;
+    i++
+
+ print(Start)
+    "
+30,31,2019-09-12 23:24:28,0.3379958840888314,0.4296,SyntaxError: bad input on line 4,"# Write your program here
+N=0
+result=0
+while(N<=10)
+    result=result+N;
+    N-=1;
+print(result)
+    "
+31,32,2019-09-12 23:31:43,0.3936649824181445,0.4715,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for ( j = 1; j <= N; j++):
+    Start=Start+j;
+
+ print(Start)
+    "
+32,33,2019-09-12 23:33:04,0.3936649824181445,0.4715,SyntaxError: bad input on line 5,"# Write your program here
+N = 10
+Start=0
+
+for (j = 1; j <= N; j++):
+    Start=Start+j;
+
+ print(Start)
+    "
+33,34,2019-09-12 23:35:29,0.6235131662383082,0.7085,SyntaxError: bad input on line 2,"# Write your program here
+N = int(input""Please print an integer"")
+Start = int(input""Please reprint an integer"")
+for (j = 1; j <= N; j++):
+    Start=Start+j;
+
+ print(Start)
+    "
+34,35,2019-09-12 23:36:01,0.6761954499316939,0.7658,SyntaxError: bad input on line 4,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer""))
+for (j = 1; j <= N; j++):
+    Start=Start+j;
+
+ print(Start)
+    "
+35,36,2019-09-12 23:36:41,0.6353558176787577,0.7095,IndentationError: unindent does not match any outer indentation level on line 7\n print(Start)\n\n ^\n,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer""))
+for i in range(0,N):
+    Start=Start+i;
+
+ print(Start)
+    "
+36,37,2019-09-12 23:37:00,0.5743424617646699,0.6555,success,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer""))
+for i in range(0,N):
+    Start=Start+i;
+
+ 
+    "
+37,38,2019-09-12 23:37:22,0.6353558176787577,0.7095,success,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer""))
+for i in range(0,N):
+    Start=Start+i;
+print(Start)
+ 
+    "
+38,39,2019-09-12 23:39:35,0.6888923586218016,0.7259,success,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer less than N""))
+for i in range(0,N+1):
+    Start=Start+i;
+print(Start)
+ 
+    "
+39,40,2019-09-12 23:40:32,0.7551180122775437,0.7745,success,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer less than N""))
+for i in range(0,N+1):
+    Start=Start+i;
+Avg=Start/N
+print(Avg)
+ 
+    "
+40,41,2019-09-12 23:42:11,0.7336409164250106,0.749,success,"# Write your program here
+N = int(input(""Please print an integer""))
+Start = int(input(""Please reprint an integer less than N""))
+for i in range(0,N):
+    Start=Start+i;
+Avg=Start/N
+print(Avg)
+ 
+    "
+41,42,2019-09-12 23:43:38,0.7653446346117688,0.7698,success,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint an integer less than N""))
+for i in range(0,N-1):
+    Start=Start+i;
+Avg=Start/N
+print(Avg)
+ 
+    "
+42,43,2019-09-12 23:43:48,0.7443065799684103,0.7551,ValueError: invalid literal for int() with base 10: 'None' on line 2,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint an integer less than N""))
+for i in range(0,N):
+    Start=Start+i;
+Avg=Start/N
+print(Avg)
+ 
+    "
+43,44,2019-09-12 23:46:26,0.8286029440173821,0.8059,NameError: name 'n' is not defined on line 5,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint an integer less than N""))
+for i in range(0,N):
+    n=n+i;
+result=N*Start+n
+Avg=result/N
+print(Avg)
+ 
+    "
+44,45,2019-09-12 23:47:55,0.8713728512089273,0.8394,success,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint an integer less than N""))
+sum=0
+for i in range(0,N):
+    sum=i+sum;
+result=N*Start+sum
+Avg=result/N
+print(Avg)
+ 
+    "
+45,46,2019-10-10 15:44:06,0.8719165845326164,0.8473,success,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint an integer less than N""))
+sum=0
+for i in range(1,N):
+    sum=i+sum;
+result=N*Start+sum
+Avg=result/N
+print(Avg)
+ 
+    "
+46,47,2019-10-10 16:02:11,0.8736447100880407,0.8373,success,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint your start num""))
+sum=0
+for i in range(1,N):
+    sum=i+sum;
+result=N*Start+sum
+Avg=result/N
+print(Avg)
+ 
+    "
+47,48,2019-10-10 16:02:58,0.9999999095982769,0.8036,success,"# Write your program here
+N = int(input(""Please print an integer N""))
+Start = int(input(""Please reprint your start num""))
+sum=0
+for i in range(1,N):
+    sum=i+sum;
+result=N*Start+sum
+Avg=result/N
+print('The average of the numbers is:',Avg)
+ 
+    "

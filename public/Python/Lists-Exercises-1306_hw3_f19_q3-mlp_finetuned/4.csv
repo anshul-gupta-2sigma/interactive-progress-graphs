@@ -1,0 +1,1024 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0039,, 
+1,2,2019-10-30 05:11:13,0.989510108424144,0.826,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+2,3,2019-10-30 05:12:56,0.989510108424144,0.826,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+3,4,2019-10-30 05:14:27,0.9812506895916617,0.8114,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] * 2)
+        if inplace:
+            inlist[i] *= 2
+    return result
+
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+4,5,2019-10-30 05:16:09,0.9557587932137789,0.8533,success,"
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+
+
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+5,6,2019-10-30 05:16:19,0.989510108424144,0.826,success,"def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+
+
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+
+
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+6,7,2019-10-30 06:22:27,0.9900400804393018,0.8326,success,"def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+7,8,2019-10-30 06:23:13,0.989510108424144,0.826,NameError: name 'mylist' is not defined on line 15,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+    mylist = []
+    n = int(input(""Enter number of elements in the List : ""))
+    for i in range(0, n):
+       num = int(input(""Num ""+str(i+1)))
+       mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+8,9,2019-10-30 06:23:28,0.989510108424144,0.826,SyntaxError: bad input on line 10,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+    n = int(input(""Enter number of elements in the List : ""))
+    for i in range(0, n):
+       num = int(input(""Num ""+str(i+1)))
+       mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+9,10,2019-10-30 06:23:43,0.989510108424144,0.826,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+10,11,2019-11-03 16:06:27,0.9781171696893629,0.8373,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1.5
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+11,12,2019-11-04 21:06:00,0.9927623158279707,0.8293,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+12,13,2019-11-04 21:09:23,0.9900400804393018,0.8326,ValueError: invalid literal for int() with base 10: 'None' on line 12,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+13,14,2019-11-04 21:11:19,0.9927623158279707,0.8293,ValueError: invalid literal for int() with base 10: 'None' on line 10,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+14,15,2019-11-04 21:11:25,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+15,16,2019-11-04 21:12:07,0.9940971409660053,0.8189,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+    if inplace:
+        inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+16,17,2019-11-04 21:12:21,0.9882020879994976,0.8211,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+    if inplace:
+        inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+17,18,2019-11-04 21:12:30,0.9905082895407454,0.8244,ValueError: invalid literal for int() with base 10: '' on line 12,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+    if inplace:
+        inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+18,19,2019-11-04 21:12:48,0.8993908733566301,0.8606,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    if inplace:
+        inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+19,20,2019-11-04 21:12:56,0.8995813359826857,0.8581,ValueError: invalid literal for int() with base 10: 'None' on line 12,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+    if inplace:
+        inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+20,21,2019-11-04 21:13:03,0.8993516530458402,0.8595,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    if inplace:
+        inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+21,22,2019-11-04 21:13:23,0.8981258254674157,0.8657,UnboundLocalError: local variable 'i' referenced before assignment on line 5,"
+def SmartSquare(inlist, inplace):
+    result = []
+    if inplace:
+        inlist[i] **= 1
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+22,23,2019-11-04 21:13:39,0.8997229843190481,0.8597,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 2
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+23,24,2019-11-04 21:13:52,0.8996051190107822,0.8623,ValueError: invalid literal for int() with base 10: '' on line 14,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+24,25,2019-11-04 21:14:16,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+25,26,2019-11-04 21:14:55,0.9927623158279707,0.8293,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+26,27,2019-11-04 21:15:09,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+27,28,2019-11-04 21:15:36,0.9314399505988092,0.852,UnboundLocalError: local variable 'i' referenced before assignment on line 4,"
+def SmartSquare(inlist, inplace):
+    result = []
+    inlist[i] **= 2
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+28,29,2019-11-04 21:15:47,0.9325615780654025,0.8391,SyntaxError: bad input on line 4,"
+def SmartSquare(inlist, inplace):
+    result = []
+    inlist[] **= 2
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+29,30,2019-11-04 21:16:07,0.9288381529928661,0.8419,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+30,31,2019-11-04 21:16:15,0.9290045489322296,0.8424,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+31,32,2019-11-04 21:16:27,0.9290219377740814,0.8463,ValueError: invalid literal for int() with base 10: '' on line 13,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+32,33,2019-11-04 21:17:28,0.9927623158279707,0.8293,ValueError: invalid literal for int() with base 10: 'None' on line 10,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+33,34,2019-11-04 21:17:37,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+34,35,2019-11-04 21:18:02,0.9841868759977426,0.8113,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        inlist[i] **= 2
+        if inplace:
+            result.append(inlist[i] ** 1)
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+35,36,2019-11-04 21:18:24,0.9826830021179984,0.7999,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        inlist[i] **= 1
+        if inplace:
+            result.append(inlist[i] ** 2)
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+36,37,2019-11-04 21:18:47,0.976271920136343,0.8054,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] ** 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+37,38,2019-11-04 21:19:05,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+38,39,2019-11-04 21:19:51,0.9720563716838003,0.781,SyntaxError: bad input on line 8,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            result
+    return inlist[i] **= 2
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+39,40,2019-11-04 21:19:59,0.9805898200863584,0.8104,SyntaxError: bad input on line 9,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            result
+    return 
+        inlist[i] **= 2
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+40,41,2019-11-04 21:20:03,0.9761761580641511,0.7903,SyntaxError: bad input on line 8,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            result
+    return:
+        inlist[i] **= 2
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+41,42,2019-11-04 21:20:20,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+42,43,2019-11-04 21:20:44,0.9927382047998466,0.8148,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,False))
+print(mylist, SmartSquare(mylist,True))
+
+
+"
+43,44,2019-11-04 21:21:02,0.9905608422421502,0.82,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,False))
+print(mylist, SmartSquare(mylist,True))
+
+
+"
+44,45,2019-11-04 21:21:20,1.0,0.8239,ValueError: invalid literal for int() with base 10: 'None' on line 10,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+45,46,2019-11-04 21:21:27,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+46,47,2019-11-04 23:06:49,0.9927382047998466,0.8148,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+print(mylist, SmartSquare(mylist,False))
+print(mylist, SmartSquare(mylist,True))
+
+
+"
+47,48,2019-11-04 23:08:23,0.9905608422421502,0.82,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+print(mylist, SmartSquare(mylist,False))
+print(mylist, SmartSquare(mylist,True))
+
+
+"
+48,49,2019-11-04 23:08:44,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+49,50,2019-11-04 23:09:08,0.9927623158279707,0.8293,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 2)
+        if inplace:
+            inlist[i] **= 1
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+50,51,2019-11-04 23:09:18,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+   num = int(input(""Num ""+str(i+1)))
+   mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+51,52,2019-11-04 23:09:37,1.0,0.8239,SyntaxError: bad input on line 13,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+       num = int(input(""Num ""+str(i+1)))
+           mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+52,53,2019-11-04 23:09:43,1.0,0.8239,IndentationError: unindent does not match any outer indentation level on line 13\n    mylist.append(num)\n\n    ^\n,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+       num = int(input(""Num ""+str(i+1)))
+    mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+53,54,2019-11-04 23:09:51,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+    num = int(input(""Num ""+str(i+1)))
+    mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+54,55,2019-11-04 23:10:19,0.9314399505988092,0.852,UnboundLocalError: local variable 'i' referenced before assignment on line 4,"
+def SmartSquare(inlist, inplace):
+    result = []
+    inlist[i] **= 2
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+    num = int(input(""Num ""+str(i+1)))
+    mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"
+55,56,2019-11-04 23:10:30,1.0,0.8239,success,"
+def SmartSquare(inlist, inplace):
+    result = []
+    for i in range(len(inlist)):
+        result.append(inlist[i] ** 1)
+        if inplace:
+            inlist[i] **= 2
+    return result
+mylist = []
+n = int(input(""Enter number of elements in the List : ""))
+for i in range(0, n):
+    num = int(input(""Num ""+str(i+1)))
+    mylist.append(num)
+
+print(mylist, SmartSquare(mylist,True))
+print(mylist, SmartSquare(mylist,False))
+
+"

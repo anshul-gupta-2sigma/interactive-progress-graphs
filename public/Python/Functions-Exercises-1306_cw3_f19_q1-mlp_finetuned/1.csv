@@ -1,0 +1,260 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0008,, 
+1,2,2019-10-01 15:06:16,0.40329509523245055,0.4607,NameError: name 'printsquare' is not defined on line 14,"for i in range(6):
+	print(12*'*') 
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 15:09:11,0.7586475302352752,0.7202,SyntaxError: bad input on line 6,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+    for i in range(N):
+	return ((2*N)*S) 
+
+print(printsquare) 
+"
+3,4,2019-10-01 15:11:52,0.6372980632936458,0.6371,SyntaxError: bad input on line 6,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+	return ((2*N)*S) 
+
+print(printsquare) 
+"
+4,5,2019-10-01 15:12:20,0.6887196982103987,0.654,SyntaxError: bad input on line 6,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+    x = ((2*N)*S) 
+	return x
+
+print(printsquare) 
+"
+5,6,2019-10-01 15:14:08,0.8471533641112832,0.7447,SyntaxError: bad input on line 6,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+    for i in range(N)
+    x = ((2*N)*S) 
+	return x
+
+print(printsquare(N,S)) 
+"
+6,7,2019-10-01 15:14:30,0.860217683869052,0.7539,SyntaxError: bad input on line 5,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S):
+    for i in range(N)
+    x = ((2*N)*S) 
+	return x
+
+print(printsquare(N,S)) 
+"
+7,8,2019-10-01 15:15:26,0.7654144448742084,0.6843,SyntaxError: bad input on line 6,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+    x = ((2*N)*S) 
+	return x
+
+print(printsquare(N,S)) 
+"
+8,9,2019-10-01 15:15:57,0.778519661933931,0.7152,SyntaxError: bad input on line 5,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+def printsquare(N,S)
+    x = ((2*N)*S) 
+	return x
+
+print(printsquare(N,S)) 
+"
+9,10,2019-10-01 15:16:13,0.8645794887511534,0.7642,SyntaxError: bad input on line 5,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+def printsquare(N,S)
+    for i in range(N)
+    x = ((2*N)*S) 
+	return x
+
+print(printsquare(N,S)) 
+"
+10,11,2019-10-01 15:17:34,0.6791891055986787,0.6907,SyntaxError: bad input on line 5,"# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+def printsquare(N,S)
+    for i in range(N)
+    print((2*N)*S) 
+	 
+"
+11,12,2019-10-01 15:20:12,0.8207726360934242,0.7838,SyntaxError: bad input on line 2,"# Leave the following lines as they are
+def square(N,S)
+    for i in range(N)
+    x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+12,13,2019-10-01 15:20:25,0.8352332910422928,0.8009,SyntaxError: bad input on line 3,"# Leave the following lines as they are
+def square(N,S):
+    for i in range(N)
+    x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+13,14,2019-10-01 15:20:31,0.738319465068836,0.7098,SyntaxError: bad input on line 4,"# Leave the following lines as they are
+def square(N,S):
+    x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+14,15,2019-10-01 15:20:50,0.8289835514808136,0.7779,SyntaxError: bad input on line 4,"# Leave the following lines as they are
+def square(N,S):
+    x = ((2*N)*S) 
+	return x
+N = int(input(""Enter N: ""))
+S = int(input(""Enter S: ""))
+printsquare(N,S)
+  "
+15,16,2019-10-01 15:21:19,0.738319465068836,0.7098,SyntaxError: bad input on line 4,"# Leave the following lines as they are
+def square(N,S):
+    x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+16,17,2019-10-01 15:22:21,0.8352332910422928,0.8009,SyntaxError: bad input on line 3,"# Leave the following lines as they are
+def square(N,S):
+    for i in range(N)
+    x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+17,18,2019-10-01 15:22:30,0.8623959331752192,0.8197,NameError: name 'printsquare' is not defined on line 8,"# Leave the following lines as they are
+def square(N,S):
+    for i in range(N):
+        x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+18,19,2019-10-01 15:22:50,0.8862993705209994,0.8382,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def square(N,S):
+    for i in range(N):
+        x = ((2*N)*S) 
+	return x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+print(square(N,S))
+  "
+19,20,2019-10-01 15:24:42,0.8884900024351856,0.8308,SyntaxError: bad input on line 5,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        x = ((2*N)*S) 
+	print x
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+20,21,2019-10-01 15:24:49,0.9227309160932314,0.8597,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        x = ((2*N)*S) 
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+21,22,2019-10-01 15:25:06,0.9502695308368375,0.8915,success,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        x = ((2*N)*S) 
+	print (x)
+N = int(input(""Enter N: ""))
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+22,23,2019-10-01 15:28:14,0.947449584878927,0.897,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        x = ((2*int(N))*S) 
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+23,24,2019-10-01 15:28:37,0.9375275019205792,0.8853,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        x = (2*int(N))*S
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+24,25,2019-10-01 15:28:52,0.9478243708987133,0.8994,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        x = (2*(int(N)))*S
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+25,26,2019-10-01 15:29:24,0.973479435614665,0.8776,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N):
+        N = int(N)
+        x = (2*N)*S 
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+26,27,2019-10-01 15:29:47,0.894413887775972,0.8474,TypeError: start must be a integer on line 3,"# Leave the following lines as they are
+def printsquare(N,S):
+    for i in range(N): 
+        x = (2*N)*S 
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "
+27,28,2019-10-01 15:30:01,1.0,0.8937,success,"# Leave the following lines as they are
+def printsquare(N,S):
+    N = int(N)
+    for i in range(N): 
+        x = (2*N)*S 
+	print (x)
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+  "

@@ -1,0 +1,489 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-07-28 02:49:20,0.9066091540334177,0.7883,SyntaxError: bad input on line 22,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+       
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pen(3)
+
+wn = turtle.Screen()
+wn.color(""light green"")
+       
+turtle.penup()
+turtle.left(72)
+turtle.forward(150)
+
+for i in range(5)
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(150)
+    pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(150)
+
+"
+2,3,2020-07-28 03:12:25,0.9070075962845315,0.7876,AttributeError: 'Turtle' object has no attribute 'pen' on line 13,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+       
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pen(3)
+
+wn = turtle.Screen()
+wn.color(""light green"")
+       
+turtle.penup()
+turtle.left(72)
+turtle.forward(150)
+
+for i in range(5):
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(150)
+    pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(150)
+
+"
+3,4,2020-07-28 03:13:04,0.9086519512921812,0.8029,AttributeError: 'Turtle' object has no attribute 'pen' on line 13,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+       
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pen(3)
+
+wn = turtle.Screen()
+wn.color(""light green"")
+       
+for i in range(5):
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(150)
+    pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(150)
+
+"
+4,5,2020-07-28 03:13:36,0.9138988200442855,0.8095,AttributeError: 'Turtle' object has no attribute 'pen' on line 13,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+       
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pen(3)
+
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+       
+for i in range(5):
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(150)
+    pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(150)
+
+"
+5,6,2020-07-28 03:15:37,0.9518654864754054,0.8239,NameError: name 'pendown' is not defined on line 23,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(150)
+    pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(150)
+
+"
+6,7,2020-07-28 03:16:12,0.9601487167225947,0.8232,TimeLimitError: Program exceeded run time limit. on line 8,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(50)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(150)
+
+"
+7,8,2020-07-28 03:17:38,0.9489677594503029,0.8296,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.left(72)
+    turtle.forward(50)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    
+
+"
+8,9,2020-07-28 03:19:01,0.9450000744731634,0.8371,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.forward(50)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    
+    
+    
+
+"
+9,10,2020-07-28 03:20:13,0.9570916811008345,0.8331,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.forward(50)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(50)
+    
+    
+
+"
+10,11,2020-07-28 03:21:25,0.9565898231759695,0.8305,TimeLimitError: Program exceeded run time limit. on line 26,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.forward(75)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    turtle.forward(50)
+    
+    
+
+"
+11,12,2020-07-28 03:23:54,0.954647660842468,0.8327,TimeLimitError: Program exceeded run time limit. on line 9,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.forward(75)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    
+    
+    
+
+"
+12,13,2020-07-28 03:25:27,0.959975970944823,0.8462,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+turtle.speed(15)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.forward(75)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(75)
+    
+    
+    
+
+"
+13,14,2020-07-28 03:25:46,0.9597744214061825,0.8446,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+turtle.speed(15)
+       
+for i in range(5):
+    turtle.penup()
+    turtle.forward(75)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.right(72)
+    
+    
+    
+
+"
+14,15,2020-07-28 03:28:11,0.9754831125502968,0.8218,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+turtle.speed(15)
+
+turtle.goto(-200,0)
+
+for i in range(5):
+    turtle.penup()
+    turtle.forward(75)
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.forward(350)
+    turtle.right(144)
+    
+    
+    
+
+"
+15,16,2020-07-28 03:29:16,0.9857930496534716,0.8203,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+turtle.speed(15)
+
+turtle.penup()
+turtle.goto(-200,0)
+
+for i in range(5):
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.forward(350)
+    turtle.right(144)
+    
+    
+    
+
+"
+16,17,2020-07-28 03:29:50,0.9999999541752418,0.8201,success,"# draw five 5-pointed stars arranged in a circle, length of each side = 100 units
+
+import turtle
+
+# create module to draw the start
+def fivePointStar(turtle):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+
+        # Set the screen canvas and turtle pen
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+
+turtle = turtle.Turtle()
+turtle.color(""hot pink"")
+turtle.pensize(3)
+turtle.speed(15)
+
+turtle.penup()
+turtle.goto(-175,50)
+
+for i in range(5):
+    turtle.pendown()
+    fivePointStar(turtle)
+    turtle.penup()
+    turtle.forward(350)
+    turtle.right(144)
+    
+    
+    
+
+"

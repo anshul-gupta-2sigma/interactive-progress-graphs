@@ -1,0 +1,538 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:15:10,0.7826479820976464,0.6598,SyntaxError: bad input on line 5,"# Write your program here
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(0,2)
+    sum = sum + Start
+    
+    print (sum)
+"
+2,3,2019-09-12 15:53:52,0.7797142432149216,0.6715,SyntaxError: bad input on line 5,"# Write your program here
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(0,2)
+    sum = sum + number
+    
+    print (sum)
+"
+3,4,2019-09-12 15:55:12,0.7743432740005213,0.6537,SyntaxError: bad input on line 6,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(N)
+    sum = sum + number
+    
+    print (sum)
+"
+4,5,2019-09-12 15:55:45,0.7069065090690821,0.6063,SyntaxError: bad input on line 6,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(N)
+    
+    
+    print (sum)
+"
+5,6,2019-09-12 15:55:49,0.6047975763830211,0.5599,SyntaxError: bad input on line 9,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+
+    
+    
+    print (sum)
+"
+6,7,2019-09-12 15:55:53,0.5325028567559484,0.5223,ValueError: invalid literal for int() with base 10: 'None' on line 3,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+
+    
+    
+
+"
+7,8,2019-09-12 15:56:01,0.5325028567559484,0.5223,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+
+
+    
+    
+
+"
+8,9,2019-09-12 15:57:20,0.6902631058082128,0.5892,SyntaxError: bad input on line 6,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in[N]
+    
+    
+    print (sum)
+"
+9,10,2019-09-12 15:57:27,0.6849469800602566,0.5975,SyntaxError: bad input on line 6,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in (7)
+    
+    
+    print (sum)
+"
+10,11,2019-09-12 15:57:32,0.6918037802439859,0.5934,SyntaxError: bad input on line 6,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in (7)
+    
+    
+    print (number)
+"
+11,12,2019-09-12 15:58:19,0.755301456422561,0.6455,SyntaxError: bad input on line 5,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+for number in range(Start,N-1)
+    
+    
+    print (number)
+"
+12,13,2019-09-12 15:59:49,0.755301456422561,0.6455,SyntaxError: bad input on line 6,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(Start,N-1)
+    
+    
+    print (number)
+"
+13,14,2019-09-12 16:00:06,0.7603236099926421,0.6596,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(Start,N-1):
+    
+    
+    print (number)
+"
+14,15,2019-09-12 16:00:54,0.7983272420103418,0.7056,ValueError: invalid literal for int() with base 10: 'None' on line 3,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(Start,N-1):
+    
+    sum = sum + N
+    
+    
+    print (number)
+"
+15,16,2019-09-12 16:00:59,0.8002648926902312,0.7111,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+for number in range(Start,N-1):
+    
+    sum = sum + N
+    
+    
+    print (sum)
+"
+16,17,2019-09-12 16:03:41,0.798300394440739,0.7413,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start,N-1):
+    
+    sum = sum + N
+    
+    
+    print ()
+"
+17,18,2019-09-12 16:03:45,0.7947601266719254,0.7536,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start,N-1):
+    
+    sum = sum + N
+    
+    
+    print (sum)
+"
+18,19,2019-09-12 16:04:17,0.795127621194962,0.7795,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start,N-1):
+    
+    sum = sum + 1
+    
+    
+    print (sum)
+"
+19,20,2019-09-12 16:05:04,0.7837335597364167,0.7803,success,"# Write your program here
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start,N-1):
+    
+    sum = sum + number
+    
+    
+    print (sum/N)
+"
+20,21,2019-09-12 16:05:39,0.7858457570092157,0.7872,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start+N-1):
+    
+    sum = sum + number
+    
+    
+    print (sum/N)
+"
+21,22,2019-09-12 16:08:30,0.7784697992829944,0.7819,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start,+N-1):
+    
+    sum = sum + number
+    
+    
+    print (sum/N)
+"
+22,23,2019-09-12 16:09:02,0.7986357783689838,0.7085,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start+N-1):
+    
+   # sum = sum + number
+    
+    
+    print (sum)
+"
+23,24,2019-09-12 16:10:15,0.7969843006450934,0.7747,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start+N-1):
+    
+    sum = sum + number
+    
+    
+    print (sum)
+"
+24,25,2019-09-12 16:11:01,0.7858457570092157,0.7872,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start+N-1):
+    
+    sum = sum + number
+    
+    
+    print (sum/N)
+"
+25,26,2019-09-12 16:11:31,0.7788828970581334,0.7966,SyntaxError: bad input on line 12,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start+N-1):
+    
+    sum = sum + number
+    
+    
+    print int(sum/N)
+"
+26,27,2019-09-12 16:11:52,0.7858457570092157,0.7872,ValueError: invalid literal for int() with base 10: 'None' on line 3,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(Start+N-1):
+    
+    sum = sum + number
+    
+    
+    print (sum/N)
+"
+27,28,2019-09-12 16:12:53,0.8035333066618003,0.7704,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(N):
+    
+    sum = sum + Start+1
+    
+    
+    print (sum/N)
+"
+28,29,2019-09-12 16:13:23,0.7523984033883948,0.8787,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(N):
+    
+    sum = sum + Start+1
+    average = sum/(N)
+    
+    print (average)
+"
+29,30,2019-09-12 16:14:04,0.7568379194073636,0.8595,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start+1
+    average = sum/(N)
+    
+    print (average)
+"
+30,31,2019-09-12 16:14:43,0.7569877794205913,0.7761,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start+1
+    
+    Final = sum/(N)
+    
+    print (Final)
+"
+31,32,2019-09-12 16:19:04,0.7467363943638353,0.7904,SyntaxError: bad input on line 13,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start+1
+    
+    Final = sum/(N)
+    
+    print int(Final)
+"
+32,33,2019-09-12 16:20:17,0.7569877794205913,0.7761,ValueError: invalid literal for int() with base 10: 'None' on line 3,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start+1
+    
+    Final = sum/(N)
+    
+    
+    print (Final)
+"
+33,34,2019-09-12 16:21:59,0.778580619133125,0.7452,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start
+    
+    Final = sum/(N)
+    
+    
+    print (Final)
+"
+34,35,2019-09-12 16:23:12,0.755113654010356,0.7679,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start + number
+    
+    Final = sum/(N)
+    
+    
+    print (Final)
+"
+35,36,2019-09-12 16:23:36,0.7522239729256409,0.7944,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(N):
+    
+    sum = sum + Start + number
+    
+    Final = sum/(N)
+    
+    
+    print (Final)
+"
+36,37,2019-09-12 16:24:07,0.7541444984114607,0.8022,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = 0
+for number in range(N):
+    
+    sum = sum + Start + number
+    
+    Final = sum/(N)
+    
+    
+print(Final)
+"
+37,38,2019-09-15 02:53:53,0.0,0.1162,success,"# Write your program here
+"
+38,39,2019-09-17 15:12:04,0.7571718523267484,0.7766,ValueError: invalid literal for int() with base 10: 'b' on line 4,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start + number
+    
+    Final = sum/(N)
+    
+    
+print (Final)
+"
+39,40,2019-09-24 04:23:18,0.65222356433289,0.5717,SyntaxError: bad input on line 3,"# Write your program here
+N = int(input(""N"")
+y = int(input(""S"")
+        
+sum=0
+for i in range(N)
+        sum = sum +i
+print(sum    "
+40,41,2019-09-24 04:26:25,0.6795631652091947,0.6001,SyntaxError: bad input on line 3,"# Write your program here
+N = int(input(""N"")
+y = int(input(""S"")
+        
+sum=0
+for i in range(N)
+        sum = sum +i
+print(sum)   "
+41,42,2019-09-24 04:26:35,0.6795631652091947,0.6001,SyntaxError: bad input on line 3,"# Write your program here
+N = int(input(""N"")
+y = int(input(""S"")
+        
+sum=0
+for i in range(N)
+        sum = sum +i
+    print(sum)   "
+42,43,2019-09-24 04:26:40,0.6970637677721812,0.6183,SyntaxError: bad input on line 3,"# Write your program here
+N = int(input(""N"")
+y = int(input(""S"")
+        
+sum=0
+for i in range(N):
+        sum = sum +i
+    print(sum)   "
+43,44,2019-09-24 04:26:44,0.6970637677721812,0.6183,SyntaxError: bad input on line 3,"# Write your program here
+N = int(input(""N"")
+y = int(input(""S"")
+        
+sum=0
+for i in range(N):
+        sum = sum +i
+print(sum)   "
+44,45,2019-09-24 04:27:05,0.7607522954112269,0.6514,success,"# Write your program here
+N = int(input(""N""))
+y = int(input(""S""))
+        
+sum=0
+for i in range(N):
+        sum = sum +i
+print(sum)   "
+45,46,2019-09-24 04:28:30,0.7589190866518833,0.7842,success,"
+
+N = int(input(""How many numbers to average?""))
+Start = int(input(""What in the first number in this series?""))
+
+sum = Start
+for number in range(N):
+    
+    sum = sum + Start+1
+    
+    Final = sum/(N)
+    
+    
+print (Final)
+"
+46,47,2019-09-24 04:32:05,0.880874826147783,0.6227,success,"N=int(input(""enterN""))
+Start=int(input(""enter_start""))
+
+sum = Start
+for i in range(N):
+    sum=sum + Start+1
+    
+    print(sum)
+"
+47,48,2019-09-24 04:33:30,1.0,0.6429,success,"N=int(input(""enterN""))
+Start=int(input(""enter_start""))
+
+sum = Start
+for i in range(N):
+    sum=sum + Start+1
+    f= sum/Start
+    
+    print(f)
+"

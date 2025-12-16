@@ -1,0 +1,2078 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-10 15:04:38,0.38624147528204533,0.4993,SyntaxError: bad input on line 15,"def isPrimes(number):
+    # your code here
+    if num > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if num <= 1:
+        return False
+    
+def FindPrimes(P):
+    # your code here
+    
+isPrimes(10)
+"
+2,3,2019-10-10 15:28:14,0.4097584565443556,0.531,SyntaxError: bad input on line 15,"def isPrimes(number):
+    # your code here
+    if num > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if num <= 1:
+        return False
+    
+def FindPrimes(P):
+    # your code here
+    
+print(isPrimes(10))
+"
+3,4,2019-10-10 15:28:33,0.3988626547165742,0.5496,SyntaxError: bad input on line 15,"def isPrime(number):
+    # your code here
+    if num > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if num <= 1:
+        return False
+    
+def FindPrimes(P):
+    # your code here
+    
+print(isPrime(10))
+"
+4,5,2019-10-10 15:30:59,0.4025395751554445,0.5418,SyntaxError: bad input on line 14,"def isPrime(number):
+    # your code here
+    if num > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if num <= 1:
+        return False
+    
+def FindPrimes(P):
+    # your code here
+    for
+    
+print(isPrime(0))
+"
+5,6,2019-10-10 15:31:26,0.34104449472306053,0.518,NameError: name 'num' is not defined on line 3,"def isPrime(number):
+    # your code here
+    if num > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if num <= 1:
+        return False
+
+    
+print(isPrime(10))
+"
+6,7,2019-10-10 15:31:34,0.34184702969934344,0.5524,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if number <= 1:
+        return False
+
+    
+print(isPrime(10))
+"
+7,8,2019-10-10 15:31:46,0.34160916187836576,0.5553,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if number <= 1:
+        return False
+
+    
+print(isPrime(2))
+"
+8,9,2019-10-10 15:32:17,0.3413954441171292,0.5488,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if number <= 1:
+        return False
+
+    
+print(isPrime(4))
+"
+9,10,2019-10-10 15:32:24,0.3416519483443794,0.5517,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if number <= 1:
+        return False
+
+    
+print(isPrime(3))
+"
+10,11,2019-10-10 15:32:33,0.34136818794502655,0.5376,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if number <= 1:
+        return False
+
+    
+print(isPrime(1))
+"
+11,12,2019-10-10 15:32:40,0.34160916187836576,0.5553,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    if number <= 1:
+        return False
+
+    
+print(isPrime(2))
+"
+12,13,2019-10-10 15:33:01,0.3241769891773324,0.5131,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(2))
+"
+13,14,2019-10-10 15:33:07,0.3241288842680209,0.4951,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(1))
+"
+14,15,2019-10-10 15:33:37,0.32398242576244596,0.5123,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(6))
+"
+15,16,2019-10-10 15:33:40,0.32415669169940353,0.5044,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(7))
+"
+16,17,2019-10-10 15:35:18,0.32353843486499767,0.5209,success,"def isPrime(number):
+    # your code here
+    if number >= 2:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(2))
+"
+17,18,2019-10-10 15:35:30,0.32465617124834123,0.5286,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(2))
+"
+18,19,2019-10-10 15:35:40,0.3241769891773324,0.5131,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(2))
+"
+19,20,2019-10-10 15:36:20,0.37343264969162215,0.5568,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            if number == 2:
+                return True
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(2))
+"
+20,21,2019-10-10 15:37:02,0.37059900644541843,0.5573,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+    if number == 2:
+        return True
+
+    
+print(isPrime(2))
+"
+21,22,2019-10-10 15:37:23,0.3713368422934131,0.5576,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+    if number == 2:
+        return True
+
+    
+print(isPrime(10))
+"
+22,23,2019-10-10 15:37:27,0.37139549934564997,0.5473,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+    if number == 2:
+        return True
+
+    
+print(isPrime(11))
+"
+23,24,2019-10-10 15:37:32,0.37103431875882265,0.5592,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+    if number == 2:
+        return True
+
+    
+print(isPrime(15))
+"
+24,25,2019-10-10 15:37:51,0.3703416904746718,0.5486,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+    if number == 2:
+        return True
+
+    
+print(isPrime(14))
+"
+25,26,2019-10-10 15:38:06,0.37103431875882265,0.5592,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+    if number == 2:
+        return True
+
+    
+print(isPrime(15))
+"
+26,27,2019-10-10 15:38:54,0.38201285563338994,0.57,SyntaxError: bad input on line 18,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+print(isPrime(15))
+
+    
+def FindPrimes(P):
+    # your code here"
+27,28,2019-10-10 15:47:04,0.5175817295610516,0.7929,SyntaxError: bad input on line 16,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(3, number):
+            if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print i
+print(isPrime(2))"
+28,29,2019-10-10 15:47:17,0.5358926371683738,0.8081,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(3, number):
+            if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+29,30,2019-10-10 15:47:48,0.5353074915629981,0.795,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(3, number):
+            if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+30,31,2019-10-10 15:49:34,0.49790388834429933,0.7652,IndentationError: unindent does not match any outer indentation level on line 6\n            else:\n\n            ^\n,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+31,32,2019-10-10 15:49:57,0.49790388834429933,0.7652,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if number%i ==0:
+            return False
+        else:
+            return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+32,33,2019-10-10 15:51:12,0.5577939999192068,0.7954,SyntaxError: bad input on line 8,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if number%i ==0:
+            return False
+        else:
+            return True
+    elif:
+        number<=2:
+            return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+33,34,2019-10-10 15:51:23,0.5577939999192068,0.7954,SyntaxError: bad input on line 8,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if number%i ==0:
+            return False
+        else:
+            return True
+    elif:
+        number <= 2:
+            return True
+    else:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+34,35,2019-10-10 15:53:38,0.5366985207955846,0.7958,success,"def isPrime(number):
+    # your code here
+    if number >=2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+            else:
+                return True
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+35,36,2019-10-10 15:53:44,0.5082717984098213,0.7925,success,"def isPrime(number):
+    # your code here
+    if number >=2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+36,37,2019-10-10 15:53:51,0.5093964800736269,0.8071,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+37,38,2019-10-10 15:53:57,0.5088768671222634,0.8027,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(4))"
+38,39,2019-10-10 15:54:02,0.5093395372688214,0.7869,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(1))"
+39,40,2019-10-10 15:55:03,0.5575084090213765,0.835,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if number < 2:
+        return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(0))"
+40,41,2019-10-10 15:55:18,0.5093964800736269,0.8071,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+41,42,2019-10-10 15:55:30,0.5093009221403728,0.808,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(15))"
+42,43,2019-10-10 15:57:48,0.5625350329104646,0.8299,SyntaxError: 'break' outside loop,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+    break
+    if number <= 1:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(15))"
+43,44,2019-10-10 15:57:56,0.5557886441016863,0.8272,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+    if number <= 1:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(15))"
+44,45,2019-10-10 15:57:59,0.556072293840948,0.8048,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+    if number <= 1:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(1))"
+45,46,2019-10-10 15:58:04,0.5560109171088037,0.8257,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+    if number <= 1:
+        return False
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(2))"
+46,47,2019-10-10 15:58:19,0.5093395372688214,0.7869,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+print(isPrime(1))"
+47,48,2019-10-10 15:58:59,0.599031096722561,0.6828,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(1))"
+48,49,2019-10-10 16:00:05,0.5992954407039462,0.6904,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(3))"
+49,50,2019-10-10 16:00:28,0.5990131565157375,0.6827,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(3))"
+50,51,2019-10-10 16:01:25,0.6110088394360291,0.6873,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(3))"
+51,52,2019-10-10 16:01:29,0.6105321620844351,0.6869,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(4))"
+52,53,2019-10-10 16:01:37,0.6104526482979665,0.6869,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(2))"
+53,54,2019-10-10 16:01:41,0.6107434988840692,0.6812,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(1))"
+54,55,2019-10-10 16:01:47,0.6109832753918423,0.6868,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(1))"
+55,56,2019-10-10 16:01:50,0.6107434988840692,0.6812,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(1))"
+56,57,2019-10-10 16:02:05,0.6342856015463728,0.6741,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(1))"
+57,58,2019-10-10 16:02:10,0.6346753588898892,0.6809,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(3))"
+58,59,2019-10-10 16:02:14,0.6341509790527085,0.6803,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(4))"
+59,60,2019-10-10 16:02:19,0.63432579270594,0.6764,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(999))"
+60,61,2019-10-10 16:02:28,0.6344801499137338,0.683,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(23))"
+61,62,2019-10-10 16:02:37,0.6344113655410575,0.6822,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(10))"
+62,63,2019-10-10 16:02:41,0.6342856015463728,0.6741,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+'''
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)'''
+
+print(isPrime(1))"
+63,64,2019-10-10 16:03:13,0.615098542022688,0.8856,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+print(isPrime(1))
+print(FindPrimes(1000))"
+64,65,2019-10-10 16:03:47,0.6156569315222569,0.8777,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+print(isPrime(1))
+print(FindPrimes(100))"
+65,66,2019-10-10 16:06:45,0.5453183413623268,0.8394,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    #else:
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(100))"
+66,67,2019-10-10 16:07:23,0.5453183413623268,0.8394,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(100))"
+67,68,2019-10-10 16:07:37,0.5580702856058098,0.8569,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number-1):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(100))"
+68,69,2019-10-10 16:08:02,0.5307015822528726,0.8194,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(100))"
+69,70,2019-10-10 16:09:09,0.5454003512301017,0.8411,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+        else:
+            return True
+    return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(50))"
+70,71,2019-10-10 16:11:00,0.4839240952672508,0.8004,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(50))"
+71,72,2019-10-10 16:11:23,0.46837314051903856,0.7792,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    return True
+    
+def FindPrimes(P):
+    # your code here
+    for i in range(P):
+        if isPrime(i):
+            print(i)
+
+
+print(FindPrimes(50))"
+72,73,2019-10-10 16:13:27,0.4246459320015702,0.7108,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    return True
+    
+def FindPrimes(P):
+    # your code here
+    count=0
+    for i in range(P):
+        if isPrime(i):
+            print(i)"
+73,74,2019-10-10 19:11:30,0.46646956608778456,0.7555,success,"def isPrime(number):
+    # your code here
+    return True
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)"
+74,75,2019-10-10 19:13:20,0.5271669910049709,0.8503,success,"def isPrime(number):
+    # your code here
+    return True
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(10))"
+75,76,2019-10-10 19:13:23,0.5267143107123706,0.8279,success,"def isPrime(number):
+    # your code here
+    return True
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(1))"
+76,77,2019-10-10 19:13:28,0.5269631125184291,0.8543,success,"def isPrime(number):
+    # your code here
+    return True
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+77,78,2019-10-10 19:13:32,0.526466513457452,0.8469,success,"def isPrime(number):
+    # your code here
+    return True
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(4))"
+78,79,2019-10-10 19:13:37,0.5265526162151023,0.8522,success,"def isPrime(number):
+    # your code here
+    return True
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(6))"
+79,80,2019-10-10 19:13:48,0.5128317543424319,0.8351,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(6))"
+80,81,2019-10-10 19:13:52,0.5133032141146188,0.837,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+81,82,2019-10-10 19:13:56,0.5129797883752514,0.808,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(1))"
+82,83,2019-10-10 19:14:00,0.5134343436781412,0.8296,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(3))"
+83,84,2019-10-10 19:14:15,0.5401656908461738,0.8528,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+        else:
+            return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(3))"
+84,85,2019-10-10 19:14:31,0.5400083593127417,0.8597,success,"def isPrime(number):
+    # your code here
+    for i in range(2, number):
+        if (number%i) == 0:
+            return False
+        else:
+            return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+85,86,2019-10-10 19:18:19,0.590942634649322,0.8685,SyntaxError: bad input on line 3,"def isPrime(number):
+    # your code here
+    if num > 2
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+86,87,2019-10-10 19:18:34,0.5941071827846849,0.8842,SyntaxError: bad input on line 3,"def isPrime(number):
+    # your code here
+    if number > 2
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+87,88,2019-10-10 19:18:44,0.6022879194086466,0.8929,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+88,89,2019-10-10 19:18:55,0.6017101035249677,0.8819,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+89,90,2019-10-10 19:19:53,0.6543394665602964,0.8802,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    elif number == 2:
+        return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+90,91,2019-10-10 19:19:57,0.6546848467818309,0.876,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    elif number == 2:
+        return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(3))"
+91,92,2019-10-10 19:20:03,0.6544683358475619,0.8653,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    elif number == 2:
+        return True
+    else:
+        return False
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(1))"
+92,93,2019-10-10 19:22:04,0.6943396420269878,0.8854,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 1):
+        return False
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(1))"
+93,94,2019-10-10 19:22:13,0.6390730854414481,0.8777,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(1))"
+94,95,2019-10-10 19:22:19,0.6390345083151545,0.8926,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(2))"
+95,96,2019-10-10 19:22:24,0.6394270363153414,0.889,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(3))"
+96,97,2019-10-10 19:22:30,0.6389158392597749,0.8875,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(4))"
+97,98,2019-10-10 19:22:39,0.6389143919972793,0.8832,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(isPrime(7))"
+98,99,2019-10-10 19:23:08,0.6472637972867608,0.904,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i):
+            count = count + 1
+            print(i)
+            
+print(FindPrimes(100))"
+99,100,2019-10-10 19:26:43,0.8252604286777678,0.9092,NameError: name 'inputnum' is not defined on line 23,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i)
+            print(
+            
+inputnum = int(input('Input number?:')))
+print('Input number:', inputnum)
+FindPrimes(inputnum)"
+100,101,2019-10-10 19:27:20,0.7877657336519369,0.8194,SyntaxError: bad input on line 21,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+            
+inputnum = int(input('Input number?:')))
+print('Input number:', inputnum)"
+101,102,2019-10-10 19:27:35,0.7977953295134669,0.9039,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+            
+x = int(input('Input number?:'))
+print('Input number:', x)"
+102,103,2019-10-10 19:27:57,0.8467147192634554,0.9261,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+            
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+103,104,2019-10-10 19:28:39,0.897328451304643,0.9438,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    if (number == 0):
+        return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+            
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+104,105,2019-10-10 19:29:43,0.8593309853240496,0.9332,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    return False
+    
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+            
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+105,106,2019-10-10 19:36:20,0.8470244992493509,0.9234,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number == 2):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+106,107,2019-10-10 19:36:28,0.8454565837676444,0.9288,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number == 1):
+        return True
+
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+107,108,2019-10-10 19:37:57,0.897328451304643,0.9438,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    if (number == 0):
+        return False
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+108,109,2019-10-10 19:38:39,0.8644026956109448,0.9342,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+109,110,2019-10-10 19:40:54,0.9646020087932716,0.9717,NameError: name 'count' is not defined on line 24,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)
+print('Number of prime numbers between 1 and', x, 'is:', count)"
+110,111,2019-10-10 19:41:26,0.9726556918853528,0.9737,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+111,112,2019-10-10 19:41:54,0.97019922916409,0.9718,success,"def isPrime(number):
+    # your code here
+    if number > 1:
+        for i in range(2, number):
+            if (number%i) == 0:
+                return False
+    if (number <= 2):
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+112,113,2019-10-10 19:43:01,0.9736334402216399,0.9741,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(2, number):
+            if (number % i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+113,114,2019-10-10 19:43:33,0.9077784388926499,0.9811,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(2, number):
+            if (number % i) == 0:
+                return False
+            else:
+                return True
+    if (number <= 2):
+        return True
+print(isPrime(9))  
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+114,115,2019-10-10 19:43:54,0.939307162076044,0.9699,success,"def isPrime(number):
+    # your code here
+    if number > 2:
+        for i in range(2, number):
+            if (number % i) == 0:
+                return False
+            else:
+                return True
+    
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+115,116,2019-10-10 19:45:29,1.0,0.9705,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2):
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"
+116,117,2019-10-11 00:51:35,1.0,0.9705,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+
+def FindPrimes(P):
+    # your code here
+    count = 0
+    for i in range(1, P):
+        if isPrime(i) :
+            count = count + 1
+            print(i, 'is a prime number')
+    print('Number of prime numbers between 1 and', x, 'is:', count)
+
+x = int(input('Input number?:'))
+print('Input number:', x)
+
+FindPrimes(x)"

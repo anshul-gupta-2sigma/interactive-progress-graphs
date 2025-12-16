@@ -1,0 +1,423 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-17 18:47:47,0.938138477595501,0.7978,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range(N): 
+    print(String)"
+2,3,2019-09-19 07:54:17,0.8479757286239685,0.7538,SyntaxError: bad input on line 7,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range((2*N-1): 
+    print(String)"
+3,4,2019-09-19 07:54:28,0.8683656917934603,0.721,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range((2*N)-1): 
+    print(String)"
+4,5,2019-09-19 07:54:46,0.938138477595501,0.7978,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range(N): 
+    print(String)"
+5,6,2019-09-19 07:55:25,0.8681889248100628,0.7268,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range((2*x)-1): 
+    print(String)"
+6,7,2019-09-19 07:55:47,0.9425278763398528,0.7992,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range(x): 
+    print(String)"
+7,8,2019-09-19 07:55:59,0.938138477595501,0.7978,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((2*N)-1):
+    String += S
+for n in range(N): 
+    print(String)"
+8,9,2019-09-19 07:57:36,0.9251862723216194,0.8044,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range((N)-1):
+    String += S
+for n in range(N): 
+    print(String)"
+9,10,2019-09-19 07:58:48,0.9093124199880032,0.8061,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(1,N):
+    String += S
+for n in range(N): 
+    print(String)"
+10,11,2019-09-19 07:59:09,0.9100227753210918,0.8134,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(String)"
+11,12,2019-09-19 08:00:57,0.9129474485632241,0.8176,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(x): 
+    print(String)"
+12,13,2019-09-19 08:01:35,0.9100227753210918,0.8134,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(String)"
+13,14,2019-09-19 08:02:29,0.9315039756633743,0.8016,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(x*S)"
+14,15,2019-09-19 08:02:38,0.9024494401956883,0.8057,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(x*S)"
+15,16,2019-09-19 08:06:01,0.9068764194039755,0.7902,SyntaxError: bad input on line 8,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print((2x-1)*S)"
+16,17,2019-09-19 08:06:06,0.9189726740343211,0.7927,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print((2*x-1)*S)"
+17,18,2019-09-19 08:06:45,0.8436210877793147,0.7691,SyntaxError: bad input on line 8,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print((2*x)-1)*S)"
+18,19,2019-09-19 08:07:08,0.7832539942145045,0.7779,SyntaxError: bad input on line 8,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print((2*x)-1)*S))"
+19,20,2019-09-19 08:07:34,0.9189726740343211,0.7927,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print((2*x-1)*S)"
+20,21,2019-09-19 08:09:19,0.8720447397946908,0.8129,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(S)"
+21,22,2019-09-19 08:09:31,0.8968486319337513,0.8101,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(S*2)"
+22,23,2019-09-19 08:09:46,0.9209677811141195,0.8028,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(S*2*x)"
+23,24,2019-09-19 08:10:24,0.8720447397946908,0.8129,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(S)"
+24,25,2019-09-19 08:10:53,0.8746080771284175,0.8164,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(x): 
+    print(S)"
+25,26,2019-09-19 08:11:28,0.8873287398805241,0.7647,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += ((2*x)-1)*S
+for n in range(N): 
+    print(S)"
+26,27,2019-09-19 08:11:46,0.8912416999416802,0.773,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += ((2*x)-1)*S
+for n in range(N): 
+    print(String)"
+27,28,2019-09-19 08:13:08,0.8568326282593904,0.7362,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += ((2*x)-1)*S
+for n in range(N): 
+    print(x*S)"
+28,29,2019-09-19 08:13:25,0.9024494401956883,0.8057,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(x*S)"
+29,30,2019-09-19 08:14:52,0.8949205200117206,0.7654,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range((2*x-1)*N): 
+    print(x*S)"
+30,31,2019-09-19 08:15:06,0.9024494401956883,0.8057,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += S
+for n in range(N): 
+    print(x*S)"
+31,32,2019-09-19 08:15:25,0.9192926266094804,0.7957,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += x*S
+for n in range(N): 
+    print(x*S)"
+32,33,2019-09-19 08:15:47,0.9170558936445563,0.8025,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(N):
+    String += x*S
+for n in range(x): 
+    print(x*S)"
+33,34,2019-09-19 08:17:07,0.9337695552384515,0.7963,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += x*S
+for n in range(N): 
+    print(x*S)"
+34,35,2019-09-19 08:17:32,0.866611070172887,0.7534,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += (2*x-1)*S
+for n in range(N): 
+    print(x*S)"
+35,36,2019-09-19 08:17:50,0.9315039756633743,0.8016,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(x*S)"
+36,37,2019-09-19 08:18:01,0.9316080158097823,0.8081,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(x): 
+    print(x*S)"
+37,38,2019-09-19 08:18:24,0.9285088820116434,0.7946,SyntaxError: bad input on line 8,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(2x*S)"
+38,39,2019-09-19 08:18:29,0.9395622820965173,0.7959,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(2*x*S)"
+39,40,2019-09-19 08:32:10,0.9213336309763792,0.7869,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += x*S
+for n in range(N): 
+    print(2*x*S)"
+40,41,2019-09-19 08:32:32,0.9367429369659028,0.8111,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += x*S
+for n in range(N): 
+    print(String)"
+41,42,2019-09-19 08:35:36,0.8667684752611928,0.761,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += ((2*x)-1)*S
+for n in range(N): 
+    print(String)"
+42,43,2019-09-19 08:36:46,0.9100227753210918,0.8134,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(String)"
+43,44,2019-09-19 08:37:08,0.9129474485632241,0.8176,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(x): 
+    print(String)"
+44,45,2019-09-19 08:37:17,0.9100227753210918,0.8134,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(String)"
+45,46,2019-09-19 08:39:56,0.9363563572551956,0.8113,ValueError: invalid literal for int() with base 10: 'A' on line 2,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S*x
+for n in range(N): 
+    print(String)"
+46,47,2019-09-19 08:40:08,0.9100227753210918,0.8134,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+for n in range(N): 
+    print(String)"
+47,48,2019-09-20 00:44:58,0.779332572856781,0.8327,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+    print(String)"
+48,49,2019-09-20 00:45:52,0.7926242754335339,0.833,SyntaxError: bad input on line 6,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+String += S
+    print(String)"
+49,50,2019-09-20 00:47:11,0.779332572856781,0.8327,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = ' '
+for x in range(0,N):
+    String += S
+    print(String)"
+50,51,2019-09-20 00:48:56,0.7560654419734216,0.8335,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = S
+for x in range(0,N):
+    String += S
+    print(String)"
+51,52,2019-09-20 00:52:03,0.7884390054028558,0.8407,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+String = S
+for x in range(0,N):
+    String += S*x
+    print(String)"
+52,53,2019-09-20 01:06:25,0.9707711989191462,0.8165,TypeError: cannot concatenate 'str' and 'int' objects on line 8,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+
+for x in range(0,N):
+    String = ' '
+    for y in range(2*x+1):
+        String += x 
+    print(String)"
+53,54,2019-09-20 01:06:42,1.0,0.8022,success,"# Write your program here
+N = int(input('Enter integer: '))
+S = str(input('Enter symbol: '))
+
+for x in range(0,N):
+    String = ' '
+    for y in range(2*x+1):
+        String += S 
+    print(String)"

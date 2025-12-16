@@ -1,0 +1,173 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0074,, 
+1,2,2020-03-24 00:11:12,0.7514095742389134,0.8993,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    number = 1
+    while number <= n;
+        tri_number=(number*(number+1))/2
+        
+                 
+    
+    
+    
+print(print_triangular_numbers(5))
+"
+2,3,2020-04-30 07:41:37,0.7906430194809497,0.9628,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    number = 1
+    while number <= n;
+        tri_number=(number*(number+1))/2
+        print(number,"" "",tri_number)
+        number=number+1
+        
+                 
+    
+    
+    
+print(print_triangular_numbers(5))
+"
+3,4,2020-04-30 07:42:20,0.6552454926311688,0.9782,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    number = 1
+    while q_number <= n;
+        tri_number=(q_number*(q_number+1))/2
+        print(q_number,"" "",tri_number)
+        q_number=q_number+1
+        
+                 
+    
+    
+    
+print(print_triangular_numbers(5))
+"
+4,5,2020-04-30 07:42:32,0.6232837003769937,0.975,SyntaxError: bad input on line 3,"def print_triangular_numbers(n):
+    q_number = 1
+    while q_number <= n;
+        tri_number=(q_number*(q_number+1))/2
+        print(q_number,"" "",tri_number)
+        q_number=q_number+1
+        
+                 
+    
+    
+    
+print(print_triangular_numbers(5))
+"
+5,6,2020-04-30 07:43:30,0.6284005641181065,0.9707,success,"def print_triangular_numbers(n):
+    q_number = 1
+    while q_number <= n:
+        tri_number=(q_number*(q_number+1))/2
+        print(q_number,"" "",tri_number)
+        q_number=q_number+1
+        
+                 
+    
+    
+    
+print(print_triangular_numbers(5))
+"
+6,7,2020-04-30 07:43:46,0.673520445338065,0.9734,success,"def print_triangular_numbers(n):
+    q_number = 1
+    while q_number <= n:
+        tri_number=(q_number*(q_number+1))/2
+        print(q_number,"" "",tri_number)
+        q_number=q_number+1
+        
+                 
+    
+    
+print_triangular_numbers(5)
+"
+7,8,2020-05-03 04:14:30,0.8684698734355905,0.9496,NameError: name 'n' is not defined on line 7,"def print_triangular_numbers(n):
+    a==1
+    while a<n:
+        triangular_numbers=(n(n+1)/2)
+        a=a+1
+    return triangular_numbers
+print(n,""/t"",print_triangular_numbers(n))
+        
+        "
+8,9,2020-05-03 09:13:51,0.8363848819331774,0.9482,UnboundLocalError: local variable 'a' referenced before assignment on line 2,"def print_triangular_numbers(n):
+    a==1
+    while a<n:
+        triangular_numbers=(n(n+1)/2)
+        a=a+1
+    return triangular_numbers
+n=5
+print(n,""/t"",print_triangular_numbers(n))
+        
+        "
+9,10,2020-05-03 09:16:49,0.8810865741375626,0.9408,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    a=1
+    while a<n:
+        triangular_numbers=(n(n+1)/2)
+        a=a+1
+    return triangular_numbers
+
+print_triangular_numbers(5)      
+        "
+10,11,2020-05-03 09:17:42,0.9008005866674106,0.9378,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    a=1
+    while a<n:
+        triangular_numbers=(n(n+1)/2)
+        a=a+1
+        print(a,n)
+
+print_triangular_numbers(5)      
+        "
+11,12,2020-05-03 09:18:19,0.9017662292968911,0.9391,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    a=1
+    while a<n:
+        triangular_numbers=(n(n+1)/2)
+        a=a+1
+        print(a,riangular_numbers)
+
+print_triangular_numbers(5)      
+        "
+12,13,2020-05-03 09:18:30,0.8977406218991492,0.9345,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    a=1
+    while a<n:
+        triangular_numbers=(n(n+1)/2)
+        print(a,riangular_numbers)
+        a=a+1
+        
+
+print_triangular_numbers(5)      
+        "
+13,14,2020-05-03 09:18:48,0.9067494972445674,0.9398,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    a=1
+    while a<n:
+        triangular_numbers=(a(a+1)/2)
+        print(a,riangular_numbers)
+        a=a+1
+        
+
+print_triangular_numbers(5)      
+        "
+14,15,2020-05-03 09:19:34,0.9143178776003689,0.9405,TypeError: 'int' object is not callable on line 4,"def print_triangular_numbers(n):
+    a=1
+    while a<=n:
+        triangular_numbers=(a(a+1))/2
+        print(a,riangular_numbers)
+        a=a+1
+        
+
+print_triangular_numbers(5)      
+        "
+15,16,2020-05-03 09:19:56,0.9225952387402663,0.9483,NameError: name 'riangular_numbers' is not defined on line 5,"def print_triangular_numbers(n):
+    a=1
+    while a<=n:
+        triangular_numbers=(a*(a+1))/2
+        print(a,riangular_numbers)
+        a=a+1
+        
+
+print_triangular_numbers(5)      
+        "
+16,17,2020-05-03 09:20:12,0.9999998596166894,0.966,success,"def print_triangular_numbers(n):
+    a=1
+    while a<=n:
+        triangular_numbers=(a*(a+1))/2
+        print(a,triangular_numbers)
+        a=a+1
+        
+
+print_triangular_numbers(5)      
+        "

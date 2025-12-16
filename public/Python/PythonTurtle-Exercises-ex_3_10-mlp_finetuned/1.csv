@@ -1,0 +1,127 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0492,, 
+1,2,2020-02-07 21:48:13,0.5717260248491954,0.3732,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.stamp"
+2,3,2020-02-07 22:12:54,0.8989512939518496,0.6296,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.penup()
+    Terry.stamp
+    Terry.goto(0, 0)
+    Terry.let(30)
+    Terry.pendown()"
+3,4,2020-02-07 22:14:26,0.9167525760288543,0.5891,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.stamp
+    Terry.goto(0, 0)
+    Terry.right(30)
+    Terry.pendown()"
+4,5,2020-02-07 22:21:29,0.7960449804122174,0.6766,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.forward(5)
+    Terry.penup()
+    Terry.stamp
+    Terry.goto(0, 0)
+    Terry.right(30)
+    Terry.pendown()"
+5,6,2020-02-07 22:22:07,0.7958055182960148,0.6792,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.penup()
+    Terry.forward(5)
+    Terry.stamp
+    Terry.goto(0, 0)
+    Terry.right(30)
+    Terry.pendown()"
+6,7,2020-02-07 22:22:48,0.6932340668350963,0.718,AttributeError: 'Turtle' object has no attribute 'stop' on line 9,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.penup()
+    Terry.forward(5)
+    Terry.stop()
+    Terry.stamp
+    Terry.goto(0, 0)
+    Terry.right(30)
+    Terry.pendown()"
+7,8,2020-02-07 22:23:05,0.5899198246535202,0.7362,AttributeError: 'Turtle' object has no attribute 'stop' on line 9,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(150)
+    Terry.penup()
+    Terry.forward(5)
+    Terry.stop()
+    Terry.stamp
+    Terry.go()
+    Terry.goto(0, 0)
+    Terry.right(30)
+    Terry.pendown()"
+8,9,2020-02-07 22:23:34,0.4561081696126117,0.2778,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+  
+    Terry.stamp
+    "
+9,10,2020-02-26 14:26:16,0.5698715498290041,0.3671,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(100)
+    Terry.stamp
+    "
+10,11,2020-02-26 14:27:25,0.6141875705453967,0.3983,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.forward(10)
+    Terry.stamp()
+    
+    "
+11,12,2020-02-26 14:29:44,0.8776669697705614,0.5338,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.penup()
+    Terry.forward(10)
+    Terry.stamp()
+    Terry.goto(0,0)
+    "
+12,13,2020-02-26 14:30:35,1.0,0.6132,success,"import turtle
+wn = turtle.Screen
+Terry = turtle.Turtle()
+
+for i in range(12):
+    Terry.penup()
+    Terry.forward(100)
+    Terry.stamp()
+    Terry.goto(0,0)
+    Terry.right(30)
+    "

@@ -1,0 +1,50 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:32:08,0.8206695056559093,0.9474,ValueError: invalid literal for int() with base 10: 'What is the radius?' on line 1,"radius=input(int(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of ""+radius+"" is ""+perimeter+""."")
+print(""The area of this circle with a radius of ""+radius+"" is ""+area+""."")"
+2,3,2019-09-03 15:36:01,0.8363664521386491,0.9412,TypeError: can't multiply sequence by non-int of type 'float' on line 2,"radius=input(""What is the radius?"")
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of ""+radius+"" is ""+perimeter+""."")
+print(""The area of this circle with a radius of ""+radius+"" is ""+area+""."")"
+3,4,2019-09-03 15:36:52,0.8227371271685244,0.9494,TypeError: cannot concatenate 'str' and 'int' objects on line 5,"radius=int(input(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of ""+radius+"" is ""+perimeter+""."")
+print(""The area of this circle with a radius of ""+radius+"" is ""+area+""."")"
+4,5,2019-09-03 15:37:43,0.8770152023172784,0.9281,TypeError: cannot concatenate 'str' and 'int' objects on line 5,"radius=int(input(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of ""+radius+"" is ""+perimeter)
+print(""The area of this circle with a radius of ""+radius+"" is ""+area)"
+5,6,2019-09-03 15:38:34,0.8908525333241093,0.9181,SyntaxError: bad input on line 5,"radius=int(input(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of "",radius "" is "",perimeter)
+print(""The area of this circle with a radius of ""+radius+"" is ""+area)"
+6,7,2019-09-03 15:38:48,0.8951124813985106,0.9361,TypeError: cannot concatenate 'str' and 'int' objects on line 6,"radius=int(input(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of "",radius, "" is "",perimeter)
+print(""The area of this circle with a radius of ""+radius+"" is ""+area)"
+7,8,2019-09-03 15:39:04,0.9019947505160402,0.9486,success,"radius=int(input(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of "",radius, "" is "",perimeter)
+print(""The area of this circle with a radius of "",radius,"" is "",area)"
+8,9,2019-09-03 15:39:24,1.0,0.9447,success,"radius=int(input(""What is the radius?""))
+perimeter=radius*3.14*2
+area=3.14*radius**2
+
+print(""The perimeter of this circle with a radius of"",radius,""is"",perimeter)
+print(""The area of this circle with a radius of"",radius,""is"",area)"

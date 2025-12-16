@@ -1,0 +1,339 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:24:43,0.7765956450819516,0.6751,SyntaxError: 'return' outside function,"Start = int(input(""Enter start integer""))
+N = int(input(""Enter number of integers""))
+sum=0
+for start in range(start+N-1):
+    sum=sum+start
+return sum/N
+    "
+2,3,2019-09-12 15:32:18,0.8264471482791831,0.5517,SyntaxError: 'return' outside function,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum=0
+for start in range(start+N-1):
+    sum=sum+start
+return sum/N
+    "
+3,4,2019-09-12 15:33:23,0.8895255706590106,0.6669,NameError: name 'start' is not defined on line 4,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for start in range(start+N-1):
+    sum = sum + start
+average = sum/N
+print(average)
+
+    "
+4,5,2019-09-12 15:33:37,0.8945477306468796,0.6258,ValueError: invalid literal for int() with base 10: 'None' on line 1,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for Start in range(start+N-1):
+    sum = sum + start
+average = sum/N
+print(average)
+
+    "
+5,6,2019-09-12 15:33:43,0.8969544606710458,0.6092,NameError: name 'start' is not defined on line 4,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for Start in range(start+N-1):
+    sum = sum + Start
+average = sum/N
+print(average)
+
+    "
+6,7,2019-09-12 15:33:57,0.8991930309283133,0.5845,success,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for Start in range(Start+N-1):
+    sum = sum + Start
+average = sum/N
+print(average)
+
+    "
+7,8,2019-09-12 15:34:45,0.8850539666609081,0.5749,success,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for Start in range(Start+N):
+    sum = sum + Start
+average = sum/N
+print(average)
+
+    "
+8,9,2019-09-12 15:35:07,0.92260790923791,0.4725,success,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for Start in range(Start+N):
+    sum = sum + Start
+average = sum/N
+print('Average: ', average)
+
+    "
+9,10,2019-09-12 15:35:15,0.9269109067650391,0.5277,success,"Start = int(input('Enter start integer'))
+N = int(input('Enter number of integers'))
+sum = 0
+for Start in range(Start+N):
+    sum = sum + Start
+average = sum/N
+print('Average:', average)
+
+    "
+10,11,2019-09-12 15:44:06,0.9071423125039529,0.5359,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum = 0
+for Start in range(Start+N-1):
+    sum = sum + Start
+average = sum/(N-1)
+print('Average:', average)
+
+    "
+11,12,2019-09-12 15:44:17,0.9381241886070129,0.5361,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum = 0
+for Start in range(Start+N-1):
+    sum = sum + Start
+average = sum/(N)
+print('Average:', average)
+
+    "
+12,13,2019-09-12 15:48:24,0.9328767223602391,0.5896,TypeError: unsupported operand type(s) for Div: '<native JS>' and 'int' on line 5,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+for i in range(Start+N-1):
+    start = i + Start
+average = sum/(N)
+print('Average:', average)
+
+    "
+13,14,2019-09-12 15:48:40,0.9194093016379933,0.5618,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+for i in range(Start+N-1):
+    Start = i + Start
+average = Start/(N)
+print('Average:', average)
+
+    "
+14,15,2019-09-12 15:49:17,0.9123099900187855,0.5505,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+for i in range(Start+N-1):
+    Start = 1 + Start
+average = Start/(N)
+print('Average:', average)
+
+    "
+15,16,2019-09-12 15:50:16,0.9412035735698382,0.5779,NameError: name 'start' is not defined on line 3,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=start
+for i in range(Start+N-1):
+    sum = 1 + sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+16,17,2019-09-12 15:50:23,0.9453209490813227,0.5518,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(Start+N-1):
+    sum = 1 + sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+17,18,2019-09-12 15:51:06,0.9168531488717595,0.5453,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(Start+N-1):
+    sum = 1 + sum + sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+18,19,2019-09-12 15:52:05,0.90578254178769,0.4975,SyntaxError: bad input on line 5,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(Start-(N-1)):
+    sum = 
+average = sum/(N)
+print('Average:', average)
+
+    "
+19,20,2019-09-12 15:52:18,0.9422602765949979,0.5494,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(Start-N-1):
+    sum = 1 + sum 
+average = sum/(N)
+print('Average:', average)
+
+    "
+20,21,2019-09-12 15:52:26,0.9153350545482175,0.5418,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(Start-N-1):
+    sum = 1 + sum + sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+21,22,2019-09-12 15:53:11,0.9443897280428951,0.5685,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = 1 + sum + sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+22,23,2019-09-12 15:53:18,0.9560066273554872,0.5674,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = 1 + sum 
+average = sum/(N)
+print('Average:', average)
+
+    "
+23,24,2019-09-12 15:53:44,0.9443897280428951,0.5685,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = 1 + sum+sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+24,25,2019-09-12 15:55:43,0.9552169434763697,0.5825,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N+1):
+    sum = 1 + sum
+average = sum/(N)
+print('Average:', average)
+
+    "
+25,26,2019-09-12 15:56:37,0.9431553878480341,0.5927,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N+1):
+    sum = sum+sum+1
+average = sum/(N)
+print('Average:', average)
+
+    "
+26,27,2019-09-12 15:56:45,0.9632242804430204,0.5649,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+sum+1
+average = sum/(N)
+print('Average:', average)
+
+    "
+27,28,2019-09-12 15:56:52,0.9435451896844237,0.5737,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = sum+sum+1
+average = sum/(N)
+print('Average:', average)
+
+    "
+28,29,2019-09-12 15:57:44,0.8822671846247115,0.5056,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = sum+sum
+average = sum+(N*2)/(N)
+print('Average:', average)
+
+    "
+29,30,2019-09-12 16:00:32,0.846935134906735,0.5273,ValueError: invalid literal for int() with base 10: '' on line 2,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = sum+sum+i
+average = sum+(N*2)/(N)
+print('Average:', average)
+
+    "
+30,31,2019-09-12 16:00:44,0.953594570839597,0.5913,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N-1):
+    sum = sum+sum+i
+average = sum/(N)
+print('Average:', average)
+
+    "
+31,32,2019-09-12 16:01:02,0.9740728685174249,0.581,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+sum+i
+average = sum/(N)
+print('Average:', average)
+
+    "
+32,33,2019-09-12 16:01:23,0.951184820553616,0.5872,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+sum+i
+average = sum/(N-1)
+print('Average:', average)
+
+    "
+33,34,2019-09-12 16:01:28,0.9503387793674886,0.6025,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+sum+i
+average = sum/(N+1)
+print('Average:', average)
+
+    "
+34,35,2019-09-12 16:02:22,0.9676590215362559,0.5802,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+i
+average = sum/(N+1)
+print('Average:', average)
+
+    "
+35,36,2019-09-12 16:02:35,0.9567969497468929,0.5639,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+i
+average = sum/(N)
+print('Average:', average)
+
+    "
+36,37,2019-09-12 16:04:45,0.9632242804431037,0.5649,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    sum = sum+sum+1
+average = sum/(N)
+print('Average:', average)
+
+    "
+37,38,2019-09-12 16:05:43,0.9755019180316077,0.5545,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    
+    sum = sum+Start+1
+average = sum/(N)
+print('Average:', average)
+
+    "
+38,39,2019-09-12 16:14:05,0.9999998893653824,0.5606,success,"Start = int(input('Enter starting integer'))
+N = int(input('How many numbers'))
+sum=Start
+for i in range(N):
+    
+    sum = sum+Start+i
+average = sum/(N)
+print('Average:', average)
+
+    "

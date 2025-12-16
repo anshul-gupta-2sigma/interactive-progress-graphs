@@ -1,0 +1,329 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 15:25:19,0.5696991066116093,0.6405,NameError: name 'printsquare' is not defined on line 15,"# Your function goes here
+
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+frodo_baggins = s * (2 * n)
+for frodo in range(n):
+    print(frodo_baggins)"
+2,3,2019-10-01 15:29:29,0.6136654186860697,0.7264,SyntaxError: bad input on line 2,"# Your function goes here
+def printsquare(n)
+    
+    frodo_baggins = s * (2 * n)
+    for frodo in range(n):
+    print(frodo_baggins)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+frodo_baggins = s * (2 * n)
+for frodo in range(n):
+    print(frodo_baggins)"
+3,4,2019-10-01 15:29:42,0.5080244750118087,0.6958,SyntaxError: bad input on line 2,"# Your function goes here
+def printsquare(frodo_baggins)
+    frodo_baggins = s * (2 * n)
+    for frodo in range(n):
+    print(frodo_baggins)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+frodo_baggins = s * (2 * n)
+for frodo in range(n):
+    print(frodo_baggins)"
+4,5,2019-10-01 15:30:56,0.6263644210611126,0.6635,SyntaxError: bad input on line 2,"# Your function goes here
+def printsquare(n)
+    v = s * (2 * n)
+    for c in range(n):
+        n = c *V
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+frodo_baggins = s * (2 * n)
+for frodo in range(n):
+    print(frodo_baggins)"
+5,6,2019-10-01 15:31:14,0.6280924489083839,0.6657,TypeError: printsquare() takes exactly 1 arguments (2 given) on line 18,"# Your function goes here
+def printsquare(n):
+    v = s * (2 * n)
+    for c in range(n):
+        n = c *V
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+frodo_baggins = s * (2 * n)
+for frodo in range(n):
+    print(frodo_baggins)"
+6,7,2019-10-01 15:33:19,0.7032020255753613,0.6788,SyntaxError: bad input on line 17,"# Your function goes here
+def printsquare(n):
+    v = s * (2 * n)
+    for c in range(n):
+        n = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(float(""Enter N: "")
+S = input(float(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 15:33:44,0.698271828219768,0.6803,ValueError: float: Argument: * is not number on line 17,"# Your function goes here
+def printsquare(n):
+    v = s * (2 * n)
+    for c in range(n):
+        n = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = float(input(""Enter N: ""))
+S = float(input(""Enter S: ""))
+printsquare(N,S)
+"
+8,9,2019-10-01 15:35:14,0.7050874943242438,0.672,TypeError: printsquare() takes exactly 1 arguments (2 given) on line 19,"# Your function goes here
+def printsquare(n):
+    
+    v = s * (2 * n)
+    for c in range(n):
+        n = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+9,10,2019-10-01 15:36:30,0.8187664359042472,0.7866,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+    v = S * (2 * N)
+    for c in range(N):
+        N  = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+10,11,2019-10-01 15:38:59,0.8080366523859124,0.7879,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+    v = S * (2 * N)
+    for c in range(N,S):
+        N  = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+11,12,2019-10-01 15:42:41,0.7996426155575129,0.8205,UnboundLocalError: local variable 'n' referenced before assignment on line 3,"# Your function goes here
+def printsquare(N,S):
+    n = int(n)
+    s = str(s)
+    v = S * (2 * N)
+    for c in range(N):
+        N  = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+12,13,2019-10-01 15:42:51,0.8532329616495196,0.8383,TypeError: can't multiply sequence by non-int of type 'str' on line 5,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    s = str(S)
+    v = S * (2 * N)
+    for c in range(N):
+        N  = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+13,14,2019-10-01 15:43:02,0.9326696245226141,0.9062,success,"# Your function goes here
+def printsquare(N,S):
+    N = int(N)
+    S = str(S)
+    v = S * (2 * N)
+    for c in range(N):
+        N  = c * v
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+14,15,2019-10-01 15:44:05,0.9361742936252565,0.9212,success,"# Your function goes here
+def printsquare(N,S):
+    N = int(N)
+    S = str(S)
+    v = S * (2 * N)
+    for c in range(N):
+        N  = c * v
+        print(c)
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+15,16,2019-10-01 15:44:49,0.9332993981786102,0.9238,success,"# Your function goes here
+def printsquare(N,S):
+    N = int(N)
+    S = str(S)
+    v = S * (2 * N)
+    for c in range(N):
+        N  = c * v
+        print(N)
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+16,17,2019-10-01 15:45:20,0.99999997316375,0.9399,success,"# Your function goes here
+def printsquare(N,S):
+    N = int(N)
+    S = str(S)
+    v = S * (2 * N)
+    for c in range(N):
+       
+        print(v)
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

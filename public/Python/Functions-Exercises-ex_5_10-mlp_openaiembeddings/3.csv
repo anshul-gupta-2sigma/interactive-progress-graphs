@@ -1,0 +1,560 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-10-18 05:20:02,0.6014460372337604,0.6786,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(350)
+        t.left(144)
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+tess.speed(0)
+
+
+drawFivePointStar(tess)
+"
+2,3,2020-10-18 05:22:19,0.5955618708728039,0.6642,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(350)
+        t.left(144)
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+
+
+drawFivePointStar(tess)
+"
+3,4,2020-10-18 05:25:33,0.6839542205962637,0.929,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.penup()
+        t.forward(350)
+        t.left(144)
+
+
+drawFivePointStar(tess)
+"
+4,5,2020-10-18 05:25:51,0.6876761361499586,0.9314,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.penup()
+        t.forward(350)
+        t.left(144)
+        t.pendown()
+
+
+drawFivePointStar(tess)
+"
+5,6,2020-10-18 05:26:47,0.673855507568035,0.9374,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.left(100)
+
+
+
+drawFivePointStar(tess)
+"
+6,7,2020-10-18 05:27:08,0.6775860821913146,0.9309,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.left(180)
+        t.forward(100)
+
+
+
+drawFivePointStar(tess)
+"
+7,8,2020-10-18 05:28:00,0.6809390182008618,0.9328,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""pink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.penup()
+        t.left(180)
+        t.forward(100)
+        t.pendown()
+        t.forward(100)
+        t.left(216)
+        
+
+
+
+drawFivePointStar(tess)
+"
+8,9,2020-10-18 05:28:43,0.6799271902610565,0.9281,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.penup()
+        t.left(180)
+        t.forward(100)
+        t.pendown()
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+9,10,2020-10-18 05:30:40,0.6802978699938187,0.9297,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.penup()
+        t.goto(-100,0)
+        t.pendown()
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+10,11,2020-10-18 05:31:18,0.6867054014727555,0.9213,NameError: name 't' is not defined on line 9,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+
+t.penup()
+t.goto(-100,0)
+t.pendown()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+11,12,2020-10-18 05:31:34,0.6878828002044479,0.9197,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+
+tess.penup()
+tess.goto(-100,0)
+tess.pendown()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+12,13,2020-10-18 05:31:49,0.688051959304986,0.9185,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+
+tess.penup()
+tess.goto(-150,0)
+tess.pendown()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+13,14,2020-10-18 05:32:44,0.6859774790041548,0.9202,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+tess.penup()
+tess.goto(-150,0)
+tess.pendown()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+14,15,2020-10-18 05:33:25,0.6848721091769068,0.9169,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+tess.penup()
+tess.goto(-150,0)
+tess.pendown()
+
+tess.penup()
+tess.goto(-50,-100)
+tess.pendown()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+15,16,2020-10-18 05:35:59,0.6837477588659295,0.9276,SyntaxError: bad input on line 10,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+for i in range(5)
+    t.penup()
+    t.goto(-150,0)
+    t.pendown()
+    t.penup()
+    t.goto(-70,-100)
+    t.pendown()
+    t.penup()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+16,17,2020-10-18 05:38:16,0.6850528770369708,0.922,SyntaxError: bad input on line 13,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+tess.forward(100)
+tess.left(216)
+
+for i in range(5)
+    t.forward(100)
+    t.left(216)
+ 
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+17,18,2020-10-18 05:39:10,0.6818425507764347,0.9183,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+tess.forward(100)
+tess.left(216)
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+18,19,2020-10-18 05:40:25,0.67641134947829,0.9174,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+tess.penup()
+tess.goto(-150,0)
+te
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+19,20,2020-10-18 05:40:40,0.6859774790041548,0.9202,success,"import turtle
+
+wn = turtle.Screen()  
+wn.bgcolor(""lightgreen"")
+
+tess = turtle.Turtle()
+tess.color(""hotpink"")
+tess.pensize(3)
+
+tess.penup()
+tess.goto(-150,0)
+tess.pendown()
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+        
+drawFivePointStar(tess)
+"
+20,21,2020-10-18 05:45:05,0.394987886848702,0.5057,TimeLimitError: Program exceeded run time limit. on line 5,"def draw_pentagram(ttl):
+    ttl.pendown()           
+    for x in range(5):    
+        ttl.forward(100)
+        ttl.right(144)
+    
+    ttl.penup()        
+import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")   
+tess = turtle.Turtle()     
+tess.color(""HotPink"")     
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+for dummy in range(5):      # Draw five pentagrams
+    draw_pentagram(tess)    # Draw a pentagram
+    tess.forward(350)       # Reposition the tess for the next 
+    tess.right(144)         # pentagram.
+wn.mainloop()   # Hold screen ope"
+21,22,2020-10-18 05:47:04,0.4639499391149473,0.7165,success,"import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")
+
+def draw_pentagram(ttl):
+    ttl.pendown()           
+    for x in range(5):    
+        ttl.forward(100)
+        ttl.right(144)
+    
+    ttl.penup()        
+   
+tess = turtle.Turtle()     
+tess.color(""hotpink"")
+tess.speed(0)
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+for dummy in range(5):      
+    draw_pentagram(tess)   
+    tess.forward(350)       
+    tess.right(144)        
+wn.mainloop()   "
+22,23,2020-10-18 05:48:06,0.47578084027027234,0.7175,NameError: name 'ttl' is not defined on line 11,"import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")
+
+def draw_pentagram(t):
+    t.pendown()           
+    for i in range(5):    
+        t.forward(100)
+        t.right(144)
+    
+    ttl.penup()        
+   
+tess = turtle.Turtle()     
+tess.color(""hotpink"")
+tess.speed(0)
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+
+for i in range(5):      
+    draw_pentagram(tess)   
+    tess.forward(350)       
+    tess.right(144) 
+    
+wn.mainloop()   "
+23,24,2020-10-18 05:48:14,0.4751128711413445,0.7198,success,"import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")
+
+def draw_pentagram(t):
+    t.pendown()           
+    for i in range(5):    
+        t.forward(100)
+        t.right(144)
+    
+    t.penup()        
+   
+tess = turtle.Turtle()     
+tess.color(""hotpink"")
+tess.speed(0)
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+
+for i in range(5):      
+    draw_pentagram(tess)   
+    tess.forward(350)       
+    tess.right(144) 
+    
+wn.mainloop()   "
+24,25,2020-10-18 05:49:40,0.4758764109337692,0.7143,success,"import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")
+
+def draw_pentagram(t):
+    t.pendown()           
+    for i in range(5):    
+        t.forward(100)
+        t.right(144)
+    
+    t.penup()        
+   
+tess = turtle.Turtle()     
+tess.color(""hotpink"")
+tess.speed(0.3)
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+
+for i in range(5):      
+    draw_pentagram(tess)   
+    tess.forward(350)       
+    tess.right(144) 
+    
+wn.mainloop()   "
+25,26,2020-10-18 05:50:09,0.47511287114134415,0.7198,success,"import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")
+
+def draw_pentagram(t):
+    t.pendown()           
+    for i in range(5):    
+        t.forward(100)
+        t.right(144)
+    
+    t.penup()        
+   
+tess = turtle.Turtle()     
+tess.color(""hotpink"")
+tess.speed(0)
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+
+for i in range(5):      
+    draw_pentagram(tess)   
+    tess.forward(350)       
+    tess.right(144) 
+    
+wn.mainloop()   "
+26,27,2020-10-18 05:50:55,0.999999968758651,0.9501,success,"import turtle
+wn = turtle.Screen()        
+wn.bgcolor(""lightgreen"")
+
+def drawStar(t):
+    t.pendown()           
+    for i in range(5):    
+        t.forward(100)
+        t.right(144)
+    
+    t.penup()        
+   
+tess = turtle.Turtle()     
+tess.color(""hotpink"")
+tess.speed(0)
+tess.pensize(3)
+tess.penup()               
+                           
+tess.backward(175)          
+tess.left(90)
+tess.forward(60)
+tess.right(90)
+
+for i in range(5):      
+    drawStar(tess)   
+    tess.forward(350)       
+    tess.right(144) 
+    
+wn.mainloop()   "

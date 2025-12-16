@@ -1,0 +1,943 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-10-29 21:26:03,0.14251181756341935,0.2274,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+2,3,2019-10-29 21:36:28,0.4381236076659394,0.5342,NameError: name 'j' is not defined on line 8,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    for i in range(len(parasplit)):
+        if i == j or i == x or i == q or i == z:
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+    print(longwordcount)
+    print(rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+3,4,2019-10-29 21:39:03,0.4624948895925213,0.5441,success,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    for i in range(len(parasplit)):
+        if i == 'j' or i == 'x' or i == 'q' or i == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+    print(longwordcount)
+    print(rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+4,5,2019-10-29 21:41:11,0.5162276838818494,0.5943,success,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    for i in range(len(parasplit)):
+        if i == 'j' or i == 'x' or i == 'q' or i == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+
+    print('Amount of long words is:', longwordcount)
+    print('Amount of rare letters is:', rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+5,6,2019-10-30 00:06:10,0.5411785102280049,0.6185,SyntaxError: bad input on line 8,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    print(range(len(parasplit)
+    for i in range(len(parasplit)):
+        if i == 'j' or i == 'x' or i == 'q' or i == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+
+    print('Amount of long words is:', longwordcount)
+    print('Amount of rare letters is:', rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+6,7,2019-10-30 00:07:46,0.5622849903869369,0.6339,SyntaxError: bad input on line 8,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    print(range(len(parasplit))
+    for i in range(len(parasplit)):
+        if i == 'j' or i == 'x' or i == 'q' or i == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+
+    print('Amount of long words is:', longwordcount)
+    print('Amount of rare letters is:', rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+7,8,2019-10-30 00:08:02,0.5505048515829618,0.6253,SyntaxError: bad input on line 8,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    print(len(parasplit)
+    for i in range(len(parasplit)):
+        if i == 'j' or i == 'x' or i == 'q' or i == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+
+    print('Amount of long words is:', longwordcount)
+    print('Amount of rare letters is:', rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+8,9,2019-10-30 00:08:10,0.3691201834719877,0.467,SyntaxError: bad input on line 8,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    print(len(parasplit)
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+
+    print('Amount of long words is:', longwordcount)
+    print('Amount of rare letters is:', rarelettercount)
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+9,10,2019-10-30 00:09:21,0.4411065267128702,0.526,success,"
+def CoolPara(words):
+    # your code here
+    rarelettercount = 0
+    longwordcount = 0
+    parasplit = words.split()
+    for i in range(len(parasplit)):
+        if i == 'j' or i == 'x' or i == 'q' or i == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+    return longwordcount
+    return rarelettercount
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+10,11,2019-10-30 00:18:40,0.6014885606267402,0.6646,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        if i == 'z':
+            rarelettercount += 1
+            print(rarelettercount)
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            print(longwordcount)
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+11,12,2019-10-30 00:22:10,0.568101667238989,0.6355,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        if parasplit[i] == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+12,13,2019-10-30 00:23:23,0.5954180323520392,0.6571,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        if parasplit[i] == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+13,14,2019-10-30 00:23:43,0.58147262111121,0.6466,TypeError: start must be a integer on line 10,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(parasplit):
+        if parasplit[i] == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+14,15,2019-10-30 00:23:54,0.5813724909111834,0.6491,TypeError: 'int' object is not iterable on line 10,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in len(parasplit):
+        if parasplit[i] == 'z':
+            rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+15,16,2019-10-30 00:26:19,0.639593482861825,0.6853,SyntaxError: bad input on line 13,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        word = parasplit[i]
+        for i in word:
+            if word[i] == 'z'
+                rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+16,17,2019-10-30 00:26:25,0.6499686105179343,0.6948,"TypeError: string indices must be integers, not str on line 13","
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        word = parasplit[i]
+        for i in word:
+            if word[i] == 'z':
+                rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+17,18,2019-10-30 00:26:50,0.6347476751493757,0.6847,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        word = parasplit[i]
+        for i in word:
+            if word == 'z':
+                rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+18,19,2019-10-30 00:27:24,0.7072058849880185,0.7501,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        word = parasplit[i]
+        for i in word:
+            if word == 'z' or word == 'j' or word == 'x' or word == 'q':
+                rarelettercount += 1
+    for word in parasplit:
+        if len(parasplit) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+19,20,2019-10-30 00:28:50,0.7150049017710147,0.7519,TypeError: 'int' object is not iterable on line 15,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in range(len(parasplit)):
+        word = parasplit[i]
+        for i in word:
+            if word == 'z' or word == 'j' or word == 'x' or word == 'q':
+                rarelettercount += 1
+    for word in len(parasplit):
+        if len(word) >= 8:
+            longwordcount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+20,21,2019-10-30 00:31:18,0.6074106927797653,0.6919,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+            
+        for x in i:
+            if i == 'z' or i == 'j' or i == 'x' or i == 'q':
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+21,22,2019-10-30 00:33:37,0.5839486317409525,0.6544,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        if i == 'z' or i == 'j' or i == 'x' or i == 'q':
+            rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+22,23,2019-10-30 00:34:48,0.6085835902271476,0.7016,success,"
+def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    print(parasplit)
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter == 'z' or letter == 'j' or letter == 'x' or letter == 'q':
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+23,24,2019-10-30 00:42:41,0.5935561119504444,0.6951,TypeError: TypeError: 'In <string> requires string as left operand on line 12,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if specialchar in letter:
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+24,25,2019-10-30 00:43:00,0.5937964683733375,0.6947,success,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+25,26,2019-10-30 01:18:42,0.6635376976719778,0.7854,SyntaxError: bad input on line 8,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    totalwords = len(parasplit)
+    if totalwords >= 10:
+        tenwords = True
+        if 
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+26,27,2019-10-30 01:19:09,0.5937964683733375,0.6947,success,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+27,28,2019-10-30 01:32:46,0.9450294489044297,0.9827,AttributeError: 'bool' object has no attribute 'True' on line 29,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+            
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    print(allTrue.True())
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+28,29,2019-10-30 01:33:25,0.973101624250349,0.9858,AttributeError: 'bool' object has no attribute 'True' on line 28,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    print(allTrue.True())
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+29,30,2019-10-30 01:33:39,0.9694975326688791,0.9841,AttributeError: 'bool' object has no attribute 'True' on line 28,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    return allTrue.True()
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+30,31,2019-10-30 01:35:28,0.9498561019600142,0.9897,SyntaxError: bad input on line 29,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+                
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    if allTrue = True:
+        print('True')
+    else:
+        print('False')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+31,32,2019-10-30 01:35:38,0.9514590012929552,0.9907,success,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+                
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    if allTrue == True:
+        print('True')
+    else:
+        print('False')
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+32,33,2019-10-30 01:39:41,1.0,0.9884,success,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+                
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    if allTrue == True:
+        return True
+    else:
+        return False
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+33,34,2019-10-30 01:40:14,0.9657596822843191,0.9887,SyntaxError: bad input on line 29,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+                
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    if allTrue = True:
+        print('True')
+    else:
+        print('False')
+    
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+34,35,2019-10-30 01:40:26,0.9672175513937304,0.9898,success,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+                
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    if allTrue == True:
+        print('True')
+    else:
+        print('False')
+    
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+35,36,2019-10-30 01:41:22,1.0,0.9884,success,"def CoolPara(words):
+    # your code here
+    parasplit = words.split()
+    tenwords = False
+    tenPercentRare = False
+    tenPercentLong = False
+    allTrue = False
+    totalwords = len(parasplit)
+    rarelettercount = 0
+    longwordcount = 0
+    specialchar = ['j','x','q','z']
+    
+    for i in parasplit:
+        if len(i) >= 8:
+            longwordcount += 1
+        for letter in i:
+            if letter in specialchar:
+                rarelettercount += 1
+    if totalwords > 10:
+        tenwords = True
+        if rarelettercount/totalwords >= .1*totalwords:
+            tenPercentRare = True
+            if longwordcount/totalwords >= .1*totalwords:
+                tenPercentLong = True
+                allTrue = True
+                
+    print(totalwords, 'words in the input paragraph')
+    print(rarelettercount, 'word with a rare character')
+    print(longwordcount, 'words that have 8 letters or more')
+    
+    if allTrue == True:
+        return True
+    else:
+        return False
+    
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"

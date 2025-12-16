@@ -1,0 +1,224 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-17 18:10:18,0.6134197502506579,0.6098,SyntaxError: bad input on line 4,"def CommonLetters(mystring):
+    str = ""Texas""
+    for x in range(len.mystring):
+        if [x]"
+2,3,2019-10-19 00:05:36,0.6952371901538931,0.4935,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len.string1):
+        for y in range(len.mystring):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])"
+3,4,2019-10-19 00:15:13,0.7389280176135326,0.5332,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len.string1):
+        for y in range(len.mystring):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")"
+4,5,2019-10-19 00:15:38,0.7728503888320306,0.5557,AttributeError: '<native JS>' object has no attribute 'string1' on line 3,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len.string1):
+        for y in range(len.mystring):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+CommonLetters(mystring)"
+5,6,2019-10-19 00:16:11,0.7729247101180543,0.5718,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+CommonLetters(mystring)"
+6,7,2019-10-19 00:25:18,0.7935301161799668,0.6601,NameError: name 'mystring' is not defined on line 7,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+while (mystring != """"):               
+    mystring=input(""Enter string: "")
+    CommonLetters(mystring)"
+7,8,2019-10-19 00:25:55,0.8051178891947953,0.6417,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    mystring=input(""Enter string: "")
+    CommonLetters(mystring)"
+8,9,2019-10-19 00:27:12,0.8168040386007311,0.6736,TimeLimitError: Program exceeded run time limit. on line 6,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    if(mystring ==""""):
+        break"
+9,10,2019-10-19 00:31:22,0.8182140213275002,0.6777,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+10,11,2019-10-19 01:44:25,0.8099348595167809,0.705,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    for x in range (len(string1)-1):
+        for y in range(len(mystring)-1):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+11,12,2019-10-19 01:45:31,0.8274639165147202,0.6603,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    x=0
+    y=0
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+12,13,2019-10-19 01:46:04,0.8205770383658304,0.6804,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    x=0
+    y=0
+    for x in range (len(string1)-1,1,1):
+        for y in range(len(mystring)-1,1,1):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+13,14,2019-10-19 01:46:23,0.8274639165147202,0.6603,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    x=0
+    y=0
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                print(mystring[y])
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+14,15,2019-10-19 02:02:34,0.8789949619347274,0.7296,NameError: name 'string' is not defined on line 9,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    x=0
+    y=0
+    sentence = []
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                sentence.append(string[y])
+    print(sentence)
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+15,16,2019-10-19 02:02:47,0.8810436856308467,0.7401,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    x=0
+    y=0
+    sentence = []
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                sentence.append(mystring[y])
+    print(sentence)
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+16,17,2019-10-19 02:03:40,0.9300789431111585,0.7599,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    x=0
+    y=0
+    sentence = """"
+    for x in range (len(string1)):
+        for y in range(len(mystring)):
+            if(mystring[y]==string1[x]):
+                sentence += mystring[y]+"" ""
+    print(sentence)
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+17,18,2019-10-19 02:04:28,0.9471391321652569,0.7742,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    y=0
+    sentence = """"
+    for x in range (0,len(string1)-1,1):
+        for y in range(0,len(mystring)-1,1):
+            if(mystring[y]==string1[x]):
+                sentence += mystring[y]+"" ""
+    print(sentence)
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"
+18,19,2019-10-19 02:04:37,1.0,0.755,success,"def CommonLetters(mystring):
+    string1 = ""Texas""
+    y=0
+    sentence = """"
+    for x in range (0,len(string1),1):
+        for y in range(0,len(mystring),1):
+            if(mystring[y]==string1[x]):
+                sentence += mystring[y]+"" ""
+    print(sentence)
+                
+mystring=input(""Enter string: "")
+while (mystring != """"):               
+    CommonLetters(mystring)
+    mystring=input(""Enter string: "")
+    if(mystring ==""""):
+        break"

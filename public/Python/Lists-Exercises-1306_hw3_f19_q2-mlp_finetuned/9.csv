@@ -1,0 +1,556 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0129,, 
+1,2,2019-11-04 02:14:58,0.6499263038896352,0.6654,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    print(linesplit)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+2,3,2019-11-04 02:18:52,0.7524239820235802,0.8301,SyntaxError: bad input on line 16,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    for i in linesplit:
+        x = i[0]
+        x = x.capitalize
+        print x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+3,4,2019-11-04 02:19:05,0.7719021011244427,0.8368,SyntaxError: bad input on line 16,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    for i in linesplit:
+        x = str(i[0])
+        x = x.capitalize
+        print x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+4,5,2019-11-04 02:19:25,0.7080806152900571,0.7731,SyntaxError: bad input on line 15,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    for i in linesplit:
+        x = i.capitalize
+        print x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+5,6,2019-11-04 02:19:32,0.7261586359074983,0.781,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    for i in linesplit:
+        x = i.capitalize
+        print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+6,7,2019-11-04 02:19:46,0.739223018398919,0.7935,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    for i in linesplit:
+        x = i.capitalize()
+        print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+7,8,2019-11-04 02:20:09,0.7285412490105276,0.7706,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    for i in line:
+        x = i.capitalize()
+        print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+8,9,2019-11-04 02:20:27,0.6924674930108263,0.7189,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = line.capitalize()
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+9,10,2019-11-04 02:21:00,0.7797447324165914,0.8335,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        x = x + i.capitalize()
+        print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+10,11,2019-11-04 02:21:35,0.780824789494863,0.8324,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        x = x + i.capitalize()
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+11,12,2019-11-04 02:21:54,0.8053791280498329,0.8688,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        x = x + i.capitalize() + ' '
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+12,13,2019-11-04 02:22:45,0.8475178933789849,0.8935,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i != specialWords:
+            x = x + i.capitalize() + ' '
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+13,14,2019-11-04 02:23:13,0.852949886967732,0.8931,TypeError: TypeError: 'In <string> requires string as left operand on line 15,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if specialWords not in i:
+            x = x + i.capitalize() + ' '
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+14,15,2019-11-04 02:23:30,0.9076746300230796,0.9157,TypeError: TypeError: 'In <string> requires string as left operand on line 15,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if specialWords not in i:
+            x = x + i.capitalize() + ' '
+        else: x = x + i
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+15,16,2019-11-04 02:23:39,0.9089160331567683,0.9194,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else: x = x + i
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+16,17,2019-11-04 02:24:01,0.9320538800013912,0.9324,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else: x = x + i + ' '
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+17,18,2019-11-04 02:25:18,0.873720176269069,0.955,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        elif i[0] in specialWords:
+            x = x + i.capitalize() + ' '
+        else: x = x + i + ' '
+    print(x)
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+18,19,2019-11-04 02:25:46,0.8964055731668157,0.9672,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        elif i[0] in specialWords:
+            x = x + i.capitalize() + ' '
+        else: x = x + i + ' '
+    return x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+19,20,2019-11-04 02:27:25,0.9601867689431697,0.9523,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else: x = x + i + ' '
+    y = x.capitalize()
+    return y
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+20,21,2019-11-04 02:27:43,0.9619103161299921,0.9628,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else: x = x + i + ' '
+    y = x[0].capitalize()
+    return y
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+21,22,2019-11-04 02:32:20,0.967596848896471,0.9556,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    line = line.capitalize()
+    linesplit = line.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else:
+            x = x + i + ' '
+    return x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+22,23,2019-11-04 02:37:30,0.9794275853892674,0.9667,UnboundLocalError: local variable 'capline' referenced before assignment on line 12,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    capline = capline.capitalize()
+    linesplit = capline.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else:
+            x = x + i + ' '
+    return x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+23,24,2019-11-04 02:37:36,0.9999999636321045,0.9633,success,"
+import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+# define the capTitle() function here
+def capTitle(line):
+    capline = line.capitalize()
+    linesplit = capline.split()
+    x = ''
+    for i in linesplit:
+        if i not in specialWords:
+            x = x + i.capitalize() + ' '
+        else:
+            x = x + i + ' '
+    return x
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"

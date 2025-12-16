@@ -1,0 +1,173 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0236,, 
+1,2,2019-10-18 04:29:18,0.6031310133777223,0.805,SyntaxError: bad input on line 4,"def isPrimes(number):
+    # your code here
+
+def FindPrimes2(Q):
+    # your code here
+    
+def isPrimes(number):
+    # your code here
+    if number > 1:
+        if number !=2:
+            for i in range(2,number):
+                if number%i == 0:
+                    return False
+                return True
+            
+        else:
+            return True
+    else:
+        return False
+    
+print(isPrimes(9))
+
+    
+
+def FindPrimes(P):
+    # your code here
+    counter = 0
+    for i in range(1,P+1):
+        if isPrimes(i):
+            print(i,'is a prime number')
+            counter = counter + 1
+    print('Number of prime numbers between 1 and',P,'is:',counter)
+    
+FindPrimes(100)
+
+
+
+"
+2,3,2019-10-18 05:36:19,0.9733171735905823,0.9207,SyntaxError: bad token on line 1,"$def isPrimes(number):
+
+#def FindPrimes2(Q):
+  
+import math
+
+def isPrime(number):
+
+    for i in range(2, int(math.sqrt(number)+1)):
+
+        if number%i==0:
+
+            return False
+
+    return True
+
+def FindPrimes2(Q):
+
+    num = 2
+
+    c = 0
+
+    while c!=Q:
+
+        if isPrime(num):
+
+            c+=1
+
+        num+=1
+
+    return num-1
+
+print(FindPrimes2(4))
+
+print(FindPrimes2(10))
+
+print(FindPrimes2(100))"
+3,4,2019-10-18 05:36:28,0.9733171735905823,0.9207,success,"#def isPrimes(number):
+
+#def FindPrimes2(Q):
+  
+import math
+
+def isPrime(number):
+
+    for i in range(2, int(math.sqrt(number)+1)):
+
+        if number%i==0:
+
+            return False
+
+    return True
+
+def FindPrimes2(Q):
+
+    num = 2
+
+    c = 0
+
+    while c!=Q:
+
+        if isPrime(num):
+
+            c+=1
+
+        num+=1
+
+    return num-1
+
+print(FindPrimes2(4))
+
+print(FindPrimes2(10))
+
+print(FindPrimes2(100))"
+4,5,2019-10-18 05:40:46,0.9755088483912565,0.9225,success,"#def isPrimes(number):
+#def FindPrimes2(Q)
+
+def isPrime(number):
+    
+    import math
+
+    for i in range(2,int(math.sqrt(number)+1)):
+
+        if number%i==0:
+
+            return False
+
+    return True
+
+def FindPrimes2(Q):
+
+    num = 2
+
+    c = 0
+
+    while c!=Q:
+
+        if isPrime(num):
+
+            c+=1
+
+        num+=1
+
+    return num-1
+
+print(FindPrimes2(4))
+
+print(FindPrimes2(10))
+
+print(FindPrimes2(100))"
+5,6,2019-10-18 05:44:05,1.0,0.9219,success,"def isPrime(number):
+    
+    import math
+
+    for i in range(2,int(math.sqrt(number)+1)):
+        if number%i==0:
+            return False
+    return True
+
+def FindPrimes2(Q):
+
+    num = 2
+    c = 0
+
+    while c!=Q:
+        if isPrime(num):
+            c+=1
+        num+=1
+    return num-1
+
+print(FindPrimes2(4))
+print(FindPrimes2(7))
+print(FindPrimes2(17))"

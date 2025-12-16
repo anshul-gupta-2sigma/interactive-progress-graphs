@@ -1,0 +1,137 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-17 14:37:45,0.9120568361891224,0.7652,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))+""	Discard
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+2,3,2019-10-17 14:56:22,0.9264526631746549,0.7716,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness))+""	Discard
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+3,4,2019-10-17 14:56:36,0.9120568361891224,0.7652,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))+""	Discard
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+4,5,2019-10-17 14:59:59,0.9098360112498041,0.7678,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))+""	Discarded
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+5,6,2019-10-17 15:00:18,0.9105427124760684,0.763,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" \effectiveness ""+str(effectiveness))+""	discarded
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+6,7,2019-10-17 15:19:07,0.8940129787808694,0.7455,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" \effectiveness ""+str(teffectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" \effectiveness ""+str(teffectiveness))+""	discarded
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+7,8,2019-10-17 15:21:47,0.9235611937636465,0.7737,SyntaxError: bad token on line 8,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness))+""	Discarded
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+8,9,2019-10-17 15:22:46,0.9606386347222329,0.8069,UnboundLocalError: local variable 'effefctiveness' referenced before assignment on line 6,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness))
+        effefctiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness)+""	Discarded"")
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"
+9,10,2019-10-17 15:23:18,0.9999999594382253,0.8061,success,"def drugPotency(loss, expire):
+    effectiveness = 100.0
+    count = 0
+    while(effectiveness >= expire):
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness))
+        effectiveness -= (effectiveness * loss)/100;
+        count += 1
+        print(""Month ""+str (count)+"" 	effectiveness ""+str(effectiveness)+""	Discarded"")
+              
+              
+def main():
+    drugPotency(4.0, 50.0)
+              
+if __name__ == ""__main__"":
+    main()"

@@ -1,0 +1,360 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,2025-09-30 12:04:15.593000,0.0,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         numGallon
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+1,2,2025-09-30 12:04:20.598000,0.2434702833971858,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+2,3,2025-09-30 12:04:25.619000,0.08206488961202785,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons
+         do
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+3,4,2025-09-30 12:04:30.626000,0.3880640498899053,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons
+         double milesPerGallon
+           
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+4,5,2025-09-30 12:04:35.629000,0.3252108012501611,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons
+         double milesPerGallon
+         double miles
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+5,6,2025-09-30 12:04:50.660000,0.43362770708364107,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons
+         double milesPerGallon = 32:
+         double miles
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+6,7,2025-09-30 12:04:55.669000,0.5012553338856791,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons
+         double milesPerGallon = 32;
+         double miles = 
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+7,8,2025-09-30 12:05:15.718000,0.4948572302030342,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = 
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+8,9,2025-09-30 12:05:20.730000,0.47708916056978035,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = mile
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+9,10,2025-09-30 12:05:25.747000,0.5148879195248737,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+10,11,2025-09-30 12:05:30.758000,0.5033459009017527,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = 32 8
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+11,12,2025-09-30 12:05:35.760000,0.47908974557911976,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPe
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+12,13,2025-09-30 12:05:40.764000,0.511145812795483,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPerGallon * 
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+13,14,2025-09-30 12:05:45.782000,0.5282735900630497,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPerGallon * numGallons;
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+14,15,2025-09-30 12:06:00.818000,0.365695548567026,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPerGallon * numGallons;
+         y
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+15,16,2025-09-30 12:06:05.831000,0.5282202799220479,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPerGallon * numGallons;
+         System.out.prin
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+16,17,2025-09-30 12:06:10.832000,0.6316965541462403,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPerGallon * numGallons;
+         System.out.println(miles);
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+17,18,2025-09-30 12:06:21.749000,0.6290929005702732,0.0,False,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10;
+         double milesPerGallon = 32;
+         double miles = milesPerGallom = milesPerGallon * numGallons;
+         System.out.println(miles);
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+18,19,2025-09-30 12:06:41.135000,0.6156721404410515,0.0,False,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 10;
+         double milesPerGallon = 32;
+         double miles = milesPerGallon * numGallons;
+         System.out.println(miles);
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+19,20,2025-09-30 12:07:41.606000,0.7703546945962073,0.0,,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 2.;
+         double milesPerGallon = 32;
+         double miles = milesPerGallon * numGallons;
+         System.out.println(miles);
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"
+20,21,2025-09-30 12:07:43.783000,0.9999998583183529,0.0,True,"
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+         double numGallons = 2.5;
+         double milesPerGallon = 32;
+         double miles = milesPerGallon * numGallons;
+         System.out.println(miles);
+           // Your code should declare the variables
+           //  numGallons, milesPerGallon, and miles, and
+           // calculate numGallons (the number of gallons left in the tank given the values above),
+           // initialize milesPerGallon (the miles per gallon given above for this car),
+           // calculate miles (the number of miles you can drive calculated from the other variables)
+           // and print out miles.
+   
+       }
+   }"

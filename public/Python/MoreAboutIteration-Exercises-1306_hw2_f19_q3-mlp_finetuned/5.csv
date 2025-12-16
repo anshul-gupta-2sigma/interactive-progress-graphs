@@ -1,0 +1,385 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-17 05:44:41,0.8784116018020213,0.8251,UnboundLocalError: local variable 'effectiveness' referenced before assignment on line 5,"def drugPotency(loss, expire):
+    effectivess = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+2,3,2019-10-17 05:50:20,0.8904987628715563,0.863,UnboundLocalError: local variable 'effectiveness' referenced before assignment on line 5,"def drugPotency(loss, expire):
+    effectivess = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+3,4,2019-10-17 05:50:38,0.8951350352337888,0.8402,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+4,5,2019-10-17 05:50:51,0.8456220166101006,0.8431,NameError: name 'month' is not defined on line 12,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+
+month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+5,6,2019-10-17 05:50:59,0.8456220166101006,0.8431,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+
+    month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+6,7,2019-10-17 05:51:02,0.8456220166101006,0.8431,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+
+        month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+7,8,2019-10-17 05:51:13,0.8354326089074628,0.8401,SyntaxError: 'break' outside loop,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+            break
+        month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+8,9,2019-10-17 05:51:28,0.8354326089074628,0.8401,SyntaxError: bad input on line 11,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+             break
+        month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+9,10,2019-10-17 05:51:48,0.8354326089074628,0.8401,SyntaxError: 'break' outside loop,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+        break
+        month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+10,11,2019-10-17 05:52:03,0.8354326089074628,0.8401,SyntaxError: bad input on line 11,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+                  break
+        month = month + 1
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+11,12,2019-10-17 05:53:24,0.8951350352337888,0.8402,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+        
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+12,13,2019-10-17 05:56:04,0.8459789598827476,0.8411,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        month = month + 1
+        effectiveness = effectiveness-loss
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+        
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+13,14,2019-10-17 05:56:10,0.8954404952770665,0.849,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        month = month + 1
+        
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+        
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+14,15,2019-10-17 05:56:54,0.8954404952770665,0.849,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    if (effectiveness > expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        loss = (effectiveness*lost)
+        month = month + 1 
+        if(effectiveness <+ expire):
+            print(""Month:"", month+1, ""effectiveness:"", effectiveness, ""DISCARDED"")
+        
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+15,16,2019-10-17 06:02:48,0.9291138904487223,0.8573,NameError: name 'DISCARDED' is not defined on line 9,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month, ""effectiveness:"", DISCARDED)
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+16,17,2019-10-17 06:03:50,0.9579804272856218,0.8969,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month, ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month, ""effectiveness:"", effectiveness, ""DISCARDED"")
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+17,18,2019-10-17 06:04:03,0.9579804272856218,0.8969,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month,    ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month,    ""effectiveness:"", effectiveness, ""DISCARDED"")
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+18,19,2019-10-17 06:04:16,0.9779186037963739,0.881,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month, ""  effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month, ""effectiveness:"", effectiveness, ""DISCARDED"")
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+19,20,2019-10-17 06:04:28,1.0,0.8766,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month, ""  effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month, ""  effectiveness:"", effectiveness, ""DISCARDED"")
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+20,21,2019-10-17 06:04:58,1.0,0.8766,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month , ""  effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month, ""  effectiveness:"", effectiveness, ""DISCARDED"")
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+21,22,2019-10-17 06:05:07,1.0,0.8766,success,"def drugPotency(loss, expire):
+    effectiveness = 100
+    month = 0
+    lost = loss/100
+    while (effectiveness >= expire):
+        print(""Month:"", month, ""  effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*lost)
+        month = month + 1 
+    print(""Month:"", month,  ""  effectiveness:"", effectiveness, ""DISCARDED"")
+       
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"

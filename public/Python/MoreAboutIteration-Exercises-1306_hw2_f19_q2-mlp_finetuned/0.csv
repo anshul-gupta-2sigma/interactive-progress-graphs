@@ -1,0 +1,166 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0236,, 
+1,2,2019-10-16 19:46:49,0.8686121398738307,0.7879,SyntaxError: bad input on line 3,"def isPrimes(number):
+    # your code here
+for i in range(2, int(math.sqrt(number))+1):
+
+        if number%2==0:
+
+            return False
+
+    return True
+def FindPrimes2(Q):
+    # your code here
+num = 2
+
+    c = 0
+
+    while c!=Q:
+
+        if isPrime(num):
+
+            c+=1
+
+        num+=1
+
+    return num-1
+
+print(FindPrimes2(4))
+
+print(FindPrimes2(10))
+
+"
+2,3,2019-10-16 19:47:27,0.8517203722601339,0.7911,SyntaxError: bad input on line 5,"import math
+
+def isPrimes(number):
+    # your code here
+for i in range(2, int(math.sqrt(number))+1):
+
+        if number%2==0:
+
+            return False
+
+    return True
+def FindPrimes2(Q):
+    # your code here
+num = 2
+
+    c = 0
+
+    while c!=Q:
+
+        if isPrime(num):
+
+            c+=1
+
+        num+=1
+
+    return num-1
+
+print(FindPrimes2(4))
+
+print(FindPrimes2(10))
+
+"
+3,4,2019-10-16 19:47:49,0.8932080306069488,0.7134,SyntaxError: bad input on line 3,"def isPrimes(number):
+    # your code here
+for i in range(2, int(number)+1):
+
+        if number%2==0:
+
+            return False
+
+    return True
+def FindPrimes2(Q):
+    # your code here
+num = 2
+
+    c = 0
+
+    while c!=Q:
+
+        if isPrime(num):
+
+            c+=1
+
+        num+=1
+
+    return num-1
+
+print(FindPrimes2(4))
+
+print(FindPrimes2(10))
+
+"
+4,5,2019-10-17 23:06:48,0.6863665531381917,0.5848,success,"def isPrimes(number):
+    # your code here
+    for x in range(1, number):
+        if number % x == 0:
+            return False
+        return True
+counter = 0
+number = 2
+def FindPrimes2(Q):
+    while counter != Q:
+        if (isPrimes(number) == True):
+            counter += 1
+        number += 1
+
+"
+5,6,2019-10-18 01:15:59,0.986985748410595,0.933,success,"def isPrimes(number):
+    # your code here
+    for x in range(2, number):
+        if number % x == 0:
+            return False
+        return True
+def FindPrimes2(Q):
+    count = 0
+    num = 2
+    running = True
+    while running:
+        if (isPrimes(num) == True):
+            count += 1
+        if (count == Q):
+            return(num)
+            running = False
+        num += 1
+print(FindPrimes2(3))
+"
+6,7,2019-10-18 01:16:15,0.9875121330562496,0.9301,success,"def isPrimes(number):
+    # your code here
+    for x in range(2, number):
+        if number % x == 0:
+            return False
+        return True
+def FindPrimes2(Q):
+    count = 0
+    num = 2
+    running = True
+    while running:
+        if (isPrimes(num) == True):
+            count += 1
+        if (count == Q):
+            return(num)
+            running = False
+        num += 1
+print(FindPrimes2(4))
+"
+7,8,2019-10-18 01:17:01,0.9999999137494578,0.9439,success,"def isPrimes(number):
+    # your code here
+    for x in range(2, number):
+        if number % x == 0:
+            return False
+        return True
+def FindPrimes2(Q):
+    count = 0
+    num = 2
+    running = True
+    while running:
+        if (isPrimes(num) == True):
+            count += 1
+        if (count == Q):
+            return(num)
+            running = False
+        num += 1
+print(FindPrimes2(100))
+"

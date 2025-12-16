@@ -1,0 +1,249 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0008,, 
+1,2,2019-10-01 15:17:31,0.5812341147192768,0.6087,SyntaxError: bad input on line 13,"# Your function goes here
+def printsquare(N,S):
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 15:21:29,0.793782829000014,0.7476,TypeError: start must be a integer on line 3,"# Your function goes here
+def printsquare(N,S):
+    for n in range(N):
+        return 2*N*S
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 15:28:42,0.8313063187294873,0.767,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+string = "" "" 
+for n in range(N):
+    string += 2 * S
+    
+       
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 15:32:07,0.8702645445907294,0.8242,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+string = ' '  
+for x in range(2N):
+    string += S
+for n in range(N):
+    print(string)
+       
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 15:33:34,0.8668600514619565,0.8236,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+String = ' '  
+for x in range(2N):
+    string += S
+for n in range(N):
+    print(string)
+       
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 15:42:32,0.8668600514619565,0.8236,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+String = ' '  
+for x in range(2N):
+    string += S
+for n in range(N):
+    print(string)    
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+7,8,2019-10-01 15:43:10,0.8702645445907294,0.8242,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+string = ' '  
+for x in range(2N):
+    string += S
+for n in range(N):
+    print(string)    
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+8,9,2019-10-01 15:47:18,0.9213491870761065,0.8641,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+    
+string = ' '  
+for x in range(int(N)):
+    print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+9,10,2019-10-01 15:47:26,0.9402267026831904,0.8741,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S):
+     
+for x in range(int(N)):
+    print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+10,11,2019-10-01 15:47:40,0.9402267026831904,0.8741,SyntaxError: bad input on line 5,"# Your function goes here
+def printsquare(N,S):
+     
+
+for x in range(int(N)):
+    print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+11,12,2019-10-01 15:50:04,0.7553405357680171,0.7147,success,"# Your function goes here
+def printsquare(N,S):
+     
+
+#for x in range(int(N)):
+    print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+12,13,2019-10-01 15:51:17,0.9402267026831904,0.8741,SyntaxError: bad input on line 5,"# Your function goes here
+def printsquare(N,S):
+     
+
+for x in range(int(N)):
+    print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+13,14,2019-10-01 15:52:02,0.9336850003028285,0.8745,success,"# Your function goes here
+def printsquare(N,S):
+     
+
+    for x in range(int(N)):
+        print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"
+14,15,2019-10-01 15:55:30,1.0,0.894,success,"# Your function goes here
+def printsquare(N,S):
+    
+    n = int(N)
+    for x in range(n):
+        print(2*int(N)*S)
+   
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)"

@@ -1,0 +1,189 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-01-29 04:59:06,0.955366392739215,0.8771,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+    
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,50)
+        ae.up()
+        ae.forward (350)
+        ae.right(144)
+        ae.down()
+    
+"
+2,3,2020-01-29 05:01:23,0.9700178668874445,0.8713,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+    
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,50)
+        ae.up()
+        ae.forward (350)
+        ae.right(144)
+        ae.down()
+        
+drawfive()
+    
+"
+3,4,2020-01-29 05:01:34,0.9713538652072461,0.8698,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+    
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,25)
+        ae.up()
+        ae.forward (350)
+        ae.right(144)
+        ae.down()
+        
+drawfive()
+    
+"
+4,5,2020-01-29 05:03:57,0.9914933097839645,0.8721,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+ae.left (54)
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,25)
+        ae.up()
+        ae.forward (350)
+        ae.right(144)
+        ae.down()
+        
+drawfive()
+    
+"
+5,6,2020-01-29 05:04:39,0.9934570930537057,0.8724,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+ae.left (36)
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,25)
+        ae.up()
+        ae.forward (350)
+        ae.right(144)
+        ae.down()
+        
+drawfive()
+    
+"
+6,7,2020-01-29 05:05:14,0.9965324972684984,0.8728,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+ae.left (36)
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,25)
+        ae.up()
+        ae.forward (150)
+        ae.right(144)
+        ae.down()
+        
+drawfive()
+    
+"
+7,8,2020-01-29 05:05:34,0.9999999775460054,0.8737,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ae = turtle.Turtle()
+ae.color(""pink"")
+ae.speed (30)
+def drawstar (t, side):
+    for number in range(5):
+        t.forward (int(side)/(5/3))
+        t.back (int(side)/(5/3))
+        t.right(72)
+        t.forward (int(side))
+        t.left (144)
+        t.forward (int(side))
+ae.left (36)
+def drawfive ():
+    for i in range (5):
+        drawstar(ae,25)
+        ae.up()
+        ae.forward (200)
+        ae.right(144)
+        ae.down()
+        
+drawfive()
+    
+"

@@ -1,0 +1,293 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:25:43,0.6769852383668118,0.4931,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in [Start, Start+N-1, 1]:
+    print(i)"
+2,3,2019-09-12 15:32:21,0.6904940586666187,0.5336,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1, 1):
+    print(i)"
+3,4,2019-09-12 15:35:32,0.8402272374882198,0.6201,NameError: name 'n' is not defined on line 6,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1, 1):
+    print(i)
+print(""The average is"", i/(n-1))"
+4,5,2019-09-12 15:35:42,0.841128825814493,0.6208,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1, 1):
+    print(i)
+print(""The average is"", i/(N-1))"
+5,6,2019-09-12 15:36:14,0.6904940586666187,0.5336,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1, 1):
+    print(i)"
+6,7,2019-09-12 15:37:43,0.6641971246875439,0.5292,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1):
+    print(i)"
+7,8,2019-09-12 15:38:38,0.6904940586666187,0.5336,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1, 1):
+    print(i)"
+8,9,2019-09-12 15:39:48,0.724979802815668,0.5347,TypeError: 'int' object is not iterable on line 5,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N-1, 1):
+    print(list(i))"
+9,10,2019-09-12 15:40:17,0.6659057014677341,0.5283,success,"# Write your program here
+N = int(input(""Enter N here: ""))
+Start = int(input(""Enter Start here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+10,11,2019-09-12 15:42:44,0.6929008743828868,0.4968,TypeError: 'int' object is not iterable on line 4,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in list(Start, Start+N, 1):
+    print(i)"
+11,12,2019-09-12 15:42:52,0.6934234258157901,0.4617,TypeError: 'list' does not support indexing on line 4,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in list[Start, Start+N, 1]:
+    print(i)"
+12,13,2019-09-12 15:43:19,0.6797014264995825,0.4743,ValueError: invalid literal for int() with base 10: 'None' on line 3,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in [Start, Start+N, 1]:
+    print(i)"
+13,14,2019-09-12 15:43:34,0.7040067906859498,0.4809,success,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in [Start, Start+N-1, 1]:
+    print(i)"
+14,15,2019-09-12 15:44:47,0.6776982581554106,0.4865,success,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in [Start, Start+N-1]:
+    print(i)"
+15,16,2019-09-12 15:45:41,0.6916750120694979,0.5225,success,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N-1):
+    print(i)"
+16,17,2019-09-12 15:46:33,0.6666303437904215,0.514,success,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N):
+    print(i)"
+17,18,2019-09-12 15:46:44,0.6930140689062451,0.522,success,"# Write your program here
+N = int(input(""Enter N number here: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+18,19,2019-09-12 15:49:23,0.7578538943381975,0.5117,TypeError: 'int' object is not iterable on line 5,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(list(i))
+    "
+19,20,2019-09-12 15:51:34,0.7933519845243228,0.4899,TypeError: 'int' object is not iterable on line 5,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(list(int(i)))
+    "
+20,21,2019-09-12 15:52:29,0.6641340827023894,0.4829,SyntaxError: bad input on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    "
+21,22,2019-09-12 15:52:44,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    "
+22,23,2019-09-12 15:53:25,0.8051320498938019,0.4805,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    print(Start+i)"
+23,24,2019-09-12 15:55:43,0.8247420807677031,0.4773,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    print(i+i+i)"
+24,25,2019-09-12 15:56:48,0.8807969971651162,0.532,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    total = (i+i+i)
+    average = total/N"
+25,26,2019-09-12 15:56:57,0.8703461507292753,0.6039,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    total = (i+i+i)
+    average = total/N
+    print(average)"
+26,27,2019-09-12 15:57:11,0.8723227177062431,0.4635,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    total = (i+i+i)
+    print(total)"
+27,28,2019-09-12 15:59:41,0.7889234331903444,0.4919,SyntaxError: bad input on line 5,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    for t in (i)
+    print(t)"
+28,29,2019-09-12 15:59:57,0.8090516328735299,0.4514,SyntaxError: bad input on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    for t in (i):
+    print(t)"
+29,30,2019-09-12 16:00:10,0.8420366337363371,0.4936,TypeError: 'int' object is not iterable on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+for t in (i):
+    print(t)"
+30,31,2019-09-12 16:01:21,0.7445430034777587,0.4873,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i/N)"
+31,32,2019-09-12 16:01:42,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+32,33,2019-09-12 16:03:26,0.8678933708549454,0.4647,TypeError: iter must be a iterable on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    total = int(input(sum(i)))
+    print(total)"
+33,34,2019-09-12 16:05:20,0.8565865473688139,0.4707,TypeError: iter must be a iterable on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    total = sum(i)
+    print(total)"
+34,35,2019-09-12 16:07:06,0.11973972888918383,0.2696,TypeError: iter must be a iterable on line 1,"print(sum(3, 5))"
+35,36,2019-09-12 16:08:03,0.16895129645758655,0.316,TypeError: iter must be a iterable on line 1,"t = sum(3, 5)
+print(t)"
+36,37,2019-09-12 16:09:14,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+37,38,2019-09-12 16:16:58,0.86331063016212,0.4899,TypeError: iter must be a iterable on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    numbersum = sum(i)
+    print(numbersum)"
+38,39,2019-09-12 16:17:09,0.8627223280191708,0.4918,TypeError: iter must be a iterable on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+numbersum = sum(i)
+print(numbersum)"
+39,40,2019-09-12 16:17:17,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+40,41,2019-09-12 16:20:26,0.8534830349726339,0.5126,TypeError: iter must be a iterable on line 6,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+    j = sum(i)
+    print(j)"
+41,42,2019-09-12 16:20:32,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+42,43,2019-09-12 16:22:36,0.7606947081978206,0.4986,TypeError: 'list' does not support indexing on line 5,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(list[i])"
+43,44,2019-09-12 16:22:44,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+44,45,2019-09-12 16:25:15,0.7688283519640798,0.4778,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+sum = i"
+45,46,2019-09-12 16:25:26,0.8245357205842649,0.4851,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+sum = i
+print(i)"
+46,47,2019-09-12 16:25:34,0.8264395377421174,0.4732,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)
+sum = i
+print(sum)"
+47,48,2019-09-12 16:25:46,0.7193637098283754,0.507,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+for i in range(Start, Start+N, 1):
+    print(i)"
+48,49,2019-09-12 16:28:21,0.8437957057755743,0.4228,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+sum = 0
+for i in range(Start, Start+N, 1):
+    print(i)
+    sum = sum+i"
+49,50,2019-09-12 16:28:32,0.8898648902182864,0.4538,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+sum = 0
+for i in range(Start, Start+N, 1):
+    print(i)
+    sum = sum+i
+print(sum)"
+50,51,2019-09-12 16:28:49,0.903701122149548,0.4698,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+sum = 0
+for i in range(Start, Start+N, 1):
+    sum = sum+i
+print(sum)
+print(sum/N)"
+51,52,2019-09-12 16:29:05,1.0,0.3388,success,"# Write your program here
+N = int(input(""Enter how many numbers to average: ""))
+Start = int(input(""Enter Start number here: ""))
+sum = 0
+for i in range(Start, Start+N, 1):
+    sum = sum+i
+print('The average is equal to', sum/N)"

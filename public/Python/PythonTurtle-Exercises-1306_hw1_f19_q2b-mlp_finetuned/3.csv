@@ -1,0 +1,81 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-13 20:38:46,0.8417826435982111,0.8871,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for rows in range (n):
+        print(n*s)"
+2,3,2019-09-13 20:39:50,0.8369342263441203,0.888,ValueError: invalid literal for int() with base 10: 'None' on line 1,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (n):
+        print(n*s)"
+3,4,2019-09-13 20:40:01,0.8379199628710517,0.8886,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (n):
+        print(i*s)"
+4,5,2019-09-13 20:40:16,0.8674098162477327,0.8852,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (n+1):
+        print(i*s)"
+5,6,2019-09-13 20:40:49,0.8900071807353248,0.8758,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (1,n+1):
+        print(i*s)"
+6,7,2019-09-14 21:18:53,0.8918010674449186,0.8747,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (1,n+1,2):
+        print(i*s)"
+7,8,2019-09-14 21:26:41,0.8638120779869151,0.891,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (n):
+        print(i*s + s)"
+8,9,2019-09-14 21:31:20,0.8918010674449186,0.8747,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for i in range (1,n+1,2):
+        print(i*s)"
+9,10,2019-09-14 21:32:16,0.8967652126247593,0.8754,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+multiple = 1
+
+for i in range (n):
+    print(i*s)
+    multiple += 2"
+10,11,2019-09-14 21:32:44,0.8670425588907182,0.8591,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+multiple = 1
+i = 1
+for i in range (n):
+    print(i*s)
+    multiple += 2"
+11,12,2019-09-14 21:33:08,0.8563403509105723,0.8546,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+multiple = 1
+for i in range (1,n+1):
+    print(multiple*s)
+    multiple += 2"
+12,13,2019-09-14 21:33:33,0.888676563450751,0.8668,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+multiple = 1
+for i in range (4):
+    print(multiple*s)
+    multiple += 2"
+13,14,2019-09-16 01:50:46,0.0,0.2833,success,"# Write your program here
+"
+14,15,2019-09-16 01:56:54,0.8893316206594869,0.8878,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+
+for rows in range (n):
+        print((2*n)*s)"
+15,16,2019-09-16 02:01:57,1.0,0.8707,success,"n = int(input(""Enter the amount of lines: ""))
+s = input(""Enter the symbol: "")
+a = 1
+for rows in range (n):
+        print(a*s)
+        a+=2"

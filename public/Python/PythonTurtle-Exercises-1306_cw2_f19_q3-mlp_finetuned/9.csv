@@ -1,0 +1,100 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-23 23:23:06,0.7728767463824602,0.6316,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for integer in range(start, start+1 , N-1)
+        print(integer)
+        
+"
+2,3,2019-09-24 14:16:36,0.733361702763335,0.5997,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for integer in range(start, start+1)
+        print(integer)
+        
+"
+3,4,2019-09-24 14:16:49,0.6985523436859249,0.5723,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for integer in range(start+1)
+        print(integer)
+        
+"
+4,5,2019-09-24 14:16:57,0.7237700232288999,0.5808,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for inte in range(start+1)
+        print(inte)
+        
+"
+5,6,2019-09-24 14:17:17,0.694246326978934,0.5492,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for inte in range(start)
+        print(inte)
+        
+"
+6,7,2019-09-24 14:17:29,0.7187874483649446,0.5795,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for inte in range(n+1)
+        print(inte)
+        
+"
+7,8,2019-09-24 14:17:33,0.6915723808642331,0.5511,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for inte in range(n)
+        print(inte)
+        
+"
+8,9,2019-09-24 14:17:42,0.6771369067569089,0.5656,SyntaxError: bad input on line 3,"n = int(input('what is the integer'))
+start = int(input('what is the start'))
+for x in range(n)
+        print(x)
+        
+"
+9,10,2019-09-26 15:44:40,0.8877070876608543,0.6222,SyntaxError: bad input on line 6,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+e = 1
+for n in range(start, start + n - 1):
+      x = start + e
+        print(x)
+"
+10,11,2019-09-26 15:54:03,0.8903369342023696,0.6359,success,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+e = 1
+for n in range(start, start + n - 1):
+      x = start + e
+print(x)
+"
+11,12,2019-09-26 15:54:20,0.8877070876608543,0.6222,success,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+e = 1
+for n in range(start, start + n - 1):
+    x = start + e
+    print(x)
+"
+12,13,2019-09-26 15:55:01,0.8573209668173252,0.6242,success,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+for n in range(start, start + n - 1):
+    x = n + 1
+    print(x)
+"
+13,14,2019-09-26 15:56:36,0.931583835011446,0.6968,NameError: name 'x' is not defined on line 4,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+for n in range(start, start + n - 1):
+    x = x+n
+avg = x / n
+print(avg)
+"
+14,15,2019-09-26 15:56:52,0.9013540269581932,0.7499,success,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+x = 0 
+for n in range(start, start + n - 1):
+    x = x+n
+avg = x / n
+print(avg)
+"
+15,16,2019-09-26 15:59:12,1.0,0.6801,success,"n = int(input(""enter n:""))
+start = int(input('enter start:'))
+
+for n in range(start, start + n - 1):
+    start = start+n
+avg = start / n
+print(avg)
+"

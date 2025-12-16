@@ -1,0 +1,112 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:46:26,0.35234012886289245,0.4728,SyntaxError: bad input on line 2,"Start = int(int(""Enter quiz grade 1:"")
+N = Start+1
+average = (N-1)/N         "
+2,3,2019-09-12 15:49:10,0.35234012886289245,0.4728,SyntaxError: bad input on line 2,"Start = int(int(""Enter quiz grade 1:"")
+N = Start + 1
+average = (N-1)/N         "
+3,4,2019-09-12 16:02:10,0.7166130835294984,0.6845,ValueError: invalid literal for int() with base 10: 'None' on line 1,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(N)
+for x in range(N):
+    print(Start + x)"
+4,5,2019-09-12 16:07:01,0.8130532717725172,0.7542,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(N, Start + N-1)
+for x in range(N, Start + N-1):
+    print(Start + x)"
+5,6,2019-09-12 16:10:06,0.7959064916823352,0.7526,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(Start + N-1)
+for x in range(Start + N-1):
+    print(Start + x)"
+6,7,2019-09-12 16:10:28,0.7381383308920265,0.7073,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(N)
+for x in range(N):
+    print(Start + x-1)"
+7,8,2019-09-12 16:10:37,0.7166130835294984,0.6845,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(N)
+for x in range(N):
+    print(Start + x)"
+8,9,2019-09-12 16:15:29,0.7142570595009432,0.6492,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(Start)
+for x in range(Start):
+    print(Start + N)"
+9,10,2019-09-12 16:17:04,0.7372436954719349,0.6495,ValueError: invalid literal for int() with base 10: 'None' on line 2,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(Start)
+for x in range(Start, Start+N):
+    print(N)"
+10,11,2019-09-12 16:17:22,0.7759064823513384,0.6649,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(Start, Start+N)
+for x in range(Start, Start+N):
+    print(N)"
+11,12,2019-09-12 16:17:43,0.7345119310335078,0.652,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(N)
+for x in range(Start, Start+N):
+    print(N)"
+12,13,2019-09-12 16:18:16,0.7578122650808243,0.6601,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(Start+N)
+for x in range(Start, Start+N):
+    print(N)"
+13,14,2019-09-12 16:18:36,0.7560438520004774,0.6563,success,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+x = range(N)
+for x in range(Start, Start+N):
+    print(Start+N)"
+14,15,2019-09-12 16:22:27,0.9209022384883219,0.8985,SyntaxError: bad input on line 4,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+pop = 0
+for number in range(Start, Start+N)
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"
+15,16,2019-09-12 16:22:33,0.9034688232782413,0.8853,SyntaxError: bad input on line 4,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+pop = 0
+for N in range(Start, Start+N)
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"
+16,17,2019-09-12 16:22:57,0.9209022384883219,0.8985,SyntaxError: bad input on line 4,"N = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+pop = 0
+for number in range(Start, Start+N)
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"
+17,18,2019-09-12 16:23:41,0.9340290822036716,0.9101,SyntaxError: bad input on line 4,"n = int(input('How many numbers to average?'))
+Start = int(input('What is the first number?'))
+pop = 0
+for number in range(Start, Start+n)
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"
+18,19,2019-09-12 16:23:52,0.9541748438277559,0.9281,SyntaxError: bad input on line 4,"n = int(input('How many numbers to average?'))
+start = int(input('What is the first number?'))
+pop = 0
+for number in range(start, start+n)
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"
+19,20,2019-09-12 16:24:08,0.9541748438277559,0.9281,SyntaxError: bad input on line 4,"n = int(input('How many numbers to average?'))
+start = int(input('What is the first number?'))
+pop = 0
+for number in range(start,start+n)
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"
+20,21,2019-09-12 16:24:14,0.9999999288121324,0.9432,success,"n = int(input('How many numbers to average?'))
+start = int(input('What is the first number?'))
+pop = 0
+for number in range(start,start+n):
+    pop = number+pop
+zz = pop/n
+print(""The average is"", zz)"

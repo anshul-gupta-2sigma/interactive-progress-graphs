@@ -1,0 +1,448 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-19 01:03:22,0.42561747994582344,0.4573,SyntaxError: bad input on line 5,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+if(mystring.find('T')!=-1):
+print('T ',end='')
+if(mystring.find('e')!=-1):
+print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+"
+2,3,2019-10-19 01:06:45,0.4294429856800518,0.4528,AttributeError: 'module' object has no attribute 'exit' on line 21,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+    #For printing new line
+    print('')
+
+while True:
+    s=input(""Enter a string: "")
+    if s=="""":
+        sys.exit()
+    CommonLetters(s)
+"
+3,4,2019-10-19 01:09:55,0.42561747994582344,0.4573,SyntaxError: bad input on line 5,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+if(mystring.find('T')!=-1):
+print('T ',end='')
+if(mystring.find('e')!=-1):
+print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+4,5,2019-10-19 01:13:24,0.4300396972689452,0.4597,SyntaxError: bad input on line 6,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+print('T ',end='')
+if(mystring.find('e')!=-1):
+print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+5,6,2019-10-19 01:13:33,0.43138046548515074,0.4595,SyntaxError: bad input on line 6,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+    print('T ',end='')
+if(mystring.find('e')!=-1):
+print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+6,7,2019-10-19 01:13:39,0.4312464951402921,0.4592,SyntaxError: bad input on line 8,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+7,8,2019-10-19 01:13:46,0.42897319753028285,0.4579,SyntaxError: bad input on line 10,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+    print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+8,9,2019-10-19 01:13:52,0.430896096572406,0.4584,SyntaxError: bad input on line 12,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+    print('e ',end='')
+if(mystring.find('x')!=-1):
+    print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+9,10,2019-10-19 01:13:58,0.43032824891094357,0.4597,SyntaxError: bad input on line 14,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+    print('e ',end='')
+if(mystring.find('x')!=-1):
+    print('x ',end='')
+if(mystring.find('a')!=-1):
+    print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+10,11,2019-10-19 01:14:02,0.43622786331498997,0.4625,SyntaxError: bad input on line 19,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+    print('e ',end='')
+if(mystring.find('x')!=-1):
+    print('x ',end='')
+if(mystring.find('a')!=-1):
+    print('a ',end='')
+if(mystring.find('s')!=-1):
+    print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+11,12,2019-10-19 01:14:07,0.4366252328790772,0.4623,SyntaxError: bad input on line 21,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+    print('e ',end='')
+if(mystring.find('x')!=-1):
+    print('x ',end='')
+if(mystring.find('a')!=-1):
+    print('a ',end='')
+if(mystring.find('s')!=-1):
+    print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+    s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+
+"
+12,13,2019-10-19 01:14:12,0.4299288566247802,0.4574,NameError: name 'mystring' is not defined on line 7,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+if(mystring.find('e')!=-1):
+    print('e ',end='')
+if(mystring.find('x')!=-1):
+    print('x ',end='')
+if(mystring.find('a')!=-1):
+    print('a ',end='')
+if(mystring.find('s')!=-1):
+    print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+    s=input(""Enter a string: "")
+if s=="""":
+    -sys.exit()
+CommonLetters(s)
+
+
+"
+13,14,2019-10-19 01:15:20,0.42561747994582344,0.4573,SyntaxError: bad input on line 5,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+if(mystring.find('T')!=-1):
+print('T ',end='')
+if(mystring.find('e')!=-1):
+print('e ',end='')
+if(mystring.find('x')!=-1):
+print('x ',end='')
+if(mystring.find('a')!=-1):
+print('a ',end='')
+if(mystring.find('s')!=-1):
+print('s ',end='')
+#For printing new line
+print('')
+
+while True:
+s=input(""Enter a string: "")
+if s=="""":
+sys.exit()
+CommonLetters(s)
+
+"
+14,15,2019-10-19 01:18:00,0.4294429856800518,0.4528,AttributeError: 'module' object has no attribute 'exit' on line 21,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+    #For printing new line
+    print('')
+
+while True:
+    s=input(""Enter a string: "")
+    if s=="""":
+        sys.exit()
+    CommonLetters(s)
+
+"
+15,16,2019-10-19 04:05:54,0.4294429856800518,0.4528,TimeLimitError: Program exceeded run time limit. on line 20,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+    #For printing new line
+    print('')
+
+while True:
+    s=input(""Enter a string: "")
+    if s=="""":
+        sys.exit()
+    CommonLetters(s)"
+16,17,2019-10-19 04:41:48,0.42688874401488885,0.4517,SyntaxError: bad input on line 20,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+    #For printing new line
+    print('')
+
+while True:
+    s=input(""Enter a string: "")
+    if s="":
+        sys.exit()
+    CommonLetters(s)"
+17,18,2019-10-19 04:43:59,0.4294429856800518,0.4528,AttributeError: 'module' object has no attribute 'exit' on line 21,"#For exiting the program
+import sys
+
+def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+    #For printing new line
+    print('')
+
+while True:
+    s=input(""Enter a string: "")
+    if s=="""":
+        sys.exit()
+    CommonLetters(s)"
+18,19,2019-10-19 04:51:26,0.9666131848245216,0.8831,SyntaxError: bad input on line 7,"string = input('Give me a word: ')
+
+def CommonLetters(mystring):
+    letters = ""Texas""
+    common = """"
+    for eachChar in mystring:
+        if eachChar in letters and_eachChar not in common:
+            common = common + eachChar
+            
+    return common
+
+print(CommonLetters(string))"
+19,20,2019-10-19 04:55:13,0.9590510456417093,0.8727,SyntaxError: bad input on line 7,"string = input('Give me a word: ')
+
+def CommonLetters(mystring):
+    letters = ""Texas""
+    common = """"
+    for eachChar in mystring:
+        if eachChar in letters and__eachChar not in common:
+            common = common + eachChar
+            
+    return common
+
+print(CommonLetters(string))"
+20,21,2019-10-19 04:55:20,0.9999999837254239,0.8849,success,"string = input('Give me a word: ')
+
+def CommonLetters(mystring):
+    letters = ""Texas""
+    common = """"
+    for eachChar in mystring:
+        if eachChar in letters and eachChar not in common:
+            common = common + eachChar
+            
+    return common
+
+print(CommonLetters(string))"

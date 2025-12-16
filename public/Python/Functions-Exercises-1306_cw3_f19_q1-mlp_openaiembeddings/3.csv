@@ -1,0 +1,137 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 22:53:59,0.7616713810426606,0.6864,SyntaxError: bad input on line 2,"# Your function goes here
+def printSquare(n,s)
+    N=int(n)
+    S=char(s)
+    for x in range(N)
+        for y in range(2N)
+           print(""S"")
+        print()
+}
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 23:29:41,0.7439087493855776,0.6815,SyntaxError: bad input on line 5,"# Your function goes here
+def printSquare(n,s):
+    N=int(n)
+    S=char(s)
+    for x in range(N)
+        for y in range(2N)
+           print(""S"")
+        print()
+}
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 23:35:00,0.744422907346407,0.6886,SyntaxError: bad input on line 6,"# Your function goes here
+def printSquare(n,s):
+    N=int(n)
+    S=char(s)
+    for x in range(N):
+        for y in range(2N):
+           print(""S"")
+        print()
+}
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 23:35:20,0.7451328949354851,0.6862,SyntaxError: bad input on line 9,"# Your function goes here
+def printSquare(n,s):
+    N=int(n)
+    S=char(s)
+    for x in range(N):
+        for y in range(2*N):
+           print(""S"")
+        print()
+}
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 23:35:28,0.7572952659493535,0.6684,NameError: name 'printsquare' is not defined on line 14,"# Your function goes here
+def printSquare(n,s):
+    N=int(n)
+    S=char(s)
+    for x in range(N):
+        for y in range(2*N):
+           print(""S"")
+        print()
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 23:35:47,0.7959698828688764,0.7289,NameError: name 'char' is not defined on line 4,"# Your function goes here
+def printsquare(n,s):
+    N=int(n)
+    S=char(s)
+    for x in range(N):
+        for y in range(2*N):
+           print(""S"")
+        print()
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 23:36:39,0.9129619715861107,0.822,success,"# Your function goes here
+def printsquare(n,s):
+    N=int(n)
+    S=str(s)
+    for x in range(N):
+        for y in range(2*N):
+           print(""S"")
+        print()
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+8,9,2019-10-01 23:37:42,0.9260848418300793,0.8659,success,"# Your function goes here
+def printsquare(n,s):
+    N=int(n)
+    S=str(s)
+    for x in range(N):
+        for y in range(2*N):
+           print(""S"",end='')
+        print()
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+9,10,2019-10-01 23:37:52,1.0,0.8688,success,"# Your function goes here
+def printsquare(n,s):
+    N=int(n)
+    S=str(s)
+    for x in range(N):
+        for y in range(2*N):
+           print(S,end='')
+        print()
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

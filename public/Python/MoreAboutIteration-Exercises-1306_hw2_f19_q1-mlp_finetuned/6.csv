@@ -1,0 +1,138 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-17 14:48:32,0.4885637230708557,0.4292,SyntaxError: bad input on line 3,"def isPrimes(number):
+    # your code here
+    if number % in range (0,number):
+        print(""True"")
+    else
+        print(""False"")
+def FindPrimes(P):
+    # your code here
+
+
+"
+2,3,2019-10-17 14:55:09,0.41410113946901517,0.372,SyntaxError: bad input on line 5,"def isPrimes(number):
+    # your code here
+    if number % 1:
+        print(""True"")
+    else
+        print(""False"")
+def FindPrimes(P):
+    # your code here
+
+
+"
+3,4,2019-10-17 14:55:20,0.425419010001577,0.3802,SyntaxError: bad input on line 12,"def isPrimes(number):
+    # your code here
+    if number % 1:
+        print(""True"")
+    else:
+        print(""False"")
+def FindPrimes(P):
+    # your code here
+
+
+"
+4,5,2019-10-17 14:55:32,0.425419010001577,0.3802,SyntaxError: bad input on line 12,"def isPrimes(number):
+    # your code here
+    if number % 1:
+        print(""True"")
+    else:
+        print(""False"")
+def FindPrimes(P):
+    # your code here
+
+
+    "
+5,6,2019-10-17 15:00:03,0.5311237904814639,0.4323,SyntaxError: bad input on line 13,"def isPrimes(number):
+    # your code here
+    for x in range(number):
+        if number % x:
+            print(""True"")
+        else:
+            print(""False"")
+def FindPrimes(P):
+    # your code here
+
+
+    "
+6,7,2019-10-17 15:00:33,0.6109338070426428,0.5005,SyntaxError: bad input on line 11,"def isPrimes(number):
+    # your code here
+    for x in range(number):
+        if number % x:
+            print(""True"")
+        else:
+            print(""False"")
+def FindPrimes(P):
+    # your code here
+
+isPrimes(5)
+    "
+7,8,2019-10-17 15:01:24,0.6120000555179154,0.5027,SyntaxError: bad input on line 14,"def isPrimes(number):
+    # your code here
+    for x in range(number):
+        if number % x:
+            print(""True"")
+        else:
+            print(""False"")
+isPrimes(x)
+def FindPrimes(P):
+    # your code here
+
+
+    "
+8,9,2019-10-17 15:03:38,0.7666679360895696,0.5952,SyntaxError: bad input on line 15,"def isPrimes(number):
+    # your code here
+    for x in range(number):
+        if number % x:
+            print(""True"")
+        else:
+            print(""False"")
+a = int(input(""See if Number is Prime:""))
+isPrimes(a)
+def FindPrimes(P):
+    # your code here
+
+
+    "
+9,10,2019-10-17 16:58:58,0.828231693807738,0.7048,success,"def isPrimes(number):
+    # your code here
+    for x in range(2,number):
+        if ((number % x)==0):
+            return False
+    return True
+def FindPrimes(P):
+    # your code here
+    for y in range(1,P):
+        if isPrimes(y)==True:
+            print(y)
+
+"
+10,11,2019-10-17 16:59:39,0.8984370601163828,0.8802,success,"def isPrimes(number):
+    # your code here
+    for x in range(2,number):
+        if ((number % x)==0):
+            return False
+    return True
+def FindPrimes(P):
+    # your code here
+    for y in range(1,P):
+        if isPrimes(y)==True:
+            print(y)
+print(isPrimes(1000))
+print(FindPrimes(1000))"
+11,12,2019-10-18 01:46:51,1.0,0.8205,success,"def isPrimes(number):
+    # your code here
+    for x in range(2,number):
+        if ((number % x)==0):
+            return False
+    return True
+def FindPrimes(P):
+    # your code here
+    for y in range(1,P):
+        if isPrimes(y)==True:
+            print(y)
+            
+isPrimes(1000)
+FindPrimes(1000)
+"

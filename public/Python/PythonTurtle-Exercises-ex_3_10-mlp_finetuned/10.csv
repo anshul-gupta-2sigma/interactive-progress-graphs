@@ -1,0 +1,594 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0492,, 
+1,2,2020-09-17 19:38:01,0.5107414159228326,0.6567,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(10):
+    ck.forward(50)
+    ck.stamp()
+    ck.forward(-50)
+    ck.right(36)
+"
+2,3,2020-09-17 19:43:44,0.5109826224242253,0.6581,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(10):
+    ck.forward(50)
+    ck.stamp()
+    ck.forward(-50)
+    ck.right(40)
+"
+3,4,2020-09-17 19:44:14,0.5105722977856729,0.6577,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(12):
+    ck.forward(50)
+    ck.stamp()
+    ck.forward(-50)
+    ck.right(40)
+"
+4,5,2020-09-17 19:45:01,0.5073944755441037,0.6475,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(12):
+    ck.forward(60)
+    ck.stamp()
+    ck.forward(-60)
+    ck.right(36)
+"
+5,6,2020-09-17 19:45:32,0.5092084469829492,0.6438,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(36)
+"
+6,7,2020-09-17 19:46:22,0.5112220415857471,0.6485,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(50)
+"
+7,8,2020-09-17 19:47:09,0.5100764334455492,0.6475,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(10):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(30)
+"
+8,9,2020-09-17 19:47:28,0.5097116701463591,0.6438,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(30)
+"
+9,10,2020-09-19 00:47:02,0.5561045010292971,0.6844,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.stamp()
+ck.penup()
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(30)
+"
+10,11,2020-09-19 21:57:45,0.5496541766252532,0.6722,AttributeError: 'Turtle' object has no attribute 'pen' on line 8,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.stamp()
+ck.pen()
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(30)
+"
+11,12,2020-09-19 21:58:35,0.556604146121346,0.6826,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+ck.stamp()
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(30)
+"
+12,13,2020-09-19 22:01:05,0.5795106816988759,0.6993,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.penup()
+ck.stamp()
+move=30
+for size in range(12):
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(-100)
+    ck.right(30)
+"
+13,14,2020-09-19 22:12:34,0.8649558942445693,0.9201,AttributeError: 'Turtle' object has no attribute 'foward' on line 13,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.pensize(4)
+for size in range(12):
+    ck.penup()
+    ck.forward(180)
+    ck.pendown()
+    ck.foward(30)
+    ck.penup()
+    ck.forward(40)
+    ck.stamp()
+    ck.forward(250)
+    ck.left(360/12)
+"
+14,15,2020-09-19 22:21:21,0.9472327368745231,0.9499,AttributeError: 'Turtle' object has no attribute 'foward' on line 14,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.pensize(4)
+for size in range(12):
+    ck.penup()
+    ck.forward(180)
+    ck.pendown()
+    ck.foward(30)
+    ck.penup()
+    ck.forward(40)
+    ck.stamp()
+    ck.backward(250)
+    ck.left(360/12)
+"
+15,16,2020-09-19 22:25:46,0.9421601335101805,0.9392,AttributeError: 'Turtle' object has no attribute 'foward' on line 14,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.pensize(4)
+for size in range(12):
+    ck.penup()
+    ck.forward(80)
+    ck.pendown()
+    ck.foward(10)
+    ck.penup()
+    ck.forward(30)
+    ck.stamp()
+    ck.backward(120)
+    ck.right(30)
+"
+16,17,2020-09-19 22:32:41,0.9048434549998688,0.9501,AttributeError: 'Turtle' object has no attribute 'foward' on line 16,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+move=30
+ck.pensize(4)
+for size in range(12):
+    ck.penup()
+    ck.forward(50)
+    ck.pendown()
+    ck.foward(25)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.home()
+    ck.right(move)
+    move=move+30
+    
+"
+17,18,2020-09-19 22:43:02,0.9639241798481019,0.9508,AttributeError: 'Turtle' object has no attribute 'foward' on line 16,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(4)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.foward(10)
+    ck.penup()
+    ck.forward(10)
+    ck.stamp()
+    ck.foward(-120)
+    ck.right(30)
+    
+"
+18,19,2020-09-19 22:51:08,0.7672710593818076,0.8624,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(4)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(100)
+    ck.right(36)
+    
+
+    
+"
+19,20,2020-09-19 22:51:42,0.7679503246923707,0.8709,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(4)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(50)
+    ck.stamp()
+    ck.forward(50)
+    ck.right(36)
+    
+
+    
+"
+20,21,2020-09-19 22:52:31,0.7656444082907228,0.8676,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(4)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(60)
+    ck.stamp()
+    ck.forward(60)
+    ck.right(30)
+    
+
+    
+"
+21,22,2020-09-19 22:53:20,0.7686635548139095,0.8747,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(4)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(50)
+    ck.stamp()
+    ck.forward(50)
+    ck.right(20)
+    
+
+    
+"
+22,23,2020-09-19 22:54:14,0.7678348474591905,0.87,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(4)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(70)
+    ck.stamp()
+    ck.forward(70)
+    ck.right(40)
+    
+
+    
+"
+23,24,2020-09-19 22:55:29,0.7083307254239001,0.8271,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(100)
+    ck.right(30)
+    
+"
+24,25,2020-09-19 23:00:23,0.9279822745203987,0.9226,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.stamp()
+    ck.forward(10)
+    ck.penup()
+    ck.forward(10)
+    ck.stamp()
+    ck.forward(-120)
+    ck.right(30)
+    
+"
+25,26,2020-09-19 23:08:55,0.9362365064860786,0.9326,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(10)
+    ck.penup()
+    ck.forward(10)
+    ck.stamp()
+    ck.forward(-120)
+    ck.right(30)
+    
+"
+26,27,2020-09-26 20:20:08,0.939618021172011,0.9383,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.forward(-130)
+    ck.right(30)
+    
+"
+27,28,2020-09-27 21:23:16,0.9330479828837228,0.9316,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+"
+28,29,2020-09-27 21:24:18,0.9763098833476396,0.9535,AttributeError: 'Turtle' object has no attribute 'penzide' on line 9,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.penzide(4)
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+"
+29,30,2020-09-27 21:24:35,0.9857509901902742,0.9505,AttributeError: 'Turtle' object has no attribute 'penside' on line 9,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.penside(4)
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+"
+30,31,2020-09-27 21:24:47,0.9779968192811078,0.9543,AttributeError: 'module' object has no attribute 'penside' on line 9,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+turtle.penside(4)
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+"
+31,32,2020-09-27 21:25:08,0.9330479828837228,0.9316,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+"
+32,33,2020-10-02 19:12:55,1.0,0.9506,success,"#a program to draw a face of a clock.
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+ck = turtle.Turtle()
+ck.shape(""turtle"")
+ck.color(""blue"")
+ck.stamp()
+ck.pensize(3)
+
+for size in range(12):
+    ck.penup()
+    ck.forward(100)
+    ck.pendown()
+    ck.forward(15)
+    ck.penup()
+    ck.forward(15)
+    ck.stamp()
+    ck.backward(130)
+    ck.right(30)
+    
+"

@@ -1,0 +1,28 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 16:04:09,0.13480160857438994,0.1928,success,"radius = input(""What is the radius?"")"
+2,3,2019-09-03 18:30:30,0.9571956852576763,0.8738,ValueError: float: Argument: None is not number on line 1,"r = float(input("" Enter radius""))
+pi = 3.14
+p = r * 2
+print(""The perimeter of this circle with a radius of "" , r , "" is "" , pi * p , ""."")
+print(""The area of this circle with a radius of "" , r , "" is "" , pi * r * r , ""."")"
+3,4,2019-09-03 18:31:05,0.98071530868249,0.9124,ValueError: float: Argument: None is not number on line 1,"r = float(input("" What is the radius""))
+pi = 3.14
+p = r * 2
+print(""The perimeter of this circle with a radius of "" , r , "" is "" , pi * p , ""."")
+print(""The area of this circle with a radius of "" , r , "" is "" , pi * r * r , ""."")"
+4,5,2019-09-03 18:31:12,1.0,0.8989,success,"r = float(input("" What is the radius?""))
+pi = 3.14
+p = r * 2
+print(""The perimeter of this circle with a radius of "" , r , "" is "" , pi * p , ""."")
+print(""The area of this circle with a radius of "" , r , "" is "" , pi * r * r , ""."")"
+5,6,2019-09-03 18:58:27,1.0,0.8989,success,"r = float(input("" What is the radius?""))
+pi = 3.14
+p = r * 2
+print(""The perimeter of this circle with a radius of "" , r , "" is "" , pi * p ,""."")
+print(""The area of this circle with a radius of "" , r , "" is "" , pi * r * r ,""."")"
+6,7,2019-09-03 18:58:36,1.0,0.8989,success,"r = float(input("" What is the radius?""))
+pi = 3.14
+p = r * 2
+print(""The perimeter of this circle with a radius of "" , r , "" is "" , pi * p , ""."")
+print(""The area of this circle with a radius of "" , r , "" is "" , pi * r * r , ""."")"

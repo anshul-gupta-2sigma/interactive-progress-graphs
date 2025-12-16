@@ -1,0 +1,218 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-18 03:08:44,0.44611445025413277,0.4624,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for p in range (2,number):
+        if number%p = 0:
+            return false;
+        return true;
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+2,3,2019-10-18 03:12:23,0.4470893958265313,0.4563,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for p in range (2,number):
+        if_number%p = 0:
+            return false;
+        return true;
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+3,4,2019-10-18 03:12:43,0.44899310589586117,0.4632,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for p in range (2,number):
+        if_ number%p = 0:
+            return false;
+        return true;
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+4,5,2019-10-18 03:13:00,0.4511683180702569,0.468,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for p in range (2,number):
+        if_ number%p == 0:
+            return false;
+        return true;
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+5,6,2019-10-18 03:16:33,0.942196398940442,0.9065,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for p in range (2,number):
+        if_ number%p == 0:
+            return False;
+        return True;
+    
+ x=1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if isPrime(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+6,7,2019-10-18 03:16:47,0.9228255427989493,0.8953,SyntaxError: bad input on line 3,"def isPrimes(number):
+    for p in range (2,number):
+        if_ number p == 0:
+            return False;
+        return True;
+    
+ x=1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if isPrime(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+7,8,2019-10-18 03:17:24,0.9683191039647963,0.9133,IndentationError: unindent does not match any outer indentation level on line 7\n x=1000\n\n ^\n,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ x=1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if isPrime(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+8,9,2019-10-18 03:17:37,0.9683191039647963,0.9133,IndentationError: unindent does not match any outer indentation level on line 7\n x =1000\n\n ^\n,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ x =1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if isPrime(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+9,10,2019-10-18 03:18:39,0.9683191039647963,0.9133,NameError: name 'isPrime' is not defined on line 14,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ 
+
+x = 1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if isPrime(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+10,11,2019-10-18 03:20:06,0.9558654835840106,0.9101,SyntaxError: bad input on line 14,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ 
+
+x = 1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if is Prime(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+11,12,2019-10-18 03:20:27,0.9558654835840106,0.9101,SyntaxError: bad input on line 14,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ 
+
+x = 1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if is Prime (p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+12,13,2019-10-18 03:21:27,0.9687372567198667,0.908,SyntaxError: bad input on line 14,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ 
+
+x = 1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if is Primes (p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"
+13,14,2019-10-18 03:22:01,1.0,0.9138,success,"def isPrimes(number):
+    for p in range (2,number):
+        if number % p == 0:
+            return False;
+        return True;
+    
+ 
+
+x = 1000
+print(isPrimes(x))
+
+def FindPrimes(P):
+    for p in range (2, P):
+        if isPrimes(p)== True:
+            print(p)
+FindPrimes(1000)
+    
+
+
+"

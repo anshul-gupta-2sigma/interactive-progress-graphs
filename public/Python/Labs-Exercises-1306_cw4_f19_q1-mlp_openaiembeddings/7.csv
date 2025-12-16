@@ -1,0 +1,94 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-18 02:35:37,0.6854896961288244,0.8571,SyntaxError: bad input on line 5,"#Your code goes here
+def CommonLetters(mystring):
+    t = (""Texas"")
+    b = True
+    while b == True
+    
+    a = input(""Enter a String:
+"")
+    print(""Common Letters of Texas:
+""+t)
+a = str
+Commonletters(a)
+
+
+"
+2,3,2019-10-18 02:42:03,0.6824125804843766,0.8519,SyntaxError: bad input on line 7,"#Your code goes here
+def CommonLetters(mystring):
+    t = (""Texas"")
+    b = True
+    while b == True:
+    
+    a = input(""Enter a String:
+"")
+    print(""Common Letters of Texas:
+""+t)
+a = str
+Commonletters(a)
+
+
+"
+3,4,2019-10-18 02:42:17,0.6899874919164168,0.878,SyntaxError: bad input on line 7,"#Your code goes here
+def CommonLetters(mystring):
+    t = (""Texas"")
+    b = True
+    while b == True:
+    
+    a = input(""Enter a String:
+"")
+    print(""Common Letters of Texas:
+""+t)
+a = ("""")
+Commonletters(a)
+
+
+"
+4,5,2019-10-18 02:42:37,0.690595911749773,0.8711,SyntaxError: bad input on line 7,"#Your code goes here
+def CommonLetters(mystring):
+    t = (""Texas"")
+    b = True
+    while b == True:
+    
+    mystring = input(""Enter a String:
+"")
+    print(""Common Letters of Texas:
+""+t)
+a = ("""")
+Commonletters(a)
+
+
+"
+5,6,2019-10-19 03:08:39,0.9999999833795276,0.8653,success,"#Your code goes here
+# Your code goes here
+def CommonLetters(mystring):
+    t = ""Texas""
+    b = """"
+    d = 0
+    e = 0
+    l = len(mystring)
+    if mystring == """":
+        return b
+    while l >= 0:
+        for c in mystring:
+            if c == t[d]:
+                b = b + t[d] + "" ""
+            d = d+1
+            l = l-1
+            if d > 4:
+                d = 0
+                e = e+4
+                l = l-e
+    print(""Common Letters of Texas:
+"" + b)
+x = 0
+while x == 0:
+    a = input(""Enter a String:
+"")
+    if a == """":
+        x = x+1
+    CommonLetters(a)
+
+
+"

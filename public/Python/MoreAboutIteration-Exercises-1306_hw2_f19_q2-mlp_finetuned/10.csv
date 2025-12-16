@@ -1,0 +1,205 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0236,, 
+1,2,2019-10-10 19:54:35,0.48535421241631904,0.6093,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    for x in range(Q):
+        isPrime(x)
+"
+2,3,2019-10-11 02:17:14,0.8969384957021866,0.9381,SyntaxError: bad token on line 16,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    while check ! = True:
+        number +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = int(input('Input number?:'))
+print(n+'th', 'prime number is', FindPrimes2(n))
+"
+3,4,2019-10-11 02:17:21,0.8935766477653343,0.9413,TypeError: unsupported operand type(s) for Add: 'int' and 'str' on line 25,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    while check != True:
+        number +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = int(input('Input number?:'))
+print(n+'th', 'prime number is', FindPrimes2(n))
+"
+4,5,2019-10-11 02:17:48,0.8740366564782598,0.9257,SyntaxError: bad input on line 24,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    while check != True:
+        number +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = input('Input number?:'))
+print(n+'th', 'prime number is', FindPrimes2(int(n)))
+"
+5,6,2019-10-11 02:17:52,0.8895729126321436,0.9418,UnboundLocalError: local variable 'check' referenced before assignment on line 16,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    while check != True:
+        number +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = input('Input number?:')
+print(n+'th', 'prime number is', FindPrimes2(int(n)))
+"
+6,7,2019-10-11 02:18:07,0.9164502101841756,0.9573,UnboundLocalError: local variable 'number' referenced before assignment on line 18,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    check = False
+    while check != True:
+        number +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = input('Input number?:')
+print(n+'th', 'prime number is', FindPrimes2(int(n)))
+"
+7,8,2019-10-11 02:18:18,0.9160280299280575,0.9569,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    check = False
+    while check != True:
+        x +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = input('Input number?:')
+print(n+'th', 'prime number is', FindPrimes2(int(n)))
+"
+8,9,2019-10-11 02:18:45,1.0,0.9677,success,"def isPrime(number):
+    # your code here
+    if number >2:
+        for i in range(2, number):
+            if number%i ==0:
+                return False
+    if (number <= 2): #Blackboard says to include 1 so I did o.o
+        return True
+    else:
+        return True
+    
+def FindPrimes2(Q):
+    # your code here
+    count = 0
+    x = 1
+    check = False
+    while check != True:
+        x +=1
+        if isPrime(x):
+            count+=1
+        if count == Q:
+            check = True
+    return x
+
+n = input('Input number?:')
+print('Input number is:', n)
+print(n+'th', 'prime number is', FindPrimes2(int(n)))
+"

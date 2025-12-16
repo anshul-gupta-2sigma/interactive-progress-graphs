@@ -1,0 +1,241 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-10-19 01:39:08,0.9246338692056691,0.629,TimeLimitError: Program exceeded run time limit. on line 6,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+for i in range(5):
+    drawFivePointStar(ryan)
+
+"
+2,3,2020-10-19 01:44:07,0.9277105935506219,0.5907,NameError: name 't' is not defined on line 11,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+for i in range(5):
+    drawFivePointStar(t)
+    ryan.forward
+
+"
+3,4,2020-10-19 01:44:13,0.9217544664539291,0.6017,TypeError: drawFivePointStar() missing 1 required argument: t on line 11,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+for i in range(5):
+    drawFivePointStar()
+    ryan.forward
+
+"
+4,5,2020-10-19 01:44:17,0.9268520341920402,0.5899,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.forward
+
+"
+5,6,2020-10-19 01:44:56,0.9772561779688926,0.5862,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+6,7,2020-10-19 01:45:52,0.974097684837698,0.5891,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+ryan.forward(90)
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+7,8,2020-10-19 01:45:59,0.9749692266521709,0.5896,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+ryan.penup
+ryan.forward(90)
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+8,9,2020-10-19 01:46:06,0.9746917177025206,0.5904,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+ryan.penup()
+ryan.forward(90)
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+9,10,2020-10-19 01:46:25,0.9705325865799502,0.5975,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+ryan.penup()
+ryan.left(90)
+ryan.forward(50)
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+10,11,2020-10-19 01:47:38,0.9772561779688926,0.5862,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+11,12,2020-10-19 01:50:52,0.999918884164639,0.5808,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.forward(100)
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+12,13,2020-10-19 01:52:27,0.9648978763515474,0.6019,NameError: name 'ryanforward' is not defined on line 11,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+ryan.left(90)
+ryanforward(30)
+ryan.right(270)
+
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.forward(100)
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+13,14,2020-10-19 01:52:42,0.9673579476508617,0.5982,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+ryan.left(90)
+ryan.forward(30)
+ryan.right(270)
+
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.forward(100)
+    ryan.right(144)
+    ryan.forward(350)
+
+"
+14,15,2020-10-19 01:52:59,0.9999999504836834,0.5808,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+ryan = turtle.Turtle()
+ryan.speed(100)
+
+
+for i in range(5):
+    drawFivePointStar(ryan)
+    ryan.penup()
+    ryan.forward(100)
+    ryan.right(144)
+    ryan.forward(350)
+
+"

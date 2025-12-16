@@ -1,0 +1,465 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-10 15:00:58,0.6046709130253693,0.6947,SyntaxError: bad input on line 20,"x = int(input(""Enter a Number you want to see is Prime""))
+isPrimes(x);
+
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+FindPrimes(x);
+def FindPrimes(P):
+    # your code here
+
+
+"
+2,3,2019-10-10 15:19:15,0.6032103610360733,0.7575,SyntaxError: bad input on line 17,"
+
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+FindPrimes(x);
+def FindPrimes(P):
+    # your code here
+
+x = int(input(""Enter a Number you want to see is Prime""))
+isPrimes(x);
+"
+3,4,2019-10-10 15:19:37,0.5947878042375163,0.7487,SyntaxError: bad input on line 17,"
+
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+FindPrimes(x);
+def FindPrimes(P):
+    # your code here
+
+x = (input(""Enter a Number you want to see is Prime""))
+isPrimes(x);
+"
+4,5,2019-10-10 15:20:35,0.601854071050155,0.7475,SyntaxError: bad input on line 17,"
+
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+FindPrimes(x);
+def FindPrimes(P):
+    # your code here
+
+x = (input(""Enter a Number you want to see is Prime""));
+isPrimes(x);
+"
+5,6,2019-10-10 15:21:06,0.4828210790852864,0.5879,TimeLimitError: Program exceeded run time limit. on line 7,"
+
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = (input(""Enter a Number you want to see is Prime""));
+isPrimes(x);
+"
+6,7,2019-10-10 15:23:27,0.7074612306074526,0.7693,SyntaxError: bad input on line 16,"
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = (input(""Enter a Number you want to see is Prime""));
+isPrimes(x)
+    if isPrime(x):
+        print(""It is a prime number."");
+    else:
+        print(""It is NOT a prime umber."");
+"
+7,8,2019-10-10 15:24:53,0.6542028240757696,0.722,NameError: name 'isPrime' is not defined on line 15,"
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = (input(""Enter a Number you want to see is Prime""));
+if isPrime(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+8,9,2019-10-10 15:25:18,0.6684517522334261,0.7567,TimeLimitError: Program exceeded run time limit. on line 6,"
+def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = (input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+9,10,2019-10-10 15:25:52,0.6684517522334261,0.7567,TimeLimitError: Program exceeded run time limit. on line 5,"def isPrimes(number):
+    a = 2
+    
+    while a != number:
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = (input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+10,11,2019-10-10 15:29:15,0.7406108640309035,0.7918,TimeLimitError: Program exceeded run time limit. on line 5,"def isPrimes(number):
+    a = 2
+    
+    while (a != number):
+        if number % a == 0:
+            return true;
+            print(""Found"");
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = (input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+11,12,2019-10-10 15:30:26,0.7503220530257612,0.7929,NameError: name 'true' is not defined on line 6,"def isPrimes(number):
+    a = 2
+    
+    while (a != number):
+        if number % a == 0:
+            return true;
+            print(""Found"");
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+12,13,2019-10-10 15:30:50,0.6954170696491957,0.7731,NameError: name 'false' is not defined on line 9,"def isPrimes(number):
+    a = 2
+    
+    while (a != number):
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+    return false;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+13,14,2019-10-10 15:31:46,0.6965954588953116,0.7773,SyntaxError: 'return' outside function,"def isPrimes(number):
+    a = 2
+    
+while (a != number):
+    if number % a == 0:
+        return true;
+    else:
+        a = a+1;
+        return false;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+14,15,2019-10-10 15:32:02,0.6965954588953116,0.7773,SyntaxError: 'return' outside function,"def isPrimes(number):
+    a = 2
+    
+while (a != number):
+    if number % a == 0:
+        return true;
+    else:
+        a = a+1;
+    return false;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+15,16,2019-10-10 15:34:05,0.6965954588953116,0.7773,NameError: name 'false' is not defined on line 9,"def isPrimes(number):
+    a = 2
+    
+    while (a != number):
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+        return false;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+16,17,2019-10-10 15:34:17,0.6965954588953116,0.7773,NameError: name 'false' is not defined on line 9,"def isPrimes(number):
+    a = 2
+    
+    while (a != number):
+        if number % a == 0:
+            return true;
+        else:
+            a = a+1;
+            return false;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+17,18,2019-10-10 15:34:51,0.6956387834604227,0.7777,success,"def isPrimes(number):
+    a = 2
+    
+    while (a != number):
+        if number % a == 0:
+            return True;
+        else:
+            a = a+1;
+            return False;
+    
+
+
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+18,19,2019-10-10 15:50:24,0.6966528255257879,0.7776,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return True;
+        else:
+            a = a+1;
+            return False;
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+19,20,2019-10-10 15:54:15,0.6974235288382096,0.7728,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+            return True;
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime umber."");
+"
+20,21,2019-10-10 15:54:21,0.6935668272426183,0.7788,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+            return True;
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime Number."");
+"
+21,22,2019-10-10 16:01:07,0.6935668272426183,0.7788,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+    return True;
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(""It is a prime number."");
+else:
+    print(""It is NOT a prime Number."");
+"
+22,23,2019-10-11 00:18:53,0.7170016786526026,0.762,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+    return True;
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(x, "" is a prime number."");
+else:
+    print(x, "" is NOT a prime Number."");
+"
+23,24,2019-10-11 00:19:55,0.7159790867903797,0.7733,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+    return True;
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(x, ""is a prime number."");
+else:
+    print(x, ""is NOT a prime Number."");
+"
+24,25,2019-10-11 00:26:04,0.9624554280563528,0.7975,SyntaxError: bad input on line 11,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+    return True;
+    
+def FindPrimes(P):
+    for i in range(2,1001)
+        if isPrimes(number):
+            print(number)
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(x, ""is a prime number."");
+else:
+    print(x, ""is NOT a prime Number."");
+"
+25,26,2019-10-11 00:31:36,0.9999999621638384,0.817,success,"def isPrimes(number):
+    a = 2  
+    while (a < number):
+        if number % a == 0:
+            return False;
+        else:
+            a = a+1;
+    return True;
+    
+def FindPrimes(P):
+    for i in range(2,1001):
+        if isPrimes(number):
+            print(number)
+    
+x = int(input(""Enter a Number you want to see is Prime""));
+
+if isPrimes(x):
+    print(x, ""is a prime number."");
+else:
+    print(x, ""is NOT a prime Number."");
+"

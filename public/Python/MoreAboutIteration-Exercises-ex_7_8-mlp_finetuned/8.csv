@@ -1,0 +1,423 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0074,, 
+1,2,2020-03-27 07:21:28,0.6474371452342849,0.7668,SyntaxError: bad input on line 12,"def print_triangular_numbers(n):
+        number = 0
+        number1  = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            
+            
+            
+            
+"
+2,3,2020-03-27 07:57:33,0.6474371452342849,0.7668,SyntaxError: bad input on line 8,"def print_triangular_numbers(n):
+        number = 0
+        number1  = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            "
+3,4,2020-03-27 08:15:18,0.4957907926905586,0.9157,SyntaxError: EOF in multi-line statement on line 10\n\n^\n,"def print_triangular_numbers(n):
+        number = 0
+        number1  = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            number2 = number+1
+            number3 = number*(number+1)/2
+            print(str(number)+""    ""+str(number3)"
+4,5,2020-03-27 08:16:28,0.4769653242863787,0.9295,success,"def print_triangular_numbers(n):
+        number = 0
+        number1  = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            number2 = number+1
+            number3 = number*(number+1)/2
+            print(str(number)+""     ""+str(number3))"
+5,6,2020-03-27 08:17:17,0.7086432289447864,0.9199,success,"def print_triangular_numbers(n):
+        number = 0
+        number1  = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            number2 = number+1
+            number3 = number*(number+1)/2
+            print(number)"
+6,7,2020-03-27 08:17:54,0.7086823349041169,0.9197,NameError: name 'number' is not defined on line 9,"def print_triangular_numbers(n):
+        number = 0
+        number1  = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            number2 = number+1
+            number3 = number*(number+1)/2
+print(number)"
+7,8,2020-03-27 08:18:43,0.7229531905851219,0.8662,success,"def print_triangular_numbers(n):
+        n = 0
+        n1 = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while a > 0:
+            n2 = n+1
+            n3 = n*(n+1)/2
+            print(n)
+            "
+8,9,2020-03-27 08:20:45,0.7172232052789255,0.8643,success,"def print_triangular_numbers(n):
+        n = 0
+        n1 = 0
+        a = input(""Enter a number: "")
+        a = int(a)
+        while n<a:
+            n2 = n+1
+            n3 = n*(n+1)/2
+            print(n)"
+9,10,2020-03-27 08:29:42,0.8708301927029456,0.9605,success,"def print_triangular_numbers(n):
+    for n in range(1,n+1):
+        triangular_number = (n*(n+1))/2
+        print(n,int(triangular_number))
+
+print_triangular_numbers(10)"
+10,11,2020-03-27 08:32:12,0.8708301927029456,0.9605,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for n in range(1,n+1):
+        triangular_number = (n*(n+1))/2
+        print(n,int(triangular_number))
+
+print_triangular_numbers(10)"
+11,12,2020-03-27 08:38:08,0.8059681269092338,0.9328,SyntaxError: bad input on line 3,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    while :
+        triangular_number = (n*(n+1))/2
+        print(n,int(triangular_number))
+
+print_triangular_numbers(5)"
+12,13,2020-03-27 08:38:15,0.8740409790033767,0.96,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for n in range(1,n+1):
+        triangular_number = (n*(n+1))/2
+        print(n,int(triangular_number))
+
+print_triangular_numbers(5)"
+13,14,2020-03-29 09:30:05,0.8135078221926807,0.9098,TimeLimitError: Program exceeded run time limit. on line 6,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 1
+    while a<= n:
+        b = (n*(n+1))/2
+        print(a, b)
+print_triangular_numbers(5)"
+14,15,2020-03-29 09:34:36,0.8510020024399673,0.9287,TimeLimitError: Program exceeded run time limit. on line 6,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 1
+    while a<= n:
+        b = (a*(a+1))/2
+        print(a, int(b))
+print_triangular_numbers(5)"
+15,16,2020-03-29 09:35:29,0.8523516289328323,0.9416,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 1
+    while a<= n:
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+print_triangular_numbers(5)"
+16,17,2020-05-03 07:10:59,0.8528627925519918,0.9445,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 0
+    while a<= n:
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+print_triangular_numbers(5)"
+17,18,2020-05-03 07:23:58,0.8523516289328323,0.9416,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 1
+    while a<= n:
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+print_triangular_numbers(5)"
+18,19,2020-05-03 07:24:16,0.837727181996476,0.9384,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 1
+    while a<= n:
+        b = (a*(a+1))/2
+        print(a, b)
+        a=a+1
+print_triangular_numbers(5)"
+19,20,2020-05-03 07:24:28,0.8523516289328323,0.9416,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    a = 1
+    while a<= n:
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+print_triangular_numbers(5)"
+20,21,2020-05-03 12:09:51,0.8063539237491331,0.959,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        a = 1
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+print_triangular_numbers(5)"
+21,22,2020-05-03 12:21:30,0.6474193934769632,0.9535,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        a = 1
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+n = int(input())
+print_triangular_numbers(n)"
+22,23,2020-05-03 12:21:52,0.7154998226253744,0.9494,UnboundLocalError: local variable 'a' referenced before assignment on line 4,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        b = (a*(a+1))/2
+        print(a, int(b))
+        a=a+1
+n = int(input())
+print_triangular_numbers(n)"
+23,24,2020-05-03 12:22:07,0.7095114741461237,0.9513,UnboundLocalError: local variable 'a' referenced before assignment on line 4,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        a=a+1
+        b = (a*(a+1))/2
+        print(a, int(b))
+        
+n = int(input())
+print_triangular_numbers(n)"
+24,25,2020-05-03 12:22:57,0.8121606813947784,0.9431,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        
+        b = (n*(n+1))/2
+        print(n, int(b))
+        
+n = int(input())
+print_triangular_numbers(n)"
+25,26,2020-05-03 12:23:12,0.715196403491979,0.9431,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+n = int(input())
+print_triangular_numbers(n)"
+26,27,2020-05-03 12:23:51,0.8607005198187718,0.9508,NameError: name 'n' is not defined on line 8,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(n)"
+27,28,2020-05-03 12:24:09,0.7705224382935822,0.9399,NameError: name 'n' is not defined on line 9,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = "" ""
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(n)"
+28,29,2020-05-03 12:24:28,0.7824997479989365,0.9414,TypeError: cannot concatenate 'str' and 'int' objects on line 4,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = "" ""
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+29,30,2020-05-03 12:24:59,0.7563563852734482,0.9475,ValueError: invalid literal for int() with base 10: '' on line 8,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+ 
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+n = int("""")
+print_triangular_numbers(5)"
+30,31,2020-05-03 12:25:16,0.7866988786691278,0.946,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int()
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+31,32,2020-05-03 12:25:21,0.7860051955211271,0.9467,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int()
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(7)"
+32,33,2020-05-03 12:25:29,0.7303109819824333,0.9422,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int(input())
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(7)"
+33,34,2020-05-03 12:25:58,0.7332182705279172,0.9593,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int(input())
+    for i in range (1, n+1):
+        b = (i*(i+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(7)"
+34,35,2020-05-03 12:26:22,0.7237890489062575,0.965,NameError: name 'n' is not defined on line 9,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int(input())
+    for i in range (1, n+1):
+        b = (i*(i+1))/2
+        print(n, int(b))
+        i = i + 1
+
+print_triangular_numbers(n)"
+35,36,2020-05-03 12:26:26,0.7252260189696165,0.9702,NameError: name 'i' is not defined on line 9,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int(input())
+    for i in range (1, n+1):
+        b = (i*(i+1))/2
+        print(n, int(b))
+        i = i + 1
+
+print_triangular_numbers(i)"
+36,37,2020-05-03 12:26:32,0.7347645169929651,0.9658,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int(input())
+    for i in range (1, n+1):
+        b = (i*(i+1))/2
+        print(n, int(b))
+        i = i + 1
+
+print_triangular_numbers(5)"
+37,38,2020-05-03 12:28:02,0.7196556074970651,0.9399,NameError: name 'n' is not defined on line 9,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    n = int(input())
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(n)"
+38,39,2020-05-03 12:28:13,0.8607005198187718,0.9508,NameError: name 'n' is not defined on line 9,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(n)"
+39,40,2020-05-03 12:28:18,0.8754286833196256,0.9517,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+40,41,2020-05-03 12:28:29,0.8692613157162374,0.9519,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(1)"
+41,42,2020-05-03 12:28:33,0.8725403367607252,0.9519,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(2)"
+42,43,2020-05-03 12:28:43,0.8643586485329965,0.953,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (n, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(2)"
+43,44,2020-05-03 12:29:01,0.8672025816168749,0.9528,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (n, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+44,45,2020-05-03 12:29:17,0.8754286833196256,0.9517,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+45,46,2020-05-03 12:29:36,0.8801572707281141,0.9504,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(1, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+46,47,2020-05-03 12:29:47,0.8754286833196256,0.9517,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(n, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+47,48,2020-05-03 12:30:16,0.8838959268595005,0.9581,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (n*(n+1))/2
+        print(i, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+48,49,2020-05-03 12:30:52,0.8901162761895862,0.9709,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (i*(i+1))/2
+        print(i, int(b))
+        n = n + 1
+
+print_triangular_numbers(5)"
+49,50,2020-05-03 12:32:39,1.0,0.9647,success,"#ITB1 2466960 AnonFirstNameAnonLastName VladmirTosic
+def print_triangular_numbers(n):
+    
+    for i in range (1, n+1):
+        b = (i*(i+1))/2
+        print(i, int(b))
+        
+
+print_triangular_numbers(5)"

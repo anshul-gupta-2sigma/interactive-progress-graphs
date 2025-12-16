@@ -1,0 +1,81 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-20 03:59:13,0.512122348604239,0.8245,SyntaxError: bad input on line 2,"s = str(input(""What symbol do you want to duplicate?"")
+n = str(input(""How many symbols do you already have?"")
+start = int(input(""How many lines do you want?"")
+final = n*s
+n = ((n+1)*2)
+print(final)"
+2,3,2019-09-20 04:05:05,0.4912550783715872,0.8112,SyntaxError: bad input on line 4,"s = str(input(""What symbol do you want to duplicate?""))
+n = str(input(""How many symbols do you already have?""))
+start = int(input(""How many lines do you want?"")
+final = n*s
+n = ((n+1)*2)
+print(final)"
+3,4,2019-09-20 04:05:24,0.4912550783715872,0.8112,SyntaxError: bad input on line 4,"s = str(input(""What symbol do you want to duplicate?""))
+n = str(input(""How many symbols do you already have?""))
+start = int(input(""How many lines do you want?"")
+final = n * s
+n = ((n+1)*2)
+print(final)"
+4,5,2019-09-20 04:05:36,0.4502645349462294,0.7805,SyntaxError: bad input on line 4,"s = str(input(""What symbol do you want to duplicate?""))
+n = str(input(""How many symbols do you already have?""))
+start = int(input(""How many lines do you want?"")
+final = (n*s)
+n = ((n+1)*2)
+print(final)"
+5,6,2019-09-20 04:06:34,0.8507041692710529,0.8066,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"s = str(input(""Enter a symbol""))
+n = str(input(""Enter a number""))
+final = (n*s)
+n = ((n+1)*2)
+print(final)"
+6,7,2019-09-20 04:07:01,0.8552728077211601,0.8048,success,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+n = ((n+1)*2)
+print(final)"
+7,8,2019-09-20 04:08:21,0.5449353869074891,0.7284,SyntaxError: bad input on line 4,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+for x in range(n) = ((n+1)*2)
+n = ((n+1)*2)
+print(final)"
+8,9,2019-09-20 04:09:29,0.7002657083203712,0.7873,SyntaxError: bad input on line 5,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+for x in range(n):
+n = ((n+1)*2)
+print(final)"
+9,10,2019-09-20 04:09:58,0.7002657083203712,0.7873,SyntaxError: bad input on line 5,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+for x in range(n):
+n = ((n+1) * 2)
+print(final)"
+10,11,2019-09-20 04:10:34,0.7175366651577662,0.7836,success,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+for x in range(n):
+    n = ((n+1) * 2)
+print(final)"
+11,12,2019-09-20 04:11:14,0.8522923633662753,0.7982,NameError: name 'final' is not defined on line 5,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+for x in range(n):
+    n = ((n+1) * 2)
+print(final)"
+12,13,2019-09-20 04:11:29,0.7175366651577662,0.7836,success,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+for x in range(n):
+    n = ((n+1) * 2)
+print(final)"
+13,14,2019-09-20 04:13:45,0.7175366651577662,0.7836,success,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+final = (n*s)
+for x in range(n):
+    n = ( (n + 1) * 2)
+print(final)"
+14,15,2019-09-20 04:18:37,1.0,0.8506,success,"s = str(input(""Enter a symbol""))
+n = int(input(""Enter a number""))
+for x in range(n):
+    print((2*x+1)*s)"

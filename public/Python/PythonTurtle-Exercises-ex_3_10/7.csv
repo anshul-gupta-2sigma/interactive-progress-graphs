@@ -1,0 +1,185 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2018-09-25 11:47:15,0.6755461096763611,0.7451,AttributeError: 'Turtle' object has no attribute 'foward' on line 10,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.foward(100)
+    t.stamp
+    t.foward(-100)
+    t.left(30)
+wn.exitonclick()
+"
+2,3,2018-09-25 11:54:29,0.6576856374740601,0.7919,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(100)
+    t.stamp
+    t.forward(-100)
+    t.left(30)
+wn.exitonclick()
+"
+3,4,2018-09-25 11:54:51,0.6804507970809937,0.8241,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(100)
+    t.stamp()
+    t.forward(-100)
+    t.left(30)
+wn.exitonclick()
+"
+4,5,2018-09-25 11:55:25,0.6778751611709595,0.8387,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(150)
+    t.stamp()
+    t.forward(-100)
+    t.left(30)
+wn.exitonclick()
+"
+5,6,2018-09-25 11:55:44,0.6722467541694641,0.8384,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(150)
+    t.stamp()
+    t.forward(-150)
+    t.left(30)
+wn.exitonclick()
+"
+6,7,2018-09-25 11:56:15,0.6764816641807556,0.8344,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(175)
+    t.stamp()
+    t.forward(-175)
+    t.left(30)
+wn.exitonclick()
+"
+7,8,2018-09-25 11:56:51,0.7083383202552795,0.8472,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(150)
+    t.stamp()
+    t.forward(25)
+    t.stamp()
+    t.forward(-175)
+    t.left(30)
+wn.exitonclick()
+"
+8,9,2018-09-25 11:58:33,0.7529842257499695,0.864,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(140)
+    t.down()
+    t.forward(10)
+    t.up()
+    t.forward(15)
+    t.stamp()
+    t.forward(-175)
+    t.left(30)
+wn.exitonclick()
+"
+9,10,2018-09-25 11:59:37,0.7528848648071289,0.8701,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+for i in range(12):
+    t.forward(150)
+    t.down()
+    t.forward(10)
+    t.up()
+    t.forward(15)
+    t.stamp()
+    t.forward(-175)
+    t.left(30)
+wn.exitonclick()
+"
+10,11,2018-09-25 12:02:12,0.7665444016456604,0.8728,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+t.pensize(3)
+for i in range(12):
+    t.forward(150)
+    t.down()
+    t.forward(10)
+    t.up()
+    t.forward(15)
+    t.stamp()
+    t.forward(-175)
+    t.left(30)
+wn.exitonclick()
+"
+11,12,2018-09-25 12:03:28,0.9999999403953552,0.8535,success,"import turtle
+wn=turtle.Screen()
+wn.bgcolor(""lightgreen"")
+t=turtle.Turtle()
+t.color(""blue"")
+t.shape(""turtle"")
+t.up()
+t.stamp()
+t.pensize(3)
+for i in range(12):
+    t.forward(150)
+    t.down()
+    t.forward(10)
+    t.up()
+    t.forward(15)
+    t.stamp()
+    t.forward(-175)
+    t.left(30)"

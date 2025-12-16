@@ -1,0 +1,1923 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2181,, 
+1,2,2019-10-17 16:31:04,0.09903523681545812,0.4683,SyntaxError: bad input on line 7,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        
+    "
+2,3,2019-10-17 17:05:38,0.41573167433733627,0.836,success,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        if l == ""T"":
+            count = count + 1
+        if l == ""e"":
+            count = count + 1
+        if l == ""x"":
+            count = count + 1
+        if l == ""a"":
+            count = count + 1
+        if l == ""s"":
+            count = count + 1
+    return l 
+        
+    "
+3,4,2019-10-17 17:09:31,0.6176801016727513,0.9023,TimeLimitError: Program exceeded run time limit. on line undefined,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        if l == ""T"":
+            count = count + 1
+        if l == ""e"":
+            count = count + 1
+        if l == ""x"":
+            count = count + 1
+        if l == ""a"":
+            count = count + 1
+        if l == ""s"":
+            count = count + 1
+    return l 
+word = True 
+while word:
+    mystring = input(""Enter a word"")
+    if mystring !="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False 
+        
+    "
+4,5,2019-10-17 17:11:47,0.6176801016727513,0.9023,success,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        if l == ""T"":
+            count = count + 1
+        if l == ""e"":
+            count = count + 1
+        if l == ""x"":
+            count = count + 1
+        if l == ""a"":
+            count = count + 1
+        if l == ""s"":
+            count = count + 1
+    return l 
+word = True 
+while word:
+    mystring = input(""Enter a word"")
+    if mystring!="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False 
+        
+    "
+5,6,2019-10-17 17:13:29,0.6355850900847153,0.8447,SyntaxError: bad input on line 5,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        elif l == ""T"":
+            count = count + 1
+        elif l == ""e"":
+            count = count + 1
+        elif l == ""x"":
+            count = count + 1
+        elif l == ""a"":
+            count = count + 1
+        elif l == ""s"":
+            count = count + 1
+    return l 
+word = True 
+while word:
+    mystring = input(""Enter a word"")
+    if mystring!="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False 
+        
+    "
+6,7,2019-10-17 17:13:38,0.6226672207131393,0.8435,SyntaxError: bad input on line 5,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        elif l == ""T""
+            count = count + 1
+        elif l == ""e"":
+            count = count + 1
+        elif l == ""x"":
+            count = count + 1
+        elif l == ""a"":
+            count = count + 1
+        elif l == ""s"":
+            count = count + 1
+    return l 
+word = True 
+while word:
+    mystring = input(""Enter a word"")
+    if mystring!="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False 
+        
+    "
+7,8,2019-10-17 17:16:40,0.6327217145732704,0.8576,success,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        if l == ""T"":
+            count = count + 1
+        elif l == ""e"":
+            count = count + 1
+        elif l == ""x"":
+            count = count + 1
+        elif l == ""a"":
+            count = count + 1
+        elif l == ""s"":
+            count = count + 1
+    return l 
+word = True 
+while word:
+    mystring = input(""Enter a word"")
+    if mystring!="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False 
+        
+    "
+8,9,2019-10-17 17:22:53,0.6327217145732704,0.8576,success,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        if l == ""T"":
+            count = count + 1
+        elif l == ""e"":
+            count = count + 1
+        elif l == ""x"":
+            count = count + 1
+        elif l == ""a"":
+            count = count + 1
+        elif l == ""s"":
+            count = count + 1
+    return l 
+
+word = True 
+
+while word:
+    
+    mystring = input(""Enter a word"")
+    if mystring!="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False 
+        
+    "
+9,10,2019-10-17 17:24:29,0.636872770879685,0.8469,success,"#Your code goes here
+def CommonLetters(mystring):
+    count = 0
+    for l in (mystring):
+        if l == ""T"":
+            count = count + 1
+        elif l == ""e"":
+            count = count + 1
+        elif l == ""x"":
+            count = count + 1
+        elif l == ""a"":
+            count = count + 1
+        elif l == ""s"":
+            count = count + 1
+    return l 
+
+word = True 
+
+while word:
+    
+    mystring = input(""Enter a word"")
+    if mystring!="""":
+        print(CommonLetters(mystring))
+    else:
+        word = False;
+        
+    "
+10,11,2019-10-17 17:26:53,0.7516064281272146,0.6213,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l == 'P': 
+            count = count + 1 
+        elif l=='y': 
+            count = count + 1 
+        elif l=='t': 
+            count = count + 1 
+        elif l=='h': 
+            count = count + 1 
+        elif l=='o': 
+            count = count + 1 
+        elif l=='n': 
+            count = count + 1 
+    return count 
+  
+
+flag=True
+
+while flag:
+
+    mystring=input(""Enter String : "")
+    if mystring!="""" : 
+        print(mystring)
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        flag=False; 
+        
+    "
+11,12,2019-10-17 17:27:18,0.6958128698755228,0.7217,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l == 'T': 
+            count = count + 1 
+        elif l=='e': 
+            count = count + 1 
+        elif l=='x': 
+            count = count + 1 
+        elif l=='a': 
+            count = count + 1 
+        elif l=='s': 
+            count = count + 1 
+    return count 
+  
+
+flag=True
+
+while flag:
+
+    mystring=input(""Enter String : "")
+    if mystring!="""" : 
+        print(mystring)
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        flag=False; 
+        
+    "
+12,13,2019-10-17 17:27:49,0.6699526303201175,0.8064,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l == 'T': 
+            count = count + 1 
+        elif l=='e': 
+            count = count + 1 
+        elif l=='x': 
+            count = count + 1 
+        elif l=='a': 
+            count = count + 1 
+        elif l=='s': 
+            count = count + 1 
+    return count 
+  
+
+flag=True
+
+while flag:
+
+    mystring=input(""Enter String : "")
+    if mystring!="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+    else:
+        flag=False; 
+        
+    "
+13,14,2019-10-17 17:37:17,0.38766760402475675,0.9465,NameError: name 'mystring' is not defined on line 12,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x = True
+while (x):
+    y = input(""Enter String"")
+    if y =="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+    else:
+        flag=False; 
+        
+    "
+14,15,2019-10-17 17:37:36,0.38357274339125713,0.947,NameError: name 'mystring' is not defined on line 13,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x = True
+while (x):
+    y = input(""Enter String"")
+    if y =="""" : 
+        print(y)
+        print(CommonLetters(mystring))
+    else:
+        flag=False; 
+        
+    "
+15,16,2019-10-17 17:38:25,0.3952268595648952,0.9692,TimeLimitError: Program exceeded run time limit. on line 11,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x = True
+while (x):
+    mystring = input(""Enter String"")
+    if mystring =="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+    else:
+        flag=False; 
+        
+    "
+16,17,2019-10-17 17:40:35,0.38147035260624784,0.9703,TimeLimitError: Program exceeded run time limit. on line 11,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x = True
+while (x):
+    mystring = input(""Enter String"")
+    if mystring =="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+        X = False
+    #else:
+        #flag=False; 
+        
+    "
+17,18,2019-10-17 17:52:46,0.4129569997309037,0.9685,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x = True
+while (x):
+    mystring = input(""Enter String"")
+    if mystring =="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+        x = False
+    else:
+        flag=False; 
+        
+    "
+18,19,2019-10-17 22:41:45,0.15586507520181714,0.767,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+#x = True
+#while (x):
+    #mystring = input(""Enter String"")
+    #if mystring =="""" : 
+        #print(mystring)
+        #print(CommonLetters(mystring))
+        #x = False
+    #else:
+        #flag=False; 
+        
+    "
+19,20,2019-10-17 22:43:18,0.20833738388336664,0.877,NameError: name 'mystring' is not defined on line 7,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+print(CommonLetters(mystring))
+
+#x = True
+#while (x):
+    #mystring = input(""Enter String"")
+    #if mystring =="""" : 
+        #print(mystring)
+        #print(CommonLetters(mystring))
+        #x = False
+    #else:
+        #flag=False; 
+        
+    "
+20,21,2019-10-17 22:44:48,0.46719989575495613,0.9773,NameError: name 'mystring' is not defined on line 7,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+print(CommonLetters(mystring))
+
+x = True
+while (x):
+    mystring = input(""Enter String"")
+    if mystring =="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+        x = False
+    else:
+        flag=False; 
+        
+    "
+21,22,2019-10-17 22:44:57,0.4129569997309037,0.9685,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x = True
+while (x):
+    mystring = input(""Enter String"")
+    if mystring =="""" : 
+        print(mystring)
+        print(CommonLetters(mystring))
+        x = False
+    else:
+        flag=False; 
+        
+    "
+22,23,2019-10-17 22:48:36,0.38939377480075343,0.9582,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+flag=True
+
+while flag:
+    mystring=input(""Enter String : "")
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        flag=False; "
+23,24,2019-10-17 22:49:18,0.35687408683691924,0.9619,success,"def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+
+x=True
+
+while x:
+    mystring=input(""Enter String : "")
+    if mystring!="""" : 
+        print(CommonLetters(mystring))
+    else:
+        x=False "
+24,25,2019-10-17 22:51:12,0.32309905287070384,0.9419,NameError: name 'stringnamedTexas' is not defined on line 3,"def CommonLetters(mystring):
+    count=0 
+    for char in stringnamedTexas: 
+        #if l in ""Texas"":
+            count = count + 1
+    return count
+
+x=True
+
+while x:
+    mystring=input(""Enter String : "")
+    if mystring!="""" : 
+        print(CommonLetters(mystring))
+    else:
+        x=False "
+25,26,2019-10-17 22:52:09,0.4147168336875885,0.9618,NameError: name 'count' is not defined on line 8,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+print(count)
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+26,27,2019-10-17 22:52:41,0.44251365985961044,0.9746,TimeLimitError: Program exceeded run time limit. on line 13,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+print(CommonLetters(mystring))
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+27,28,2019-10-17 22:54:38,0.4146383800639497,0.9631,NameError: name 'l' is not defined on line 8,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+print(l)
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+28,29,2019-10-17 22:55:18,0.402586317082714,0.9636,TimeLimitError: Program exceeded run time limit. on line 6,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for l in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    #return count
+    print(l)
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+29,30,2019-10-17 23:01:30,0.41516446949280117,0.9617,NameError: name 'l' is not defined on line 5,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for char in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+    print(l)
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+30,31,2019-10-17 23:02:03,0.416546081458984,0.9658,NameError: name 'l' is not defined on line 5,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for char in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+    print(char)
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+31,32,2019-10-17 23:02:24,0.38957037149126494,0.9616,NameError: name 'l' is not defined on line 5,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for char in mystring: 
+        if l in ""Texas"":
+            count = count + 1
+    return count
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+32,33,2019-10-17 23:03:14,0.41709224259860056,0.97,NameError: name 'char' is not defined on line 8,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for char in mystring: 
+        if char in ""Texas"":
+            count = count + 1
+    return count
+print(char)
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+33,34,2019-10-17 23:03:54,0.3903209764366026,0.9672,TimeLimitError: Program exceeded run time limit. on line 6,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for char in mystring: 
+        if char in ""Texas"":
+            count = count + 1
+    return count
+
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+34,35,2019-10-17 23:05:10,0.4160390260091774,0.966,NameError: name 'count' is not defined on line 8,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    count=0 
+    for char in mystring: 
+        if char in ""Texas"":
+            count = count + 1
+    return count
+print(count)
+
+x=True
+
+while x:
+    if mystring!="""" : 
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        x=False; 
+        "
+35,36,2019-10-19 01:10:02,0.5115360788606161,0.9906,SyntaxError: bad input on line 16,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    word = ""Texas""
+    count = "" "" 
+    for char in mystring:
+        if char in word:
+            count = count + char 
+            count = count + "" ""
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not "" "":
+        print(CommonLetters(mystring)
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+36,37,2019-10-19 01:21:04,0.5251191315283368,0.9951,TimeLimitError: Program exceeded run time limit. on line undefined,"mystring=input(""Enter String : "")
+def CommonLetters(mystring):
+    word = ""Texas""
+    count = "" "" 
+    for char in mystring:
+        if char in word:
+            count = count + char 
+            count = count + "" ""
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not "" "":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+37,38,2019-10-19 01:22:51,0.4573887389695481,0.9874,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachChar in mystring:
+        if eachChar in word:
+            count = count + eachChar 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+38,39,2019-10-19 01:23:28,0.45115801809082245,0.9913,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for char in mystring:
+        if char in word:
+            count = count + char 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+39,40,2019-10-19 01:24:10,0.4563894777916312,0.9873,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachchar in mystring:
+        if eachchar in word:
+            count = count + eachchar 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+40,41,2019-10-19 01:25:28,0.4553743801581783,0.9869,TypeError: 'bool' object is not iterable on line 5,"mystring = input(""Enter a word"")
+def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachchar in mystring:
+        if eachchar in word:
+            count = count + eachchar 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    #mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+41,42,2019-10-19 01:25:50,0.4563894777916312,0.9873,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachchar in mystring:
+        if eachchar in word:
+            count = count + eachchar 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+42,43,2019-10-19 01:35:22,0.6850627279587187,0.879,TypeError: cannot concatenate 'str' and 'int' objects on line 6,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachchar in mystring:
+        if eachchar == ""T"":
+            count = count + 1
+        if eachchar == ""e"":
+            count = count + 1
+        if eachchar == ""x"":
+            count = count + 1
+        if eachchar == ""a"":
+            count = count + 1
+        if eachchar == ""s"":
+            count = count + 1
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+43,44,2019-10-19 01:36:26,0.6731457345238894,0.8525,TypeError: cannot concatenate 'str' and 'int' objects on line 8,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachchar in mystring:
+        if eachchar == ""T"":
+            count = count + 1
+        if eachchar == ""e"":
+            count = count + 1
+        if eachchar == ""x"":
+            count = count + 1
+        if eachchar == ""a"":
+            count = count + 1
+        if eachchar == ""s"":
+            count = count + 1
+    return count 
+
+s = True 
+while s:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+44,45,2019-10-19 01:37:25,0.45115801809082245,0.9913,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for char in mystring:
+        if char in word:
+            count = count + char 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+45,46,2019-10-19 01:41:59,0.45996310149913855,0.9936,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for achar in mystring:
+        if achar in word:
+            count = count + achar 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+46,47,2019-10-19 01:44:05,0.4563894777916312,0.9873,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """" 
+    for eachchar in mystring:
+        if eachchar in word:
+            count = count + eachchar 
+            count = count + """"
+    return count 
+
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+47,48,2019-10-19 02:48:42,0.9338890542320397,0.6896,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        #print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+48,49,2019-10-19 02:53:20,0.9785892886637965,0.7314,AttributeError: 'bool' object has no attribute 'find' on line 2,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        #print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+print(CommonLetters(mystring))    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+49,50,2019-10-19 03:01:21,0.9847941431037349,0.7366,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        print('T ',end = '')
+    if(mystring.find('e')!= -1):
+        print('e ',end = '')
+    if(mystring.find('x')!= -1):
+        print('x ',end = '')
+    if(mystring.find('a')!= -1):
+        print('a ',end = '')
+    if(mystring.find('s')!= -1):
+        print('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+50,51,2019-10-19 03:02:48,0.9622894339150025,0.7176,SyntaxError: bad input on line 3,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        return ('T ',end = '')
+    if(mystring.find('e')!= -1):
+        return ('e ',end = '')
+    if(mystring.find('x')!= -1):
+        return ('x ',end = '')
+    if(mystring.find('a')!= -1):
+        return ('a ',end = '')
+    if(mystring.find('s')!= -1):
+        return ('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+51,52,2019-10-19 03:03:20,0.8551407174261937,0.6894,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        return ('T ') #,end = '')
+    if(mystring.find('e')!= -1):
+        return ('e ')#,end = '')
+    if(mystring.find('x')!= -1):
+        return ('x ')#,end = '')
+    if(mystring.find('a')!= -1):
+        return ('a ')#,end = '')
+    if(mystring.find('s')!= -1):
+        return ('s ')#,end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+52,53,2019-10-19 03:04:45,0.45510340038546704,0.9411,NameError: name 'count' is not defined on line 1,"count = count + 1
+def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        count = count + 1
+    return ('T ') #,end = '')
+    
+    #if(mystring.find('e')!= -1):
+        #return ('e ')#,end = '')
+    #if(mystring.find('x')!= -1):
+        #return ('x ')#,end = '')
+    #if(mystring.find('a')!= -1):
+        #return ('a ')#,end = '')
+    #if(mystring.find('s')!= -1):
+        #return ('s ')#,end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+53,54,2019-10-19 03:04:53,0.4431116310182798,0.9441,UnboundLocalError: local variable 'count' referenced before assignment on line 4,"count = 0
+def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        count = count + 1
+    return ('T ') #,end = '')
+    
+    #if(mystring.find('e')!= -1):
+        #return ('e ')#,end = '')
+    #if(mystring.find('x')!= -1):
+        #return ('x ')#,end = '')
+    #if(mystring.find('a')!= -1):
+        #return ('a ')#,end = '')
+    #if(mystring.find('s')!= -1):
+        #return ('s ')#,end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+54,55,2019-10-19 03:05:22,0.95489573915074,0.7218,SyntaxError: bad token on line 3,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        return ('T ,end = '')
+    if(mystring.find('e')!= -1):
+        return ('e ',end = '')
+    if(mystring.find('x')!= -1):
+        return ('x ',end = '')
+    if(mystring.find('a')!= -1):
+        return ('a ',end = '')
+    if(mystring.find('s')!= -1):
+        return ('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+55,56,2019-10-19 03:05:32,0.9622894339150025,0.7176,SyntaxError: bad input on line 3,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        return ('T ',end = '')
+    if(mystring.find('e')!= -1):
+        return ('e ',end = '')
+    if(mystring.find('x')!= -1):
+        return ('x ',end = '')
+    if(mystring.find('a')!= -1):
+        return ('a ',end = '')
+    if(mystring.find('s')!= -1):
+        return ('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+56,57,2019-10-19 03:06:10,0.9847941431037349,0.7366,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        print('T ',end = '')
+    if(mystring.find('e')!= -1):
+        print('e ',end = '')
+    if(mystring.find('x')!= -1):
+        print('x ',end = '')
+    if(mystring.find('a')!= -1):
+        print('a ',end = '')
+    if(mystring.find('s')!= -1):
+        print('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+57,58,2019-10-19 03:06:24,0.9338890542320397,0.6896,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        print('T ',end = '')
+    if(mystring.find('e')!= -1):
+        print('e ',end = '')
+    if(mystring.find('x')!= -1):
+        print('x ',end = '')
+    if(mystring.find('a')!= -1):
+        print('a ',end = '')
+    if(mystring.find('s')!= -1):
+        print('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        #print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+58,59,2019-10-19 03:07:28,0.3398061260792954,0.9056,success,"def CommonLetters(mystring):
+    if(mystring.find('Texas')!= -1):
+        print('Texas ')#,end = '')
+    #if(mystring.find('e')!= -1):
+        #print('e ',end = '')
+    #if(mystring.find('x')!= -1):
+        ##if(mystring.find('a')!= -1):
+        #print('a ',end = '')
+    #if(mystring.find('s')!= -1):
+        #print('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        #print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+59,60,2019-10-19 03:07:35,0.394972244822265,0.9473,success,"def CommonLetters(mystring):
+    if(mystring.find('Texas')!= -1):
+        print('Texas ')#,end = '')
+    #if(mystring.find('e')!= -1):
+        #print('e ',end = '')
+    #if(mystring.find('x')!= -1):
+        ##if(mystring.find('a')!= -1):
+        #print('a ',end = '')
+    #if(mystring.find('s')!= -1):
+        #print('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+60,61,2019-10-19 03:07:48,0.4147869559746479,0.9566,success,"def CommonLetters(mystring):
+    if(mystring.find('Texas')!= -1):
+        print('Texas ',end = '')
+    #if(mystring.find('e')!= -1):
+        #print('e ',end = '')
+    #if(mystring.find('x')!= -1):
+        ##if(mystring.find('a')!= -1):
+        #print('a ',end = '')
+    #if(mystring.find('s')!= -1):
+        #print('s ',end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+61,62,2019-10-19 03:09:04,0.8711477682374009,0.7108,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!= -1):
+        print('T ')#,end = '')
+    if(mystring.find('e')!= -1):
+        print('e ')#,end = '')
+    if(mystring.find('x')!= -1):
+        print('x ')#,end = '')
+    if(mystring.find('a')!= -1):
+        print('a ')#,end = '')
+    if(mystring.find('s')!= -1):
+        print('s ')#,end = '')
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+62,63,2019-10-19 03:12:22,0.45996310149913855,0.9936,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            count = count + achar
+            count = count + """"
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+63,64,2019-10-19 03:12:52,0.4314419284116242,0.992,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            count = count + achar
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+64,65,2019-10-19 03:13:05,0.4022082751235153,0.9869,SyntaxError: bad input on line 7,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            #count = count + achar
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+65,66,2019-10-19 03:13:20,0.4278690640442139,0.9894,TypeError: cannot concatenate 'str' and 'int' objects on line 7,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            #count = count + achar
+            count = count + 1
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+66,67,2019-10-19 03:13:36,0.46053223048449654,0.9924,TypeError: cannot concatenate 'str' and 'int' objects on line 7,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            count = count + achar
+            count = count + 1
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+67,68,2019-10-19 03:14:01,0.4267769594144737,0.9908,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            #count = count + achar
+            count = count + """"
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+68,69,2019-10-19 03:16:50,0.45996310149913855,0.9936,success,"def CommonLetters(mystring):
+    word = ""Texas""
+    count = """"
+    for achar in mystring:
+        if achar in word:
+            count = count + achar
+            count = count + """"
+    return count
+        
+mystring = True 
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+69,70,2019-10-19 03:29:32,0.9847941431037349,0.7366,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        print(CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+70,71,2019-10-19 03:33:07,1.0,0.7332,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+        
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        (CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+71,72,2019-10-19 03:34:30,0.8640633415747374,0.7062,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ')#,end='')
+    if(mystring.find('e')!=-1):
+        print('e ')#,end='')
+    if(mystring.find('x')!=-1):
+        print('x ')#,end='')
+    if(mystring.find('a')!=-1):
+        print('a ')#,end='')
+    if(mystring.find('s')!=-1):
+        print('s ')#,end='')
+        
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        (CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+72,73,2019-10-19 03:34:53,0.8872355322595775,0.7065,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',)#,end='')
+    if(mystring.find('e')!=-1):
+        print('e ',)#,end='')
+    if(mystring.find('x')!=-1):
+        print('x ',)#,end='')
+    if(mystring.find('a')!=-1):
+        print('a ',)#,end='')
+    if(mystring.find('s')!=-1):
+        print('s ',)#,end='')
+        
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        (CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+73,74,2019-10-19 03:37:57,1.0,0.7332,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        (CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+74,75,2019-10-19 04:14:34,0.9850575433868566,0.7327,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        (,CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+75,76,2019-10-19 04:15:02,0.9850575433868566,0.7327,SyntaxError: bad input on line 17,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        ( ,CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+76,77,2019-10-19 04:15:16,0.9692141332649484,0.7163,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        ("" "" ,CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "
+77,78,2019-10-19 04:15:38,1.0,0.7332,success,"def CommonLetters(mystring):
+    if(mystring.find('T')!=-1):
+        print('T ',end='')
+    if(mystring.find('e')!=-1):
+        print('e ',end='')
+    if(mystring.find('x')!=-1):
+        print('x ',end='')
+    if(mystring.find('a')!=-1):
+        print('a ',end='')
+    if(mystring.find('s')!=-1):
+        print('s ',end='')
+mystring = True 
+        
+while mystring == True:
+    mystring = input(""Enter a word"")
+    if mystring is not """":
+        (CommonLetters(mystring))
+        mystring = True 
+    else:
+        mystring = False    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   "

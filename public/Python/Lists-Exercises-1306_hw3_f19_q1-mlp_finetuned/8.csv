@@ -1,0 +1,1268 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-10-29 14:55:24,0.2915499227085415,0.3902,SyntaxError: bad input on line 7,"words = input(""Write your statement"")
+def CoolPara(words):
+    k = 8
+    unique = []
+    wordLen = len(words.split())
+    for char in words:
+        if char not in unique
+            unique.append(char)
+        print(len(unique))
+    for 
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+2,3,2019-10-29 15:11:50,0.3450813853292255,0.4479,SyntaxError: bad input on line 9,"words = input(""Write your statement"")
+def CoolPara(words):
+    k = 8
+    unique = [j,x,q,z]
+    wordLen = len(words.split())
+    print(wordLen)
+    
+    for char in words:
+        if char not in words
+            unique.append(char)
+        print(len(unique))
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+3,4,2019-10-29 15:13:01,0.23963209853102052,0.3379,NameError: name 'j' is not defined on line 4,"words = input(""Write your statement"")
+def CoolPara(words):
+    k = 8
+    unique = [j,x,q,z]
+    wordLen = len(words.split())
+    print(wordLen)
+    
+    #for char in words:
+     #   if char not in words
+     #      unique.append(char)
+       # print(len(unique))
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+4,5,2019-10-29 15:13:36,0.21733867633289639,0.3049,NameError: name 'j' is not defined on line 4,"words = input(""Write your statement"")
+def CoolPara(words):
+    k = 8
+    unique = [j,x,q,z]
+    wordLen = len(words.split())
+    print(wordLen)
+    
+    #for char in words:
+     #   if char not in words
+     #      unique.append(char)
+       # print(len(unique))
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(words)
+
+"
+5,6,2019-10-29 15:13:55,0.17151043202786675,0.2489,success,"words = input(""Write your statement"")
+def CoolPara(words):
+    k = 8
+    #unique = [j,x,q,z]
+    wordLen = len(words.split())
+    print(wordLen)
+    
+    #for char in words:
+     #   if char not in words
+     #      unique.append(char)
+       # print(len(unique))
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(words)
+
+"
+6,7,2019-10-29 15:26:28,0.4328975408408029,0.5784,SyntaxError: EOF in multi-line statement on line 24\n\n^\n,"def CoolPara(words):
+    k = 8
+    unique = [j,x,q,z]
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+        while( i < wordLen):
+            if char[i] in unique:
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: ""))
+
+"
+7,8,2019-10-29 15:26:44,0.4328975408408029,0.5784,SyntaxError: EOF in multi-line statement on line 22\n\n^\n,"def CoolPara(words):
+    k = 8
+    unique = [j,x,q,z]
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+        while( i < wordLen):
+            if char[i] in unique:
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: ""))"
+8,9,2019-10-29 15:26:53,0.43895606355930095,0.5821,NameError: name 'j' is not defined on line 3,"def CoolPara(words):
+    k = 8
+    unique = [j,x,q,z]
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+        while( i < wordLen):
+            if char[i] in unique:
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+9,10,2019-10-29 15:27:11,0.4719973769163409,0.6075,NameError: name 'char' is not defined on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+        while( i < wordLen):
+            if char[i] in unique:
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+10,11,2019-10-29 15:27:50,0.4721984380193158,0.6093,TimeLimitError: Program exceeded run time limit. on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+        while( i < wordLen):
+            if word[i] in unique:
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+11,12,2019-10-29 15:29:24,0.4783814166993925,0.5898,TimeLimitError: Program exceeded run time limit. on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+        while( i < wordLen):
+            if word[i] == 'z':
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+12,13,2019-10-29 15:30:41,0.38198247694450926,0.5095,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        i = 0
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+13,14,2019-10-29 15:31:04,0.38719883686962475,0.5149,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(word)
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+14,15,2019-10-29 15:31:40,0.3912931024248173,0.5262,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen)
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+15,16,2019-10-29 15:32:25,0.41182871057980275,0.5481,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        for char in word:
+            print(char)
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+16,17,2019-10-29 15:33:01,0.4340800647314068,0.582,SyntaxError: bad input on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        for char in word:
+            if char in unique:
+                rareWords++
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+17,18,2019-10-29 15:33:17,0.43225665212325215,0.5876,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        for char in word:
+            if char in unique:
+                rareWords += 1
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+18,19,2019-10-29 15:35:19,0.5098625545877984,0.6966,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                
+            for wordLen in word:
+                eightLetters += 1 
+                print(eightLetters)
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+19,20,2019-10-29 15:36:21,0.5398242750341178,0.756,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                
+            for wordLen in word:
+                if wordLen > k: 
+                    eightLetters += 1 
+                print(eightLetters)
+    
+    print(rareWords)
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+20,21,2019-10-29 15:37:33,0.5719278822101903,0.7831,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                
+            for wordLen in word:
+                if wordLen > k: 
+                    eightLetters += 1 
+                print(eightLetters)
+    
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+21,22,2019-10-29 15:39:52,0.667962895916951,0.874,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+        for wordLen in word:
+                if wordLen >= k: 
+                    eightLetters += 1 
+                print(wordLen , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+22,23,2019-10-29 15:40:26,0.6718093267995142,0.8797,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+        for wordLen in word:
+                if wordLen >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+23,24,2019-10-29 15:47:43,0.6998249933086189,0.8907,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                print(wordLen)
+                if wordLen >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+24,25,2019-10-29 15:54:22,0.6716366599624912,0.8758,UnboundLocalError: local variable 'word' referenced before assignment on line 8,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in word.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if wordLen >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+25,26,2019-10-29 15:54:41,0.6718093267995142,0.8797,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if wordLen >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+26,27,2019-10-29 15:55:18,0.6669771839688691,0.8736,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if word >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+27,28,2019-10-29 15:55:47,0.6684255193555744,0.8752,SyntaxError: bad input on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+    print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+        print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if word >= k: 
+                    eightLetters += 1 
+            print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+28,29,2019-10-29 15:56:00,0.6684255193555744,0.8752,SyntaxError: bad input on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+    print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+            print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if word >= k: 
+                    eightLetters += 1 
+            print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+29,30,2019-10-29 15:56:17,0.6669771839688691,0.8736,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if word >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+30,31,2019-10-29 15:56:46,0.6703503598834721,0.8781,NameError: name 'wordLens' is not defined on line 18,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if wordLens >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+31,32,2019-10-29 15:57:14,0.6718093267995142,0.8797,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+    for word in words.split("" ""):
+        wordLen = len(word)
+        print(wordLen , ""words in the input paragraph"")
+        
+        for char in word:
+            if char in unique:
+                rareWords += 1
+                print(rareWords , ""word with a rare character"")
+          
+            for wordLen in word:
+                if wordLen >= k: 
+                    eightLetters += 1 
+                print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+32,33,2019-10-29 16:03:08,0.6262183913614832,0.84,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if char in unique:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+33,34,2019-10-29 16:04:06,0.6264530368606624,0.847,TypeError: TypeError: 'In <string> requires string as left operand on line 12,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if unique in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+34,35,2019-10-29 16:05:48,0.6808204373330355,0.8741,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'j' or 'x' or 'q' or 'z' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+35,36,2019-10-29 16:10:11,0.6321700542577551,0.8271,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+36,37,2019-10-29 16:12:07,0.7723567107770607,0.922,SyntaxError: bad input on line 18,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        else 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+37,38,2019-10-29 16:12:21,0.8070314447894593,0.9408,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+38,39,2019-10-29 16:15:41,0.8586871645065146,0.9614,SyntaxError: bad input on line 29,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    while wordLen > 10:
+        return true
+        else 
+            break;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+39,40,2019-10-29 16:15:50,0.8605554530163216,0.9616,SyntaxError: bad input on line 29,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    while wordLen > 10:
+        return true
+        else: 
+            break;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+40,41,2019-10-29 16:18:18,0.9097570442890797,0.983,SyntaxError: bad input on line 29,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters > 8 and rareWords >= 1 :
+        return true
+        else: 
+            false;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+41,42,2019-10-29 16:18:51,0.9158686930085499,0.9839,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters > 8 and rareWords >= 1 :
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+42,43,2019-10-30 01:28:43,0.916090731420871,0.9844,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= 1 and rareWords >= 1 :
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+43,44,2019-10-30 01:56:15,0.9658190061306876,0.9925,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 (len(wordLen))) and rareWords >= (.1 (len(wordLen))) :
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+44,45,2019-10-30 01:57:24,0.95867761590011,0.9937,TypeError: object of type 'int' has no len() on line 27,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (len(wordLen))) and rareWords >= (.1 * (len(wordLen))) :
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+45,46,2019-10-30 01:58:04,0.9999999803207121,0.9911,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+    
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (wordLen)) and rareWords >= (.1 * (wordLen)):
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+46,47,2019-10-30 02:03:36,0.9999999803207121,0.9911,TimeLimitError: Program exceeded run time limit. on line undefined,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (wordLen)) and rareWords >= (.1 * (wordLen)):
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+47,48,2019-10-30 02:08:19,0.9624383293508854,0.9922,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+
+    print(input)
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (wordLen)) and rareWords >= (.1 * (wordLen)):
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+48,49,2019-10-30 02:10:30,0.9557246201365558,0.9935,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+
+    print(CoolPara)
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (wordLen)) and rareWords >= (.1 * (wordLen)):
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+49,50,2019-10-30 02:10:56,0.9653057253948819,0.9921,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+
+    print(words)
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (wordLen)) and rareWords >= (.1 * (wordLen)):
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"
+50,51,2019-10-31 07:02:02,0.9999999803207121,0.9911,success,"def CoolPara(words):
+    k = 8
+    unique = ['j','x','q','z']
+    wordLen = len(words.split())
+    rareWords = 0
+    eightLetters = 0
+
+    print(wordLen , ""words in the input paragraph"")
+        
+    for char in words.split():
+        if 'z' in char:
+            rareWords += 1
+        elif 'q' in char:
+            rareWords += 1
+        elif 'x' in char:
+            rareWords += 1
+        elif 'j' in char:
+            rareWords += 1
+    print(rareWords , ""word with a rare character"")
+          
+    for word in words.split():
+        if len(word) >= k: 
+            eightLetters += 1 
+    print(eightLetters , ""words that have 8 letters or more"")
+    
+    if wordLen > 10 and eightLetters >= (.1 * (wordLen)) and rareWords >= (.1 * (wordLen)):
+        return True
+    else: 
+        return False;
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))"

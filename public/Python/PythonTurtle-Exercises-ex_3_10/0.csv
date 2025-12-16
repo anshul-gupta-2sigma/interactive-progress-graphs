@@ -1,0 +1,128 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-07-21 16:53:55,0.3994521498680115,0.4162,NameError: name 'bgcolor' is not defined on line 3,"import turtle
+wn = turtle.Screen()
+wn - bgcolor(green)
+turing = turtle.Turtle()
+wn = turtle.Screen()
+"
+2,3,2020-07-21 16:56:16,0.4606921076774597,0.4,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+turing = turtle.Turtle()
+wn = turtle.Screen()
+
+
+
+"
+3,4,2020-07-21 16:59:33,0.5085789561271667,0.5206,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+jim = turtle.Turtle()
+wn = turtle.Screen()
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    jim.stamp
+
+
+
+"
+4,5,2020-07-21 16:59:52,0.5021091103553772,0.5544,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+jim = turtle.Turtle()
+wn = turtle.Screen()
+jim.stamp
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    jim.stamp
+
+
+
+"
+5,6,2020-07-21 17:00:34,0.5177013874053955,0.5841,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+jim = turtle.Turtle()
+wn = turtle.Screen()
+jim.stamp()
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    jim.stamp
+
+
+
+"
+6,7,2020-07-21 17:01:40,0.6258145570755005,0.7625,NameError: name 'jim' is not defined on line 9,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+tess = turtle.Turtle()
+tess.color(""blue"")
+tess.shape(""turtle"")
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    jim.stamp
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+tess = turtle.Turtle()
+tess.color(""blue"")
+tess.shape(""turtle"")
+
+print(list(range(5, 60, 2)))
+tess.up()                     # this is new
+for size in range(5, 60, 2):    # start with size = 5 and grow by 2
+    tess.stamp()                # leave an impression on the canvas
+    tess.forward(size)          # move tess along
+    tess.right(24)              # and turn her
+
+wn.exitonclick()
+
+"
+7,8,2020-07-21 17:02:29,0.8330516815185547,0.838,NameError: name 'size' is not defined on line 10,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+tess = turtle.Turtle()
+tess.color(""blue"")
+tess.shape(""turtle"")
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    tess.stamp()                # leave an impression on the canvas
+    tess.forward(size)          # move tess along
+    tess.right(24)              # and turn her
+
+wn.exitonclick()
+
+"
+8,9,2020-07-21 17:03:13,0.9139524698257446,0.8155,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+tess = turtle.Turtle()
+tess.color(""blue"")
+tess.shape(""turtle"")
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    tess.stamp()                
+    tess.forward(100)
+
+
+wn.exitonclick()
+
+"
+9,10,2020-07-21 17:04:20,1.0,0.8234,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+tess = turtle.Turtle()
+tess.color(""blue"")
+tess.shape(""turtle"")
+
+for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+    tess.stamp()                
+    tess.forward(100)
+    tess.left(10)
+
+
+wn.exitonclick()
+
+"

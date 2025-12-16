@@ -1,0 +1,115 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0492,, 
+1,2,2020-10-01 17:11:41,0.15898252458916096,0.2366,success,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+
+tut.stamp()"
+2,3,2020-10-01 17:13:07,0.16539528073707854,0.2433,TypeError: stamp() takes 1 positional argument but 2 were  given on line 5,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+
+tut.stamp(0)"
+3,4,2020-10-01 17:13:19,0.15898252458916096,0.2366,success,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+
+tut.stamp()"
+4,5,2020-10-01 17:14:25,0.31868644850881844,0.4304,NameError: name 'blue' is not defined on line 4,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+tut.color(blue)
+tut.fillcolor(blue)
+tut.bgcolor(green)
+
+tut.stamp()"
+5,6,2020-10-01 18:20:15,0.31832912793776924,0.4335,NameError: name 'blue' is not defined on line 4,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+tut.color(blue)
+tut.fillcolor(blue)
+tut.bgcolor(green)
+
+tut.shape()"
+6,7,2020-10-01 18:20:58,0.3269097712643344,0.4336,NameError: name 'blue' is not defined on line 5,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+tut.color('blue')
+tut.fillcolor(blue)
+tut.bgcolor(green)
+
+tut.shape()"
+7,8,2020-10-01 18:21:06,0.3335362581487683,0.4355,NameError: name 'blue' is not defined on line 5,"import turtle
+wn = turtle.Screen()
+tut = turtle.Turtle()
+tut.color('blue')
+tut.fillcolor(blue)
+tut.bgcolor(green)
+
+tut.shape(0)"
+8,9,2020-10-02 08:11:15,0.9450285150642049,0.9552,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+tut = turtle.Turtle()
+tut.pensize(3)
+tut.speed(2)
+tut.shape(""turtle"")
+tut.color(""blue"")
+
+for i in range(12):
+    tut.penup()
+    tut.forward(80)
+    tut.pendown()
+    tut.forward(10)
+    tut.penup()
+    tut.forward(30)
+    tut.stamp()
+    tut.backward(120)
+    tut.right(30)
+
+"
+9,10,2020-10-02 08:27:14,0.977351283334537,0.9562,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+tut = turtle.Turtle()
+tut.pensize(3)
+tut.speed(5)
+tut.shape(""turtle"")
+tut.color(""blue"")
+
+for i in range(12):
+    tut.penup()
+    tut.forward(80)
+    tut.pendown()
+    tut.forward(10)
+    tut.penup()
+    tut.forward(30)
+    tut.stamp()
+    tut.backward(120)
+    tut.right(30)
+tut.stamp()
+"
+10,11,2020-10-02 14:02:51,1.0,0.958,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+
+tut = turtle.Turtle()
+tut.pensize(3)
+tut.speed(5)
+tut.shape(""turtle"")
+tut.color(""blue"")
+
+for i in range(12):
+    tut.penup()
+    tut.forward(100)
+    tut.pendown()
+    tut.forward(20)
+    tut.penup()
+    tut.forward(40)
+    tut.stamp()
+    tut.backward(160)
+    tut.right(30)
+tut.stamp()
+"

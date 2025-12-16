@@ -1,0 +1,72 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2181,, 
+1,2,2019-10-17 15:34:07,0.0,0.6385,success,"Texas = ""Texas""
+mystring = input(""Type a string here"")
+
+print(mystring)
+"
+2,3,2019-10-17 15:46:52,0.0,0.8121,success,"Texas = ""Texas""
+mystring = input(""Type a string here"")
+
+def CommonLetters(mystring):
+    for Texas[0] in mystring:
+        print(""T"")"
+3,4,2019-10-17 15:48:12,0.0,0.8124,success,"Texas = ""Texas""
+mystring = input(""Type a string here"")
+
+def CommonLetters(mystring):
+    for Texas[0] in mystring:
+        print(Texas[0])"
+4,5,2019-10-17 15:52:11,0.0,0.9024,success,"Texas = ""Texas""
+mystring = input(""Type a string here"")
+
+def CommonLetters(mystring):
+    newstring = ''
+    for a in 'Texas':
+        if a in mystring:
+            newstring = newstring + a
+    print(newstring)"
+5,6,2019-10-17 15:53:13,0.0,0.943,success,"def CommonLetters(mystring):
+    newstring = ''
+    for a in 'Texas':
+        if a in mystring:
+            newstring = newstring + a
+    print(newstring)
+
+mystring = input(""Type a string here"")
+
+CommonLetters(mystring)"
+6,7,2019-10-17 15:56:44,0.0,0.9771,SyntaxError: bad input on line 14,"def CommonLetters(mystring):
+    newstring = ''
+    for a in 'Texas':
+        if a in mystring:
+            newstring = newstring + a
+    print(newstring)
+
+mystring = input(""Type a string here"")
+
+# CommonLetters(mystring)
+
+emptystring = ''
+
+while mystring != emptystring
+    mystring = input(""Type a string here"")
+    CommonLetters(mystring)"
+7,8,2019-10-17 15:56:50,0.0,0.9845,success,"def CommonLetters(mystring):
+    newstring = ''
+    for a in 'Texas':
+        if a in mystring:
+            newstring = newstring + a
+    print(newstring)
+
+mystring = input(""Type a string here"")
+
+# CommonLetters(mystring)
+
+emptystring = ''
+
+while mystring != emptystring:
+    mystring = input(""Type a string here"")
+    CommonLetters(mystring)"
+8,9,2019-10-19 01:51:05,0.0,0.2181,success,"#Your code goes here
+"

@@ -1,0 +1,22 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-19 19:39:34,0.9444452850715845,0.8181,success,"N = int(input('Enter the numbers of lines:'))
+S = input('Enter a symbol:')
+for i in range(0,N+1,2):
+	print(N*S) "
+2,3,2019-09-19 19:41:54,0.9351441708174452,0.8204,success,"N = int(input('Enter the numbers of lines:'))
+S = input('Enter a symbol:')
+for i in range(0,N+1,2):
+	print(i*N*S) "
+3,4,2019-09-19 19:42:06,0.9379997155230712,0.816,success,"N = int(input('Enter the numbers of lines:'))
+S = input('Enter a symbol:')
+for i in range(1,N+1,2):
+	print(i*N*S) "
+4,5,2019-09-19 19:42:30,0.9568173172579589,0.8165,success,"N = int(input('Enter the numbers of lines:'))
+S = input('Enter a symbol:')
+for i in range(1,N+1,2):
+	print(i*S) "
+5,6,2019-09-19 19:43:09,1.0,0.8262,success,"N = int(input('Enter the numbers of lines:'))
+S = input('Enter a symbol:')
+for i in range(1,N*2,2):
+	print(i*S) "

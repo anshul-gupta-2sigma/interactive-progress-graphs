@@ -1,0 +1,127 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 18:57:43,0.5590298351015588,0.527,NameError: name 'printsquare' is not defined on line 16,"# Your function goes here
+N = int(input(""Enter value here:""))
+S = input(""Enter symbol here:"")
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 19:00:59,0.5902219030558786,0.5537,NameError: name 'printsquare' is not defined on line 17,"# Your function goes here
+N = int(input(""Enter value here:""))
+S = input(""Enter symbol here:"")
+for i in range(N):
+    print((2*N)*S)
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 19:04:40,0.6444405296735931,0.6179,NameError: name 'printsquare' is not defined on line 13,"# Your function goes here
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 19:10:06,0.7619664464546517,0.9111,TypeError: stop must be a integer on line 4,"# Your function goes here
+def printsquare(N,S):
+    x = """";
+    for n in range(0,N,1):
+        for n in range(0,2*N,1):
+            x=x+S
+            print(x)
+            x=""""
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 19:12:32,0.7436754808796637,0.8637,TypeError: stop must be a integer on line 4,"# Your function goes here
+def printsquare(N,S):
+    x = 6;
+    for n in range(0,N,1):
+        for n in range(0,2*N,1):
+            x=x+S
+            print(x)
+            x=""""
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 19:12:43,0.7619664464546517,0.9111,TypeError: stop must be a integer on line 4,"# Your function goes here
+def printsquare(N,S):
+    x = """";
+    for n in range(0,N,1):
+        for n in range(0,2*N,1):
+            x=x+S
+            print(x)
+            x=""""
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 19:36:06,0.9999999732274955,0.9588,success,"# Your function goes here
+def printsquare(N,S):
+    N = int(N)
+    for i in range(N):
+        print((2*N)*S)
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

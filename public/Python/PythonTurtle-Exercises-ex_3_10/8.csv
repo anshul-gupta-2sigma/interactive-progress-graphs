@@ -1,0 +1,62 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2018-09-24 19:32:41,0.17435497045516968,0.4236,success,"import turtle
+blex = turtle.Turtle()
+canvas = turtle.Screen()
+"
+2,3,2018-09-25 06:28:47,0.6081641316413879,0.4984,SyntaxError: EOF in multi-line statement on line 13\n\n^\n,"import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+alex.color(blue)
+alex.shape(turtle)
+wn.bgcolor(green)
+alex.penup()
+
+
+
+for i in range(
+"
+3,4,2018-09-25 06:31:25,0.5527855157852173,0.4809,success,"import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+alex.color(""blue"")
+alex.shape(""turtle"")
+wn.bgcolor(""green"")
+alex.penup()
+
+
+
+#for i in range(
+"
+4,5,2018-09-25 06:32:45,0.9671226143836975,0.6732,success,"import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+alex.color(""blue"")
+alex.shape(""turtle"")
+wn.bgcolor(""green"")
+alex.penup()
+
+alex.stamp()
+
+for i in range(13):
+    alex.forward(150)
+    alex.stamp()
+    alex.backward(150)
+    alex.right(30)
+"
+5,6,2018-09-25 06:33:27,1.0,0.7649,success,"import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+alex.color(""blue"")
+alex.shape(""turtle"")
+wn.bgcolor(""lightgreen"")
+alex.penup()
+
+alex.stamp()
+
+for i in range(12):
+    alex.forward(150)
+    alex.stamp()
+    alex.backward(150)
+    alex.right(30)
+"

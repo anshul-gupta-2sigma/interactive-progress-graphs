@@ -1,0 +1,106 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:15:23,0.4397921892218961,0.5804,TypeError: can't multiply sequence by non-int of type 'float' on line 4,"r = input(""What is the radius?"")
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai)
+"
+2,3,2019-09-03 15:21:07,0.47508305223347924,0.6246,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai)
+"
+3,4,2019-09-03 15:23:06,0.7470905355567599,0.7937,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai)
+print("" The area of this circle with a radius of"",r,""is"",r**2*pai)
+"
+4,5,2019-09-03 15:23:13,0.7477271506997927,0.8307,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai)
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai)
+"
+5,6,2019-09-03 15:24:09,0.800010326305766,0.8637,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai,""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")
+"
+6,7,2019-09-03 15:24:20,0.7889088367552326,0.8429,SyntaxError: bad input on line 4,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")
+"
+7,8,2019-09-03 15:24:25,0.800010326305766,0.8637,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai,""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")
+"
+8,9,2019-09-03 15:50:41,0.8027393018875472,0.8648,TypeError: unsupported operand type(s) for Add: 'float' and 'str' on line 4,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai+""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai+""."")
+"
+9,10,2019-09-03 15:51:25,0.800010326305766,0.8637,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai,""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")
+"
+10,11,2019-09-03 15:51:42,0.8027393018875472,0.8648,TypeError: unsupported operand type(s) for Add: 'float' and 'str' on line 4,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai+""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai+""."")
+"
+11,12,2019-09-03 15:52:18,0.8689317199341673,0.8036,TypeError: unsupported operand type(s) for Add: 'float' and 'str' on line 4,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(str(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai+"".""))
+print(srt(""The area of this circle with a radius of"",r,""is"",r**2*pai+"".""))
+"
+12,13,2019-09-03 15:54:46,0.8167247227055603,0.8742,TypeError: bad operand type for unary +: 'str' on line 4,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai,+""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,+""."")"
+13,14,2019-09-03 15:54:55,0.800010326305766,0.8637,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+print(""The perimeter of this circle with a radius of"",r,""is"",2*r*pai,""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")"
+14,15,2019-09-03 15:56:29,0.8400344381132335,0.8659,TypeError: unsupported operand type(s) for Add: 'float' and 'str' on line 5,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+n = 2*r*pai
+print(""The perimeter of this circle with a radius of"",r,""is"",n+""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")"
+15,16,2019-09-03 15:56:42,0.8797379054468791,0.8716,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+n = str(2*r*pai)
+print(""The perimeter of this circle with a radius of"",r,""is"",n+""."")
+print(""The area of this circle with a radius of"",r,""is"",r**2*pai,""."")"
+16,17,2019-09-03 15:56:57,0.9200502263361461,0.881,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+n = str(2*r*pai)
+print(""The perimeter of this circle with a radius of"",r,""is"",n+""."")
+print(""The area of this circle with a radius of"",r,""is"",str(r**2*pai)+""."")"
+17,18,2019-09-03 15:57:45,0.9792411699947624,0.8798,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+n = str(2*r*pai)
+print(""The perimeter of this circle with a radius of"",str(r),""is"",n+""."")
+print(""The area of this circle with a radius of"",str(r),""is"",str(r**2*pai)+""."")"
+18,19,2019-09-03 15:58:01,1.0,0.887,success,"r = float(input(""What is the radius?""))
+#user input
+pai = 3.14
+n = str(2*r*pai)
+print(""The perimeter of this circle with a radius of"",int(r),""is"",n+""."")
+print(""The area of this circle with a radius of"",int(r),""is"",str(r**2*pai)+""."")"

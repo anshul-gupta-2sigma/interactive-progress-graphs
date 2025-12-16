@@ -1,0 +1,179 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-18 04:12:54,0.0,0.6265,success,"num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+if(num1>=0 or num2>=200 or num1>num2):
+    num1 = int(input(""Try again, First number: ""))
+    num2 = int(input(""Try again, Second number: ""))"
+2,3,2019-10-18 04:23:15,0.0,0.7834,success,"num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+if(num1>=0 or num2>=200 or num1>num2):
+    num1 = int(input(""Try again, First number: ""))
+    num2 = int(input(""Try again, Second number: ""))
+increment = 1
+x = num1
+summ = 0
+while(x<num2):
+    summ+=x
+    x+=increment
+    increment +=1
+print(summ)"
+3,4,2019-10-18 04:23:43,0.0,0.799,success,"num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+if(num1>=0 or num2>=200 or num1>num2):
+    num1 = int(input(""Try again, First number: ""))
+    num2 = int(input(""Try again, Second number: ""))
+increment = 1
+x = num1
+summ = 0
+while(x<num2):
+    summ+=x
+    x+=increment
+    increment +=1
+    print(x)
+print(summ)"
+4,5,2019-10-18 04:24:39,0.0,0.8029,success,"num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+if(num1>=0 or num2>=200 or num1>num2):
+    num1 = int(input(""Try again, First number: ""))
+    num2 = int(input(""Try again, Second number: ""))
+increment = 1
+x = num1
+summ = num2
+while(x<num2):
+    summ+=x
+    x+=increment
+    increment +=1
+    print(x)
+print(summ)"
+5,6,2019-10-18 04:29:50,0.0,0.3835,success,"def checker(num1,num2):
+    if(num1>=0 or num2>=200 or num1>num2):
+        return False
+        num1 = int(input(""Try again, First number: ""))
+        num2 = int(input(""Try again, Second number: ""))
+    else:
+        return True
+def total(num1,num2):
+    increment = 1
+    x = num1
+    summ = num2
+    if(checker(num1,num2)==True):
+        while(x<num2):
+            summ+=x
+            x+=increment
+            increment +=1
+            print(x)
+        print(summ)
+    else:
+        checker(num1,num2)
+
+num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+checker(num1,num2)
+total(num1,num2)"
+6,7,2019-10-18 04:30:44,0.0,0.7124,SyntaxError: bad input on line 10,"def checker(num1,num2):
+    if(num1>=0 or num2>=200 or num1>num2):
+        num1 = int(input(""Try again, First number: ""))
+        num2 = int(input(""Try again, Second number: ""))
+
+def total(num1,num2):
+    increment = 1
+    x = num1
+    summ = num2
+        while(x<num2):
+            summ+=x
+            x+=increment
+            increment +=1
+            print(x)
+        print(summ)
+
+num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+checker(num1,num2)
+total(num1,num2)"
+7,8,2019-10-18 04:31:34,0.0,0.7124,success,"def checker(num1,num2):
+    if(num1>=0 or num2>=200 or num1>num2):
+        num1 = int(input(""Try again, First number: ""))
+        num2 = int(input(""Try again, Second number: ""))
+
+def total(num1,num2):
+    increment = 1
+    x = num1
+    summ = num2
+    while(x<num2):
+        summ+=x
+        x+=increment
+        increment +=1
+        print(x)
+    print(summ)
+
+num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+checker(num1,num2)
+total(num1,num2)"
+8,9,2019-10-18 04:31:53,0.0,0.7125,success,"def checker(num1,num2):
+    if(num1<=0 or num2>=200 or num1>num2):
+        num1 = int(input(""Try again, First number: ""))
+        num2 = int(input(""Try again, Second number: ""))
+
+def total(num1,num2):
+    increment = 1
+    x = num1
+    summ = num2
+    while(x<num2):
+        summ+=x
+        x+=increment
+        increment +=1
+        print(x)
+    print(summ)
+
+num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+checker(num1,num2)
+total(num1,num2)"
+9,10,2019-10-18 04:33:13,0.0,0.9315,success,"def checker(num1,num2):
+    if(num1<=0 or num2>=200 or num1>num2):
+        num1 = int(input(""Try again, First number: ""))
+        num2 = int(input(""Try again, Second number: ""))
+
+def total(num1,num2):
+    increment = 1
+    x = num1
+    summ = num2
+    while(x<num2):
+        summ+=x
+        x+=increment
+        increment +=1
+        print(""Number to sum is:"",x)
+    print(""First number:"",num1)
+    print(""Second number:"",num2)
+    print(""Summation:"",summ)
+
+num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+checker(num1,num2)
+total(num1,num2)"
+10,11,2019-10-18 04:33:40,0.0,0.9307,success,"def checker(num1,num2):
+    if(num1<=0 or num2>=200 or num1>num2):
+        num1 = int(input(""Try again, First number: ""))
+        num2 = int(input(""Try again, Second number: ""))
+
+def total(num1,num2):
+    increment = 1
+    x = num1
+    summ = num2
+    print(""First number:"",num1)
+    print(""Second number:"",num2)
+    while(x<num2):
+        summ+=x
+        x+=increment
+        increment +=1
+        print(""Number to sum is:"",x)
+    print(""Summation:"",summ)
+
+num1 = int(input(""First number: ""))
+num2 = int(input(""Second number: ""))
+checker(num1,num2)
+total(num1,num2)"
+11,12,2019-11-14 16:28:34,0.0,0.0696,success,"# Write your code here
+"

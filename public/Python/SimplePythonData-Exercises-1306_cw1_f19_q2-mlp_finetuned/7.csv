@@ -1,0 +1,132 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:22:08,0.3835992384021464,0.1897,success,"# Write your program here
+pi = 3.14
+radius = 11
+perimeter = 69.08
+area = 379.94
+print(2 * pi * 11)"
+2,3,2019-09-03 15:27:20,0.5538085453225461,0.3166,success,"# Write your program here
+pi = 3.14
+radius = 11
+perimeter = 69.08
+area = 379.94
+print(2 * pi * 11)
+print(pi * (radius ** 2))"
+3,4,2019-09-03 15:53:33,0.44550948180937733,0.4636,SyntaxError: bad input on line 2,"# Write your program here
+r = input(What is the radius?)
+print(r)
+pi = 3.14
+p = int(r)
+
+"
+4,5,2019-09-03 15:53:39,0.4284627119476432,0.4383,SyntaxError: bad input on line 2,"# Write your program here
+r = input(What is the radius)
+print(r)
+pi = 3.14
+p = int(r)
+
+"
+5,6,2019-09-03 15:54:30,0.4969594772299235,0.5013,SyntaxError: bad input on line 2,"# Write your program here
+r = input(What is the radius)
+print(r)
+pi = 3.14
+p = int(r * pi * 2)
+
+"
+6,7,2019-09-03 15:54:49,0.5303169381865103,0.5549,TypeError: can't multiply sequence by non-int of type 'float' on line 5,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+p = int(r * pi * 2)
+
+"
+7,8,2019-09-03 15:55:48,0.7119862983634166,0.6632,SyntaxError: EOF in multi-line statement on line 9\n\n^\n,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r * pi * 2)
+A = float(pi * (r**2)
+          
+"
+8,9,2019-09-03 15:56:01,0.7526467152824732,0.6971,TypeError: can't multiply sequence by non-int of type 'float' on line 5,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r * pi * 2)
+A = float(pi * (r**2))
+
+          
+"
+9,10,2019-09-03 15:56:28,0.7526467152824732,0.6971,TypeError: can't multiply sequence by non-int of type 'float' on line 5,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r * pi * 2)
+A = float(pi*(r**2))
+
+          
+"
+10,11,2019-09-03 15:57:51,0.8050100291540622,0.7125,TypeError: can't multiply sequence by non-int of type 'float' on line 5,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r * float(pi * 2))
+A = float(pi*(r**2))
+
+          
+"
+11,12,2019-09-03 15:58:09,0.7635298386184837,0.6482,SyntaxError: bad input on line 5,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r )* float(pi) * 2)
+A = float(pi*(r**2))
+
+          
+"
+12,13,2019-09-03 15:58:20,0.8061029135083115,0.7054,TypeError: unsupported operand type(s) for Pow: 'str' and 'int' on line 6,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r )* float(pi) * 2
+A = float(pi*(r**2))
+
+          
+"
+13,14,2019-09-03 15:58:34,0.8265382889283646,0.7302,TypeError: unsupported operand type(s) for Pow: 'str' and 'int' on line 6,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r )* float(pi) * 2
+A = float(pi*int(r**2))
+
+          
+"
+14,15,2019-09-03 15:59:29,0.8237844814982338,0.735,success,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r )* float(pi) * 2
+A = int(r) ** 2 * float(pi)
+
+          
+"
+15,16,2019-09-03 15:59:55,0.9095175121853524,0.7549,success,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r )* float(pi) * 2
+A = int(r) ** 2 * float(pi)
+print(A)
+          
+"
+16,17,2019-09-03 16:00:41,1.0,0.7565,success,"# Write your program here
+r = input(""What is the radius"")
+print(r)
+pi = 3.14
+P = int(r )* float(pi) * 2
+A = int(r) ** 2 * float(pi)
+print(A)
+print(P)          
+"

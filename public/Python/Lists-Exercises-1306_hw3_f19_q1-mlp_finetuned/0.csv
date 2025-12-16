@@ -1,0 +1,123 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-10-30 00:30:28,0.9196253696643392,0.8497,SyntaxError: bad input on line 4,"
+def CoolPara(words):
+    # your code here
+def isRareWorld(w):
+    for c in 'jxqz':
+        if c in w:
+    return False
+
+def CoolPara(words):
+    words = words.split()
+    
+    print('Number of words:',len(words))
+    
+    rareWords = [w for w in words if isRareWord(w)]
+    print('Number of words with rare letters:', len(rareWords))
+    
+    longerWords = [w for w in words if len(w)>=8]
+    print('Number of words with more than 8 characters:',len(longerWords))
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+2,3,2019-10-30 00:45:56,0.9221182689013552,0.8461,SyntaxError: bad input on line 4,"
+def CoolPara(words):
+    # your code here
+def isRareWord(w):
+    for c in 'jxqz':
+        if c in w:
+    return False
+
+def CoolPara(words):
+    words = words.split()
+    
+    print('Number of words:',len(words))
+    
+    rareWords = [w for w in words if isRareWord(w)]
+    print('Number of words with rare letters:', len(rareWords))
+    
+    longerWords = [w for w in words if len(w)>=8]
+    print('Number of words with more than 8 characters:',len(longerWords))
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+3,4,2019-10-30 00:46:45,0.9205899183496462,0.8622,SyntaxError: bad input on line 4,"
+def CoolPara(words):
+    # your code here
+def isRareWord(w):
+    for c in 'jxqz':
+        if c in w:
+            return True
+    return False
+
+def CoolPara(words):
+    words = words.split()
+    
+    print('Number of words:',len(words))
+    
+    rareWords = [w for w in words if isRareWord(w)]
+    print('Number of words with rare letters:', len(rareWords))
+    
+    longerWords = [w for w in words if len(w)>=8]
+    print('Number of words with more than 8 characters:',len(longerWords))
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+4,5,2019-10-30 00:50:05,1.0,0.8579,success,"
+    # your code here
+def isRareWord(w):
+    for c in 'jxqz':
+        if c in w:
+            return True
+    return False
+
+def CoolPara(words):
+    words = words.split()
+    
+    print('Number of words:',len(words))
+    
+    rareWords = [w for w in words if isRareWord(w)]
+    print('Number of words with rare letters:', len(rareWords))
+    
+    longerWords = [w for w in words if len(w)>=8]
+    print('Number of words with more than 8 characters:',len(longerWords))
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+5,6,2019-10-30 01:04:34,1.0,0.8579,success,"
+    # your code here
+def isRareWord(w):
+    for c in 'jxqz':
+        if c in w:
+            return True
+    return False
+
+def CoolPara(words):
+    words = words.split()
+    
+    print('Number of words:',len(words))
+    
+    rareWords = [w for w in words if isRareWord(w)]
+    print('Number of words with rare letters:', len(rareWords))
+    
+    longerWords = [w for w in words if len(w)>=8]
+    print('Number of words with more than 8 characters:',len(longerWords))
+
+# DO NOT CHANGE CODE BELOW
+
+print (CoolPara(input(""Enter: "")))
+
+"

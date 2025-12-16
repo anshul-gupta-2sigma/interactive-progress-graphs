@@ -1,0 +1,107 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-17 02:51:00,0.988977404315412,0.8817,TimeLimitError: Program exceeded run time limit. on line 10,"def drugPotency(loss, expire):
+    effective = 100 
+    Month = 0 
+    val = 0.96
+    print(""Month: 0 Effectiveness: 100.0"")
+    while effective>=50:
+        effective=effective +val
+        Month = Month+1
+        if effective>50:
+            print(""month:"",Month,""Effectiveness:"",effective)
+    if effective<50:
+        print(""Month:"", Month,""Effectiveness:"",effective,""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+2,3,2019-10-17 17:02:24,0.6994451073243387,0.5903,SyntaxError: bad input on line 11,"def drugPotency(loss, expire):
+    effective = 100 
+    Month = 0 
+    val = 0.96
+    print(""Month: 0 Effectiveness: 100.0"")
+    while effective>=50:
+        effective=effective +val
+        Month = Month+1
+        if effective>50:
+            #print(""month:"",Month,""Effectiveness:"",effective)
+    if effective<50:
+        #print(""Month:"", Month,""Effectiveness:"",effective,""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+3,4,2019-10-17 18:38:05,0.9768840799239666,0.8661,SyntaxError: bad input on line 12,"def drugPotency(loss, expire):
+    effective = 100 
+    Month = 0 
+    val = 0.96
+    print(""Month: 0 Effectiveness: 100.0"")
+    while effective>=50:
+        effective=effective +val
+        Month = Month+1
+        if effective>50:
+            print(""month:"",Month,""Effectiveness:"",effective)
+        if effective<50:
+        print(""Month:"", Month,""Effectiveness:"",effective,""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+4,5,2019-10-17 18:39:40,0.9889774043153776,0.8817,TimeLimitError: Program exceeded run time limit. on line 11,"def drugPotency(loss, expire):
+    effective = 100 
+    Month = 0 
+    val = 0.96
+    print(""Month: 0 Effectiveness: 100.0"")
+    while effective>=50:
+        effective=effective +val
+        Month = Month+1
+        if effective>50:
+            print(""month:"",Month,""Effectiveness:"",effective)
+        if effective<50:
+            print(""Month:"", Month,""Effectiveness:"",effective,""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+5,6,2019-10-17 18:45:37,1.0,0.8889,success,"def drugPotency(loss, expire):
+    effective = 100 
+    Month = 0 
+    val = 0.96
+    print(""Month: 0 Effectiveness: 100.0"")
+    while effective>=50:
+        effective=effective *val
+        Month = Month+1
+        if effective>50:
+            print(""month:"",Month,""Effectiveness:"",effective)
+    if effective<50:
+           print(""Month:"", Month,""Effectiveness:"",effective,""DISCARDED"")
+
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"

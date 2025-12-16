@@ -1,0 +1,255 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-17 15:11:35,0.5673315688056211,0.5453,success,"#Your code goes here
+def CommonLetters(mystring):
+    for characters in (mystring):
+        print('Texas' in 'mystring')"
+2,3,2019-10-17 15:16:02,0.4907858512402604,0.5466,NameError: name 'Arkansas' is not defined on line 5,"#Your code goes here
+def CommonLetters(mystring):
+    for characters in (mystring):
+        print('Texas' in 'mystring')
+CommonLetters(Arkansas)"
+3,4,2019-10-17 15:19:22,0.6307835772307877,0.6398,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in mystring:
+        if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+        return withoutTex
+print(CommonLetters('Arkansas'))"
+4,5,2019-10-17 15:19:38,0.6165741362501189,0.6318,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in mystring:
+        if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+    return withoutTex
+print(CommonLetters('Arkansas'))"
+5,6,2019-10-17 15:20:02,0.602704577561261,0.619,NameError: name 'eachChar' is not defined on line 5,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+    return withoutTex
+print(CommonLetters('Arkansas'))"
+6,7,2019-10-17 15:21:15,0.6121075655474559,0.654,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in Tex:
+        if withoutTex in Tex:
+            withoutTex = withoutTex + eachChar
+    return withoutTex
+print(CommonLetters('Arkansas'))"
+7,8,2019-10-17 15:21:31,0.5429443320384582,0.5656,success,"#Your code goes here
+def CommonLetters(mystring):
+    for characters in (mystring):
+        print('Texas' in 'mystring')
+CommonLetters('Arkansas')"
+8,9,2019-10-17 15:22:35,0.583754558908651,0.5686,TypeError: unsupported operand type(s) for Sub: 'str' and 'str' on line 8,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in mystring:
+        if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+            Tex = Tex - withoutTex
+    return withoutTex
+print(CommonLetters('Arkansas'))"
+9,10,2019-10-17 15:22:53,0.5826351309531439,0.5715,TypeError: unsupported operand type(s) for Sub: 'str' and 'str' on line 8,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in mystring:
+        if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+            Tex = Tex - eachChar
+    return withoutTex
+print(CommonLetters('Arkansas'))"
+10,11,2019-10-17 15:24:06,0.6165741362501189,0.6318,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in mystring:
+        if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+    return withoutTex
+print(CommonLetters('Arkansas'))"
+11,12,2019-10-17 15:24:14,0.5812335126422582,0.6717,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withoutTex = ''
+    for eachChar in mystring:
+        if eachChar in Tex:
+            withoutTex = withoutTex + eachChar
+    return withoutTex
+print(CommonLetters('Taxes'))"
+12,13,2019-10-17 15:26:28,0.6424857429125703,0.716,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar
+print(CommonLetters('Taxes'))"
+13,14,2019-10-17 15:26:45,0.6376759188710509,0.7484,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar
+            return withTex
+print(CommonLetters('Taxes'))"
+14,15,2019-10-17 15:26:49,0.6390304899576267,0.747,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar
+        return withTex
+print(CommonLetters('Taxes'))"
+15,16,2019-10-17 15:26:53,0.6335167425668078,0.7518,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar
+    return withTex
+print(CommonLetters('Taxes'))"
+16,17,2019-10-17 15:27:07,0.6665169961094213,0.7223,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar
+    return withTex
+print(CommonLetters('Arkansas'))"
+17,18,2019-10-17 15:28:03,0.6552654929070953,0.7483,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + ' ' + eachChar
+    return withTex
+print(CommonLetters('Arkansas'))"
+18,19,2019-10-17 15:28:23,0.6677021673782537,0.748,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+print(CommonLetters('Arkansas'))"
+19,20,2019-10-17 15:28:34,0.6393982903484903,0.7729,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+print(CommonLetters('Taxes'))"
+20,21,2019-10-17 15:28:47,0.638942427920488,0.6416,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+print(CommonLetters('FLORIDA'))"
+21,22,2019-10-17 15:29:32,0.7656587088945684,0.7134,SyntaxError: EOF in multi-line statement on line 10\n\n^\n,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+print(CommonLetters(str(input('Input string: '))"
+22,23,2019-10-17 15:29:39,0.7656348235104309,0.7194,SyntaxError: EOF in multi-line statement on line 10\n\n^\n,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+print(CommonLetters(str(input('Input string: ')))"
+23,24,2019-10-17 15:29:46,0.76402090438787,0.7178,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+print(CommonLetters(str(input('Input string: '))))"
+24,25,2019-10-17 15:32:26,0.9149336519498558,0.8401,TimeLimitError: Program exceeded run time limit. on line 7,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+x = str(input('Input string: '))
+while x != '':
+    print(CommonLetters(x))"
+25,26,2019-10-17 15:34:02,0.9083685590273778,0.8593,TimeLimitError: Program exceeded run time limit. on line 6,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+x = str(input('Input string: '))
+while x != ' ':
+    print(CommonLetters(x))"
+26,27,2019-10-17 15:35:09,0.9089423356446666,0.8434,NameError: name 'x' is not defined on line 10,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+
+while x != '':
+    x = str(input('Input string: '))
+    print(CommonLetters(x))"
+27,28,2019-10-17 15:35:23,0.9999999502917032,0.8462,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+x = 0
+while x != '':
+    x = str(input('Input string: '))
+    print(CommonLetters(x))"
+28,29,2019-10-17 15:35:54,0.9999999502917032,0.8462,success,"#Your code goes here
+def CommonLetters(mystring):
+    Tex = 'Texas'
+    withTex = ''
+    for eachChar in Tex:
+        if eachChar in mystring:
+            withTex = withTex + eachChar + ' '
+    return withTex
+
+x = 0
+while x != '':
+    x = str(input('Input string: '))
+    print(CommonLetters(x))"

@@ -1,0 +1,119 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-17 06:09:18,0.7550673063977276,0.6963,SyntaxError: bad input on line 6,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+start = 0
+inclusive = 1
+while (first <= second)
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + inclusive 
+    inclusive = inclusive + 1
+print(""Summation:"", start)"
+2,3,2019-10-17 06:14:10,0.7689174001314031,0.706,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+start = 0
+inclusive = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + inclusive 
+    inclusive = inclusive + 1
+print(""Summation:"", start)"
+3,4,2019-10-17 06:16:08,0.9545624707745274,0.9329,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""First Number:"", first)
+print(""Second Number:"", second)
+print(""Summation:"", start)"
+4,5,2019-10-17 06:16:33,0.9707081488347319,0.9397,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+print(""First Number:"", first)
+print(""Second Number:"", second)
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""Summation:"", start)"
+5,6,2019-10-17 06:17:04,0.7980263556500007,0.9863,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+print(""First Number:"", first)
+print(""Second Number:"", second)
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""Summation:"", start)
+print(""First Number:"", first)
+print(""Second Number:"", second)"
+6,7,2019-10-17 06:17:16,0.9707081488347319,0.9397,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+print(""First Number:"", first)
+print(""Second Number:"", second)
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""Summation:"", start)"
+7,8,2019-10-17 06:17:37,0.7980263556500007,0.9863,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+print(""First Number:"", first)
+print(""Second Number:"", second)
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""Summation:"", start)
+print(""First Number:"", first)
+print(""Second Number:"", second)"
+8,9,2019-10-17 06:17:45,0.9707081488347116,0.9397,success,"# Write your code here
+first = int(input(""enter first number""))
+second = int(input(""enter second number""))
+print(""First Number:"", first)
+print(""Second Number:"", second)
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""Summation:"", start)"
+9,10,2019-10-17 15:16:45,1.0,0.9436,success,"# Write your code here
+first = int(input(""Enter first number""))
+second = int(input(""Enter second number""))
+print(""First Number:"", first)
+print(""Second Number:"", second)
+start = 0
+skip = 1
+while (first <= second):
+    print(""Number to sum is:"", first)
+    start = start + first
+    first = first + skip 
+    skip = skip + 1
+print(""Summation:"", start)"

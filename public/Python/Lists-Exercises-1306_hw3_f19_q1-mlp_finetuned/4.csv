@@ -1,0 +1,1334 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-10-29 15:24:07,0.14403826906612183,0.205,success,"
+def CoolPara(words):
+    alist = [words]
+    print(len(alist))
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+2,3,2019-10-29 15:27:52,0.1372042845104554,0.2012,success,"
+def CoolPara(words):
+    alist = []
+    print(len(alist))
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+3,4,2019-10-29 15:28:23,0.14403826906612183,0.205,success,"
+def CoolPara(words):
+    alist = [words]
+    print(len(alist))
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+4,5,2019-10-29 15:28:50,0.14403826906612183,0.205,NameError: name 'alist' is not defined on line 4,"
+def CoolPara(words):
+    alist = [words]
+print(len(alist))
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+5,6,2019-10-29 15:29:16,0.11796985309133812,0.1681,SyntaxError: bad input on line 4,"
+def CoolPara(words):
+    
+print(len[words])
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+6,7,2019-10-29 15:29:56,0.14010686472658984,0.1956,SyntaxError: bad input on line 4,"
+def CoolPara(words):
+    alist = [words]
+        print(len[words])
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+7,8,2019-10-29 15:30:04,0.14010686472658984,0.1956,TypeError: '<native JS>' does not support indexing on line 4,"
+def CoolPara(words):
+    alist = [words]
+    print(len[words])
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+8,9,2019-10-29 15:30:15,0.14071574137834086,0.1966,success,"
+def CoolPara(words):
+    alist = [words]
+    print(len(words))
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+9,10,2019-10-29 15:57:54,0.14689596278425832,0.2072,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y)
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+10,11,2019-10-29 15:59:45,0.1784236651336495,0.2374,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+11,12,2019-10-29 16:05:30,0.1747355911133227,0.234,success,"
+def CoolPara(words):
+    y = (words.split())
+    print(y, ""words in the input paragraph"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+12,13,2019-10-29 16:07:10,0.1784236651336495,0.2374,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+13,14,2019-10-29 17:49:16,0.599688898354463,0.6164,NameError: name 'final' is not defined on line 18,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    list = ""j,x,q,z""
+    for i in word:
+        a = split(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in list):
+                b = 1
+        final = final + b
+print(final)
+print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+14,15,2019-10-29 17:58:43,0.6034618060031272,0.6132,NameError: name 'start' is not defined on line 18,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    list = ""j,x,q,z""
+    for i in word:
+        a = split(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in list):
+                b = 1
+        start = start + b
+print(start)
+print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+15,16,2019-10-29 18:00:16,0.6181185979191334,0.6219,NameError: name 'start' is not defined on line 18,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    list = ""j,x,q,z""
+    for i in word:
+        a = split(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in list):
+                b = 1
+        start = start + b
+print(str(start))
+print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+16,17,2019-10-29 18:09:11,0.6013937726317967,0.6045,NameError: name 'start' is not defined on line 18,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""j,x,q,z""
+    for i in word:
+        a = split(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+print(start)
+print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+17,18,2019-10-29 19:32:31,0.6013937726317967,0.6045,NameError: name 'split' is not defined on line 10,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""j,x,q,z""
+    for i in word:
+        a = split(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start)
+    print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+18,19,2019-10-29 20:08:02,0.6506010056890223,0.6517,NameError: name 'split' is not defined on line 10,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = [""j"",""x"",""q"",""z""]
+    for i in word:
+        a = split(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start)
+    print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+19,20,2019-10-29 20:19:56,0.6516182799928965,0.6552,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = [""j"",""x"",""q"",""z""]
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start)
+    print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+20,21,2019-10-29 20:29:18,0.5942672449317328,0.5994,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start)
+    print(aword)
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+21,22,2019-10-29 20:34:20,0.6716620880513826,0.6742,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+22,23,2019-10-29 21:53:08,0.09925153678314358,0.1536,SyntaxError: bad input on line 8,"
+def CoolPara(words):
+    # your code here
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+23,24,2019-10-29 21:53:45,0.6716620880513826,0.6742,success,"
+def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+24,25,2019-10-29 21:55:42,0.6299801142676738,0.6367,NameError: name 'word' is not defined on line 8,"def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    #word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+25,26,2019-10-29 21:56:09,0.654254063739174,0.6557,UnboundLocalError: local variable 'b' referenced before assignment on line 16,"def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        #b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+26,27,2019-10-29 21:56:29,0.6088661361578751,0.6218,SyntaxError: bad input on line 17,"def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        #b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                #b = 1
+        #start = start + b
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+27,28,2019-10-29 22:01:44,0.6716620880513826,0.6742,success,"def CoolPara(words):
+    y = len(words.split())
+    print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+28,29,2019-10-29 22:17:47,0.6682430625263944,0.6793,success,"def CoolPara(words):
+    y = len(words.split())
+    #print(y, ""words in the input paragraph"")
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+
+# DO NOT CHANGE CODE BELOW
+
+CoolPara(input(""Enter: ""))
+
+"
+29,30,2019-10-29 22:22:26,0.6858321359882117,0.6988,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+30,31,2019-10-29 22:22:46,0.6303677404030701,0.6477,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    #print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+31,32,2019-10-29 22:23:02,0.6858321359882117,0.6988,NameError: name 'y' is not defined on line 16,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+print(y, ""words in the input paragraph"")
+print(start, ""word with a rare character"")
+print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+32,33,2019-10-29 22:23:10,0.6858321359882117,0.6988,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+33,34,2019-10-29 22:23:26,0.6839827424689564,0.6929,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    return (y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+34,35,2019-10-29 22:23:38,0.6741137199316896,0.6885,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    return y, ""words in the input paragraph""
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+35,36,2019-10-29 22:23:53,0.6850630490335334,0.6903,SyntaxError: bad input on line 16,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    return (y, words in the input paragraph)
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+36,37,2019-10-29 22:24:07,0.6858321359882117,0.6988,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+37,38,2019-10-29 22:46:50,0.8437164223271617,0.8684,SyntaxError: bad input on line 21,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y)
+            if (aword >= 0.1*y)
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+38,39,2019-10-29 22:46:58,0.8494221058586142,0.8773,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+39,40,2019-10-29 23:01:13,0.8676620960284348,0.889,NameError: name 'upper' is not defined on line 6,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = upper(""jxqz"")
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False  
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+40,41,2019-10-29 23:14:24,0.9434683253245738,0.9279,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper()
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        if (len(i) >= 8):
+            aword = aword + 1
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+41,42,2019-10-29 23:15:39,0.9456388699730809,0.9315,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper()
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+        #for x in a:
+            #if (x in lists):
+               # b = 1
+        #start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+42,43,2019-10-29 23:16:58,0.9614670737468507,0.939,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper()
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if lists.upper():
+                if lists.upper():
+                    b = 1
+            start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+43,44,2019-10-29 23:18:19,0.9333748964119418,0.9301,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    #aa = lists.upper()
+    #bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in lists.upper()):
+                if (x in lists.lower()):
+                    b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+        #for x in a:
+            #if (x in lists):
+               # b = 1
+        #start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+44,45,2019-10-29 23:18:44,0.9060863337008235,0.9155,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    #aa = lists.upper()
+    #bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (lists.upper()):
+                if (lists.lower()):
+                    b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+        #for x in a:
+            #if (x in lists):
+               # b = 1
+        #start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+45,46,2019-10-29 23:19:33,0.8888780618474208,0.9066,SyntaxError: bad input on line 16,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    #aa = lists.upper()
+    #bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (lists.upper()):
+                if (lists.lower()):
+                    #b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+        #for x in a:
+            #if (x in lists):
+               # b = 1
+        #start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+46,47,2019-10-29 23:21:37,0.8596141520737031,0.8836,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    #aa = lists.upper()
+    #bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (lists.upper()):
+                    b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+        #for x in a:
+            #if (x in lists):
+               # b = 1
+        #start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+47,48,2019-10-29 23:22:05,0.8506870221346412,0.8781,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    #aa = lists.upper()
+    #bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in lists):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+        #for x in a:
+            #if (x in lists):
+               # b = 1
+        #start = start + b
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+    
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+48,49,2019-10-30 00:16:27,1.0,0.9522,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"
+49,50,2019-10-30 00:18:06,0.9853960758085288,0.9537,NameError: name 'FALSE' is not defined on line 26,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return TRUE
+    return FALSE 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"
+50,51,2019-10-30 00:18:58,1.0,0.9522,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"
+51,52,2019-11-04 03:37:01,0.9482471978343019,0.9424,NameError: name 'word' is not defined on line 9,"def CoolPara(words):
+    y = len(words.split())
+    #word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"
+52,53,2019-11-04 04:06:30,1.0,0.9522,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"
+53,54,2019-11-04 04:31:54,0.9678382110174744,0.955,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    print(words)
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"
+54,55,2019-11-04 04:32:44,1.0,0.9522,success,"def CoolPara(words):
+    y = len(words.split())
+    word = words.split()
+    start = 0
+    aword = 0
+    lists = ""jxqz""
+    aa = lists.upper() 
+    bb = lists.lower()
+    for i in word:
+        a = list(i)
+        b = 0
+        for x in a:
+            if (x in aa) or (x in bb):
+                b = 1
+        start = start + b
+        if (len(i) >= 8):
+            aword = aword + 1
+    print(y, ""words in the input paragraph"")
+    print(start, ""word with a rare character"")
+    print(aword, ""words that have 8 letters or more"")
+    if (y > 10):
+        if (start >= 0.1*y):
+            if (aword >= 0.1*y):
+                return True
+    return False 
+  
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+"

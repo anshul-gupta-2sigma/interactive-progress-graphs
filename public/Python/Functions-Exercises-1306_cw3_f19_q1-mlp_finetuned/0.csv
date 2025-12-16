@@ -1,0 +1,1360 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0008,, 
+1,2,2019-10-01 15:06:38,0.7027655406111788,0.6573,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare(N,S):
+    line= 2*N*S
+    return line
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 15:10:42,0.7556057984307901,0.6916,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare(N,S):
+    line=int( 2*N*S)
+    return line
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 15:11:17,0.7517942306144738,0.6964,SyntaxError: bad input on line 2,"# Your function goes here
+def printsquare int(N,S):
+    line=( 2*N*S)
+    return line
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 15:11:44,0.7386639445287295,0.6786,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare (N,S):
+    line=( 2*N*S)
+    return line
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 15:12:40,0.8025241624384517,0.7145,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare (N,S):
+    line=( 2*N*S)
+    print(line)
+    return line
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 15:12:57,0.7706397540701113,0.6803,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare (N,S):
+    line=(N*S)
+    print(line)
+    return line
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 15:14:38,0.7207362203215358,0.6754,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare (N,S):
+    x = int(N*S)
+      return x
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+8,9,2019-10-01 15:18:49,0.892100007730637,0.7799,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare (N,S):
+    x = int(N*S)
+      return x
+    print(x)
+myx = printsquare(2*N*S)
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+9,10,2019-10-01 15:19:00,0.892100007730637,0.7799,NameError: name 'N' is not defined on line 6,"# Your function goes here
+def printsquare (N,S):
+    x = int(N*S)
+    return x
+    print(x)
+myx = printsquare(2*N*S)
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+10,11,2019-10-01 15:19:18,0.892100007730637,0.7799,NameError: name 'N' is not defined on line 7,"# Your function goes here
+def printsquare (N,S):
+    x = int(N*S)
+    return x
+    print(x)
+
+myx = printsquare(2*N*S)
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+11,12,2019-10-01 15:19:46,0.7878664064017757,0.7169,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare (N,S):
+    x = int(N*S)
+    return x
+    print(x)
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+12,13,2019-10-01 15:21:38,0.8157170290890123,0.7388,SyntaxError: bad input on line 3,"# Your function goes here
+def printsquare (N,S):
+    x = int 2*(N*S)
+    return x
+    print(x)
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+13,14,2019-10-01 15:21:53,0.8039937528672214,0.7382,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare (N,S):
+    x = 2*(N*S)
+    return x
+    print(x)
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+14,15,2019-10-01 15:24:35,0.8039937528672214,0.7382,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare(N,S):
+    x = 2*(N*S)
+    return x
+    print(x)
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+15,16,2019-10-01 15:27:27,0.8476169576727585,0.8122,TypeError: stop must be a integer on line 3,"# Your function goes here
+def printsquare(N,S):
+    for i in range(0,N):
+        return(2*N*S)
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+16,17,2019-10-01 15:31:48,0.7708878487685675,0.7136,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare(N,S): 
+    x= int(2(N*S))
+    return X
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+17,18,2019-10-01 15:33:22,0.7423174508671475,0.6893,SyntaxError: can't assign to function call on line 3,"# Your function goes here
+def printsquare(N,S): 
+    int(x)= (N*S)
+    return X
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+18,19,2019-10-01 15:33:40,0.7108467591636649,0.6701,SyntaxError: bad input on line 3,"# Your function goes here
+def printsquare(N,S): 
+    int x= (N*S)
+    return X
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+19,20,2019-10-01 15:33:43,0.7108467591636649,0.6701,SyntaxError: bad input on line 3,"# Your function goes here
+def printsquare(N,S): 
+    int x = (N*S)
+    return X
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+20,21,2019-10-01 15:34:53,0.7922898517039008,0.7149,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+21,22,2019-10-01 15:35:24,0.8486836290285817,0.7421,NameError: name 'Print' is not defined on line 6,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+Print(Y)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+22,23,2019-10-01 15:35:32,0.8507347773911704,0.7479,NameError: name 'Y' is not defined on line 6,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+print(Y)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+23,24,2019-10-01 15:35:56,0.8507347773911704,0.7479,IndentationError: unindent does not match any outer indentation level on line 6\n  print(Y)\n\n  ^\n,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+  print(Y)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+24,25,2019-10-01 15:36:07,0.8507347773911704,0.7479,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+    print(Y)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+25,26,2019-10-01 15:36:48,0.8568570104392632,0.7572,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+    print(N)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+26,27,2019-10-01 15:37:05,0.8580183079522155,0.7439,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+    print(S)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+27,28,2019-10-01 15:37:34,0.7922898517039008,0.7149,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=2*X*S
+    return Y 
+    
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+28,29,2019-10-01 15:38:22,0.8244663653140795,0.7387,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y=(2*X)*S
+    return Y 
+    
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+29,30,2019-10-01 15:39:40,0.7499921357807438,0.6988,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(2*N)*S
+    return X 
+    
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+30,31,2019-10-01 15:40:21,0.8146393160765137,0.7423,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(2*N)*S
+    return X 
+    print(X)
+    
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+31,32,2019-10-01 15:43:04,0.8163554805455103,0.7548,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    return X 
+    print(2*X*S)
+    
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+32,33,2019-10-01 15:43:39,0.8541687862928757,0.757,success,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    print(2*X*S)
+    return(S)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+33,34,2019-10-01 15:44:32,0.8964679227731592,0.7884,TypeError: can't multiply sequence by non-int of type 'str' on line 5,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    print(2*X*S)
+    return(2*N*S)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+34,35,2019-10-01 15:44:51,0.7884814724509002,0.7555,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    return(2*N*S)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+35,36,2019-10-01 15:45:12,0.818118214812026,0.7865,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    return((2*N)*S)
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+36,37,2019-10-01 15:46:21,0.8569796944067211,0.7683,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    print(2*N*S)
+    return(S)
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+37,38,2019-10-01 15:46:42,0.8826958505125816,0.7827,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    print((2*N)*S)
+    return(S)
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+38,39,2019-10-01 15:47:21,0.8288872090433408,0.7477,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y= 2*N*S
+    return(Y)
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+39,40,2019-10-01 15:48:40,0.8898178515715058,0.7699,NameError: name 'S' is not defined on line 6,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y= 2*N*S
+    return(Y) 
+print(S)
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+40,41,2019-10-01 15:49:02,0.8828787968212636,0.7727,NameError: name 'Y' is not defined on line 6,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y= 2*N*S
+    return(Y) 
+print(Y)
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+41,42,2019-10-01 15:49:50,0.8288872090433408,0.7477,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y= 2*N*S
+    return(Y) 
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+42,43,2019-10-01 15:50:11,0.8602227345396412,0.7723,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y= (2*N)*S
+    return(Y) 
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+43,44,2019-10-01 15:51:23,0.9054119598706512,0.789,NameError: name 'N' is not defined on line 6,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y = N*S
+    return(Y)
+print(2*N*S)
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+44,45,2019-10-01 15:52:22,0.8602227345396412,0.7723,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y = (2*N)*S
+    return(Y)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+45,46,2019-10-01 15:52:51,0.8619033569240291,0.7741,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y = 2*(N*S)
+    return(Y)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+46,47,2019-10-01 15:53:42,0.8289615634988831,0.7383,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(2*N)
+    Y = N*S
+    return(Y)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+47,48,2019-10-01 15:54:48,0.8619033569240291,0.7741,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y = 2*(N*S)
+    return(Y)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+48,49,2019-10-01 15:55:02,0.8309672049040588,0.727,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    Y =(N*S)
+    return(Y)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+49,50,2019-10-01 15:56:03,0.7884814724509002,0.7555,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    return(2*N*S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+50,51,2019-10-01 15:56:27,0.7570984808805045,0.7046,TypeError: can't multiply sequence by non-int of type 'str' on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    return(N*S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+51,52,2019-10-01 15:57:34,0.937037552016073,0.8441,SyntaxError: bad input on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range (o,N)
+    print(2*N*S)
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+52,53,2019-10-01 15:57:44,0.9201371257793133,0.85,SyntaxError: bad input on line 5,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range (o,N):
+    print(2*N*S)
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+53,54,2019-10-01 15:57:53,0.9167386057182015,0.8475,SyntaxError: bad input on line 5,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range(0,N):
+    print(2*N*S)
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+54,55,2019-10-01 15:58:07,0.8940558706628472,0.8247,SyntaxError: bad input on line 5,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range(0,N):
+    print(2*N*S):
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+55,56,2019-10-01 15:59:11,0.9006561745060667,0.8289,SyntaxError: bad input on line 5,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range(0,N):
+        print(2*N*S):
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+56,57,2019-10-01 15:59:20,0.9463398056594697,0.8568,TypeError: stop must be a integer on line 4,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range(0,N):
+        print(2*N*S)
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+57,58,2019-10-01 15:59:49,0.9620003068781713,0.8346,TypeError: can't multiply sequence by non-int of type 'str' on line 5,"# Your function goes here
+def printsquare(N,S): 
+    X= int(N)
+    for i in range(X):
+        print(2*N*S)
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+58,59,2019-10-01 16:00:58,0.99999987588273,0.8463,success,"# Your function goes here
+def printsquare(N,S): 
+    N = int(N)
+    for i in range(N):
+        print(2*N*S)
+    return(S)
+
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

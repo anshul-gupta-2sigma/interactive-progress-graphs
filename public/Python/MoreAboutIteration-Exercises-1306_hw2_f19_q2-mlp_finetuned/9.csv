@@ -1,0 +1,173 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0236,, 
+1,2,2019-10-13 04:09:27,0.7780246387497228,0.8308,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(num)
+
+FindPrimes2(100)"
+2,3,2019-10-13 04:39:47,0.7935579352567487,0.8379,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(num-1)
+
+FindPrimes2(100)"
+3,4,2019-10-13 04:40:09,0.7936084739047828,0.8174,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(num-1)
+
+FindPrimes2(3)"
+4,5,2019-10-13 04:40:29,0.792988116271191,0.8229,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(num-1)
+
+FindPrimes2(7)"
+5,6,2019-10-13 04:44:21,0.9809095985321389,0.8751,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(Q, 'th prime number is ', num-1)
+
+FindPrimes2(int(input('What prime number would you like to find?')))"
+6,7,2019-10-13 04:45:09,0.9809095985321389,0.8751,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(Q,'th prime number is ', num-1)
+
+FindPrimes2(int(input('What prime number would you like to find?')))"
+7,8,2019-10-13 04:46:21,0.9648116766872764,0.8879,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print('', Q, 'th prime number is ', num-1)
+
+FindPrimes2(int(input('What prime number would you like to find?')))"
+8,9,2019-10-13 04:46:33,0.9444530789692597,0.8867,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(' ', Q, 'th prime number is ', num-1)
+
+FindPrimes2(int(input('What prime number would you like to find?')))"
+9,10,2019-10-13 04:55:12,1.0,0.8862,success,"def isPrimes(number):
+    if(number == 2 or number == 1):
+        return True
+    for num in range(2, number):
+        if(number % num == 0):
+            return False
+    return True
+
+def FindPrimes2(Q):
+    num = 1
+    counter = 0
+    
+    while counter <= Q:
+        if(isPrimes(num)):
+            counter += 1
+        num += 1
+    print(Q, 'th prime number is', num-1)
+
+FindPrimes2(int(input('What prime number would you like to find?')))"

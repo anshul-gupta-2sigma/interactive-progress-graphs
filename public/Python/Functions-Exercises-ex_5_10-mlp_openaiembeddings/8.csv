@@ -1,0 +1,501 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-02-08 04:21:31,0.4602347863054128,0.751,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.goto(-175, 100)
+
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+2,3,2020-02-08 04:23:39,0.465146709691175,0.7688,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 100)
+
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+3,4,2020-02-08 04:24:08,0.46617555057413884,0.7676,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 75)
+
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+4,5,2020-02-08 04:24:23,0.46617555057413884,0.7676,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 75)
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+5,6,2020-02-08 04:24:46,0.4691287631547558,0.7896,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+for i in range(5):
+    Terry.goto(-175, 75)
+    turtle.forward(100)
+    turtle.right(144)"
+6,7,2020-02-08 04:30:06,0.45768411557042443,0.7558,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.setposition(-175, 75)
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+7,8,2020-02-08 04:35:22,0.4500474039059452,0.7245,AttributeError: 'Turtle' object has no attribute 'setworldcoordinates' on line 4,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Terry.setworldcoordinates(-175,75)
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+8,9,2020-02-08 04:35:48,0.4455443552134184,0.7389,NameError: name 'Turtle' is not defined on line 4,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Turtle.setworldcoordinates(-175,75)
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+9,10,2020-02-08 04:35:57,0.4301973846444994,0.6599,NameError: name 'setworldcoordinates' is not defined on line 4,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+setworldcoordinates(-175,75)
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+10,11,2020-02-08 04:36:14,0.4469498032354847,0.7309,AttributeError: 'module' object has no attribute 'setworldcoordinates' on line 4,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+turtle.setworldcoordinates(-175,75)
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(144)"
+11,12,2020-02-08 04:36:49,0.45596237934870865,0.7235,AttributeError: 'Turtle' object has no attribute 'setworldcoordinates' on line 4,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Terry.setworldcoordinates(-175,75)
+for i in range(5):
+    Terry.forward(100)
+    Terry.right(144)"
+12,13,2020-02-08 04:38:10,0.4449884267070603,0.7251,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+for i in range(5):
+    Terry.forward(100)
+    Terry.right(144)"
+13,14,2020-02-08 04:41:17,0.46426053211918217,0.7432,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.goto(-175, 75)
+
+for i in range(5):
+    Terry.forward(100)
+    Terry.right(144)"
+14,15,2020-02-08 04:41:44,0.4736754445312702,0.7776,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 75)
+
+for i in range(5):
+    Terry.forward(100)
+    Terry.right(144)"
+15,16,2020-02-08 04:41:58,0.47538518783365435,0.788,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.penup()
+for i in range(5):
+    Terry.forward(100)
+    Terry.right(144)"
+16,17,2020-02-08 04:42:10,0.473754592738174,0.7845,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.pendown()
+for i in range(5):
+    Terry.forward(100)
+    Terry.right(144)"
+17,18,2020-02-08 04:45:42,0.4686874938036468,0.766,TimeLimitError: Program exceeded run time limit. on line 12,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.pendown()
+
+for s in range(5):   
+    for i in range(5):
+        Terry.forward(100)
+        Terry.right(144)
+    Terry.forward(350)
+    Terry.right(144)"
+18,19,2020-02-08 04:46:49,0.4742562336958197,0.8011,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Terry.speed(0)
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.pendown()
+
+for s in range(5):   
+    for i in range(5):
+        Terry.forward(100)
+        Terry.right(144)
+    Terry.forward(350)
+    Terry.right(144)"
+19,20,2020-02-08 04:48:10,0.472672144311717,0.8113,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Terry.speed(0)
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.pendown()
+
+for s in range(5):   
+    for i in range(5):
+        Terry.forward(100)
+        Terry.right(144)
+    Terry.penup()
+    Terry.forward(350)
+    Terry.right(144)
+    Terry.pendown()"
+20,21,2020-02-18 13:50:45,0.47229457354431326,0.8056,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Terry.speed(0)
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.pendown()
+
+for s in range(5):   
+    for i in range(5):
+        Terry.forward(100)
+        Terry.right(144)
+    Terry.forward(350)
+    Terry.right(144)
+    Terry.pendown()"
+21,22,2020-03-31 14:21:34,0.4742562336958197,0.8011,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+Terry.speed(0)
+
+Terry.penup()
+Terry.goto(-175, 75)
+Terry.pendown()
+
+for s in range(5):   
+    for i in range(5):
+        Terry.forward(100)
+        Terry.right(144)
+    Terry.forward(350)
+    Terry.right(144)"
+22,23,2020-03-31 14:47:10,0.8695801067016304,0.6051,NameError: name 'Terry' is not defined on line 11,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+
+starShape(Terry, 5)"
+23,24,2020-03-31 14:54:53,0.8740388675076464,0.6165,NameError: name 'Terry' is not defined on line 12,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+
+starShape(Terry, 5)"
+24,25,2020-03-31 14:56:30,0.8796277729196347,0.6321,success,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+
+Terry = turtle.Turtle()
+Terry.speed(0)
+starShape(Terry, 5)"
+25,26,2020-03-31 14:59:02,0.8784859107594074,0.6292,success,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+Terry.speed(0)
+starShape(Terry, 5)"
+26,27,2020-03-31 17:48:13,0.8858706748642065,0.6761,success,"import turtle
+wn = turtle.Screen()
+turtle.speed(0)
+
+def starShape(starTurtle, starPoint):
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+27,28,2020-04-01 18:11:44,0.891232603887751,0.7022,success,"import turtle
+wn = turtle.Screen()
+turtle.speed(0)
+
+def starShape(starTurtle, starPoint):
+    starTurtle.pe
+    starTurtle.goto(-175, 75)
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+28,29,2020-04-01 18:14:37,0.8704664868884963,0.7478,NameError: name 'starTurtle' is not defined on line 6,"import turtle
+wn = turtle.Screen()
+turtle.speed(0)
+
+
+starTurtle.goto(-175, 75)
+def starShape(starTurtle, starPoint):
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+29,30,2020-04-01 18:15:43,0.856161768639921,0.74,NameError: name 'Turtle' is not defined on line 3,"import turtle
+wn = turtle.Screen()
+Turtle.speed(0)
+
+
+starTurtle.goto(-175, 75)
+def starShape(starTurtle, starPoint):
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+30,31,2020-04-01 18:17:20,0.8792111324123526,0.6959,success,"import turtle
+wn = turtle.Screen()
+turtle.speed(0)
+
+
+turtle.goto(-175, 75)
+def starShape(starTurtle, starPoint):
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+31,32,2020-04-01 18:18:06,0.88475489332916,0.7005,success,"import turtle
+wn = turtle.Screen()
+turtle.speed(0)
+
+turtle.penup()
+turtle.goto(-175, 75)
+turtle.pendown()
+def starShape(starTurtle, starPoint):
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+32,33,2020-04-01 18:19:10,0.8696805517599228,0.6039,TimeLimitError: Program exceeded run time limit. on line 10,"import turtle
+wn = turtle.Screen()
+
+
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+33,34,2020-04-01 18:20:25,0.8631668726741196,0.6325,TimeLimitError: Program exceeded run time limit. on line 12,"import turtle
+wn = turtle.Screen()
+
+turtle.penup()
+turtle.goto(-175, 75)
+turtle.pendown()
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+34,35,2020-04-01 18:20:52,0.8752492974497823,0.6195,TimeLimitError: Program exceeded run time limit. on line 12,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    starTurtle.penup()
+    turtle.goto(-175, 75)
+    turtle.pendown()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        turtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+35,36,2020-04-01 18:21:53,0.8793397155856404,0.6274,TimeLimitError: Program exceeded run time limit. on line 12,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    starTurtle.pendown()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        starTurtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+36,37,2020-04-01 18:22:58,0.9002442161478965,0.6934,success,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    starTurtle.speed(0)
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    starTurtle.pendown()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        starTurtle.forward(350)
+
+Terry = turtle.Turtle()
+starShape(Terry, 5)"
+37,38,2020-04-01 18:33:50,0.9007373860537442,0.6457,NameError: name 'Terry' is not defined on line 17,"import turtle
+wn = turtle.Screen()
+
+def starShape(starTurtle, starPoint):
+    starTurtle = turtle.Turtle()
+    starTurtle.speed(0)
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    starTurtle.pendown()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        starTurtle.forward(350)
+
+starShape(Terry, 5)"
+38,39,2020-04-01 18:37:14,0.9507781002765349,0.707,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+def starShape(starTurtle, starPoint):
+    starTurtle.speed(0)
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    starTurtle.pendown()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        starTurtle.forward(350)
+
+starShape(Terry, 5)"
+39,40,2020-04-01 18:38:27,0.999999965434351,0.7652,success,"import turtle
+wn = turtle.Screen()
+Terry = turtle.Turtle()
+
+def starShape(starTurtle, starPoint):
+    starTurtle.speed(0)
+    starTurtle.penup()
+    starTurtle.goto(-175, 75)
+    starTurtle.pendown()
+    for shape in range(starPoint):
+        for i in range(starPoint):
+            starAngle = 180 - 180/starPoint
+            starTurtle.forward(100)
+            starTurtle.right(starAngle)
+        starTurtle.forward(350)
+        starTurtle.right(starAngle)
+
+starShape(Terry, 5)"

@@ -1,0 +1,524 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0515,, 
+1,2,2019-10-29 17:49:53,0.9148309107258282,0.9813,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    print(count,""words in the input paragraph"")
+    if x == 1:
+        print(x,""word with a rare character"")
+    else:
+        print(x,""words with a rare character"")
+    if y == 1:
+        print(y,""word that has 8 letters or more"")
+    else:
+        print(y,""words that has 8 letters or more"")
+    if d == True:
+        print(""TRUE"")
+    else:
+        print(""FALSE"")
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+2,3,2019-10-29 22:48:45,0.8533067614829873,0.977,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    f = """"
+    g = """"
+    h = """"
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    e = print(count,""words in the input paragraph"")
+    if x == 1:
+        f = print(x,""word with a rare character"")
+    else:
+        f = print(x,""words with a rare character"")
+    if y == 1:
+        g = print(y,""word that has 8 letters or more"")
+    else:
+        g = print(y,""words that has 8 letters or more"")
+    if d == True:
+        h = print(""TRUE"")
+    else:
+        h = print(""FALSE"")
+    i = (e+""
+""+f+""
+""+g+""
+""+h)
+    CoolPara = i
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+3,4,2019-10-29 22:49:06,0.8385306487028423,0.9728,UnboundLocalError: local variable 'e' referenced before assignment on line 42,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    e = """"
+    f = """"
+    g = """"
+    h = """"
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    e = print(count,""words in the input paragraph"")
+    if x == 1:
+        f = print(x,""word with a rare character"")
+    else:
+        f = print(x,""words with a rare character"")
+    if y == 1:
+        g = print(y,""word that has 8 letters or more"")
+    else:
+        g = print(y,""words that has 8 letters or more"")
+    if d == True:
+        h = print(""TRUE"")
+    else:
+        h = print(""FALSE"")
+    i = (e+""
+""+f+""
+""+g+""
+""+h)
+    CoolPara = i
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+4,5,2019-10-29 22:49:26,0.8385306487028423,0.9728,UnboundLocalError: local variable 'e' referenced before assignment on line 42,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    e = """"
+    f = """"
+    g = """"
+    h = """"
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    e = print(count,""words in the input paragraph"")
+    if x == 1:
+        f = print(x,""word with a rare character"")
+    else:
+        f = print(x,""words with a rare character"")
+    if y == 1:
+        g = print(y,""word that has 8 letters or more"")
+    else:
+        g = print(y,""words that has 8 letters or more"")
+    if d == True:
+        h = print(""TRUE"")
+    else:
+        h = print(""FALSE"")
+    i = (+e+""
+""+f+""
+""+g+""
+""+h)
+    CoolPara = i
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+5,6,2019-10-29 22:51:19,0.8419207814690913,0.9756,"TypeError: can only concatenate tuple (not ""str"") to tuple on line 41","
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    f = """"
+    g = """"
+    h = """"
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    e = (count,""words in the input paragraph"")
+    if x == 1:
+        f = print(x,""word with a rare character"")
+    else:
+        f = print(x,""words with a rare character"")
+    if y == 1:
+        g = print(y,""word that has 8 letters or more"")
+    else:
+        g = print(y,""words that has 8 letters or more"")
+    if d == True:
+        h = print(""TRUE"")
+    else:
+        h = print(""FALSE"")
+    i = (e+""
+""+f+""
+""+g+""
+""+h)
+    CoolPara = i
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+6,7,2019-10-29 22:51:31,0.8533067614829873,0.977,UnboundLocalError: local variable 'e' referenced before assignment on line 41,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    f = """"
+    g = """"
+    h = """"
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    e = print(count,""words in the input paragraph"")
+    if x == 1:
+        f = print(x,""word with a rare character"")
+    else:
+        f = print(x,""words with a rare character"")
+    if y == 1:
+        g = print(y,""word that has 8 letters or more"")
+    else:
+        g = print(y,""words that has 8 letters or more"")
+    if d == True:
+        h = print(""TRUE"")
+    else:
+        h = print(""FALSE"")
+    i = (e+""
+""+f+""
+""+g+""
+""+h)
+    CoolPara = i
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+7,8,2019-10-30 01:35:17,0.8692539282419619,0.9796,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    f = """"
+    g = """"
+    h = """"
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    print(count,""words in the input paragraph"")
+    if x == 1:
+        print(x,""word with a rare character"")
+    else:
+        print(x,""words with a rare character"")
+    if y == 1:
+        print(y,""word that has 8 letters or more"")
+    else:
+        print(y,""words that has 8 letters or more"")
+    if d == True:
+        print(""TRUE"")
+    else:
+        print(""FALSE"")
+    CoolPara = """"
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+8,9,2019-10-30 01:36:02,0.881370946876931,0.9801,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    print(count,""words in the input paragraph"")
+    if x == 1:
+        print(x,""word with a rare character"")
+    else:
+        print(x,""words with a rare character"")
+    if y == 1:
+        print(y,""word that has 8 letters or more"")
+    else:
+        print(y,""words that has 8 letters or more"")
+    if d == True:
+        print(""TRUE"")
+    else:
+        print(""FALSE"")
+    CoolPara = """"
+    return CoolPara
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+9,10,2019-10-30 03:30:57,0.9585122198740919,0.9713,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    else:
+        return d
+    print(count,""words in the input paragraph"")
+    if x == 1:
+        print(x,""word with a rare character"")
+    else:
+        print(x,""words with a rare character"")
+    if y == 1:
+        print(y,""word that has 8 letters or more"")
+    else:
+        print(y,""words that has 8 letters or more"")
+    if d == True:
+        return d
+    else:
+        return d
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+10,11,2019-10-30 03:32:10,0.9820905340773638,0.9675,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+                return d
+    print(count,""words in the input paragraph"")
+    if x == 1:
+        print(x,""word with a rare character"")
+    else:
+        print(x,""words with a rare character"")
+    if y == 1:
+        print(y,""word that has 8 letters or more"")
+    else:
+        print(y,""words that has 8 letters or more"")
+    if d == True:
+        return d
+    else:
+        return d
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"
+11,12,2019-10-30 03:33:41,0.999999965657796,0.9665,success,"
+def CoolPara(words):
+    # your code here
+    para = words.split()
+    count = len(para)
+    rare = [""j"", ""x"", ""q"", ""z""]
+    x = 0
+    y = 0
+    d = False
+    for w in para:
+        b = str(w)
+        for a in b:
+            for c in rare:
+                if a == c:
+                    x = x+1
+        if len(w) >= 8:
+            y = y+1
+    if count > 10:
+        if (100 * (x / count)) >= 10:
+            if (100 * (y / count)) >= 10:
+                d = True
+    print(count,""words in the input paragraph"")
+    if x == 1:
+        print(x,""word with a rare character"")
+    else:
+        print(x,""words with a rare character"")
+    if y == 1:
+        print(y,""word that has 8 letters or more"")
+    else:
+        print(y,""words that has 8 letters or more"")
+    if d == True:
+        return d
+    else:
+        return d
+
+# DO NOT CHANGE CODE BELOW
+
+print(CoolPara(input(""Enter: "")))
+
+"

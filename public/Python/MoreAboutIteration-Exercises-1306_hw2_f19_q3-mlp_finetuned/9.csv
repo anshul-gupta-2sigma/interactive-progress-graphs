@@ -1,0 +1,313 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-17 02:56:44,0.9130528200133199,0.8249,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month: "", month,""  "", ""effectiveness: "", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month: "", month,""  "", ""effectiveness: "", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+2,3,2019-10-17 08:07:05,0.9189300546971155,0.8156,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month: "", month,""	"", ""effectiveness: "", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month: "", month,""  "", ""effectiveness: "", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+3,4,2019-10-17 08:10:32,1.0,0.8547,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+4,5,2019-10-17 08:20:39,0.9565544157071704,0.8469,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month, ""   effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+5,6,2019-10-17 08:21:19,0.9677191191073335,0.8493,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month,""  "", ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+6,7,2019-10-17 08:21:38,1.0,0.8547,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+7,8,2019-10-17 09:21:27,0.939579526109815,0.8372,SyntaxError: bad input on line 7,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month, ljust(2)""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+8,9,2019-10-17 09:22:06,0.9366695877310668,0.8239,SyntaxError: bad input on line 7,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month, ljust[2]""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+9,10,2019-10-17 09:22:57,0.9253038857957654,0.8164,SyntaxError: bad input on line 8,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ljust[2]ss, effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+10,11,2019-10-17 09:23:14,0.9237444114931003,0.8313,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ss.ljust(2), effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+11,12,2019-10-17 09:23:23,0.9238956158316306,0.8348,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ss.ljust(4), effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+12,13,2019-10-17 09:23:50,0.9228499115395046,0.8322,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ss.rjust(5), effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+13,14,2019-10-17 09:24:14,0.8986213334264052,0.826,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ss.rjust(5), effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month, ss.rjust(5), effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+14,15,2019-10-17 09:24:30,0.8984318750356706,0.8294,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ss.rjust(10), effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month, ss.rjust(10), effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+15,16,2019-10-17 09:26:48,0.9089902449122919,0.8275,TypeError: rjust() takes at least 2 arguments (1 given) on line 8,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    ss = ""effectiveness:""
+    while effectiveness >= expire:
+        print(""Month:"", month, ss.rjust(), effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month, ss.rjust(), effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "
+16,17,2019-10-17 09:27:40,1.0,0.8547,success,"def drugPotency(loss, expire):
+    # your code here
+    effectiveness = float(100.00)
+    percent_loss=float(loss/100)
+    month = 0
+    while effectiveness >= expire:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness)
+        effectiveness = effectiveness - (effectiveness*percent_loss)
+        month += 1
+    else:
+        print(""Month:"", month,""	"", ""effectiveness:"", effectiveness, ""DISCARDED"")
+    return effectiveness
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+    "

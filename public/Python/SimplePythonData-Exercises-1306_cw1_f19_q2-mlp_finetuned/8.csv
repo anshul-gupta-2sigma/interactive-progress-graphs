@@ -1,0 +1,269 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:17:08,0.5743093919195078,0.7646,SyntaxError: EOF in multi-line statement on line 6\n\n^\n,"# Write your program here
+r = input(""What is the radius?"")
+type(int(r))
+p = 2*3.14*r
+print('The perimeter of this circle with a radius of', r, 'is', p"
+2,3,2019-09-03 15:19:16,0.48679909175829084,0.6955,SyntaxError: EOF in multi-line statement on line 5\n\n^\n,"# Write your program here
+r = input(""What is the radius?"")
+p = 2*3.14*r
+print('The perimeter of this circle with a radius of', r, 'is', p"
+3,4,2019-09-03 15:19:25,0.5040193214231561,0.7104,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"# Write your program here
+r = input(""What is the radius?"")
+p = 2*3.14*r
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+4,5,2019-09-03 15:20:41,0.5992929455480184,0.8009,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+p = 2*3.14*rad
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+5,6,2019-09-03 15:20:49,0.6214993749875919,0.8122,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+p = 2*3.14*(rad)
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+6,7,2019-09-03 15:21:25,0.6433582078949474,0.7716,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+pi = 3.14
+p = 2*pi*rad
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+7,8,2019-09-03 15:21:30,0.6157903441245648,0.7624,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+pi = 3.14
+p = 2*pi
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+8,9,2019-09-03 15:21:38,0.6403403904741426,0.7766,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+pi = '3.14'
+p = 2*pi
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+9,10,2019-09-03 15:22:12,0.7492851956108937,0.8103,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+pi = '3.14'
+print(type(float(pi))
+print(2*pi*rad)
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+10,11,2019-09-03 15:22:22,0.6423875005811314,0.7573,SyntaxError: bad input on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+print(type(float(rad))
+pi = 3.14
+print(type(float(pi))
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+11,12,2019-09-03 15:23:06,0.6554400916680772,0.7756,SyntaxError: bad input on line 5,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+print(type(float(rad))
+print(type(float(pi))
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+12,13,2019-09-03 15:23:34,0.5523869326179222,0.7295,SyntaxError: bad input on line 5,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+print(type(float(rad))
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+13,14,2019-09-03 15:23:41,0.3009869415724138,0.4616,SyntaxError: EOF in multi-line statement on line 5\n\n^\n,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+print(type(float(rad))"
+14,15,2019-09-03 15:27:35,0.31330225928447786,0.4928,success,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+print(type(float(rad)))"
+15,16,2019-09-03 15:28:04,0.6156111973433221,0.8111,NameError: name 'r' is not defined on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', r, 'is', p)"
+16,17,2019-09-03 15:28:11,0.6215087311706031,0.8217,NameError: name 'p' is not defined on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', p)"
+17,18,2019-09-03 15:28:18,0.626886234706676,0.8312,success,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', pi)"
+18,19,2019-09-03 15:28:46,0.7355736990626693,0.8952,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = 2*pi*rad
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+19,20,2019-09-03 15:29:07,0.7544345522047252,0.9006,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = 2.0*pi*rad
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+20,21,2019-09-03 15:29:23,0.7113653900873089,0.885,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = pi*rad
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+21,22,2019-09-03 15:29:54,0.7908136943840357,0.9277,NameError: name 'perim' is not defined on line 8,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print(type(float(pi)))
+print(type(float(rad)))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+22,23,2019-09-03 15:30:12,0.7109229541659987,0.8779,NameError: name 'perim' is not defined on line 7,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print(type(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+23,24,2019-09-03 15:30:35,0.6518102349164159,0.8528,SyntaxError: bad input on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', perim+.)"
+24,25,2019-09-03 15:30:40,0.6316183612452659,0.8481,NameError: name 'perim' is not defined on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+25,26,2019-09-03 15:30:53,0.7361740885632209,0.8837,TypeError: can't multiply sequence by non-int of type 'float' on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+perim = 2*pi*rad
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+26,27,2019-09-03 15:31:11,0.7535812396025108,0.8873,TypeError: can't multiply sequence by non-int of type 'float' on line 4,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+perim = 2.0*rad*pi
+type(float(rad))
+type(float(pi))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+27,28,2019-09-03 15:31:53,0.7544345522047252,0.9006,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = 2.0*pi*rad
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+28,29,2019-09-03 15:32:16,0.7698997845009816,0.8886,success,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = '2.0*pi*rad'
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+29,30,2019-09-03 15:32:29,0.8304116265738912,0.9197,ValueError: float: Argument: 2.0*pi*rad is not number on line 7,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = '2.0*pi*rad'
+type(float(perim))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+30,31,2019-09-03 15:32:47,0.8155328556098819,0.9232,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = 2.0*pi*rad
+type(float(perim))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+31,32,2019-09-03 15:32:55,0.7849167077618482,0.9163,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = pi*rad
+type(float(perim))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+32,33,2019-09-03 15:33:32,0.795979098283943,0.9173,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input(""What is the radius?"")
+pi = 3.14
+type(float(rad))
+type(float(pi))
+perim = (pi*rad)
+type(float(perim))
+print('The perimeter of this circle with a radius of', rad, 'is', perim)"
+33,34,2019-09-03 15:45:15,0.13613136454807562,0.1991,success,"# Write your program here
+rad = input('What is the radius?')"
+34,35,2019-09-03 15:46:17,0.378678501982431,0.5655,TypeError: can't multiply sequence by non-int of type 'float' on line 5,"# Write your program here
+rad = input('What is the radius?')
+pi = 3.14
+type(float(rad))
+perim = 2*pi*rad"
+35,36,2019-09-03 15:46:24,0.3996288666118095,0.5893,TypeError: can't multiply sequence by non-int of type 'float' on line 5,"# Write your program here
+rad = input('What is the radius?')
+pi = 3.14
+type(float(rad))
+perim = 2.0*pi*rad"
+36,37,2019-09-03 15:46:35,0.48561449120160605,0.7361,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+rad = input('What is the radius?')
+pi = 3.14
+type(float(pi))
+type(float(rad))
+perim = 2.0*pi*rad"
+37,38,2019-09-03 15:50:37,0.5010614150344586,0.654,SyntaxError: bad token on line 5,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+print('The perimeter of this circle with a radius of 11 "
+38,39,2019-09-03 15:51:01,0.6015916738537818,0.8059,success,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+print('The perimeter of this circle with a radius of 11 is', 'perim') "
+39,40,2019-09-03 15:51:09,0.5787089996130457,0.7874,success,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+print('The perimeter of this circle with a radius of 11 is', perim) "
+40,41,2019-09-03 15:52:28,1.0,0.9574,success,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+area = pi*rad**2
+print('The perimeter of this circle with a radius of', rad, 'is', perim)
+print('The area of this circle with a radius of', rad, 'is', area)"
+41,42,2019-09-03 15:52:42,0.9422949943345605,0.957,SyntaxError: bad input on line 7,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+area = pi*rad**2
+print('The perimeter of this circle with a radius of', rad, 'is', perim)
+print('The area of this circle with a radius of', rad, 'is', area.)"
+42,43,2019-09-03 15:52:47,1.0,0.9574,success,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+area = pi*rad**2
+print('The perimeter of this circle with a radius of', rad, 'is', perim)
+print('The area of this circle with a radius of', rad, 'is', area)"
+43,44,2019-09-03 16:11:36,0.9457040250175452,0.9651,success,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+area = pi*rad**2
+print('The perimeter of this circle with a radius of', rad, 'is', perim)
+print('The area of this circle with a radius of', rad, 'is', area,""."")"
+44,45,2019-09-03 16:12:12,1.0,0.9574,success,"# Write your program here
+rad = float(input('What is the radius?'))
+pi = 3.14
+perim = 2.0*pi*rad
+area = pi*rad**2
+print('The perimeter of this circle with a radius of', rad, 'is', perim)
+print('The area of this circle with a radius of', rad, 'is', area)"

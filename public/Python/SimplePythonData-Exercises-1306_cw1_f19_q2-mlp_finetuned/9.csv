@@ -1,0 +1,60 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:28:37,0.45388242369115517,0.397,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"pi = 3.14
+r = input(""please enter radius"")
+print (""the perimeter is"", 2 * pi * r)"
+2,3,2019-09-03 15:35:12,0.41175503184369555,0.3425,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"pi = 3.14
+r = input(""please enter radius"")
+perimeter = 2 * pi * r
+print (perimeter)"
+3,4,2019-09-03 15:36:44,0.36458259989696407,0.2993,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"pi = 3.14
+r = input(""please enter radius"")
+print (2 * pi * r)"
+4,5,2019-09-03 15:39:13,0.41248263044569355,0.3228,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = 2 * pi * r
+print (perimeter)"
+5,6,2019-09-03 15:43:10,0.45770829173465644,0.4044,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = 2 * pi * r
+print (float(perimeter))"
+6,7,2019-09-03 15:45:40,0.45840600726964187,0.3827,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = 2 * pi * r
+print (string(perimeter))"
+7,8,2019-09-03 15:46:08,0.41248263044569355,0.3228,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = 2 * pi * r
+print (perimeter)"
+8,9,2019-09-03 15:46:21,0.4586153136038831,0.4168,SyntaxError: bad input on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = (int)2 * pi * r
+print (perimeter)"
+9,10,2019-09-03 15:46:44,0.4965163617524502,0.455,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = (int(2 * pi * r))
+print (perimeter)"
+10,11,2019-09-03 15:46:54,0.4955311243293252,0.4487,TypeError: can't multiply sequence by non-int of type 'float' on line 3,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = (str(2 * pi * r))
+print (perimeter)"
+11,12,2019-09-03 15:47:17,0.5502734891446224,0.4466,SyntaxError: bad input on line 4,"r = input(""please enter radius"")
+pi = 3.14
+perimeter = ((type(str(2 * pi * r)))
+print (perimeter)"
+12,13,2019-09-03 15:49:27,0.46165899404534827,0.4128,success,"r = float(input(""please enter radius""))
+pi = 3.14
+perimeter = 2 * pi * r
+print (perimeter)"
+13,14,2019-09-03 15:50:01,0.6165991571638427,0.5211,success,"r = float(input(""please enter radius""))
+pi = 3.14
+perimeter = 2 * pi * r
+print ("" the perimeter of the circe is"",perimeter)
+"
+14,15,2019-09-03 15:51:44,1.0,0.7069,success,"r = float(input(""please enter radius""))
+pi = 3.14
+perimeter = 2 * pi * r
+print ("" the perimeter of the circe is"",perimeter)
+area = (r ** 2) * pi
+print ("" the area of the circle is"", area)
+"

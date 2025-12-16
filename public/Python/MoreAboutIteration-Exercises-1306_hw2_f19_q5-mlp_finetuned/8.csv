@@ -1,0 +1,156 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-17 21:46:14,0.6024368539477849,0.6487,success,"def findSumOf():
+    number_1 = input(""Enter the first number
+"")
+    number_2 = input(""Enter the second number
+"")
+    sum = number_1 + number_2
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+    print(""Summation: "" + result)
+
+"
+2,3,2019-10-17 21:47:43,0.6024368539477849,0.6487,success,"def findSumOf():
+    number_1 = input(""Enter the first number
+"")
+    number_2 = input(""Enter the second number
+"")
+    sum = number_1 + number_2
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+    print(""Summation: "" + result)"
+3,4,2019-10-17 21:51:41,0.8833105357144941,0.8757,TypeError: cannot concatenate 'str' and 'int' objects on line 10,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    sum = number_1 + number_2
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+        print(""Summation: "" + result)
+numsum(100,110)"
+4,5,2019-10-17 21:52:30,0.8611531059755472,0.8764,TypeError: cannot concatenate 'str' and 'int' objects on line 10,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    sum = number_1 + number_2
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+        print(str(""Summation: "" )+ int(result))
+numsum(100,110)"
+5,6,2019-10-17 21:52:56,0.8820667183391424,0.8793,success,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    sum = number_1 + number_2
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+        print(""Summation: "" , result)
+numsum(100,110)"
+6,7,2019-10-17 21:53:27,0.8824750632713905,0.8708,success,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    sum = number_1 + number_2
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+        print(""Number to sum: "" , result)
+numsum(100,110)"
+7,8,2019-10-17 21:56:25,0.8791727686990711,0.8511,success,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    numberx = number_1 + 1
+    result = 0
+    for i in range(number_1, number_2):
+        result = result + i
+        print(""Number to sum: "" , result)
+numsum(100,110)"
+8,9,2019-10-17 21:57:05,0.8758574099838543,0.8374,success,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    numberx = number_1 + 1
+    for i in range(number_1, number_2):
+        result = number_1 + i
+        print(""Number to sum: "" , result)
+numsum(100,110)"
+9,10,2019-10-17 21:58:10,0.8681839596727445,0.8309,TypeError: range() takes at most 3 arguments (5 given) on line 7,"def numsum(number_1, number_2):
+    number_1 = int(input(""Enter the first number
+""))
+    number_2 = int(input(""Enter the second number
+""))
+    print(""First Number is:"", number_1)
+    print(""Second Number is:"", number_2)
+    numberx = number_1 + 1
+    for i in range(0, 1, 3, 6, 10):
+        result = number_1 + i
+        print(""Number to sum: "" , result)
+numsum(100,110)"
+10,11,2019-10-18 01:26:35,0.8452105836331072,0.9699,SyntaxError: bad input on line 2,"def numsum(number_1, number_2):
+number_1 = int(input(""Enter the first number
+""))
+number_2 = int(input(""Enter the second number
+""))
+print(""First Number is:"", number_1)
+print(""Second Number is:"", number_2)
+sum=0
+count=0
+while (count+number_1<=number_2):
+    number_1= number_1 + count
+    print(""Number to sum is:"", number_1)
+    sum= sum + number_1
+    count = count + 1
+print(""Summation:"", sum)"
+11,12,2019-10-18 02:00:45,0.9669565840595175,0.9678,ValueError: invalid literal for int() with base 10: 'None' on line 1,"number_1 = int(input(""Enter the first number
+""))
+number_2 = int(input(""Enter the second number
+""))
+print(""First Number is:"", number_1)
+print(""Second Number is:"", number_2)
+sum=0
+count=0
+while (count+number_1<=number_2):
+    number_1= number_1 + count
+    print(""Number to sum is:"", number_1)
+    sum= sum + number_1
+    count = count + 1
+print(""Summation:"", sum)"
+12,13,2019-10-18 02:01:26,1.0,0.9612,success,"number_1 = int(input(""Enter the first number
+""))
+number_2 = int(input(""Enter the second number
+""))
+print(""First Number:"", number_1)
+print(""Second Number:"", number_2)
+sum=0
+count=0
+while (count+number_1<=number_2):
+    number_1= number_1 + count
+    print(""Number to sum is:"", number_1)
+    sum= sum + number_1
+    count = count + 1
+print(""Summation:"", sum)"

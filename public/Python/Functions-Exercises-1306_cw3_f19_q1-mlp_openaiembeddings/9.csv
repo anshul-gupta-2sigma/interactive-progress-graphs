@@ -1,0 +1,215 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 14:47:54,0.6205435939175471,0.6852,SyntaxError: bad input on line 2,"# Your function goes here
+def star(N,S)
+    for i in range(N):
+        for j in range(N):
+            print(""#"" ,end=""""
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 14:56:19,0.6313059952253943,0.6867,SyntaxError: bad input on line 15,"# Your function goes here
+def star(N,S):
+    for i in range(N):
+        for j in range(N):
+            print(""#"" ,end=""""
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 14:56:59,0.6481101387717157,0.7021,SyntaxError: bad input on line 17,"# Your function goes here
+def star(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(N):
+            print(""#"" ,end=""""
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 14:57:14,0.6481101387717157,0.7021,SyntaxError: bad input on line 16,"# Your function goes here
+def star(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(N):
+            print(""#"" ,end=""""
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 14:57:59,0.6530606473724344,0.7318,NameError: name 'printsquare' is not defined on line 18,"# Your function goes here
+def star(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(N):
+            print(""#"" ,end="""")
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+6,7,2019-10-01 14:59:08,0.8210453210587655,0.8374,TypeError: start must be a integer on line 6,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(N):
+            print(""#"" ,end="""")
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+7,8,2019-10-01 14:59:21,0.8278060487239546,0.8247,success,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(n):
+            print(""#"" ,end="""")
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+8,9,2019-10-01 15:13:47,0.827458691977895,0.8386,success,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(n):
+            print(""#"" ,end="""")
+            
+    print()
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+9,10,2019-10-01 15:14:05,0.8321606322984267,0.8243,success,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(n):
+            print(""#"" ,end="""")
+        print()
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+10,11,2019-10-01 15:14:31,0.8584014999958343,0.8569,success,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(n):
+            print(S ,end="""")
+        print()
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+11,12,2019-10-01 15:15:14,1.0,0.9515,success,"# Your function goes here
+def printsquare(N,S):
+    n = int(N)
+    
+    for i in range(n):
+        for j in range(n):
+            print(S * 2 ,end="""")
+        print()
+
+
+
+
+
+
+
+# Leave the following lines as they are
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

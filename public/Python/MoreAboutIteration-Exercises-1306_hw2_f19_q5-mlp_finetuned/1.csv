@@ -1,0 +1,106 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-15 19:16:36,0.22486157053809408,0.2975,SyntaxError: bad input on line 3,"# Write your code here
+x=int(input(""First Number: "")
+y=int(input(""Second Number: "")
+
+"
+2,3,2019-10-15 19:17:55,0.2603092388057048,0.3205,success,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+
+"
+3,4,2019-10-16 04:07:43,0.43933902835430894,0.5569,success,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+print(""First Number:"",x)
+print(""Second Number:"",y)
+
+
+
+"
+4,5,2019-10-16 04:09:53,0.5652155319709304,0.6303,SyntaxError: bad input on line 14,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+
+print(""First Number:"",x)
+print(""Second Number:"",y)
+
+counter = 0
+sum = 0
+while x<y:
+    
+
+"
+5,6,2019-10-16 04:15:28,0.9646993490075069,0.9456,success,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+
+print(""First Number:"",x)
+print(""Second Number:"",y)
+
+counter = 0
+sum = 0
+while x<y:
+    x=x+counter
+    sum=sum+x
+    counter = counter + 1
+    print(""Number to sum is:"",counter)
+print(""Summation is:"",sum)
+    
+
+"
+6,7,2019-10-16 04:18:42,0.9664195933491995,0.9474,success,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+
+print(""First Number:"",x)
+print(""Second Number:"",y)
+
+counter = 0
+sum = 0
+while x<y:
+    x=x+counter
+    sum=sum+x
+    counter = counter + 1
+    print(""Number to sum is:"",x)
+print(""Summation is:"",sum)
+    
+
+"
+7,8,2019-10-16 04:21:20,0.9683359389737219,0.9467,success,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+
+print(""First Number:"",x)
+print(""Second Number:"",y)
+
+counter = 0
+sum = 0
+while x<=y:
+    x=x+counter
+    sum=sum+x
+    counter = counter + 1
+    print(""Number to sum is:"",x)
+print(""Summation is:"",sum)
+    
+
+"
+8,9,2019-10-16 04:23:03,0.9999999402615048,0.9502,success,"# Write your code here
+x=int(input(""First Number: ""))
+y=int(input(""Second Number: ""))
+
+print(""First Number:"",x)
+print(""Second Number:"",y)
+
+counter = 0
+sum = 0
+while x+counter<=y:
+    x=x+counter
+    sum=sum+x
+    counter = counter + 1
+    print(""Number to sum is:"",x)
+print(""Summation is:"",sum)
+    
+
+"

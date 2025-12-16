@@ -1,0 +1,83 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-10-01 15:03:30,0.8432872913211076,0.7917,TypeError: can't multiply sequence by non-int of type 'str' on line 3,"# Your function goes here
+def printsquare (N,S):
+    print(S*(N*2))
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+2,3,2019-10-01 15:11:21,0.7839820440479254,0.7863,TypeError: start must be a integer on line 3,"# Your function goes here
+def printsquare (N,S):
+    for i in range(N):
+        print(S)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+3,4,2019-10-01 15:12:10,0.8304994963258066,0.8605,success,"# Your function goes here
+def printsquare (N,S):
+    N = int(N)
+    for i in range(N):
+        print(S)
+
+
+
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+4,5,2019-10-01 15:12:31,0.9481111927167478,0.967,success,"# Your function goes here
+def printsquare (N,S):
+    N = int(N)
+    for i in range(N):
+        print(S*(N*2))
+
+
+
+
+
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"
+5,6,2019-10-01 15:12:40,0.9999999845274093,0.9698,success,"# Your function goes here
+def printsquare (N,S):
+    N = int(N)
+    for i in range(N):
+        print(S*(N*2))
+# Leave the following lines as they are
+
+N = input(""Enter N: "")
+S = input(""Enter S: "")
+printsquare(N,S)
+"

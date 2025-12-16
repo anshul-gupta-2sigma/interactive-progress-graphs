@@ -1,0 +1,352 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0129,, 
+1,2,2019-11-04 06:41:43,0.4754546297502449,0.5724,SyntaxError: bad input on line 7,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle()
+    title = capTitle.split()
+    print title
+
+
+
+
+print(capTitle(input(""Enter title: "")))
+
+"
+2,3,2019-11-04 06:52:13,0.48311123256075383,0.5931,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle():
+    title = capTitle.split()
+    print title
+
+
+
+
+print(capTitle(input(""Enter title: "")))
+
+"
+3,4,2019-11-04 06:52:34,0.49872468075387655,0.6239,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle():
+    title = capTitle.split()
+    print title[1]
+
+
+
+
+print(capTitle(input(""Enter title: "")))
+
+"
+4,5,2019-11-04 06:53:08,0.4718971043399225,0.5778,TypeError: capTitle() takes exactly 0 arguments (1 given) on line 14,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle():
+    title = capTitle.split()
+    
+
+
+
+
+print(capTitle(input(""Enter title: "")))
+
+"
+5,6,2019-11-04 06:53:42,0.48217501768533033,0.5833,TypeError: capTitle() got an unexpected keyword argument 'title' on line 14,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle():
+    title = capTitle.split()
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+6,7,2019-11-04 06:53:52,0.48644845384471236,0.5943,AttributeError: 'capTitle' object has no attribute 'split' on line 8,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    title = capTitle.split()
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+7,8,2019-11-04 06:54:09,0.4829788853957506,0.5941,success,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    title = title.split()
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+8,9,2019-11-04 07:01:02,0.8021411012284065,0.889,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    title = title.split()
+    for x < title.len:
+        for y < specialWords.len:
+            if title[x]!=specialWords[y]:
+                title[x]=string.capwords(title[x])
+            else:
+                title[x]=title[x]
+    return title
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+9,10,2019-11-04 07:01:15,0.796078718606874,0.8865,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    title = title.split()
+    for x < title.length:
+        for y < specialWords.len:
+            if title[x]!=specialWords[y]:
+                title[x]=string.capwords(title[x])
+            else:
+                title[x]=title[x]
+    return title
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+10,11,2019-11-04 07:02:11,0.8412783448639525,0.8757,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x < titlelist.len:
+        for y < specialWords.len:
+            if titlelist[x]!=specialWords[y]:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    return titlelist
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+11,12,2019-11-04 07:05:53,0.8412783448639525,0.8757,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x<titlelist.len:
+        for y<specialWords.len:
+            if titlelist[x]!=specialWords[y]:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    return titlelist
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+12,13,2019-11-04 07:06:13,0.8516572031572658,0.8793,SyntaxError: bad input on line 9,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for (x<titlelist.len):
+        for y<specialWords.len:
+            if titlelist[x]!=specialWords[y]:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    return titlelist
+    
+
+
+
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+13,14,2019-11-04 07:15:36,0.8987000398316202,0.9218,success,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x in range (len(titlelist)):
+        for y in range (len(specialWords)):
+            if titlelist[x]!=specialWords[y]:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    return titlelist
+    
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+14,15,2019-11-04 07:18:43,0.8871789126453997,0.9193,success,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x in range (len(titlelist)):
+        for y in range (len(specialWords)):
+            if titlelist[x] not in specialWords:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    return titlelist
+    
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+15,16,2019-11-04 07:20:37,0.8170033697320679,0.9084,success,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x in range (len(titlelist)):
+            if titlelist[x] not in specialWords:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    return titlelist
+    
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+16,17,2019-11-04 07:25:03,0.9636623300762324,0.95,success,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x in range (len(titlelist)):
+            if titlelist[x] not in specialWords:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    for y in range (len(titlelist)):
+        finaltitle = titlelist[y]+"" ""
+    return finaltitle
+    
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+17,18,2019-11-04 07:25:19,0.9641211887861512,0.9531,UnboundLocalError: local variable 'finaltitle' referenced before assignment on line 15,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    for x in range (len(titlelist)):
+            if titlelist[x] not in specialWords:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    for y in range (len(titlelist)):
+        finaltitle += titlelist[y]+"" ""
+    return finaltitle
+    
+
+print(capTitle(title=input(""Enter title: "")))
+
+"
+18,19,2019-11-04 07:26:14,1.0,0.9523,success,"import string
+
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(title):
+    titlelist = title.split()
+    finaltitle = """"
+    for x in range (len(titlelist)):
+            if titlelist[x] not in specialWords:
+                titlelist[x]=string.capwords(titlelist[x])
+            else:
+                titlelist[x]=titlelist[x]
+    for y in range (len(titlelist)):
+        finaltitle += titlelist[y]+"" ""
+    return finaltitle
+    
+
+print(capTitle(title=input(""Enter title: "")))
+
+"

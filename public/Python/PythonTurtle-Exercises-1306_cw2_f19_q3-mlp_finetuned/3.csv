@@ -1,0 +1,60 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:45:05,0.1947854639729727,0.388,SyntaxError: bad input on line 2,"# Write your program here
+for i in range(7)
+i = ******
+print(i)"
+2,3,2019-09-12 15:50:05,0.1947854639729727,0.388,SyntaxError: bad input on line 2,"# Write your program here
+for i in range(7)
+    i = ******
+    print(i)"
+3,4,2019-09-12 16:06:40,0.0,0.1162,success,"# Write your program here
+"
+4,5,2019-09-12 16:07:03,0.10285801879211509,0.22,success,"# Write your program here
+input(""Start"") "
+5,6,2019-09-12 16:12:11,0.5452993441605474,0.5125,SyntaxError: bad input on line 4,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+for a in range(n)"
+6,7,2019-09-12 16:16:06,0.7341620599270375,0.5744,SyntaxError: bad input on line 4,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+for a in range(n)
+    sum = start + a
+print(sum)"
+7,8,2019-09-12 16:16:42,0.7601967990677879,0.5962,success,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+for a in range(n):
+    sum = start + a
+print(sum)"
+8,9,2019-09-12 16:18:25,0.8018499596763874,0.6126,TypeError: unsupported operand type(s) for Add: 'int' and '<native JS>' on line 5,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+for a in range(n):
+    sum = start + a + sum 
+print(sum)"
+9,10,2019-09-12 16:18:52,0.8666106833153482,0.6407,success,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+sum = 0
+for a in range(n):
+    sum = start + a + sum 
+print(sum)"
+10,11,2019-09-12 16:24:11,0.902690761626963,0.6799,success,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+sum = 0
+for a in range(n):
+    sum = start + a + sum 
+print(sum / n)
+"
+11,12,2019-09-12 16:26:15,0.9999999112582071,0.7069,success,"# Write your program here
+start = int(input(""Start""))
+n = int(input(""N""))
+sum = 0
+for a in range(n):
+    sum = start + a + sum 
+print(sum)
+print(sum / n)
+"

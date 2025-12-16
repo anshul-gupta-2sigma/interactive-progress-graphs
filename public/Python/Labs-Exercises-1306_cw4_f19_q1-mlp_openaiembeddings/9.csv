@@ -1,0 +1,130 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-17 15:56:22,0.7491028998791732,0.9039,success,"#Your code goes here
+myString = input(""myString"") 
+def commonletters(mystring):
+    t = mystring.count(""t"")
+    e = mystring.count(""e"")
+    x = mystring.count(""x"")
+    a = mystring.count(""a"")
+    s = mysting.count(""s"")
+    if (t > 0):
+        print (""s"")
+    if (e > 0):
+        print (""a"")
+        "
+2,3,2019-10-17 16:01:21,0.676454312567858,0.9007,success,"#Your code goes here
+myString = input(""myString"") 
+def commonletters(mystring):
+    t = mystring.str(""t"")
+    e = mystring.str(""e"")
+    x = mystring.str(""x"")
+    a = mystring.str(""a"")
+    s = mysting.str(""s"")
+    if (t > 0):
+        print (""s"")
+    if (e > 0):
+        print (""a"")
+        "
+3,4,2019-10-17 16:02:08,0.7708875471270176,0.9068,success,"#Your code goes here
+myString = input(""myString"") 
+count = 0
+def commonletters(mystring):
+    t = mystring.count(""t"")
+    e = mystring.count(""e"")
+    x = mystring.count(""x"")
+    a = mystring.count(""a"")
+    s = mysting.count(""s"")
+    if (t > 0):
+        print (""s"")
+    if (e > 0):
+        print (""a"")
+        "
+4,5,2019-10-17 16:04:29,0.7848284897575033,0.9143,NameError: name 'commonletter' is not defined on line 21,"#Your code goes here
+myString = input(""myString"") 
+count = 0
+def commonletters(mystring):
+    t = mystring.count(""t"")
+    e = mystring.count(""e"")
+    x = mystring.count(""x"")
+    a = mystring.count(""a"")
+    s = mysting.count(""s"")
+    if (t > 0):
+        print (""t"")
+    if (e > 0):
+        print (""e"")
+    if (x > 0):
+        print(""x"")
+    if (a > 0):
+        print(""a"")
+    if (s > 0):
+        print(""s"")
+        
+commonletter(mystring)
+"
+5,6,2019-10-17 16:04:43,0.7862101537445674,0.9189,NameError: name 'mystring' is not defined on line 21,"#Your code goes here
+myString = input(""myString"") 
+count = 0
+def commonletters(mystring):
+    t = mystring.count(""t"")
+    e = mystring.count(""e"")
+    x = mystring.count(""x"")
+    a = mystring.count(""a"")
+    s = mysting.count(""s"")
+    if (t > 0):
+        print (""t"")
+    if (e > 0):
+        print (""e"")
+    if (x > 0):
+        print(""x"")
+    if (a > 0):
+        print(""a"")
+    if (s > 0):
+        print(""s"")
+        
+commonletters(mystring)
+"
+6,7,2019-10-17 16:04:57,0.9337187960267143,0.8984,NameError: name 'mysting' is not defined on line 9,"#Your code goes here
+mystring = input(""mystring"") 
+count = 0
+def commonletters(mystring):
+    t = mystring.count(""t"")
+    e = mystring.count(""e"")
+    x = mystring.count(""x"")
+    a = mystring.count(""a"")
+    s = mysting.count(""s"")
+    if (t > 0):
+        print (""t"")
+    if (e > 0):
+        print (""e"")
+    if (x > 0):
+        print(""x"")
+    if (a > 0):
+        print(""a"")
+    if (s > 0):
+        print(""s"")
+        
+commonletters(mystring)
+"
+7,8,2019-10-17 16:05:04,0.9999999680559197,0.912,success,"#Your code goes here
+mystring = input(""mystring"") 
+count = 0
+def commonletters(mystring):
+    t = mystring.count(""t"")
+    e = mystring.count(""e"")
+    x = mystring.count(""x"")
+    a = mystring.count(""a"")
+    s = mystring.count(""s"")
+    if (t > 0):
+        print (""t"")
+    if (e > 0):
+        print (""e"")
+    if (x > 0):
+        print(""x"")
+    if (a > 0):
+        print(""a"")
+    if (s > 0):
+        print(""s"")
+        
+commonletters(mystring)
+"

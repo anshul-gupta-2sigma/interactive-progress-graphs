@@ -1,0 +1,48 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:50:49,0.22610321910169529,0.2188,success,"# Write your program here
+radius= float (input(""what is the radius?""))"
+2,3,2019-09-03 15:54:49,0.5943651207192084,0.3458,success,"# Write your program here
+radius = float (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of radius, is 69.08"")"
+3,4,2019-09-03 15:55:04,0.5937856556372819,0.3857,success,"# Write your program here
+radius = float (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of float, is 69.08"")"
+4,5,2019-09-03 15:55:29,0.5891201093978798,0.365,success,"# Write your program here
+r = (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of r, is 69.08"")"
+5,6,2019-09-03 15:55:43,0.5977721365672901,0.3541,success,"# Write your program here
+r = (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of, r, is 69.08"")"
+6,7,2019-09-03 15:56:18,0.6150765900543419,0.4398,SyntaxError: bad input on line 4,"# Write your program here
+r = (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of"", r, is 69.08"")"
+7,8,2019-09-03 15:56:27,0.6382079895069532,0.4063,success,"# Write your program here
+r = (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of"", r, ""is 69.08"")"
+8,9,2019-09-03 15:58:42,1.0,0.3651,success,"# Write your program here
+r = (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of"", r, ""is 69.08"")
+print( ""the area of this circle with a radius of"",r,""is 379.94"")"
+9,10,2019-09-03 15:59:11,0.9734350893243968,0.3939,success,"# Write your program here
+r = float(input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of"", r, ""is 69.08"")
+print( ""the area of this circle with a radius of"",r,""is 379.94"")"
+10,11,2019-09-03 15:59:29,0.9734350893243968,0.3939,success,"# Write your program here
+r = float (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of"", r, ""is 69.08"")
+print( ""the area of this circle with a radius of"",r,""is 379.94"")"
+11,12,2019-09-03 15:59:51,1.0,0.3651,success,"# Write your program here
+r = (input(""what is the radius?""))
+pi= 3.14
+print( ""the perimeter of this circle with a radius of"", r, ""is 69.08"")
+print( ""the area of this circle with a radius of"",r,""is 379.94"")"

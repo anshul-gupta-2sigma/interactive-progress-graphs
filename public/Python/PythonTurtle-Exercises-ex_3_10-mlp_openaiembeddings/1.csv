@@ -1,0 +1,273 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0025,, 
+1,2,2020-01-22 15:04:15,0.8199035615723782,0.7502,SyntaxError: bad input on line 9,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.forward(50)
+for i in range(0,12):
+    bob.stamp()
+    bob.
+"
+2,3,2020-01-22 15:08:15,0.8045158523085286,0.7341,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.forward(50)
+for i in range(0,12):
+    bob.stamp()
+"
+3,4,2020-01-22 15:09:05,0.8618871757438541,0.7789,SyntaxError: bad input on line 12,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+bob.forward(50)
+for i in range(0,12):
+    bob.pendown()
+    bob.forward(10)
+    bob.penup(0
+    bob.forward(10)
+    bob.stamp()
+    
+"
+4,5,2020-01-22 15:09:15,0.8603151958073056,0.7791,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+bob.forward(50)
+for i in range(0,12):
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    
+"
+5,6,2020-01-22 15:10:24,0.8697268479049836,0.8454,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+bob.forward(50)
+for i in range(0,12):
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.forward(-50)
+    bob.right(15)
+    
+    
+"
+6,7,2020-01-22 15:11:03,0.8802514514551287,0.8509,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+bob.forward(50)
+for i in range(0,12):
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(50)
+    bob.right(15)
+    
+    
+"
+7,8,2020-01-22 15:11:18,0.8799006224006864,0.8512,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+bob.forward(50)
+for i in range(0,12):
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(50)
+    bob.right(36)
+    
+    
+"
+8,9,2020-01-22 15:11:34,0.8827036229295404,0.8618,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+bob.forward(50)
+for i in range(0,12):
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(36)
+    
+    
+"
+9,10,2020-01-22 15:11:52,0.8899698538081837,0.8725,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(36)
+    
+    
+"
+10,11,2020-01-22 15:12:13,0.8901046427938987,0.8671,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(25)
+    
+    
+"
+11,12,2020-01-22 15:12:32,0.8915233509805122,0.8744,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(32)
+    
+    
+"
+12,13,2020-01-22 15:12:44,0.8916553970139157,0.8787,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(30)
+    
+    
+"
+13,14,2020-01-22 15:12:57,0.8688401189099795,0.9058,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.fill(""green"")
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(30)
+    
+    
+"
+14,15,2020-01-22 15:14:03,0.9206775424948702,0.8965,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.color(""blue"")
+begin
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(30)
+    
+    
+"
+15,16,2020-01-22 15:14:13,0.8522193501591668,0.8578,NameError: name 'begin_fill' is not defined on line 6,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.color(""blue"")
+begin_fill()
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(30)
+    
+    
+"
+16,17,2020-01-22 15:15:54,1.0,0.9078,success,"import turtle
+wn = turtle.Screen()
+bob = turtle.Turtle() 
+bob.shape(""turtle"")
+bob.color(""blue"")
+bob.stamp()
+bob.penup()
+for i in range(0,12):
+    bob.forward(50)
+    bob.pendown()
+    bob.forward(10)
+    bob.penup()
+    bob.forward(10)
+    bob.stamp()
+    bob.backward(70)
+    bob.right(30)
+    
+    
+"

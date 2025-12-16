@@ -1,0 +1,139 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 18:54:40,0.3831637966080471,0.5924,SyntaxError: bad token on line 4,"# Write your program here
+r = input(""What is the radius?"")
+pi = 3.14159
+print (""The perimeter of this circle is "" + 2*r*pi"")"
+2,3,2019-09-03 19:05:53,0.38215349625070727,0.6136,SyntaxError: bad token on line 4,"# Write your program here
+r = input(""What is the radius?"")
+p = 3.14159
+print (""The perimeter of this circle is "" + 2*r*p"")"
+3,4,2019-09-03 19:11:52,0.5216864850956451,0.6376,SyntaxError: bad input on line 5,"# Write your program here
+r = input(""What is the radius?"")
+pi = 3.14
+perimeter = 2 * float(r) * pi
+print (""The perimeter of this circle with a radius of "" + r + is + perimeter"")"
+4,5,2019-09-03 19:12:51,0.5455473310200256,0.6461,SyntaxError: bad token on line 5,"# Write your program here
+r = input(""What is the radius?"")
+pi = 3.14
+perimeter = 2 * float(r) * pi
+print (""The perimeter of this circle with a radius of "" + r +  "" is "" + perimeter"")"
+5,6,2019-09-03 19:13:18,0.5365998219325181,0.6618,TypeError: cannot concatenate 'str' and 'float' objects on line 5,"# Write your program here
+r = input(""What is the radius?"")
+pi = 3.14
+perimeter = 2 * float(r) * pi
+print (""The perimeter of this circle with a radius of "" + r +  "" is "" + perimeter)"
+6,7,2019-09-03 19:25:37,0.6119203736163457,0.6807,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * float(r) * pi
+print (""The perimeter of this circle with a radius of "" + r +  "" is "" + perimeter)"
+7,8,2019-09-03 19:25:59,0.6116925940442399,0.6755,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * float(r) * pi
+print (""The perimeter of this circle with a radius of "" + radius +  "" is "" + perimeter)"
+8,9,2019-09-03 19:26:30,0.6128621945206107,0.6602,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = float(2*radius*pi)
+print (""The perimeter of this circle with a radius of "" + radius +  "" is "" + perimeter)"
+9,10,2019-09-03 21:13:42,0.574494445019482,0.6147,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + radius +  "" is "" + perimeter)"
+10,11,2019-09-03 21:14:03,0.5752058936770255,0.6196,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + r +  "" is "" + perimeter)"
+11,12,2019-09-03 21:51:19,0.47860416133359096,0.5544,success,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "")"
+12,13,2019-09-03 21:51:39,0.5063731640329698,0.5687,success,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + r)"
+13,14,2019-09-03 21:52:41,0.5369675190450149,0.6087,SyntaxError: bad input on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + r ""is "")"
+14,15,2019-09-03 21:52:52,0.5473478725005245,0.6123,success,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + r + ""is "")"
+15,16,2019-09-03 21:53:00,0.5499057729643104,0.6188,success,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + r + "" is "")"
+16,17,2019-09-03 21:53:40,0.5752058936770255,0.6196,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = 2 * radius * pi
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)"
+17,18,2019-09-03 21:54:00,0.6133472581429209,0.6635,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = float (2 * radius * pi)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)"
+18,19,2019-09-03 21:56:16,0.6012113739051215,0.6378,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = (2 * radius * pi)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)"
+19,20,2019-09-03 22:32:59,0.6334565472362754,0.6648,TypeError: cannot concatenate 'str' and 'float' objects on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = (2 * radius * pi)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + type(perimeter))"
+20,21,2019-09-04 01:26:29,0.6126164043226241,0.6472,success,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = str(2 * radius * pi)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)"
+21,22,2019-09-04 01:28:09,0.9897454952643528,0.8928,TypeError: unsupported operand type(s) for Pow: 'str' and 'int' on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = str (2 * radius * pi)
+area = str (pi * r ** 2)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)
+print (""The area of this circle with a radius of "" + r + "" is "" + area)"
+22,23,2019-09-04 01:28:45,0.9837785160000884,0.8897,TypeError: can't multiply sequence by non-int of type 'float' on line 6,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = str (2 * radius * pi)
+area = str (pi * r^2)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)
+print (""The area of this circle with a radius of "" + r + "" is "" + area)"
+23,24,2019-09-04 01:29:16,1.0,0.8928,success,"# Write your program here
+r = input(""What is the radius?"")
+radius = float(r)
+pi = 3.14
+perimeter = str (2 * radius * pi)
+area = str (pi * radius ** 2)
+print (""The perimeter of this circle with a radius of "" + r + "" is "" + perimeter)
+print (""The area of this circle with a radius of "" + r + "" is "" + area)"

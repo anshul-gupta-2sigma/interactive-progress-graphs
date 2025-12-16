@@ -1,0 +1,688 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0492,, 
+1,2,2020-09-22 01:09:17,0.4324665278091455,0.5776,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex. forward (30)
+
+
+wn.exitonclick()
+"
+2,3,2020-09-22 01:14:35,0.4263847913661567,0.5655,TypeError: forward() missing 1 required argument: distance on line 9,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex. forward ()
+
+
+wn.exitonclick()
+"
+3,4,2020-09-22 01:15:34,0.6258652660831437,0.8448,TypeError: forward() missing 1 required argument: distance on line 9,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex. forward ()
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(50)
+    alex.pendown()
+
+
+wn.exitonclick()
+"
+4,5,2020-09-22 01:15:46,0.5826631999205542,0.81,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(50)
+    alex.pendown()
+
+
+wn.exitonclick()
+"
+5,6,2020-09-22 01:16:05,0.6317530871087782,0.8536,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(50)
+    alex.pendown()
+    alex.forward (25)
+
+
+wn.exitonclick()
+"
+6,7,2020-09-22 01:17:08,0.9447441535275821,0.8977,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=30
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(50)
+    alex.pendown()
+    alex.forward (25)
+    alex.penup()
+    alex.forward(15) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+7,8,2020-09-22 01:17:58,0.9432371259036487,0.9032,TimeLimitError: Program exceeded run time limit. on line 20,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=25
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.penup()
+    alex.forward(25) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+8,9,2020-09-22 01:19:26,0.9420720745653923,0.9021,TimeLimitError: Program exceeded run time limit. on line 20,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=40
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.penup()
+    alex.forward(25) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+9,10,2020-09-22 01:20:13,0.9431220600683514,0.8987,TimeLimitError: Program exceeded run time limit. on line 20,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=30
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.penup()
+    alex.forward(25) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+10,11,2020-09-22 01:20:29,0.9541323029955134,0.918,SyntaxError: bad input on line 11,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=30
+
+ sys.setExecutionLimit(msecs)
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.penup()
+    alex.forward(25) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+11,12,2020-09-22 01:21:53,0.6558566364452583,0.8431,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=30
+
+
+for i in range (24): 
+    alex.penup()
+    alex.forward(50)
+    alex.pendown()
+    alex.forward(50)
+ 
+
+
+wn.exitonclick()
+"
+12,13,2020-09-23 20:33:36,0.6562251842768807,0.8481,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=30
+
+
+for i in range (13): 
+    alex.penup()
+    alex.forward(50)
+    alex.pendown()
+    alex.forward(50)
+ 
+
+wn.exitonclick()
+"
+13,14,2020-09-23 20:34:34,0.6316416748721498,0.8421,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+
+for i in range (24): 
+    alex.penup()
+    alex.forward(50)
+    alex.pendown()
+    alex.forward(50)
+ 
+
+wn.exitonclick()
+"
+14,15,2020-09-23 20:36:07,0.8425506599293822,0.8604,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+move=30
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (75)
+    alex.penup()
+    alex.forward(75) 
+    alex.stamp() 
+    alex.home() 
+   
+
+
+wn.exitonclick()
+"
+15,16,2020-09-23 20:37:35,0.8171020136774589,0.8898,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.penup()
+    alex.forward(25) 
+    alex.stamp() 
+    alex.home() 
+   
+
+
+wn.exitonclick()
+"
+16,17,2020-09-23 20:40:36,0.6835572593758764,0.8684,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward ()
+    alex.right (1/8)
+   
+
+
+wn.exitonclick()
+"
+17,18,2020-09-23 20:40:45,0.6895878076079431,0.8761,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (10)
+    alex.right (1/8)
+   
+
+
+wn.exitonclick()
+"
+18,19,2020-09-23 20:40:53,0.6894832415478004,0.8796,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (20)
+    alex.right (1/8)
+   
+
+
+wn.exitonclick()
+"
+19,20,2020-09-23 20:41:35,0.6831215341104644,0.8793,TypeError: forward() missing 1 required argument: distance on line 15,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward ()
+    alex.right (360/8)
+   
+
+
+wn.exitonclick()
+"
+20,21,2020-09-23 20:41:47,0.6891770887999493,0.89,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (20)
+    alex.right (360/8)
+   
+
+
+wn.exitonclick()
+"
+21,22,2020-09-23 20:42:16,0.7352831082223086,0.8942,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (20)
+    alex.stamp()
+    alex.right (360/8)
+   
+
+
+wn.exitonclick()
+"
+22,23,2020-09-23 20:42:36,0.7355462903305228,0.8986,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.right (360/8)
+   
+
+
+wn.exitonclick()
+"
+23,24,2020-09-23 20:42:46,0.7851561656995479,0.9005,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.ri (360/8)
+    alex.stamp()
+   
+
+
+wn.exitonclick()
+"
+24,25,2020-09-23 20:43:04,0.7800952122621858,0.8954,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.left (360/8)
+    alex.stamp()
+   
+
+
+wn.exitonclick()
+"
+25,26,2020-09-23 20:43:54,0.8316299007457764,0.9038,TimeLimitError: Program exceeded run time limit. on line 18,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.degrees (360/8)
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.left (360/8)
+    alex.stamp()
+   
+
+
+wn.exitonclick()
+"
+26,27,2020-09-23 20:45:42,0.8309733295272664,0.9031,AttributeError: 'Turtle' object has no attribute 'tilt' on line 18,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.degrees (360/8)
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.tilt (360/8)
+    alex.stamp()
+   
+
+
+wn.exitonclick()
+"
+27,28,2020-09-23 20:45:54,0.8326528802247656,0.8961,AttributeError: 'Turtle' object has no attribute 'tilt' on line 9,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.tilt (360/8)
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.tilt (360/8)
+    alex.stamp()
+   
+
+
+wn.exitonclick()
+"
+28,29,2020-09-23 20:46:02,0.8195010115956328,0.8971,AttributeError: 'Turtle' object has no attribute 'tilt' on line 9,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.tilt ()
+
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (35)
+    alex.stamp()
+    alex.tilt (360/8)
+    alex.stamp()
+   
+
+
+wn.exitonclick()
+"
+29,30,2020-09-23 20:49:35,0.9924813521200704,0.9076,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.speed(25)
+move=30
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(50)
+    alex.pendown()
+    alex.forward (25)
+    alex.penup()
+    alex.forward(15) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+30,31,2020-09-23 20:50:04,0.9903327974829074,0.9095,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.speed(25)
+move=30
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(75)
+    alex.pendown()
+    alex.forward (25)
+    alex.penup()
+    alex.forward(15) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"
+31,32,2020-09-23 20:50:15,1.0,0.9018,success,"import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+wn.bgcolor (""black"") 
+alex.color (""hot pink"")
+alex.shape (""turtle"")
+alex.stamp()
+alex.speed(25)
+move=30
+
+for i in range (12): 
+    alex.penup() 
+    alex.forward(100)
+    alex.pendown()
+    alex.forward (25)
+    alex.penup()
+    alex.forward(15) 
+    alex.stamp() 
+    alex.home() 
+    alex.right(move) 
+    move=move+30
+
+
+wn.exitonclick()
+"

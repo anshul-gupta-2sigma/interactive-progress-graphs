@@ -1,0 +1,747 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2020-03-24 21:04:31,0.5478014046112649,0.6182,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    # your code here
+    while n :
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+2,3,2020-03-25 09:47:08,0.5478014046112649,0.6182,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    while n :
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+3,4,2020-03-25 09:51:11,0.49197943662860244,0.6162,SyntaxError: bad input on line 7,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    a=int(a)
+    while n== 2a+1 or n=2a-1:
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+4,5,2020-03-25 09:51:26,0.4899979641337773,0.6158,SyntaxError: bad input on line 7,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    a=int(a)
+    while n== 2a+1 or n==2a-1:
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+5,6,2020-03-25 09:51:33,0.49763846304025594,0.6151,SyntaxError: bad input on line 7,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    a=int(a)
+    while n=2a+1 or n=2a-1:
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+6,7,2020-03-25 09:51:41,0.49685489064046684,0.6203,SyntaxError: bad input on line 7,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    a=int(a)
+    while n=2*a+1 or n=2*a-1:
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+7,8,2020-03-25 09:52:10,0.4923222840426543,0.6193,SyntaxError: bad input on line 7,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    a=int(a)
+    while n=int(2*a+1) or n=int(2*a-1):
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+8,9,2020-03-25 09:52:35,0.5504454764931271,0.6251,SyntaxError: bad input on line 7,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    
+    while n=int(n):
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+9,10,2020-03-25 09:52:51,0.5497804230618097,0.6224,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    
+    while n:
+        
+        number=float(input('print a triangular number:' ))
+        n=n+number
+        
+        print(number)
+    return n
+"
+10,11,2020-03-25 09:53:29,0.5345433789331846,0.6136,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    while n:
+        
+        
+        n=n+number
+        
+        print(number)
+    return n
+"
+11,12,2020-03-25 09:53:55,0.5328559238762897,0.6158,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    while n:
+        
+        n=n+number
+        
+        print(number)
+   
+"
+12,13,2020-03-25 09:54:00,0.5355040817780168,0.6164,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    while n:
+        
+        n=n+number
+        
+    print(number)
+   
+"
+13,14,2020-03-25 09:54:11,0.5302447620210615,0.6184,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    while n>0:
+        
+        n=n+number
+        
+    print(number)
+   
+"
+14,15,2020-03-25 09:55:02,0.5125232459155199,0.6049,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    number= True
+    while n:
+        
+        n=n+number
+        number=False
+    print(number)
+   
+"
+15,16,2020-03-25 09:55:24,0.5277892773059102,0.6153,NameError: name 'n' is not defined on line 13,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    number= True
+    while n:
+        
+        n=n+number
+        number=False
+    print(number)
+print(print_triangular_numbers(n))   
+"
+16,17,2020-03-25 09:55:37,0.5199489217451678,0.6089,NameError: name 'n' is not defined on line 13,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=float(input('print a triangular number:' ))
+    number= True
+    while n:
+        
+        n=n+number
+        number=False
+    print(number)
+print(n)   
+"
+17,18,2020-03-25 09:56:07,0.49417905759032643,0.5971,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    n=input('print a triangular number:' )
+    number=float(n)
+    number= True
+    while n:
+        
+        n=n+number
+        number=False
+    print(number)
+  
+"
+18,19,2020-03-25 09:59:25,0.49248504905845025,0.6011,SyntaxError: bad input on line 10,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    n=input('print a triangular number:' )
+    number=float(n)
+    number= True
+    while n:
+        if n=int(n):
+            n=n+number
+        else:
+            number=False
+        
+    print(number)
+  
+"
+19,20,2020-03-25 09:59:58,0.488425085747469,0.5974,SyntaxError: bad input on line 10,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    n=input('print a triangular number:' )
+    number=float(n)
+    number= True
+    while n:
+        if n=int(n):
+            n=n+number
+        else:
+            number=False
+    return n
+        
+    print(number)
+  
+"
+20,21,2020-03-25 10:00:15,0.5003545529161451,0.5998,SyntaxError: bad input on line 10,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    n=input('print a triangular number:' )
+    number=float(n)
+   
+    while n:
+        if n=int(n):
+            n=n+number
+        else:
+            number=False
+    return n
+        
+    print(number)
+  
+"
+21,22,2020-03-25 10:00:37,0.49941840873746457,0.5992,SyntaxError: bad input on line 10,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    n=input('print a triangular number:' )
+    number=float(n)
+   
+    while n:
+        if n=int(n):
+            n=n+number
+        else:
+            n=False
+    return n
+        
+    print(number)
+  
+"
+22,23,2020-03-25 10:05:25,0.5160874880645471,0.6181,SyntaxError: bad input on line 10,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    n=input('print a triangular number:' )
+    number=float(n)
+   
+    while i in range (1,n):
+        if n=int(n):
+            n=n+number
+        else:
+            n=True
+    return n
+        
+    print(number)
+  
+"
+23,24,2020-03-25 10:07:47,0.5410549369582802,0.6368,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+   
+    while i in range (1,n):
+        i=i+n
+        print(n,i)
+        
+    return n
+        
+    print(n)
+  
+"
+24,25,2020-03-25 10:13:41,0.5378058835935792,0.6338,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while i !=n :
+            print(i)
+            i=i+1
+            count=i+count
+            print(count)
+    return i
+        
+    print(n)
+  
+"
+25,26,2020-03-25 10:15:03,0.49239587541796825,0.6087,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while i !=n :
+            print(i)
+            i=i+1
+            count=i+count
+            print(count)
+    return False
+        
+    print(n)
+  
+"
+26,27,2020-03-25 10:20:13,0.5318907556285131,0.6307,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                count=i+count
+                print(count)
+            else:
+                i=False
+    return i
+        
+    print(n)
+  
+"
+27,28,2020-03-25 10:20:27,0.5334219548301025,0.6297,NameError: name 'n' is not defined on line 20,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                count=i+count
+                print(count)
+            else:
+                i=False
+    return i
+        
+print(n)
+  
+"
+28,29,2020-03-25 10:20:35,0.5263984740972958,0.6426,NameError: name 'i' is not defined on line 20,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                count=i+count
+                print(count)
+            else:
+                i=False
+    return i
+        
+print(i)
+  
+"
+29,30,2020-03-25 10:20:45,0.5356045514391299,0.6318,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                count=i+count
+                print(count)
+            else:
+                i=False
+    return i
+        
+
+  
+"
+30,31,2020-03-25 10:21:28,0.5561304316830378,0.6392,NameError: name 'n' is not defined on line 20,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                count=i+count
+                print(count)
+            else:
+                i=False
+    return i
+        
+print(print_triangular_numbers(n))
+  
+"
+31,32,2020-03-25 10:21:34,0.5391427364470158,0.6122,TypeError: stop must be a integer on line 9,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                count=i+count
+                print(count)
+            else:
+                i=False
+    return i
+        
+print(print_triangular_numbers(3))
+  
+"
+32,33,2020-03-25 10:22:18,0.5286586101729862,0.607,UnboundLocalError: local variable 'count' referenced before assignment on line 14,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    
+    while  i:
+        if i !=n:
+            print(i)
+            i=i+1
+            count=i+count
+            print(count)
+        else:
+            i=False
+    return i
+        
+print(print_triangular_numbers(3))
+  
+"
+33,34,2020-03-25 10:23:07,0.5211880413563661,0.6061,UnboundLocalError: local variable 'count' referenced before assignment on line 14,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    i=float(number)
+    i=True
+    
+    while  i:
+        if i !=n:
+            print(i)
+            i=i+1
+            count=i+count
+            print(count)
+        else:
+            i=False
+    return i
+        
+print(print_triangular_numbers(3))
+  
+"
+34,35,2020-03-25 10:25:09,0.4396865767201047,0.6138,UnboundLocalError: local variable 'n' referenced before assignment on line 9,"
+
+
+def print_triangular_numbers(i):
+    # your code here
+    number=input('print a triangular number:' )
+    i=float(number)
+    i=True
+    n=int(n)
+    while  i:
+        if i !=n:
+            print(i)
+            i=i+1
+            n=i+n
+            print(n)
+        else:
+            i=False
+    return i
+        
+print(print_triangular_numbers(3))
+  
+"
+35,36,2020-03-25 10:25:58,0.43590149210539597,0.6193,UnboundLocalError: local variable 'n' referenced before assignment on line 9,"
+
+
+def print_triangular_numbers(i):
+    # your code here
+    number=input('print a triangular number:' )
+    i=float(number)
+    i=True
+    for n in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                n=i+n
+                print(n)
+            else:
+                i=False
+    return i
+        
+print(print_triangular_numbers(3))
+  
+"
+36,37,2020-03-25 10:28:33,0.5432956546992619,0.618,TypeError: stop must be a integer on line 9,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                n=i+n
+                print(n)
+            else:
+                i=False
+    return i
+        
+print(print_triangular_numbers(3))
+  
+"
+37,38,2020-03-25 10:28:49,0.5606283391973403,0.6433,NameError: name 'n' is not defined on line 20,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                n=i+n
+                print(n)
+            else:
+                i=False
+    return i
+        
+print(print_triangular_numbers(n))
+  
+"
+38,39,2020-03-25 10:29:02,0.5427269471189953,0.6378,NameError: name 'number' is not defined on line 20,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                n=i+n
+                print(n)
+            else:
+                i=False
+    return i
+        
+print(print_triangular_numbers(number))
+  
+"
+39,40,2020-03-25 10:29:19,0.5518775246845927,0.6423,success,"
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                n=i+n
+                print(n)
+            else:
+                i=False
+    return i
+        
+    print(print_triangular_numbers(n))
+  
+"
+40,41,2020-03-27 01:36:32,0.7301558708988145,0.6816,success,"def print_triangular_numbers(n):
+    
+    sum = 0 #new variable to keep the current
+    
+    for i in range(1,n+1): 
+                sum=i+sum #use variable 'sum' instead of the parameter 'n'
+                print(i, '	', sum) #print both i and n
+            
+ 
+# must not be indented - it is the main program
+
+print_triangular_numbers(5) #n=5 is the example given in the textbook
+
+
+def print_triangular_numbers(n):
+    # your code here
+    number=input('print a triangular number:' )
+    n=float(number)
+    i=True
+    for i in range(1,n):
+        while  i:
+            if i !=n:
+                print(i)
+                i=i+1
+                n=i+n
+                print(n)
+            else:
+                i=False
+    return i
+        
+    print(print_triangular_numbers(n))
+  
+"
+41,42,2020-03-27 01:39:57,1.0,0.9313,success,"def print_triangular_numbers(n):
+    
+    sum = 0 #new variable to keep the current
+    
+    for i in range(1,n+1): 
+                sum=i+sum #use variable 'sum' instead of the parameter 'n'
+                print(i, '	', sum) #print both i and n
+            
+ 
+# must not be indented - it is the main program
+
+print_triangular_numbers(5) #n=5 is the example given in the textbook
+
+
+"

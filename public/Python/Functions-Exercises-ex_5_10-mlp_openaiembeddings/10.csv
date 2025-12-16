@@ -1,0 +1,106 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-03-16 00:53:16,0.848594148979573,0.6666,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+drawFivePointStar(star)
+star.color(""pink"")
+
+"
+2,3,2020-03-18 01:55:37,0.8554565298037811,0.6921,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+star.color(""pink"")
+
+
+drawFivePointStar(star)
+
+"
+3,4,2020-03-18 01:56:17,0.8582783016520905,0.6406,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+star.color(""ma"")
+
+
+drawFivePointStar(star)
+
+"
+4,5,2020-03-18 01:56:24,0.8515534597132179,0.6903,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+star.color(""magenta"")
+
+
+drawFivePointStar(star)
+
+"
+5,6,2020-03-18 01:57:56,0.9693316123405308,0.8106,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+star.color(""hotpink"")
+
+
+drawFivePointStar(star)
+
+"
+6,7,2020-03-18 01:58:28,0.9961312526923964,0.8058,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+star.color(""hotpink"")
+star.pensize(4)
+
+
+drawFivePointStar(star)
+
+"
+7,8,2020-03-18 01:58:45,0.9999999688687862,0.8088,success,"import turtle
+
+def drawFivePointStar(t):
+    for i in range(5):
+        t.forward(100)
+        t.left(216)
+
+star = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+star.color(""hotpink"")
+star.pensize(3)
+
+
+drawFivePointStar(star)
+
+"

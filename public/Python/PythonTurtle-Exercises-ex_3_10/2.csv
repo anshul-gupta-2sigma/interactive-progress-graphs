@@ -1,0 +1,152 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-07-18 20:34:42,0.6961851119995117,0.7218,AttributeError: 'Screen' object has no attribute 'onexitclick' on line 18,"
+import turtle            
+wn = turtle.Screen()
+
+clock = turtle.Turtle()
+
+for size in range(12):
+    clock.forward(30)
+    clock.pendown()
+    clock.forward(5)
+    clock.penup()
+    clock.forward(5)
+    clock.shape(""turtle"")
+    clock.stamp()
+    clock.forward(-40)
+    clock.left(30)
+    
+wn.onexitclick()
+"
+2,3,2020-07-18 20:38:39,0.6989428400993347,0.7407,AttributeError: 'Screen' object has no attribute 'onexitclick' on line 18,"
+import turtle            
+wn = turtle.Screen()
+
+clock = turtle.Turtle()
+
+for size in range(12):
+    clock.forward(50)
+    clock.pendown()
+    clock.forward(10)
+    clock.penup()
+    clock.forward(10)
+    clock.shape(""turtle"")
+    clock.stamp()
+    clock.forward(-70)
+    clock.left(30)
+    
+wn.onexitclick()
+"
+3,4,2020-07-18 20:39:08,0.701836109161377,0.7524,AttributeError: 'Screen' object has no attribute 'onexitclick' on line 19,"
+import turtle            
+wn = turtle.Screen()
+
+clock = turtle.Turtle()
+
+for size in range(12):
+    clock.penup()
+    clock.forward(50)
+    clock.pendown()
+    clock.forward(10)
+    clock.penup()
+    clock.forward(10)
+    clock.shape(""turtle"")
+    clock.stamp()
+    clock.forward(-70)
+    clock.left(30)
+    
+wn.onexitclick()
+"
+4,5,2020-07-18 20:40:07,0.8625478744506836,0.7654,AttributeError: 'Screen' object has no attribute 'onexitclick' on line 22,"
+import turtle            
+wn = turtle.Screen()
+
+wn.bgcolor(""lightgreen"")
+
+clock = turtle.Turtle()
+clock.color(""blue"")
+
+for size in range(12):
+    clock.penup()
+    clock.forward(50)
+    clock.pendown()
+    clock.forward(10)
+    clock.penup()
+    clock.forward(10)
+    clock.shape(""turtle"")
+    clock.stamp()
+    clock.forward(-70)
+    clock.left(30)
+    
+wn.onexitclick()
+"
+5,6,2020-07-18 20:41:06,0.9092720150947571,0.7753,AttributeError: 'Screen' object has no attribute 'onexitclick' on line 22,"
+import turtle            
+wn = turtle.Screen()
+
+wn.bgcolor(""lightgreen"")
+
+clock = turtle.Turtle()
+clock.color(""blue"")
+clock.shape(""turtle"")
+
+for size in range(12):
+    clock.penup()
+    clock.forward(0)
+    clock.pendown()
+    clock.forward(10)
+    clock.penup()
+    clock.forward(20)
+    clock.stamp()
+    clock.forward(-110)
+    clock.left(30)
+    
+wn.onexitclick()
+"
+6,7,2020-07-18 20:41:40,0.9155125021934509,0.7758,AttributeError: 'Screen' object has no attribute 'onexitclick' on line 22,"
+import turtle            
+wn = turtle.Screen()
+
+wn.bgcolor(""lightgreen"")
+
+clock = turtle.Turtle()
+clock.color(""blue"")
+clock.shape(""turtle"")
+
+for size in range(12):
+    clock.penup()
+    clock.forward(70)
+    clock.pendown()
+    clock.forward(10)
+    clock.penup()
+    clock.forward(20)
+    clock.stamp()
+    clock.forward(-100)
+    clock.left(30)
+    
+wn.onexitclick()
+"
+7,8,2020-07-18 20:42:04,1.0,0.785,success,"
+import turtle            
+wn = turtle.Screen()
+
+wn.bgcolor(""lightgreen"")
+
+clock = turtle.Turtle()
+clock.color(""blue"")
+clock.shape(""turtle"")
+
+for size in range(12):
+    clock.penup()
+    clock.forward(70)
+    clock.pendown()
+    clock.forward(10)
+    clock.penup()
+    clock.forward(20)
+    clock.stamp()
+    clock.forward(-100)
+    clock.left(30)
+    
+wn.exitonclick()
+"

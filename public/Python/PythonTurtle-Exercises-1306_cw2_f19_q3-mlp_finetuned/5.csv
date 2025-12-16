@@ -1,0 +1,82 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1162,, 
+1,2,2019-09-12 15:47:05,0.9764289298068223,0.8676,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + 1 )
+average= (total/N)
+print(average)
+"
+2,3,2019-09-12 17:39:05,0.9234629754695132,0.8719,NameError: name 'n' is not defined on line 5,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + (n-1) )
+average= (total/N)
+print(average)
+"
+3,4,2019-09-12 17:42:41,0.9227241383394208,0.8601,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + (N -1) )
+average= (total/N)
+print(average)
+"
+4,5,2019-09-12 17:42:57,0.9536540354879766,0.8493,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + N -1 )
+average= (total/N)
+print(average)
+"
+5,6,2019-09-12 17:43:48,0.8867139549421923,0.8589,ValueError: invalid literal for int() with base 10: 'None' on line 1,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + N -1 )
+average= (total/(N-1))
+print(average)
+"
+6,7,2019-09-12 17:46:05,0.9227241383394208,0.8601,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + (N -1) )
+average= (total/ N)
+print(average)
+"
+7,8,2019-09-12 17:49:20,0.9244624591245814,0.8817,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + (i -1) )
+average= (total/ N)
+print(average)
+"
+8,9,2019-09-12 17:50:15,0.9999998969116308,0.865,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + i  )
+average= (total/ N)
+print(average)
+"
+9,10,2019-09-19 04:04:57,0.9764289298071605,0.8676,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + 1)
+average= (total/ N)
+print(average)
+"
+10,11,2019-09-24 12:52:13,1.0,0.865,success,"N=int(input(""N""))
+Start= int(input(""What is the first number in the series""))
+total=(0)
+for i in range (N):
+    total=( total + Start + i)
+average= (total/ N)
+print(average)
+"

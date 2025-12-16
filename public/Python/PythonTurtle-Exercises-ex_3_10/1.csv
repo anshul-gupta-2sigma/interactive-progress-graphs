@@ -1,0 +1,142 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-07-22 04:03:24,0.7578826546669006,0.7566,SyntaxError: bad input on line 10,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.schape(""turtle"")
+gino.color(""blue"")
+gino.up()
+
+for i in range(12)
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+"
+2,3,2020-07-22 04:07:05,0.7817223072052002,0.8257,AttributeError: 'Turtle' object has no attribute 'schape' on line 6,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.schape(""turtle"")
+gino.color(""blue"")
+gino.up()
+
+for i in range(12) :
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+"
+3,4,2020-07-22 04:07:29,0.7866822481155396,0.8408,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.shape(""turtle"")
+gino.color(""blue"")
+gino.up()
+
+for i in range(12) :
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+"
+4,5,2020-07-22 04:07:42,0.7994236946105957,0.8417,AttributeError: 'Turtle' object has no attribute 'size' on line 8,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.shape(""turtle"")
+gino.color(""blue"")
+gino.size(5)
+gino.up()
+
+for i in range(12) :
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+"
+5,6,2020-07-22 04:08:00,0.8137460947036743,0.8391,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.shape(""turtle"")
+gino.color(""blue"")
+gino.pensize(3)
+gino.up()
+
+for i in range(12) :
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+"
+6,7,2020-07-22 04:08:17,0.8545172214508057,0.8438,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.shape(""turtle"")
+gino.color(""blue"")
+gino.pensize(3)
+gino.up()
+
+for i in range(12) :
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+
+wn/exitonclick()"
+7,8,2020-07-22 04:08:34,0.9999999403953552,0.8489,success,"import turtle
+
+wn = turtle.Screen()
+wn.bgcolor(""lightgreen"")
+gino = turtle.Turtle()
+gino.shape(""turtle"")
+gino.color(""blue"")
+gino.pensize(3)
+gino.speed(15)
+gino.up()
+
+for i in range(12) :
+    gino.forward(100)
+    gino.down()
+    gino.forward(10)
+    gino.up()
+    gino.forward(20)
+    gino.stamp()
+    gino.backward(130)
+    gino.left(30)
+
+wn.exitonclick()"

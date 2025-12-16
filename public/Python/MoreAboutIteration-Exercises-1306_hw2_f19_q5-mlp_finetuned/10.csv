@@ -1,0 +1,1616 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-14 20:05:34,0.07074744815003176,0.1214,SyntaxError: bad input on line 3,"def caculateSum(beg, end):
+    "
+2,3,2019-10-14 20:23:07,0.522874472112475,0.5353,SyntaxError: bad input on line 12,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    for calcTotal in range(beg, sum + 1):
+        x = beg + random.randint(beg,end)
+        sum = x
+        print(sum)
+        
+        
+beg = int(input(""Enter First number."")
+end = int(input(""Enter Second number."")"
+3,4,2019-10-14 20:23:19,0.5474875452800121,0.5603,success,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    for calcTotal in range(beg, sum + 1):
+        x = beg + random.randint(beg,end)
+        sum = x
+        print(sum)
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+4,5,2019-10-14 20:28:51,0.5249174151640525,0.5827,success,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+    #for calcTotal in range(beg, sum + 1):
+        x = random.randint(beg,end)
+    
+    print(x)
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+5,6,2019-10-14 20:29:35,0.5249127254827666,0.586,success,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+    #for calcTotal in range(beg, sum + 1):
+        x = random.randint(beg,end)
+    
+    print(calculateSum)
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+6,7,2019-10-14 20:30:09,0.5499663888401909,0.6038,success,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+    #for calcTotal in range(beg, sum + 1):
+        x = random.randint(beg,end)
+    
+    print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+7,8,2019-10-14 20:31:49,0.5820936511612625,0.6187,SyntaxError: bad input on line 7,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+        while firstNum <= secondNum:
+        #for calcTotal in range(beg, sum + 1):
+            x = random.randint(beg,end)
+            print(x)
+
+        print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+8,9,2019-10-14 20:32:02,0.5233968713594866,0.5803,SyntaxError: bad input on line 7,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+        while firstNum <= secondNum:
+        #for calcTotal in range(beg, sum + 1):
+            x = random.randint(beg,end)
+            print(x)
+
+        #print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+9,10,2019-10-14 20:38:34,0.599806861950589,0.6147,SyntaxError: bad input on line 7,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+        while firstNum <= secondNum:
+            for calcTotal in range(beg, END):
+                x = random.randint(beg,end)
+                print(x)
+
+        #print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+10,11,2019-10-14 20:39:13,0.6019126348177188,0.6092,SyntaxError: bad input on line 7,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+        while firstNum <= secondNum:
+            for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+        #print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+11,12,2019-10-14 20:39:18,0.5519757364661677,0.5798,SyntaxError: bad input on line 8,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+        #while firstNum <= secondNum:
+            for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+        #print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+12,13,2019-10-14 20:41:07,0.6019126348177188,0.6092,success,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+        #print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+13,14,2019-10-14 20:41:20,0.6581156472583023,0.676,success,"import random
+
+def caculateSum(sum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+        print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+14,15,2019-10-14 20:41:40,0.6643838534955546,0.6763,success,"import random
+
+def caculateSum(theSum):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+        print(calculateSum(end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+15,16,2019-10-14 20:45:45,0.6821563332513668,0.6447,success,"import random
+
+def caculateSum(first, second):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+        print(caculateSum(beg,end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+16,17,2019-10-14 20:46:04,0.6821563332513668,0.6447,success,"import random
+
+def caculateSum(first, second):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                print(x)
+
+    print(caculateSum(beg,end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+17,18,2019-10-14 20:46:32,0.6640995300075341,0.6287,success,"import random
+
+def caculateSum(first, second):
+    theSum = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum <= secondNum:
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                return x
+
+    print(caculateSum(beg,end))
+        
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+18,19,2019-10-16 15:12:07,0.715166694470234,0.6313,NameError: name 'beg' is not defined on line 21,"import random
+
+#def caculateSum(first, second):
+   # theSum = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum <= secondNum:
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #return x
+
+    #print(caculateSum(beg,end))
+def random_numbers():
+    """"""
+    Asking the user for a min and max, then printing ten random numbers between min and max.
+    """"""
+    print(""Give me two numbers, a min and a max"")
+    #a = int(input(""Select min. ""))
+    #b = int(input(""Select max. ""))
+
+    numbers = [random.randint(beg, end) for i in range(10)]
+    print(','.join(str(n) for n in numbers))
+
+random_numbers()
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+19,20,2019-10-16 19:26:39,0.715166694470234,0.6313,SyntaxError: bad input on line 21,"import random
+
+#def caculateSum(first, second):
+   # theSum = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum <= secondNum:
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #return x
+
+    #print(caculateSum(beg,end))
+def random_numbers():
+    """"""
+    Asking the user for a min and max, then printing ten random numbers between min and max.
+    """"""
+    print(""Give me two numbers, a min and a max"")
+    #a = int(input(""Select min. ""))
+    #b = int(input(""Select max. ""))
+
+        numbers = [random.randint(beg, end) for i in range(10)]
+    print(','.join(str(n) for n in numbers))
+
+random_numbers()
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+20,21,2019-10-16 19:27:12,0.6464850335877522,0.6444,SyntaxError: bad input on line 21,"import random
+
+#def caculateSum(first, second):
+   # theSum = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum <= secondNum:
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #return x
+
+    #print(caculateSum(beg,end))
+def random_numbers():
+    #""""""
+    #Asking the user for a min and max, then printing ten random numbers between min and max.
+    #""""""
+    print(""Give me two numbers, a min and a max"")
+    #a = int(input(""Select min. ""))
+    #b = int(input(""Select max. ""))
+
+        numbers = [random.randint(beg, end) for i in range(10)]
+    print(','.join(str(n) for n in numbers))
+
+random_numbers()
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+21,22,2019-10-16 19:59:58,0.7267441554480223,0.6761,success,"import random
+
+def caculateSum(first, second):
+    theSum = 0
+    run = 0
+    firstNum = beg
+    secondNum = end
+    while firstNum < secondNum:
+        run += 1
+        for calcTotal in range(beg, end):
+                x = random.randint(beg,end)
+                theSum += calcTotal
+                return x
+
+    print(caculateSum(beg,end))
+        
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))"
+22,23,2019-10-16 20:35:28,0.39451126941864767,0.4475,SyntaxError: bad input on line 8,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end)
+    print(caculateSum)
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+23,24,2019-10-16 20:35:37,0.4134829654047303,0.453,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+    print(caculateSum)
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+24,25,2019-10-16 20:35:56,0.42946414354577134,0.4691,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+    print(caculateSum())
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+25,26,2019-10-16 20:36:06,0.4516496399012293,0.4721,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+    print(caculateSum(beg,end))
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+26,27,2019-10-16 20:36:11,0.44028652897039156,0.4644,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+        print(caculateSum(beg,end))
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+27,28,2019-10-16 20:36:26,0.41872993169389794,0.4656,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+        print(caculateSum())
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+28,29,2019-10-16 20:37:26,0.4440059574474994,0.4636,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+        print(caculateSum())
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+29,30,2019-10-16 20:37:39,0.45153279500133314,0.4811,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+        print(caculateSum(100))
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+30,31,2019-10-16 20:37:53,0.461663617238947,0.4928,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum(sum):
+    sum = 0
+    for i in range(beg,end):
+        print(caculateSum(100,105))
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+31,32,2019-10-16 20:39:19,0.38553022082613986,0.4302,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum(sum):
+    sum = beg + end
+        print(caculateSum())
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+32,33,2019-10-16 20:39:35,0.4080641505834085,0.4405,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum(sum):
+    sum = beg + end
+        print(caculateSum(beg,end))
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+33,34,2019-10-16 20:57:05,0.40116882451843194,0.4482,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end
+        print(caculateSum(beg,end))
+        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+34,35,2019-10-16 21:01:02,0.3160578668378843,0.3942,ValueError: invalid literal for int() with base 10: 'None' on line 3,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+35,36,2019-10-16 21:01:14,0.33318446803614166,0.3993,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+print sum
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+36,37,2019-10-16 21:01:22,0.33318446803614166,0.3993,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+    print sum
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+37,38,2019-10-16 21:01:26,0.33318446803614166,0.3993,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+        print sum
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+38,39,2019-10-16 21:01:35,0.35053269614653393,0.4162,SyntaxError: bad input on line 9,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+        print(sum)
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+39,40,2019-10-16 21:01:43,0.35053269614653393,0.4162,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+print(sum)
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+40,41,2019-10-16 21:02:12,0.3621593116066292,0.4135,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+print(caculateSum)
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+41,42,2019-10-16 21:02:22,0.3785323809953802,0.4303,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+sum = 0
+def caculateSum():
+    sum = beg + end        
+print(caculateSum())
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+42,43,2019-10-16 21:02:34,0.35326649961594414,0.4199,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum():
+    sum = beg + end        
+print(caculateSum())
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+43,44,2019-10-16 21:02:49,0.32639052971753457,0.3956,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum():
+    sum = beg + end        
+print(sum)
+
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+44,45,2019-10-16 21:04:49,0.3085819351471899,0.3778,SyntaxError: 'return' outside function,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum():
+    sum = beg + end        
+return sum
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+45,46,2019-10-16 21:04:55,0.3085819351471899,0.3778,success,"import random
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+def caculateSum():
+    sum = beg + end        
+    return sum
+
+
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+46,47,2019-10-16 21:08:35,0.3114025701641251,0.3604,success,"import random
+
+def caculateSum():
+    sum = beg + end        
+    return sum
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+47,48,2019-10-16 21:08:55,0.31812336610972247,0.3551,SyntaxError: bad input on line 5,"import random
+
+def caculateSum(sum):
+    sum = beg + end        
+        return sum
+
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+48,49,2019-10-16 21:09:11,0.3365533288921696,0.3766,SyntaxError: bad input on line 5,"import random
+
+def caculateSum(sum):
+    sum = beg + end        
+        print(sum)
+beg = int(input(""Enter First number.""))
+end = int(input(""Enter Second number.""))
+
+
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+49,50,2019-10-16 21:19:14,0.41384642001906546,0.5225,SyntaxError: bad input on line 5,"import random
+
+data = range(numLow, numHigh)
+random.shuffle(data)
+print random.sample(range(numLow, numHigh), 3)
+
+numLow = int(input(""Low Number"")
+numHigh = int(input(""High Number"")         
+
+
+#iter = 0 
+#while iter < second:
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+50,51,2019-10-16 21:19:35,0.4131421544459193,0.5202,SyntaxError: bad input on line 4,"import random
+
+numLow = int(input(""Low Number"")
+numHigh = int(input(""High Number"")   
+              
+data = range(numLow, numHigh)
+random.shuffle(data)
+print random.sample(range(numLow, numHigh), 3)
+
+      
+
+
+#iter = 0 
+#while iter < second:
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+51,52,2019-10-16 21:19:53,0.43770291411419926,0.5488,SyntaxError: bad input on line 5,"import random
+
+data = range(numLow, numHigh)
+random.shuffle(data)
+print random.sample(range(numLow, numHigh), 3)
+
+numLow = int(input(""Low Number""))
+numHigh = int(input(""High Number""))         
+
+
+#iter = 0 
+#while iter < second:
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+52,53,2019-10-16 21:22:45,0.2844478537562499,0.4151,success,"import random
+
+mylist = []
+
+for i in range(0,100):
+    x = random.randint(1,10)
+    mylist.append(x)
+
+print(mylist)         
+
+
+#iter = 0 
+#while iter < second:
+
+#theSum = 0
+    #run = 0
+    #firstNum = beg
+    #secondNum = end
+    #while firstNum < secondNum:
+        #run += 1
+        #for calcTotal in range(beg, end):
+                #x = random.randint(beg,end)
+                #theSum += calcTotal
+                #return x
+"
+53,54,2019-10-17 16:39:36,0.7092076979863101,0.9164,TypeError: cannot concatenate 'str' and 'int' objects on line 11,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+
+sum = 0
+count = 0 
+nextNum = firstNum
+
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is:"" + nextNum)
+    
+    sum = sum + nextnum
+
+print(""Summation: "" + sum)
+
+"
+54,55,2019-10-17 16:47:43,0.7181013212000185,0.9275,NameError: name 'nextnum' is not defined on line 13,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+
+sum = 0
+count = 0 
+nextNum = firstNum
+
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "" , nextNum)
+    
+    sum = sum + nextnum
+
+print(""Summation: "" + sum)
+
+"
+55,56,2019-10-17 16:48:15,0.7181013212000185,0.9275,NameError: name 'nextnum' is not defined on line 12,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+
+sum = 0
+count = 0 
+nextNum = firstNum
+
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+
+print(""Summation: "" + sum)
+
+"
+56,57,2019-10-17 16:50:16,0.8633354968207013,0.9867,SyntaxError: bad input on line 7,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum
+
+sum = 0
+count = 0 
+nextNum = firstNum
+
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+
+print(""Summation: "" + sum)
+
+"
+57,58,2019-10-17 16:50:28,0.898904363701043,0.9923,NameError: name 'nextnum' is not defined on line 15,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+
+sum = 0
+count = 0 
+nextNum = firstNum
+
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+
+print(""Summation: "" + sum)
+
+"
+58,59,2019-10-17 16:50:49,0.898904363701043,0.9923,NameError: name 'nextnum' is not defined on line 12,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+print(""Summation: "" + sum)
+
+"
+59,60,2019-10-17 16:51:35,0.8724712274720572,0.9895,NameError: name 'nextnum' is not defined on line 11,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+print(""Summation: "" + sum)
+
+"
+60,61,2019-10-17 16:52:10,0.8778152887813933,0.9898,NameError: name 'nextnum' is not defined on line 11,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + firstNum
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+print(""Summation: "" + sum)
+
+"
+61,62,2019-10-18 00:10:25,0.7761828492121707,0.9976,SyntaxError: bad input on line 15,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    count += 1
+    nextNum = nextNum + firstNum
+
+    if nextNum < secNum:
+        print(""Number to sum is: "", nextNum)
+        firstNum += 2
+    else nextNum == secNum:
+        print(""Number to sum is: "" , nextNum)
+        sum = sum + nextnum
+print(""Summation: "" + sum)
+
+"
+62,63,2019-10-18 00:24:49,0.7900618911200157,0.9971,SyntaxError: bad input on line 15,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    count += 1
+    nextNum = nextNum + firstNum
+
+    if nextNum < secNum:
+        print(""Number to sum is: "", nextNum)
+        firstNum += 2
+    else nextNum = secNum:
+        print(""Number to sum is: "" , nextNum)
+        sum = sum + nextnum
+print(""Summation: "" + sum)
+
+"
+63,64,2019-10-18 00:25:45,0.7858634366588392,0.997,SyntaxError: bad input on line 15,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    count += 1
+    nextNum = nextNum + firstNum
+
+    if nextNum < secNum:
+        print(""Number to sum is: "", nextNum)
+        firstNum += 2
+        else nextNum = secNum:
+            print(""Number to sum is: "" , nextNum)
+            sum = sum + nextnum
+print(""Summation: "" + sum)
+
+"
+64,65,2019-10-18 00:30:14,0.6498794818246982,0.9955,SyntaxError: bad input on line 17,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    
+    nextNum = nextNum + firstNum
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+print(""Summation: "" + sum)
+
+
+    """"""if nextNum < secNum:
+        firstNum += 2
+    else nextNum = secNum:
+        print(""Number to sum is: "" , nextNum)""""""
+        
+
+
+"
+65,66,2019-10-18 00:30:27,0.9041603393676904,0.9924,NameError: name 'nextnum' is not defined on line 13,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    
+    nextNum = nextNum + firstNum
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+print(""Summation: "" + sum)
+
+
+    
+        
+
+
+"
+66,67,2019-10-18 00:31:02,0.9037727742531858,0.9926,SyntaxError: bad input on line 12,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + firstNum
+    count += 1
+print(""Number to sum is: "", nextNum)
+    sum = sum + nextnum
+print(""Summation: "" + sum)
+
+
+    
+        
+
+
+"
+67,68,2019-10-18 00:31:09,0.9037727742531858,0.9926,NameError: name 'nextnum' is not defined on line 12,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + firstNum
+    count += 1
+print(""Number to sum is: "", nextNum)
+sum = sum + nextnum
+print(""Summation: "" + sum)
+
+
+    
+        
+
+
+"
+68,69,2019-10-18 00:32:38,0.8962409490458763,0.9924,ValueError: invalid literal for int() with base 10: 'None' on line 1,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + 1
+    count += 1
+print(""Number to sum is: "", nextNum)
+sum = sum + nextnum
+print(""Summation: "" + sum)
+
+
+    
+        
+
+
+"
+69,70,2019-10-18 00:35:00,0.8984648453711099,0.9925,ValueError: invalid literal for int() with base 10: 'None' on line 1,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+
+sum = sum + nextnum
+print(""Summation: "" + sum)
+
+
+    
+        
+
+
+"
+70,71,2019-10-18 00:37:26,0.8489051940267088,0.9871,ValueError: invalid literal for int() with base 10: 'None' on line 1,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    print(""Summation: "" + sum)
+
+
+    
+        
+
+
+"
+71,72,2019-10-18 00:49:22,0.9003188908408095,0.9907,SyntaxError: bad input on line 14,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+
+sumAll = 0
+count = 0 
+while (nextNum < secNum):   
+    if nextNum <= secNum:
+        nextNum = firstNum
+        nextNum = nextNum + count
+        count += 1
+        print(""Number to sum is: "", nextNum)
+    else nextNum = secNum:
+        sumAll = nextNum
+        print(""Summation: "" + sumAll)
+
+
+    
+        
+
+
+"
+72,73,2019-10-18 00:53:59,0.9210681832616324,0.9934,success,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sum = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sum = sum + nextNum
+print(""Summation: "" + str(sum))
+
+
+    
+        
+
+
+"
+73,74,2019-10-18 00:56:59,0.9464282917411678,0.9943,NameError: name 'sumOfALl' is not defined on line 12,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sumOfAll = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sumOfAll = sumOfALl + nextNum
+print(""Summation: "" + str(sum))
+
+
+    
+        
+
+
+"
+74,75,2019-10-18 00:57:13,0.9749707879723295,0.9945,success,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sumOfAll = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sumOfAll = sumOfAll + nextNum
+print(""Summation: "" + str(sum))
+
+
+    
+        
+
+
+"
+75,76,2019-10-18 00:57:37,0.9783810775535315,0.994,SyntaxError: EOF in multi-line statement on line 21\n\n^\n,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sumOfAll = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sumOfAll = sumOfAll + nextNum
+print(""Summation: "" + str(sumOfAll)
+
+
+    
+        
+
+
+"
+76,77,2019-10-18 00:57:46,0.9999999472494461,0.9947,success,"firstNum = int(input(""Enter in First Number?""))
+secNum = int(input(""Enter in the Second Number""))
+print(""First Number: "", firstNum)
+print(""Second Number: "", secNum)
+sumOfAll = 0
+count = 0 
+nextNum = firstNum
+while (nextNum < secNum):
+    nextNum = nextNum + count
+    count += 1
+    print(""Number to sum is: "", nextNum)
+    sumOfAll = sumOfAll + nextNum
+print(""Summation: "" + str(sumOfAll))
+
+
+    
+        
+
+
+"

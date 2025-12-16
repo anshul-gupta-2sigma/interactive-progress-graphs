@@ -1,0 +1,252 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0,, 
+1,2,2020-07-18 00:36:23,0.299609899520874,0.4319,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+t.forward(100)"
+2,3,2020-07-18 00:45:09,0.31181609630584717,0.4468,NameError: name 'fillcolor' is not defined on line 4,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+wn=fillcolor(green)
+t=shape(""turtle"")
+t=fillcolor(""blue"")
+t.stamp"
+3,4,2020-07-18 00:46:07,0.2749139070510864,0.4419,NameError: name 'fillcolor' is not defined on line 4,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+wn=fillcolor(""green"")
+t=shape(""turtle"")
+t=fillcolor(""blue"")
+t.stamp"
+4,5,2020-07-18 00:46:27,0.3535764217376709,0.4571,NameError: name 'shape' is not defined on line 5,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t=shape(""turtle"")
+t=fillcolor(""blue"")
+t.stamp"
+5,6,2020-07-18 00:47:12,0.24812090396881104,0.4271,SyntaxError: bad input on line 4,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+wn: fillcolor.""green""
+t=shape.""turtle""
+t=fillcolor.""blue""
+t.stamp"
+6,7,2020-07-18 00:47:53,0.26735788583755493,0.4435,SyntaxError: bad input on line 4,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+wn: fillcolor.(""green"")
+t=shape.(""turtle"")
+t=fillcolor.(""blue"")
+t.stamp"
+7,8,2020-07-18 00:48:03,0.27892279624938965,0.4362,SyntaxError: bad input on line 5,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t=shape.(""turtle"")
+t=fillcolor.(""blue"")
+t.stamp"
+8,9,2020-07-18 00:48:56,0.4077141284942627,0.4694,SyntaxError: bad input on line 6,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.fillcolor.(""blue"")
+t.stamp"
+9,10,2020-07-18 00:49:03,0.4033650755882263,0.4598,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.fillcolor(""blue"")
+t.stamp"
+10,11,2020-07-18 00:49:54,0.5647512674331665,0.4693,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.fillcolor(""blue"")
+t.stamp
+t.penup()
+t.forward(50)
+r=50
+t.circle(r)"
+11,12,2020-07-18 00:50:15,0.5426597595214844,0.4495,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.fillcolor(""blue"")
+t.stamp
+t.penup()
+t.forward(50)
+t.stamp
+r=100
+t.circle(r)"
+12,13,2020-07-18 00:50:40,0.5556865930557251,0.4517,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.fillcolor(""blue"")
+t.stamp
+t.penup()
+t.pendown()
+t.forward(50)
+t.stamp
+r=100
+t.circle(r)"
+13,14,2020-07-18 00:53:25,0.5630311369895935,0.4505,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp
+t.penup()
+t.pendown()
+t.forward(50)
+t.stamp
+r=100
+t.circle(r)"
+14,15,2020-07-18 00:53:56,0.5756796598434448,0.4701,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.penup()
+t.pendown()
+t.forward(50)
+t.stamp()
+r=100
+t.circle(r)"
+15,16,2020-07-18 01:52:41,0.6009198427200317,0.4923,SyntaxError: bad input on line 13,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.penup()
+t.forward(50)
+
+t.pendown()
+r=100
+while t.circle(r)
+    t.stamp()
+    t.circle(r)"
+16,17,2020-07-18 01:54:20,0.5743763446807861,0.4725,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.penup()
+t.forward(50)
+
+t.pendown()
+t.stamp()
+r=100
+t.circle(r)
+"
+17,18,2020-07-18 02:03:52,0.7841119766235352,0.5615,AttributeError: 'Turtle' object has no attribute 'move' on line 8,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.speed(10)
+t.move(30)
+
+for i in range(12):
+    t.penup()
+    t.forward(50)
+    t.pendown()
+    t.forward(25)
+    t.penup()
+    t.forward(15)
+    t.stamp()
+    t.home()
+    t.right(move)
+    move=move(+30)
+    
+t.pendown()
+t.stamp()
+r=100
+t.circle(r)
+"
+18,19,2020-07-18 02:04:15,0.7793958783149719,0.5862,TypeError: 'int' object is not callable on line 20,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.speed(10)
+move=30
+
+for i in range(12):
+    t.penup()
+    t.forward(50)
+    t.pendown()
+    t.forward(25)
+    t.penup()
+    t.forward(15)
+    t.stamp()
+    t.home()
+    t.right(move)
+    move=move(+30)
+    
+t.pendown()
+t.stamp()
+r=100
+t.circle(r)
+"
+19,20,2020-07-18 02:04:41,0.9080044031143188,0.649,TypeError: 'int' object is not callable on line 20,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.speed(10)
+move=30
+
+for i in range(12):
+    t.penup()
+    t.forward(50)
+    t.pendown()
+    t.forward(25)
+    t.penup()
+    t.forward(15)
+    t.stamp()
+    t.home()
+    t.right(move)
+    move=move(+30)
+    
+
+"
+20,21,2020-07-18 02:05:11,1.0,0.67,success,"import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+t.shape(""turtle"")
+t.color(""blue"")
+t.stamp()
+t.speed(10)
+move=30
+
+for i in range(12):
+    t.penup()
+    t.forward(50)
+    t.pendown()
+    t.forward(25)
+    t.penup()
+    t.forward(15)
+    t.stamp()
+    t.home()
+    t.right(move)
+    move=move+30
+    
+
+"

@@ -1,0 +1,3036 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-10 15:16:04,0.32963253458965125,0.3861,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n)
+     if (n%x == 0)
+        prime = False 
+        
+    else:
+        prime = True
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+2,3,2019-10-10 15:29:35,0.3206545255046127,0.3751,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n)
+     if (n%x == 0):
+        prime = False 
+        
+    else:
+        prime = True
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+3,4,2019-10-10 15:30:10,0.33911472951700816,0.3841,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n)
+     if (n%x == 0):
+        prime = False 
+        
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+4,5,2019-10-10 15:30:17,0.33911472951700816,0.3841,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n)
+     if (n%x == 0):
+            prime = False 
+        
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+5,6,2019-10-10 15:30:19,0.33911472951700816,0.3841,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n)
+     if (n%x == 0):
+            prime = False 
+        
+             else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+6,7,2019-10-10 15:30:30,0.346777347905062,0.3906,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n):
+    
+     if (n%x == 0):
+            prime = False 
+        
+             else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+7,8,2019-10-10 15:31:36,0.346777347905062,0.3906,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x == 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+8,9,2019-10-10 15:32:23,0.3462221096086111,0.396,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x != 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+9,10,2019-10-10 15:33:02,0.3872900386601613,0.4026,SyntaxError: bad input on line 6,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    n = int(input("""")
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x != 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+10,11,2019-10-10 15:33:05,0.3906531650313161,0.4281,SyntaxError: bad input on line 5,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    n = int(input(""""):
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x != 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+11,12,2019-10-10 15:33:12,0.41099412181737494,0.4303,SyntaxError: bad input on line 7,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    n = int(input(""""))
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x != 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+12,13,2019-10-10 15:33:18,0.4258229298395232,0.4317,SyntaxError: bad input on line 7,"def isPrimes(number):
+    # your code here
+    
+    prime = False 
+    n = int(input(""enter""))
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x != 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+13,14,2019-10-10 15:33:35,0.4258816393653607,0.4268,SyntaxError: bad input on line 10,"
+n = int(input(""enter""))
+def isPrimes(number):
+    
+    # your code here
+    
+    prime = False 
+    
+    if(n>1): 
+    for x in range(2,n):
+    
+      if (n%x != 0):
+            prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+14,15,2019-10-10 15:37:54,0.37460626117432916,0.3938,IndentationError: unindent does not match any outer indentation level on line 14\n            else:\n\n            ^\n,"
+
+def isPrimes(number):
+    
+    # your code here
+    n = int(input(""enter""))
+    prime = False 
+    #if(n>1): 
+    for x in range(2,n):
+    
+         if (n%x == 0):
+              prime = False 
+            
+            else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+15,16,2019-10-10 15:38:05,0.37460626117432916,0.3938,IndentationError: unindent does not match any outer indentation level on line 14\n             else:\n\n             ^\n,"
+
+def isPrimes(number):
+    
+    # your code here
+    n = int(input(""enter""))
+    prime = False 
+    #if(n>1): 
+    for x in range(2,n):
+    
+         if (n%x == 0):
+              prime = False 
+            
+             else:
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+16,17,2019-10-10 15:38:12,0.37444094066206934,0.3888,SyntaxError: bad input on line 14,"
+
+def isPrimes(number):
+    
+    # your code here
+    n = int(input(""enter""))
+    prime = False 
+    #if(n>1): 
+    for x in range(2,n):
+    
+         if (n%x == 0):
+              prime = False 
+            
+              else:
+                    
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+17,18,2019-10-10 15:38:22,0.37460626117432916,0.3938,IndentationError: unindent does not match any outer indentation level on line 14\n             else:\n\n             ^\n,"
+
+def isPrimes(number):
+    
+    # your code here
+    n = int(input(""enter""))
+    prime = False 
+    #if(n>1): 
+    for x in range(2,n):
+    
+         if (n%x == 0):
+              prime = False 
+            
+             else:
+                    
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+18,19,2019-10-10 15:38:31,0.3671925228522721,0.3806,IndentationError: unindent does not match any outer indentation level on line 14\n        else:\n\n        ^\n,"
+
+def isPrimes(number):
+    
+    # your code here
+    n = int(input(""enter""))
+    prime = False 
+    #if(n>1): 
+    for x in range(2,n):
+    
+         if (n%x == 0):
+              prime = False 
+            
+        else:
+                    
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+19,20,2019-10-10 15:38:35,0.37460626117432916,0.3938,SyntaxError: bad input on line 28,"
+
+def isPrimes(number):
+    
+    # your code here
+    n = int(input(""enter""))
+    prime = False 
+    #if(n>1): 
+    for x in range(2,n):
+    
+        if (n%x == 0):
+              prime = False 
+            
+        else:
+                    
+                prime = True
+        
+        return prime
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+20,21,2019-10-10 15:43:10,0.48672219414522344,0.4675,IndentationError: unindent does not match any outer indentation level on line 21\n    if (n==1):\n\n    ^\n,"
+
+def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+        def test_prime(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(9))
+
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+21,22,2019-10-10 15:43:26,0.48731181037954074,0.4688,SyntaxError: bad input on line 20,"
+
+def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def test_prime(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(9))
+
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+22,23,2019-10-10 15:45:04,0.48597938842978594,0.4796,SyntaxError: bad input on line 20,"
+
+def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(9))
+
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+23,24,2019-10-10 15:46:18,0.4294939403901241,0.4191,SyntaxError: bad input on line 41,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(9))
+
+        
+    
+    
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+24,25,2019-10-10 15:46:29,0.37818117167419885,0.4025,NameError: name 'test_prime' is not defined on line 30,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(9))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+25,26,2019-10-10 15:46:42,0.37407373079849404,0.4026,NameError: name 'isPrime' is not defined on line 30,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrime(9))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+26,27,2019-10-10 15:46:57,0.3831272761990163,0.4219,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes(9))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+27,28,2019-10-10 15:47:04,0.3830468460272888,0.423,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes(7))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+28,29,2019-10-10 15:47:41,0.46070595428000094,0.4581,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes(7))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+29,30,2019-10-10 15:51:59,0.46349770041906113,0.4608,NameError: name 'n' is not defined on line 31,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes(n))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+30,31,2019-10-10 15:52:04,0.45513052870723414,0.4577,TypeError: isPrimes() takes exactly 1 arguments (0 given) on line 31,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes())
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+31,32,2019-10-10 15:52:09,0.46070123292683274,0.4605,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes(2))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+32,33,2019-10-10 15:52:21,0.44187818997791006,0.4417,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes)
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+33,34,2019-10-10 15:53:12,0.46041964595919616,0.4653,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(isPrimes(0))
+
+        
+    
+    
+
+#def FindPrimes(P):
+    # your code here
+
+
+"
+34,35,2019-10-10 15:56:42,0.5880467653766747,0.5959,SyntaxError: bad input on line 36,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+    for i in range(1, Z+1) 
+        if prime(i) == true 
+        
+
+    print(isPrimes(7))
+"
+35,36,2019-10-10 15:57:02,0.5982882280968447,0.5563,SyntaxError: bad input on line 36,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+    for i in range(1, Z+1): 
+        if prime(i) == true 
+        
+
+    print(isPrimes(7))
+"
+36,37,2019-10-10 15:57:26,0.5982882280968447,0.5563,SyntaxError: bad input on line 37,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+for i in range(1, Z+1): 
+        if prime(i) == true 
+        
+
+    print(isPrimes(7))
+"
+37,38,2019-10-10 15:58:38,0.6900710296930258,0.6041,IndentationError: unindent does not match any outer indentation level on line 41\n    print(isPrimes(7))\n\n    ^\n,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+for i in range(1, Z+1): 
+     if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+    print(isPrimes(7))
+"
+38,39,2019-10-10 15:58:47,0.6900710296930258,0.6041,IndentationError: unindent does not match any outer indentation level on line 41\n         print(isPrimes(7))\n\n         ^\n,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+for i in range(1, Z+1): 
+     if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+         print(isPrimes(7))
+"
+39,40,2019-10-10 15:59:16,0.6079488261238915,0.5619,IndentationError: unindent does not match any outer indentation level on line 41\n         print(isPrimes(7))\n\n         ^\n,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+for i in range(1, Z+1): 
+     if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+         print(isPrimes(7))
+"
+40,41,2019-10-10 15:59:30,0.6079488261238915,0.5619,SyntaxError: 'return' outside function,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+return prime 
+
+#def FindPrimes(P):
+    # your code here
+for i in range(1, Z+1): 
+     if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(isPrimes(7))
+"
+41,42,2019-10-10 16:00:27,0.6487075415582827,0.6251,NameError: name 'Z' is not defined on line 36,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, Z+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(7))
+"
+42,43,2019-10-10 16:00:39,0.6494460924059883,0.6204,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(7))
+"
+43,44,2019-10-10 16:01:05,0.6359675639298115,0.6204,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(7))
+"
+44,45,2019-10-10 16:01:39,0.6496126555800166,0.6221,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(4))
+"
+45,46,2019-10-10 16:01:48,0.6499883865971767,0.6209,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(11))
+"
+46,47,2019-10-10 16:05:32,0.68408316763239,0.6546,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"", end="""")
+        
+
+print(FindPrimes(11))
+"
+47,48,2019-10-10 16:07:44,0.6471532501504711,0.6261,success,"
+
+#def isPrimes(number):
+    
+    # your code here
+    #n = int(input(""enter""))
+    #prime = False 
+    #if(n>1): 
+    #for x in range(2,n):
+    
+        #if (n%x == 0):
+              #prime = False 
+            
+        #else:
+                    
+                #prime = True
+        
+        #return prime
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            return(i,""is a prime number"")
+        
+
+print(FindPrimes(11))
+"
+48,49,2019-10-10 16:08:09,0.6433499175853723,0.6116,NameError: name 'n' is not defined on line 5,"
+        
+def isPrimes(number):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(11))
+"
+49,50,2019-10-10 16:08:16,0.6499883865971767,0.6209,success,"
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(11))
+"
+50,51,2019-10-10 16:08:30,0.6490641376816615,0.6235,SyntaxError: 'return' outside function,"
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+return(FindPrimes(11))
+"
+51,52,2019-10-10 16:08:59,0.660013633144356,0.635,SyntaxError: bad input on line 24,"
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+return.ans(FindPrimes(11))
+"
+52,53,2019-10-10 16:09:21,0.6499883865971767,0.6209,success,"
+        
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(11))
+"
+53,54,2019-10-10 16:16:45,0.6457072129418133,0.6146,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    for i in range(1, P+1): 
+        if isPrimes(i) == True:
+            print(i,""is a prime number"")
+        
+
+print(FindPrimes(11))
+"
+54,55,2019-10-10 16:24:07,0.7378894769518964,0.6904,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(11))
+"
+55,56,2019-10-10 16:40:23,0.738054365062629,0.6889,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100))
+"
+56,57,2019-10-10 16:40:43,0.7378773591683097,0.6896,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+2): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100))
+"
+57,58,2019-10-10 16:40:54,0.738054365062629,0.6889,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100))
+"
+58,59,2019-10-10 16:43:27,0.7233114312839675,0.6867,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100))
+"
+59,60,2019-10-10 16:43:37,0.738054365062629,0.6889,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100))
+"
+60,61,2019-10-10 16:43:47,0.7233114312839675,0.6867,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100))
+"
+61,62,2019-10-10 16:44:05,0.7230812616455184,0.6948,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+62,63,2019-10-10 16:44:15,0.7376170385879548,0.6975,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+63,64,2019-10-10 16:46:29,0.7596170473770626,0.686,TypeError: FindPrimes() takes exactly 1 arguments (2 given) on line 27,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5,""hhhh""))
+"
+64,65,2019-10-10 16:47:04,0.794170427170471,0.7193,"IndentationError: unindent does not match any outer indentation level on line 27\n  print(""jhhjhj"") print(FindPrimes(5))\n\n  ^\n","    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+  print(""jhhjhj"") print(FindPrimes(5))
+"
+65,66,2019-10-10 16:47:20,0.7376170385879548,0.6975,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+66,67,2019-10-10 16:47:27,0.7958969486194432,0.7168,success,"    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ 
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""jhhjhj"")
+print(FindPrimes(5))
+"
+67,68,2019-10-10 16:47:39,0.7971733236427466,0.7075,"IndentationError: unindent does not match any outer indentation level on line 14\n print(""jhhjhj"")\n\n ^\n","    
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+ print(""jhhjhj"")
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+68,69,2019-10-10 16:47:46,0.7376170385879548,0.6975,SyntaxError: bad input on line 1,"    print(""jhhjhj"")
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+69,70,2019-10-10 16:47:50,0.7376170385879548,0.6975,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+70,71,2019-10-10 16:48:06,0.7617739836052804,0.683,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""ll"")
+"
+71,72,2019-10-10 16:48:24,0.764883719436118,0.642,SyntaxError: EOF in multi-line statement on line 29\n\n^\n,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(""jjjj"",(5))
+"
+72,73,2019-10-10 16:48:34,0.7756724744087051,0.6862,TypeError: FindPrimes() takes exactly 1 arguments (2 given) on line 27,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(""jjjj"",(5)))
+"
+73,74,2019-10-10 16:48:48,0.7407986424331167,0.6779,SyntaxError: EOF in multi-line statement on line 29\n\n^\n,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes((5))
+"
+74,75,2019-10-10 16:48:52,0.7376170385879548,0.6975,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5))
+"
+75,76,2019-10-10 16:50:11,0.7803851501983293,0.7318,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "")
+"
+76,77,2019-10-10 16:50:30,0.7951211812704959,0.7672,NameError: name 'i' is not defined on line 27,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "", i)
+"
+77,78,2019-10-10 16:50:37,0.8076357759032573,0.7747,NameError: name 'i' is not defined on line 27,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "", (i))
+"
+78,79,2019-10-10 16:50:46,0.7803851501983293,0.7318,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "")
+"
+79,80,2019-10-10 16:51:16,0.8000551124180952,0.7752,NameError: name 'nprime' is not defined on line 27,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",nprime)
+"
+80,81,2019-10-10 16:51:39,0.8044528851446747,0.7808,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",isPrimes)
+"
+81,82,2019-10-10 16:52:09,0.8300163272825101,0.7989,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""kkk"")
+print(FindPrimes(5),""Number of prime numbers between "",)
+"
+82,83,2019-10-10 16:52:16,0.8687491042521942,0.8164,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""kkk"")
+print(FindPrimes(5),""Number of prime numbers between "",)
+print(""kkk"")"
+83,84,2019-10-10 16:52:33,0.8222685480753723,0.7937,NameError: name 'nprime' is not defined on line 28,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",)
+print(nprime)"
+84,85,2019-10-10 16:52:45,0.8181815380938254,0.7814,NameError: name 'i' is not defined on line 28,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",)
+print(i)"
+85,86,2019-10-10 16:52:52,0.8184741848833916,0.7986,NameError: name 'P' is not defined on line 28,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",)
+print(P)"
+86,87,2019-10-10 16:52:56,0.8144517595204888,0.7859,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",)
+print(1)"
+87,88,2019-10-10 16:54:06,0.7942664815777183,0.7071,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers exisit "",)
+"
+88,89,2019-10-10 16:54:33,0.7790732086120534,0.7094,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers exist "")
+"
+89,90,2019-10-10 17:16:43,0.6534760192056379,0.9096,NameError: name 'isPrimes' is not defined on line 16,"
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers exist "")
+"
+90,91,2019-10-10 17:17:28,0.8181815380938254,0.7814,NameError: name 'i' is not defined on line 29,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",)
+print(i)"
+91,92,2019-10-10 17:33:51,0.7860728741018387,0.7376,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(5),""Number of prime numbers between "",)
+"
+92,93,2019-10-10 19:09:01,0.7870294271960966,0.7272,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+
+
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100),""Number of prime numbers between "",)
+"
+93,94,2019-10-10 19:28:50,0.7870294271960966,0.7272,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+
+print(FindPrimes(100),""Number of prime numbers between "",)
+"
+94,95,2019-10-10 19:29:21,0.8490123574003035,0.8017,NameError: name 'n' is not defined on line 24,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""input number:"",n)
+print(FindPrimes(100),""Number of prime numbers between "",)
+"
+95,96,2019-10-10 19:29:47,0.9415837862257175,0.8385,success,"n = int(input(""input number""))
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""input number:"",n)
+print(FindPrimes(n),""Number of prime numbers between "",)
+"
+96,97,2019-10-10 19:33:45,0.8645986516600307,0.9139,SyntaxError: bad input on line 26,"n = int(input(""input number""))
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""input number:"",n)
+print(FindPrimes(n),""Number of prime numbers between "",)
+print(""Number of prime numbers between 1 and"",n""is:"",+FindPrimes(n))
+"
+97,98,2019-10-10 19:34:01,0.8725528861343508,0.9167,SyntaxError: bad input on line 26,"n = int(input(""input number""))
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""input number:"",n)
+print(FindPrimes(n),""Number of prime numbers between "",)
+print(""Number of prime numbers between 1 and"",n""is:"",FindPrimes(n))
+"
+98,99,2019-10-10 19:34:20,0.8649755035528773,0.9167,success,"n = int(input(""input number""))
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""input number:"",n)
+print(FindPrimes(n),""Number of prime numbers between "",)
+print(""Number of prime numbers between 1 and"",n,""is:"",FindPrimes(n))
+"
+99,100,2019-10-10 19:34:37,1.0,0.884,success,"n = int(input(""input number""))
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def FindPrimes(P):
+    # your code here
+    nprime = 0
+    for i in range(1, P+1): 
+        
+        if isPrimes(i) == True:
+            nprime += 1
+            
+            print(i,""is a prime number"")
+    return(nprime)
+print(""input number:"",n)
+#print(FindPrimes(n),""Number of prime numbers between "",)
+print(""Number of prime numbers between 1 and"",n,""is:"",FindPrimes(n))
+"

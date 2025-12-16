@@ -1,0 +1,142 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0702,, 
+1,2,2019-09-03 15:34:03,0.5495781725956926,0.6981,NameError: name 'perimeter' is not defined on line 2,"radius=int(input(""What is the radius?""))
+perimeter(2 * 3.14 * radius)
+area (3.14 * radius)
+print(perimeter)
+print(area)
+
+"
+2,3,2019-09-03 15:46:48,0.5365823786032784,0.721,success,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius 
+print(perimeter)
+print(area)
+
+"
+3,4,2019-09-03 15:47:56,0.746302523452169,0.769,TypeError: 'str' object is not callable on line 4,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius 
+print (""The perimeter of this circle with a radius of 11 is""(perimeter))
+print(area)
+
+"
+4,5,2019-09-03 15:48:15,0.7417373470752748,0.7382,success,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius 
+print(""The perimeter of this circle with a radius of 11 is (perimeter)"" )
+print(area)
+
+"
+5,6,2019-09-03 15:49:19,0.7339718776095505,0.704,SyntaxError: bad token on line 4,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius * radius
+print(""The perimeter of this circle with a radius of 11 is perimeter )
+print(area)
+
+"
+6,7,2019-09-03 15:49:28,0.5647027090051817,0.7224,success,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius * radius
+print( perimeter )
+print(area)
+
+"
+7,8,2019-09-03 15:50:12,0.7759299570284258,0.7577,TypeError: 'str' object is not callable on line 4,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius * radius
+print( ""The perimeter of this circle with a radius of 11 is"" (perimeter) )
+print(area)
+
+"
+8,9,2019-09-03 15:53:42,0.7646841483640097,0.7312,SyntaxError: keyword can't be an expression on line 4,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius * radius
+print(""The perimeter of this circle with a radius of 11 is"" =perimeter)
+print(area)
+
+"
+9,10,2019-09-03 15:53:49,0.7468484129091274,0.7136,SyntaxError: keyword can't be an expression on line 4,"radius=int(input(""What is the radius?""))
+perimeter=2 * 3.14 * radius
+area = 3.14 * radius * radius
+print(""The perimeter of this circle with a radius of 11 "" =perimeter)
+print(area)
+
+"
+10,11,2019-09-03 15:56:13,0.44364427285043906,0.4137,SyntaxError: bad input on line 3,"pi= 3.14
+radius=float(input(""What is the radius?"")
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+
+
+"
+11,12,2019-09-03 15:56:39,0.43850034354242506,0.3643,SyntaxError: bad input on line 3,"PI = 3.14
+radius=float(input(""What is the radius?"")
+perimeter = 2 * PI * radius
+area= PI * radius * radius
+
+
+"
+12,13,2019-09-03 15:57:50,0.4396683622283314,0.4228,SyntaxError: bad input on line 3,"Pi = 3.14
+radius=float(input(""What is the radius?"")
+perimeter = 2 * Pi * radius
+area= Pi * radius * radius
+
+
+"
+13,14,2019-09-03 16:01:57,0.46959235870447147,0.4762,success,"Pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * Pi * radius
+area= Pi * radius * radius
+
+
+"
+14,15,2019-09-03 16:02:49,0.47394658382538735,0.463,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+
+
+"
+15,16,2019-09-03 16:04:56,0.47394658382538735,0.463,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2*pi*radius
+area= pi * radius * radius
+
+
+"
+16,17,2019-09-03 16:07:53,0.47394658382538735,0.463,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+
+
+"
+17,18,2019-09-03 16:09:53,0.7399371220199217,0.5608,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+print(""The perimeter of this circle with a radius of 11 is (perimeter)"")
+
+"
+18,19,2019-09-03 16:11:03,0.8810844222105808,0.7691,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+print(""The perimeter of this circle with a radius of 11 is (perimeter)"")
+print('''The area of this circle with a radius of 11 is ""area"" ''')
+"
+19,20,2019-09-03 16:16:02,0.9587421705469508,0.8175,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+print(""The perimeter of this circle with a radius of 11 is"" , perimeter)
+print(""The area of this circle with a radius of 11 is area"")
+"
+20,21,2019-09-03 16:16:24,1.0,0.8237,success,"pi = 3.14
+radius=float(input(""What is the radius?""))
+perimeter = 2 * pi * radius
+area= pi * radius * radius
+print(""The perimeter of this circle with a radius of 11 is"" , perimeter)
+print(""The area of this circle with a radius of 11 is"" ,  area)
+"

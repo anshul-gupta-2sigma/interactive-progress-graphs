@@ -1,0 +1,404 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2181,, 
+1,2,2019-10-18 18:45:29,0.3378765439203263,0.4784,NameError: name 'arkansas' is not defined on line 2,"#Your code goes here
+mystring=arkansas
+other=texas
+print(mystring.index(mystring,other))"
+2,3,2019-10-18 18:50:42,0.39009855373147595,0.5692,TypeError: slice indices must be integers or None or have an __index__ method on line 4,"#Your code goes here
+mystring=""arkansas""
+other=""texas""
+print(mystring.index(mystring,other))"
+3,4,2019-10-18 18:51:04,0.3489605058408247,0.5734,NameError: name 'index' is not defined on line 4,"#Your code goes here
+mystring=""arkansas""
+other=""texas""
+print(index(mystring,other))"
+4,5,2019-10-18 18:51:09,0.3722294624118708,0.489,SyntaxError: bad input on line 4,"#Your code goes here
+mystring=""arkansas""
+other=""texas""
+print(index.(mystring,other))"
+5,6,2019-10-18 18:51:45,0.3504554288707873,0.5163,ValueError: substring not found on line 4,"#Your code goes here
+mystring=""arkansas""
+other=""texas""
+print(mystring.index(other))"
+6,7,2019-10-18 18:55:33,0.2830423497760064,0.8367,success,"def removeVowels(s):
+    vowels = ""aeiouAEIOU""
+    sWithoutVowels = """"
+    for eachChar in s:
+        if eachChar not in vowels:
+            sWithoutVowels = sWithoutVowels + eachChar
+    return sWithoutVowels
+
+print(removeVowels(""compsci""))
+print(removeVowels(""aAbEefIijOopUus""))
+"
+7,8,2019-10-18 18:57:35,0.42210130765324616,0.8511,NameError: name 'removeVowels' is not defined on line 9,"def removeCommonLetters(s):
+    letters = ""arkansas""
+    s = """"
+    for eachChar in s:
+        if eachChar not in vowels:
+            sWithoutVowels = sWithoutVowels + eachChar
+    return sWithoutVowels
+
+print(removeVowels(""compsci""))
+print(removeVowels(""aAbEefIijOopUus""))
+"
+8,9,2019-10-18 18:59:44,0.46039286454782824,0.9026,NameError: name 'sCommonLetters' is not defined on line 7,"def removeCommonLetters(s):
+    letters = ""arkansas""
+    sremoveCommonLetters = ""texas""
+    for eachChar in s:
+        if eachChar not in letters:
+            sWithoutCommonLetters = sWithoutCommonLetters + eachChar
+    return sCommonLetters
+
+print(removeCommonLetters(""arkansas""))
+print(removeCommonLetters(""texas""))
+"
+9,10,2019-10-18 19:00:04,0.4407922468432548,0.8977,UnboundLocalError: local variable 'sWithoutCommonLetters' referenced before assignment on line 6,"def removeCommonLetters(s):
+    letters = ""arkansas""
+    sremoveCommonLetters = ""texas""
+    for eachChar in s:
+        if eachChar not in letters:
+            sWithoutCommonLetters = sWithoutCommonLetters + eachChar
+    return sremoveCommonLetters
+
+print(removeCommonLetters(""arkansas""))
+print(removeCommonLetters(""texas""))
+"
+10,11,2019-10-18 19:03:47,0.4658052404576585,0.9034,NameError: name 'vowels' is not defined on line 5,"def removeCommonLetters(s):
+    commonLetters = ""as""
+    sWithoutCommonLetters = """"
+    for eachChar in s:
+        if eachChar not in vowels:
+            sWithoutCommonLetters = sWithoutCommonLetters + eachChar
+    return sWithoutCommonLetters
+
+print(removeCommonLetters(""texas""))
+print(removeCommonLetters(""arkansas""))
+"
+11,12,2019-10-18 19:06:51,0.4441907242356682,0.9137,success,"def removeCommonLetters(s):
+    commonLetters = ""as""
+    sWithoutCommonLetters = """"
+    for eachChar in s:
+        if eachChar not in commonLetters:
+            sWithoutCommonLetters = sWithoutCommonLetters + eachChar
+    return sWithoutCommonLetters
+
+print(removeCommonLetters(""texas""))
+print(removeCommonLetters(""arkansas""))
+"
+12,13,2019-10-18 19:18:17,0.2914312375535385,0.9201,SyntaxError: bad input on line 3,"def removeCommonLetters(s):
+    word=str(input(""input string"")
+    commonLetters = ""texas""
+    sWithoutCommonLetters = """"
+    for eachChar in s:
+        if eachChar not in commonLetters:
+            sWithoutCommonLetters = sWithoutCommonLetters + eachChar
+    return sWithoutCommonLetters
+
+print(removeCommonLetters(""texas""))
+print(removeCommonLetters(""arkansas""))
+"
+13,14,2019-10-18 19:24:14,0.7150271364927362,0.8965,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+             CommonLetters=""texas""
+             sWithoutCommonLetters=""""
+             for eachChar in s:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(word)
+
+
+"
+14,15,2019-10-18 19:24:28,0.7150271364927362,0.8965,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+    CommonLetters=""texas""
+             sWithoutCommonLetters=""""
+             for eachChar in s:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(word)
+
+
+"
+15,16,2019-10-18 19:24:38,0.7157668132258755,0.8931,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+    CommonLetters=""texas""
+             sWithoutCommonLetters=""""
+             for eachChar in s:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(s)
+
+
+"
+16,17,2019-10-18 19:25:19,0.7157668132258755,0.8931,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar in s:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(s)
+
+
+"
+17,18,2019-10-18 19:25:40,0.6886107555479466,0.9128,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar in s:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+18,19,2019-10-18 19:26:13,0.68104727105984,0.9125,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+19,20,2019-10-18 19:27:16,0.5695620970033197,0.9184,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+20,21,2019-10-18 19:28:11,0.5364889772970236,0.9227,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommoLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommoLetters=sWithoutCommoLetters+eachChar
+    return sWithoutCommoLetters
+             
+print(CommonLetters)
+
+
+"
+21,22,2019-10-18 19:28:35,0.5695620970033197,0.9184,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+22,23,2019-10-18 19:28:40,0.5618312879865637,0.9114,SyntaxError: bad input on line 3,"def CommongLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+23,24,2019-10-18 19:29:26,0.5668131834420413,0.9187,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    s=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+24,25,2019-10-18 19:29:32,0.5695620970033197,0.9184,SyntaxError: bad input on line 3,"def CommonLetters(s):
+    word=str(input(""input string"")
+CommonLetters=""texas""
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+
+
+"
+25,26,2019-10-18 19:31:07,0.5682612562993687,0.9129,SyntaxError: bad input on line 6,"def CommonLetters(s):
+    CommonLetters=""texas""
+    
+    word=str(input(""input string"")
+
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+ 
+
+"
+26,27,2019-10-18 19:31:43,0.5772258226407663,0.9141,SyntaxError: bad input on line 6,"def CommonLetters(s):
+    CommonLetters=""texas""
+    
+word=str(input(""input string"")
+
+sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+ 
+
+"
+27,28,2019-10-18 19:31:58,0.5636683460068164,0.9177,SyntaxError: bad input on line 4,"def CommonLetters(s):
+    CommonLetters=""texas""
+    
+word=str(input(""input string""):
+         sWithoutCommonLetters=""""
+for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+ 
+
+"
+28,29,2019-10-18 19:32:09,0.5636683460068164,0.9177,SyntaxError: bad input on line 4,"def CommonLetters(s):
+    CommonLetters=""texas""
+    
+word=str(input(""input string""):
+         sWithoutCommonLetters=""""
+         for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+ 
+
+"
+29,30,2019-10-18 19:32:21,0.5923356161891509,0.9177,SyntaxError: bad input on line 4,"def CommonLetters(s):
+    CommonLetters=""texas""
+    
+str(input(""input string""):
+         sWithoutCommonLetters=""""
+         for eachChar not in s:
+             if eachChar not in CommonLetters:
+             sWithoutCommonLetters=sWithoutCommonLetters+eachChar
+    return sWithoutCommonLetters
+             
+print(CommonLetters)
+ 
+
+"
+30,31,2019-10-19 00:26:40,0.846590385160545,0.8991,SyntaxError: bad input on line 7,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+    
+string = (input(""input string"")
+while string != '':
+    CommonLetters(string)
+    string = input(""input string"")"
+31,32,2019-10-19 00:38:41,0.8869990680438895,0.8823,SyntaxError: bad input on line 7,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+    
+thestring = (input(""input string"")
+while thestring != '':
+    CommonLetters(string)
+    thestring = input(""input string"")"
+32,33,2019-10-19 00:38:47,0.8869990680438895,0.8823,SyntaxError: bad input on line 6,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = (input(""input string"")
+while thestring != '':
+    CommonLetters(string)
+    thestring = input(""input string"")"
+33,34,2019-10-19 00:38:55,0.875126422237634,0.8786,SyntaxError: bad input on line 6,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = (input(""input string"")
+while thestring != ' ':
+    CommonLetters(string)
+    thestring = input(""input string"")"
+34,35,2019-10-19 00:39:49,0.8869990680438895,0.8823,SyntaxError: bad input on line 6,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = (input(""input string"")
+while thestring != '':
+    CommonLetters(string)
+    thestring = input(""input string"")"
+35,36,2019-10-19 00:40:10,0.8869990680438895,0.8823,SyntaxError: bad input on line 6,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = (input(""input string"")
+while thestring != '':
+             CommonLetters(string)
+             thestring = input(""input string"")"
+36,37,2019-10-19 00:41:00,0.9313735967959237,0.9295,NameError: name 'string' is not defined on line 6,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = input(""input string"")
+while string != '':
+             CommonLetters(string)
+             thestring = input(""input string"")"
+37,38,2019-10-19 00:41:09,0.9509258694590595,0.9263,NameError: name 'string' is not defined on line 7,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = input(""input string"")
+while thestring != '':
+             CommonLetters(string)
+             thestring = input(""input string"")"
+38,39,2019-10-19 00:41:22,0.9676240004328104,0.9288,NameError: name 'a' is not defined on line 3,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in a:
+            print(b)
+thestring = input(""input string"")
+while thestring != '':
+             CommonLetters(thestring)
+             thestring = input(""input string"")"
+39,40,2019-10-19 00:41:45,1.0,0.9301,success,"def CommonLetters(s):
+    for b in ""Texas"":
+        if b in s:
+            print(b)
+thestring = input(""input string"")
+while thestring != '':
+             CommonLetters(thestring)
+             thestring = input(""input string"")"

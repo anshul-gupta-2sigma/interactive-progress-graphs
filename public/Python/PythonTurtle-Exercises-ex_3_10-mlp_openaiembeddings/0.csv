@@ -1,0 +1,221 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0025,, 
+1,2,2020-01-21 01:32:05,0.6864103070031818,0.6431,SyntaxError: bad input on line 4,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+for i in range(12)
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.stamp()
+    k.forward(-70)
+    k.right(30)"
+2,3,2020-01-21 01:34:45,0.6888662151020013,0.6859,success,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.stamp()
+    
+    k.forward(-70)
+    k.right(30)"
+3,4,2020-01-21 01:35:33,0.7003258175173919,0.7566,success,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape = turtle
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(5)
+    k.stamp()
+    k.penup()
+    k.forward(-70)
+    k.right(30)"
+4,5,2020-01-21 01:36:32,0.7052842414541987,0.7569,success,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape(turtle)
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-70)
+    k.right(30)"
+5,6,2020-01-21 01:37:14,0.707105109977564,0.7613,success,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape(turtle)
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+6,7,2020-01-21 01:38:14,0.7083031681224983,0.7706,success,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape(""turtle"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+7,8,2020-01-21 01:38:58,0.7520664244668049,0.8454,success,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+wn.fillcolor(""green"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+8,9,2020-01-21 01:39:52,0.7537219696924797,0.8484,TimeLimitError: Program exceeded run time limit. on line 16,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+k.fillcolor(""green"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+9,10,2020-01-21 01:40:19,0.7862055374384949,0.8545,AttributeError: 'module' object has no attribute 'bgcolor' on line 3,"import turtle
+wn = turtle.Turtle()
+turtle.bgcolor(""light green"")
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+10,11,2020-01-21 01:40:27,0.7810035823907109,0.8173,AttributeError: 'module' object has no attribute 'bgcolor' on line 3,"import turtle
+wn = turtle.Turtle()
+turtle.bgcolor(""green"")
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+11,12,2020-01-21 01:40:44,0.7768725758751647,0.8208,AttributeError: 'Turtle' object has no attribute 'bgcolor' on line 3,"import turtle
+wn = turtle.Turtle()
+wn.bgcolor(""green"")
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+12,13,2020-01-21 01:42:18,0.7584997588802461,0.8702,AttributeError: 'Turtle' object has no attribute 'bgcolor' on line 6,"import turtle
+wn = turtle.Turtle()
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+wn.bgcolor(""green"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+13,14,2020-01-21 01:43:27,0.8770330493055665,0.9546,AttributeError: 'module' object has no attribute 'screen' on line 2,"import turtle
+wn = turtle.screen()
+wn.bgcolor(""green"")
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"
+14,15,2020-01-21 01:43:46,0.9999999891032338,0.9686,success,"import turtle
+wn = turtle.Screen()
+wn.bgcolor(""light green"")
+k = turtle.Turtle()
+k.shape(""turtle"")
+k.color(""blue"")
+for i in range(12):
+    k.penup()
+    k.forward(60)
+    k.pendown()
+    k.forward(10)
+    k.penup()
+    k.forward(10)
+    k.stamp()
+    k.penup()
+    k.forward(-80)
+    k.right(30)"

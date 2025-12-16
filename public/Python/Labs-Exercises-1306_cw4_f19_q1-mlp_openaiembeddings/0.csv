@@ -1,0 +1,190 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0036,, 
+1,2,2019-10-19 02:59:57,0.3899998195307033,0.444,SyntaxError: bad input on line 3,"#Your code goes here
+def CommonLetters(mystring):
+numletters=0 #declaring variable count
+for letter in mystring: #using for checking each letter from mystring
+if letter == 'P': #checking letter P
+numletters = numletters + 1 #increment value of count
+elif letter=='y': #checking letter y
+numletters = numletters + 1 #increment value of count
+elif letter=='t': #checking letter t
+numletters = numletters + 1 #increment value of count
+elif letter=='h': #checking letter h
+numletters = numletters + 1 #increment value of count
+elif letter=='o': #checking letter o
+numletters = numletters + 1 #increment value of count
+elif letter=='n': #checking letter n
+numletters = numletters + 1 #increment value of count
+return numletters #return number of letters   
+  
+#declaring variable to store boolean value
+flag=True
+#using while to ask user string
+while flag:
+#asking user to enter string
+mystring=input(""Enter String : "")
+if mystring!="""" : #if mystring is not empty
+#calling method and passing parameter as mystring
+print(""Number of letters : "",CommonLetters(mystring))
+else:
+flag=False; #used to break the loop"
+2,3,2019-10-19 03:00:45,0.402098770571916,0.4415,SyntaxError: bad input on line 6,"#Your code goes here
+def CommonLetters(mystring):
+    numletters=0 #declaring variable count
+    for letter in mystring: #using for checking each letter from mystring
+        if letter == 'P': #checking letter P
+numletters = numletters + 1 #increment value of count
+elif letter=='y': #checking letter y
+numletters = numletters + 1 #increment value of count
+elif letter=='t': #checking letter t
+numletters = numletters + 1 #increment value of count
+elif letter=='h': #checking letter h
+numletters = numletters + 1 #increment value of count
+elif letter=='o': #checking letter o
+numletters = numletters + 1 #increment value of count
+elif letter=='n': #checking letter n
+numletters = numletters + 1 #increment value of count
+return numletters #return number of letters   
+  
+#declaring variable to store boolean value
+flag=True
+#using while to ask user string
+while flag:
+#asking user to enter string
+mystring=input(""Enter String : "")
+if mystring!="""" : #if mystring is not empty
+#calling method and passing parameter as mystring
+print(""Number of letters : "",CommonLetters(mystring))
+else:
+flag=False; #used to break the loop"
+3,4,2019-10-19 03:02:24,0.4081461175782487,0.4388,success,"#Your code goes here
+def CommonLetters(mystring):
+    numletters=0 #declaring variable count
+    for letter in mystring: #using for checking each letter from mystring
+        if letter == 'P': #checking letter P
+            numletters = numletters + 1 #increment value of count
+        elif letter=='y': #checking letter y
+            numletters = numletters + 1 #increment value of count
+        elif letter=='t': #checking letter t
+            numletters = numletters + 1 #increment value of count
+        elif letter=='h': #checking letter h
+            numletters = numletters + 1 #increment value of count
+        elif letter=='o': #checking letter o
+            numletters = numletters + 1 #increment value of count
+        elif letter=='n': #checking letter n
+            numletters = numletters + 1 #increment value of count
+    return numletters #return number of letters   
+  
+flag=True
+while flag:
+
+    mystring=input(""Enter String : "")
+    if mystring!="""" :
+        print(""Number of letters : "",CommonLetters(mystring))
+    else:
+        flag=False; #used to break the loop"
+4,5,2019-10-19 03:04:27,0.4390980008267402,0.5017,success,"def CommonLetters(mystring):
+    count = 0
+    for ch in mystring:
+        if ch in 'Python':
+            count += 1
+    return count
+
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    print(""Number of common letters with Python is "" + str(CommonLetters(s)))"
+5,6,2019-10-19 03:43:17,0.5146406473825611,0.5375,SyntaxError: bad input on line 1,"def CommonLetters(mystring)
+print(""User Response:"",end="""")
+s=input() #input from user
+s1=""""
+for i in s:
+    if i not in s1:
+        s1+=i+"" ""
+print(""Program Prints:"",end="""")
+print(s1)
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    print(""Number of common letters with Python is "" + str(CommonLetters(s)))"
+6,7,2019-10-19 03:56:12,0.4226108594522321,0.6027,NameError: name 'CommonLetters' is not defined on line 15,"print(""Program Prompt: Give me a String ?"")
+print(""User Response:"",end="""")
+s=input()
+s1=""""
+for i in s:
+    if i not in s1:
+        s1+=i+"" ""
+print(""Program Prints:"",end="""")
+print(s1)
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    print(""Number of common letters with Python is "" + str(CommonLetters(s)))"
+7,8,2019-10-19 04:09:18,0.5496158257389406,0.6578,success,"def CommonLetters(mystring): 
+    print(""Program Prompt: Give me a String ?"")
+    print(""User Response:"",end="""")
+    s=input()
+    s1=""""
+    for i in s:
+        if i not in s1:
+            s1+=i+"" ""
+    print(""Program Prints:"",end="""")
+    print(s1)
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    print(""Number of common letters with Python is "" + str(CommonLetters(s)))"
+8,9,2019-10-19 04:10:07,0.5184890585091928,0.5654,success,"def CommonLetters(mystring): 
+
+    print(""User Response:"",end="""")
+    s=input()
+    s1=""""
+    for i in s:
+        if i not in s1:
+            s1+=i+"" ""
+    print(""Program Prints:"",end="""")
+    print(s1)
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    print(""Number of common letters with Python is "" + str(CommonLetters(s)))"
+9,10,2019-10-19 04:28:46,0.9184904970028334,0.883,success,"def CommonLetters(mystring):
+    x = """"
+    s1=""texas""
+    for i in mystring:
+        if i in s1:
+            x+=i+"" ""
+    print(""Program Prints:"",end="""")
+    print(x)
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    CommonLetters(s)"
+10,11,2019-10-19 04:33:46,0.9999999633169422,0.8946,success,"def CommonLetters(mystring):
+    x = """"
+    s1=""texas""
+    for i in mystring:
+        if i in s1:
+            if i not in x:
+                x+=i+"" ""
+    print(""Program Prints:"",end="""")
+    print(x)
+
+while True:
+    s = input(""Enter a string(empty string to exit): "")
+    if s == """":
+        break
+    CommonLetters(s)"

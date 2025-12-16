@@ -1,0 +1,228 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0074,, 
+1,2,2019-03-31 22:48:01,0.29298026726658155,0.1621,SyntaxError: bad input on line 3,"
+
+Write a function ``print_triangular_numbers(n)`` that prints out the first
+n triangular numbers. A call to ``print_triangular_numbers(5)`` would
+produce the following output::
+
+    1       1
+    2       3
+    3       6
+    4       10
+    5       15
+
+(*hint: use a web search to find out what a triangular number is.*)
+~~~~
+def print_triangular_numbers(n):
+    print(""1 	 2"")
+"
+2,3,2019-03-31 22:49:00,0.29298026726658155,0.1621,success,"def print_triangular_numbers(n):
+    print(""1 	 2"")
+"
+3,4,2019-03-31 22:49:18,0.43121855491941463,0.3759,NameError: name 'triangular_numbers' is not defined on line 4,"def print_triangular_numbers(n):
+    print(""1 	 2"")
+
+print(triangular_numbers(5))"
+4,5,2019-03-31 22:49:25,0.482872141775188,0.4597,success,"def print_triangular_numbers(n):
+    print(""1 	 2"")
+
+print(print_triangular_numbers(5))"
+5,6,2019-03-31 22:49:47,0.6140944106369726,0.8055,success,"def print_triangular_numbers(n):
+    for i in range(n):
+        print(""1 	 2"")
+
+print(print_triangular_numbers(5))"
+6,7,2019-03-31 22:50:24,0.734116374121629,0.9273,SyntaxError: bad input on line 4,"def print_triangular_numbers(n):
+    triangle_num = 5
+    for i in range(n):
+        print(f""{n}	{triangle_num}"")
+
+print(print_triangular_numbers(5))"
+7,8,2019-03-31 22:51:02,0.819343441761656,0.9425,NameError: name 'num' is not defined on line 4,"def print_triangular_numbers(n):
+    triangle_num = 5
+    for i in range(n):
+        print(str(num) + ""/t"" + str(triangle_num))
+
+print(print_triangular_numbers(5))"
+8,9,2019-03-31 22:51:07,0.8212598670312442,0.944,success,"def print_triangular_numbers(n):
+    triangle_num = 5
+    for i in range(n):
+        print(str(n) + ""/t"" + str(triangle_num))
+
+print(print_triangular_numbers(5))"
+9,10,2019-03-31 22:51:13,0.8297258037132451,0.9522,success,"def print_triangular_numbers(n):
+    triangle_num = 5
+    for i in range(n):
+        print(str(n) + ""	"" + str(triangle_num))
+
+print(print_triangular_numbers(5))"
+10,11,2019-03-31 22:51:21,0.8342109559059581,0.9603,success,"def print_triangular_numbers(n):
+    triangle_num = 5
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+
+print(print_triangular_numbers(5))"
+11,12,2019-03-31 22:52:41,0.9099208676712537,0.9732,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = n * (n + 1)
+
+print(print_triangular_numbers(5))"
+12,13,2019-03-31 22:52:57,0.8566484227324928,0.9777,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = triangle_num * (triangle_num + 1)
+
+print(print_triangular_numbers(5))"
+13,14,2019-03-31 22:53:13,0.8419856018769719,0.9774,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = triangle_num * (triangle_num + 1) / 2
+
+print(print_triangular_numbers(5))"
+14,15,2019-03-31 22:53:41,0.8764598735628097,0.9778,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = triangle_num * (triangle_num + 1) / 2
+
+print_triangular_numbers(5)"
+15,16,2019-03-31 22:54:02,0.9320678732822091,0.9801,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = i * (i + 1) / 2
+
+print_triangular_numbers(5)"
+16,17,2019-03-31 22:54:08,0.9212001391741763,0.98,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = i * (i + 1)
+
+print_triangular_numbers(5)"
+17,18,2019-03-31 22:54:19,0.9194320354590713,0.9815,success,"def print_triangular_numbers(n):
+    triangle_num = 0
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = i * (i + 1)
+
+print_triangular_numbers(5)"
+18,19,2019-03-31 22:54:22,0.9129399264081858,0.9796,success,"def print_triangular_numbers(n):
+    triangle_num = 13
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num = i * (i + 1)
+
+print_triangular_numbers(5)"
+19,20,2019-03-31 22:54:31,0.9192588990048169,0.979,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        print(str(i) + ""	"" + str(triangle_num))
+        triangle_num += i * (i + 1)
+
+print_triangular_numbers(5)"
+20,21,2019-03-31 22:54:47,0.9240384079328621,0.9823,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        triangle_num += i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+21,22,2019-03-31 22:54:52,0.922190138382868,0.9835,success,"def print_triangular_numbers(n):
+    triangle_num = 0
+    for i in range(n):
+        triangle_num += i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+22,23,2019-03-31 22:54:55,0.9140233286925077,0.9818,success,"def print_triangular_numbers(n):
+    triangle_num = 0.5
+    for i in range(n):
+        triangle_num += i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+23,24,2019-03-31 22:54:59,0.9240384079328621,0.9823,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        triangle_num += i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+24,25,2019-03-31 22:55:05,0.9281046226523282,0.9844,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(n):
+        triangle_num = i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+25,26,2019-03-31 22:55:37,0.9271068453483174,0.9818,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+26,27,2019-03-31 22:55:42,0.9251618371315327,0.9823,success,"def print_triangular_numbers(n):
+    triangle_num = 0
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+27,28,2019-03-31 22:55:44,0.9271068453483174,0.9818,success,"def print_triangular_numbers(n):
+    triangle_num = 1
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+28,29,2019-03-31 22:55:50,0.9251618371315327,0.9823,success,"def print_triangular_numbers(n):
+    triangle_num = 0
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+29,30,2019-03-31 22:56:01,0.9525196255119246,0.9805,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1)
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+30,31,2019-03-31 22:56:15,0.9999998354201709,0.9833,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1) / 2
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"
+31,32,2019-03-31 22:56:23,0.9784715896680688,0.9823,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1) / 2
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(51)"
+32,33,2019-03-31 22:56:27,0.9999998354201709,0.9833,success,"def print_triangular_numbers(n):
+    for i in range(1, n+1):
+        triangle_num = i * (i + 1) / 2
+        print(str(i) + ""	"" + str(triangle_num))
+        
+
+print_triangular_numbers(5)"

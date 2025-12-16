@@ -1,0 +1,68 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2833,, 
+1,2,2019-09-16 00:39:17,0.8387525721019295,0.8226,SyntaxError: bad input on line 3,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(0,N)
+for j in range(0,i+1)
+    print(S)
+"
+2,3,2019-09-16 04:05:21,0.8387525721019295,0.8226,SyntaxError: bad input on line 3,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(0 , N)
+for j in range(0,i+1)
+    print(S)
+"
+3,4,2019-09-16 04:05:36,0.8899127955277045,0.8289,SyntaxError: bad input on line 3,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N)
+for j in range(i+1)
+    print(S)
+"
+4,5,2019-09-16 04:07:20,0.8691952420416745,0.8365,SyntaxError: bad input on line 4,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+for j in range(i+1):
+    print(S)
+"
+5,6,2019-09-16 04:07:25,0.8810832771695083,0.8352,SyntaxError: bad input on line 4,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+for j in range(i+1)
+    print(S)
+"
+6,7,2019-09-16 04:08:18,0.7919804177666915,0.8317,SyntaxError: bad input on line 4,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+for j in range(i+1)
+    print(i, end="" "")
+"
+7,8,2019-09-16 04:12:39,0.7089796249831493,0.8144,SyntaxError: bad input on line 6,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+
+"
+8,9,2019-09-16 04:15:36,0.7693256859824311,0.8199,SyntaxError: bad input on line 3,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(2N+1):
+
+"
+9,10,2019-09-16 04:15:46,0.7977468540948802,0.8319,SyntaxError: bad input on line 6,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(2*N+1):
+
+"
+10,11,2019-09-16 04:16:30,1.0,0.8706,success,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+    print(S*(2*i+1))
+"
+11,12,2019-09-20 00:30:32,0.9633476852906567,0.867,success,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+    print(S*(2*N+1))
+"
+12,13,2019-09-23 05:44:24,1.0,0.8706,success,"N= int(input(""Enter your N:""))
+S=input(""Enter your Symbol:"")
+for i in range(N):
+    print(S*(2*i+1))
+"

@@ -1,0 +1,172 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.2181,, 
+1,2,2019-10-17 15:06:05,0.6059130277351961,0.7742,success,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.index('T') >= 0):
+        commonLet = 'T '
+    if(mystring.index('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.index('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.index('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.index('s') >= 0):
+        commonLet = commonLet + 's'"
+2,3,2019-10-17 15:24:21,0.5313043754234517,0.8282,ValueError: substring not found on line 4,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.index('T') >= 0):
+        commonLet = 'T '
+    if(mystring.index('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.index('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.index('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.index('s') >= 0):
+        commonLet = commonLet + 's'
+        
+CommonLetters('arkansas')"
+3,4,2019-10-17 15:26:04,0.5284665308065577,0.8283,success,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.find('T') >= 0):
+        commonLet = 'T '
+    if(mystring.find('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.find('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.find('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.find('s') >= 0):
+        commonLet = commonLet + 's'
+        
+CommonLetters('arkansas')"
+4,5,2019-10-17 15:26:33,0.47831483953326615,0.8154,success,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.find('T') >= 0):
+        commonLet = 'T '
+    if(mystring.find('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.find('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.find('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.find('s') >= 0):
+        commonLet = commonLet + 's'
+    print(commonLet)
+        
+CommonLetters('arkansas')"
+5,6,2019-10-17 15:26:47,0.47498642907675137,0.8275,success,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.find('T') >= 0):
+        commonLet = 'T '
+    if(mystring.find('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.find('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.find('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.find('s') >= 0):
+        commonLet = commonLet + 's'
+    print(commonLet)
+        
+CommonLetters('Taxes')"
+6,7,2019-10-17 15:27:18,0.3942555904851157,0.7582,success,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.find('T') >= 0):
+        commonLet = 'T '
+    if(mystring.find('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.find('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.find('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.find('s') >= 0):
+        commonLet = commonLet + 's'
+    print(commonLet)
+        
+CommonLetters('cnreqjiucnodomsjiowqxcqzas')"
+7,8,2019-10-17 15:32:20,0.2851445985017873,0.814,TimeLimitError: Program exceeded run time limit. on line 19,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.find('T') >= 0):
+        commonLet = 'T '
+    if(mystring.find('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.find('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.find('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.find('s') >= 0):
+        commonLet = commonLet + 's'
+    print(commonLet)
+        
+muhString = input('Enter a string. Any string...')
+
+while muhString != '':
+    CommonLetters(muhString)"
+8,9,2019-10-17 15:33:23,0.12151209851029232,0.8074,success,"#Your code goes here
+def CommonLetters(mystring):
+    commonLet = ''
+    if(mystring.find('T') >= 0):
+        commonLet = 'T '
+    if(mystring.find('e') >= 0):
+        commonLet = commonLet + 'e '
+    if(mystring.find('x') >= 0):
+        commonLet = commonLet + 'x '
+    if(mystring.find('a') >= 0):
+        commonLet = commonLet + 'a '
+    if(mystring.find('s') >= 0):
+        commonLet = commonLet + 's'
+    print(commonLet)
+        
+muhString = input('Enter a string. Any string...')
+
+while muhString != '':
+    CommonLetters(muhString)
+    muhString = input('Enter a string. Any string...')"
+9,10,2019-10-17 15:40:15,0.9150222091154684,0.968,SyntaxError: bad token on line 3,"#Your code goes here
+def CommonLetters(mystring):
+    comparisonSt = 'Texas
+    commonLet = ''
+    for char in comparisonSt:
+        if(mystring.find(char) >= 0):
+            commonLet = commonLet + char + ' '
+        
+muhString = input('Enter a string. Any string...')
+
+while muhString != '':
+    CommonLetters(muhString)
+    muhString = input('Again, enter a string. Any string...')"
+10,11,2019-10-17 15:40:39,0.9327158642273796,0.9634,success,"#Your code goes here
+def CommonLetters(mystring):
+    comparisonSt = 'Texas'
+    commonLet = ''
+    for char in comparisonSt:
+        if(mystring.find(char) >= 0):
+            commonLet = commonLet + char + ' '
+        
+muhString = input('Enter a string. Any string...')
+
+while muhString != '':
+    CommonLetters(muhString)
+    muhString = input('Again, enter a string. Any string...')"
+11,12,2019-10-17 15:41:10,1.0,0.9676,success,"#Your code goes here
+def CommonLetters(mystring):
+    comparisonSt = 'Texas'
+    commonLet = ''
+    for char in comparisonSt:
+        if(mystring.find(char) >= 0):
+            commonLet = commonLet + char + ' '
+    print(commonLet)
+        
+muhString = input('Enter a string. Any string...')
+
+while muhString != '':
+    CommonLetters(muhString)
+    muhString = input('Again, enter a string. Any string...')"

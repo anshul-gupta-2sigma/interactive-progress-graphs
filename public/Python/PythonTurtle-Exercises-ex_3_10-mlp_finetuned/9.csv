@@ -1,0 +1,216 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0492,, 
+1,2,2020-03-09 09:42:44,0.836056059198089,0.4006,TypeError: unbound method s() must be called with Turtle instance as first argument (got int instance instead) on line 6,"import turtle
+lex=turtle.Screen
+hans=turtle.Turtle
+hans.forward
+for i in range(12):
+    hans.left(36)
+lex.exitonclick()
+"
+2,3,2020-03-09 09:45:14,0.8164710613824431,0.4202,TypeError: unbound method s() must be called with Turtle instance as first argument (got int instance instead) on line 6,"import turtle
+lex=turtle.Screen
+hans=turtle.Turtle
+hans.forward
+for i in range(0,12):
+    hans.left(36)
+lex.exitonclick()
+"
+3,4,2020-03-09 09:45:33,0.8041862749093429,0.3387,TypeError: unbound method s() must be called with Turtle instance as first argument (got int instance instead) on line 6,"import turtle
+lex=turtle.Screen
+hans=turtle.Turtle
+hans.forward
+for i in range(0,12):
+    hans.left(36)
+
+"
+4,5,2020-03-09 09:45:47,0.8033578397414008,0.3316,SyntaxError: bad input on line 6,"import turtle
+lex=turtle.Screen
+hans=turtle.Turtle
+hans.forward
+for i in range(0,12):
+hans.left(36)
+
+"
+5,6,2020-03-09 09:46:12,0.8041862749093429,0.3387,TypeError: unbound method s() must be called with Turtle instance as first argument (got int instance instead) on line 6,"import turtle
+lex=turtle.Screen
+hans=turtle.Turtle
+hans.forward
+for i in range(0,12):
+    hans.left(36)
+
+"
+6,7,2020-03-09 09:46:25,0.8634669100302785,0.4084,success,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+hans.forward
+for i in range(0,12):
+    hans.left(36)
+
+"
+7,8,2020-03-09 09:46:39,0.8384013446255951,0.447,success,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+hans.forward(100)
+for i in range(0,12):
+    hans.left(36)
+
+"
+8,9,2020-03-09 09:46:57,0.8706393414821509,0.4302,success,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+hans.forward(100)
+for i in range(12):
+    hans.left(36)
+
+"
+9,10,2020-03-09 22:08:27,0.8002561460777414,0.4783,NameError: name 'penup' is not defined on line 5,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+hans.forward(100)
+penup()
+for i in range(12):
+    hans.left(36)
+
+"
+10,11,2020-03-09 22:09:14,0.8003766663463944,0.4801,NameError: name 'penup' is not defined on line 4,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+penup()
+hans.forward(100)
+
+for i in range(12):
+    hans.left(36)
+
+"
+11,12,2020-03-09 22:09:21,0.8706393414821509,0.4302,success,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+
+hans.forward(100)
+
+for i in range(12):
+    hans.left(36)
+
+"
+12,13,2020-03-09 22:09:51,0.7774436238789384,0.502,NameError: name 'penup' is not defined on line 6,"import turtle
+lex=turtle.Screen()
+hans=turtle.Turtle()
+
+hans.forward(100)
+penup(50)
+for i in range(12):
+    hans.left(36)
+
+"
+13,14,2020-03-09 22:10:33,0.7880615986130105,0.3349,success,"import turtle
+
+hans=turtle.Turtle()
+
+hans.forward(100)
+
+for i in range(12):
+    hans.left(36)
+
+"
+14,15,2020-03-09 22:10:52,0.7861652870654661,0.3708,success,"import turtle
+
+turing = turtle.Turtle()
+
+for i in range(5):
+    turing.forward(110)
+    turing.left(216)"
+15,16,2020-03-09 22:12:45,0.7225885527486098,0.3445,SyntaxError: bad input on line 4,"import turtle
+wayne=turtle.Turtle()
+
+for i in range(4)
+wayne.right(30)
+wayne.forward(50)"
+16,17,2020-03-09 22:13:24,0.7677348781618041,0.3656,SyntaxError: bad input on line 5,"import turtle
+wayne=turtle.Turtle()
+
+for i in range(4):
+wayne.right(30)
+wayne.forward(50)"
+17,18,2020-03-09 22:13:40,0.7731901058092945,0.3492,SyntaxError: bad input on line 5,"import turtle
+wayne=turtle.Turtle()
+
+for i in range(4):
+wayne.left(30)
+wayne.forward(50)"
+18,19,2020-03-09 22:14:01,0.7661594390032914,0.3575,success,"import turtle
+wayne=turtle.Turtle()
+
+for i in range(4):
+    wayne.left(30)
+    wayne.forward(50)"
+19,20,2020-03-09 22:14:26,0.7655055362661627,0.3471,success,"import turtle
+wayne=turtle.Turtle()
+
+for i in range(12):
+    wayne.left(30)
+    wayne.forward(50)"
+20,21,2020-03-09 22:17:54,0.12191663471916014,0.0683,success,"import turtle
+lex=turtle"
+21,22,2020-03-09 22:18:24,0.5211074055697277,0.228,NameError: name 'tuttle' is not defined on line 3,"import turtle
+lex=turtle.Turtle()
+hans=tuttle.Screen()
+shape.lex"
+22,23,2020-03-09 22:18:32,0.5047442409179079,0.2111,NameError: name 'shape' is not defined on line 4,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+shape.lex"
+23,24,2020-03-09 22:18:43,0.43764930410321357,0.1841,success,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+"
+24,25,2020-03-09 22:19:09,0.7678090852925585,0.3527,SyntaxError: bad input on line 5,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range (2)
+    lex.forward(50)"
+25,26,2020-03-09 22:19:19,0.7997797231716246,0.371,SyntaxError: bad input on line 5,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range (1,2)
+    lex.forward(50)"
+26,27,2020-03-09 22:19:34,0.7997797231716246,0.371,SyntaxError: bad input on line 5,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+    for i in range (1,2)
+    lex.forward(50)"
+27,28,2020-03-09 22:19:47,0.7997797231716246,0.371,SyntaxError: bad input on line 5,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range(1,2)
+    lex.forward(50)"
+28,29,2020-03-09 22:19:52,0.7663834048192109,0.3497,SyntaxError: bad input on line 5,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range(1)
+    lex.forward(50)"
+29,30,2020-03-09 22:19:56,0.769458611462817,0.3504,SyntaxError: bad input on line 5,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range(5)
+    lex.forward(50)"
+30,31,2020-03-09 22:20:09,0.8998339702291324,0.4671,NameError: name 'turing' is not defined on line 6,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range(5):
+    turing.forward(110)
+    turing.left(216)"
+31,32,2020-03-09 22:20:27,1.0,0.4542,success,"import turtle
+lex=turtle.Turtle()
+hans=turtle.Screen()
+
+for i in range(5):
+    lex.forward(110)
+    lex.left(216)"

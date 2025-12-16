@@ -1,0 +1,288 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0004,, 
+1,2,2019-03-13 13:00:46,0.6403118394246556,0.668,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(n):
+            add = add + o
+        print(i,""/t"",add)"
+2,3,2019-03-13 13:06:29,0.6272347176138271,0.8195,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(n):
+            add = add + o
+        print(i,""/t"",add)
+        
+print_triangular_numbers(5)"
+3,4,2019-03-13 13:06:36,0.6811071374048836,0.953,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(n):
+            add = add + o
+        print(i,add)
+        
+print_triangular_numbers(5)"
+4,5,2019-03-13 13:07:05,0.7002801287310727,0.9376,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(n):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+5,6,2019-03-13 13:07:13,0.7037759178003484,0.9379,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(i):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+6,7,2019-03-13 13:07:38,0.708609208659309,0.9281,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+7,8,2019-03-13 13:08:07,0.7147317391873044,0.9256,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o + 1
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+8,9,2019-03-13 13:08:28,0.7158770218662762,0.9165,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o
+        
+        print(i,add + 1)
+        add = 0
+        
+print_triangular_numbers(5)"
+9,10,2019-03-13 13:09:33,0.708609208659309,0.9281,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+10,11,2019-03-13 13:10:04,0.7057092469094959,0.9248,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 1
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+11,12,2019-03-13 13:10:10,0.7008863984875557,0.922,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 1
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o
+        
+        print(i,add)
+        add = 1
+        
+print_triangular_numbers(5)"
+12,13,2019-03-13 13:10:15,0.7057092469094959,0.9248,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 1
+    
+    for i in range(1,n,1):
+        for o in range(1,i,1):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+13,14,2019-03-13 13:10:34,0.7101317648103804,0.9212,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 1
+    
+    for i in range(1,n):
+        for o in range(1,i):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+14,15,2019-03-13 13:10:39,0.7094110338473821,0.9305,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(1,n):
+        for o in range(1,i):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+15,16,2019-03-13 13:12:16,0.7080236570521636,0.937,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+16,17,2019-03-13 13:12:24,0.7117434170361985,0.937,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i+1):
+            add = add + o
+        
+        print(i,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+17,18,2019-03-13 13:12:41,0.7165125292709218,0.9293,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i+1):
+            add = add + o
+        
+        print(i+1,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+18,19,2019-03-13 13:12:53,0.7212169839399063,0.9267,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i+2):
+            add = add + o
+        
+        print(i+1,add)
+        add = 0
+        
+print_triangular_numbers(5)"
+19,20,2019-03-13 13:16:31,0.9999999670463338,0.6949,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i+2):
+            add = add + o
+        
+        print(i+1,add)
+        add = 0
+        
+print_triangular_numbers(50)"
+20,21,2019-03-13 13:17:50,0.964798013312852,0.6939,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i):
+            add = add + o
+        
+        print(i+1,add)
+        add = 0
+        
+print_triangular_numbers(50)"
+21,22,2019-03-13 13:18:02,0.9999999890154446,0.6949,success,"
+def print_triangular_numbers(n):
+    # your code here
+    
+    add = 0
+    
+    for i in range(n):
+        for o in range(1,i+2):
+            add = add + o
+        
+        print(i+1,add)
+        add = 0
+        
+print_triangular_numbers(50)"

@@ -1,0 +1,285 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0129,, 
+1,2,2019-11-03 18:30:05,0.8163436867982115,0.8362,SyntaxError: bad input on line 9,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+det capTitle(line):
+    words= line.split()
+    new_line= words[:]
+    for word in enumerate(words):
+        if word not in specialWords:
+            new_line= word.capitalize()
+    return ''.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+2,3,2019-11-04 15:54:56,0.8178600363892083,0.8452,AttributeError: 'tuple' object has no attribute 'capitalize' on line 14,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    words= line.split()
+    new_line= words[:]
+    for word in enumerate(words):
+        if word not in specialWords:
+            new_line= word.capitalize()
+    return ''.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+3,4,2019-11-04 15:55:53,0.9379649461140356,0.9383,AttributeError: 'str' object has no attribute 'capiitalize' on line 12,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    words= line.split()
+    new_line= words[:]
+    new_line[0]= new_line[0].capiitalize()
+    for word in enumerate(words):
+        if word not in specialWords:
+            new_line= word.capitalize()
+    return ''.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+4,5,2019-11-04 15:56:13,0.9305140287667901,0.9322,AttributeError: 'tuple' object has no attribute 'capitalize' on line 15,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+
+def capTitle(line):
+    words= line.split()
+    new_line= words[:]
+    new_line[0]= new_line[0].capitalize()
+    for word in enumerate(words):
+        if word not in specialWords:
+            new_line= word.capitalize()
+    return ''.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+5,6,2019-11-04 16:17:42,0.95391077962524,0.9652,NameError: name 'word' is not defined on line 15,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+def capTitle(line):
+    words= line.split()
+    new_line = words[:]
+    new_line[0] = new_line[0].capitalize()
+    
+    for i in range(len(words)):
+        if i == 0 or words[i] not in specialWords:
+            new_line= word.capitalize()
+    return''.join(new_line)
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+6,7,2019-11-04 16:18:14,0.9523743146416922,0.9661,AttributeError: 'list' object has no attribute 'capitalize' on line 15,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+def capTitle(line):
+    words= line.split()
+    new_line = words[:]
+    new_line[0] = new_line[0].capitalize()
+    
+    for i in range(len(words)):
+        if i == 0 or words[i] not in specialWords:
+            new_line= words.capitalize()
+    return''.join(new_line)
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+7,8,2019-11-04 16:20:37,0.9294698989345339,0.9769,success,"import string
+
+# the list of special words - you can use this as a global variable
+# within your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+def capTitle(line):
+    words= line.split()
+    new_line = words[:]
+    new_line[0] = new_line[0].capitalize()
+    
+    for i in range(len(words)):
+        if i == 0 or words[i] not in specialWords:
+            words[i] = words[i].title()
+    return''.join(words)
+            
+
+
+
+# DO NOT CHANGE CODE BELOW
+
+print(capTitle(input(""Enter title: "")))
+
+"
+8,9,2019-11-04 16:25:08,0.9329690136665314,0.9393,SyntaxError: bad input on line 9,"import string
+
+# the list of special words - you can use this as a global variable
+# your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor'] 
+# Convert the original line in a list of words
+    words = line.split()
+
+    # Create a copy of the list 
+    new_line = words[:]
+
+    # First word always capitalized
+    new_line[0] = new_line[0].capitalize()
+
+    for index, word in enumerate(words):
+        # Here we compare with a list of 'special words'
+        if word not in [specialWords]:
+            new_line[index] = word.capitalize()
+
+    # Rebuild and return the modified line        
+    return ' '.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+9,10,2019-11-04 16:25:27,0.9329690136665314,0.9393,SyntaxError: bad input on line 8,"import string
+# the list of special words - you can use this as a global variable
+# your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor'] 
+# Convert the original line in a list of words
+    words = line.split()
+
+    # Create a copy of the list 
+    new_line = words[:]
+
+    # First word always capitalized
+    new_line[0] = new_line[0].capitalize()
+
+    for index, word in enumerate(words):
+        # Here we compare with a list of 'special words'
+        if word not in [specialWords]:
+            new_line[index] = word.capitalize()
+
+    # Rebuild and return the modified line        
+    return ' '.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+10,11,2019-11-04 16:26:01,0.9329690136665314,0.9393,SyntaxError: bad input on line 8,"import string
+# the list of special words - you can use this as a global variable
+# your function
+specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor'] 
+    # Convert the original line in a list of words
+    words = line.split()
+
+    # Create a copy of the list 
+    new_line = words[:]
+
+    # First word always capitalized
+    new_line[0] = new_line[0].capitalize()
+
+    for index, word in enumerate(words):
+        # Here we compare with a list of 'special words'
+        if word not in [specialWords]:
+            new_line[index] = word.capitalize()
+
+    # Rebuild and return the modified line        
+    return ' '.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+11,12,2019-11-04 16:26:34,0.9329690136665314,0.9393,SyntaxError: bad input on line 4,"import string
+# the list of special words - you can use this as a global variable
+# your function
+    specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+               'of', 'on', 'to', 'up', 'and', 'as',
+               'but', 'or', 'nor'] 
+    # Convert the original line in a list of words
+    words = line.split()
+
+    # Create a copy of the list 
+    new_line = words[:]
+
+    # First word always capitalized
+    new_line[0] = new_line[0].capitalize()
+
+    for index, word in enumerate(words):
+        # Here we compare with a list of 'special words'
+        if word not in [specialWords]:
+            new_line[index] = word.capitalize()
+
+    # Rebuild and return the modified line        
+    return ' '.join(new_line)
+
+print(capTitle(input(""Enter title: "")))
+
+"
+12,13,2019-11-04 16:27:03,1.0,0.9574,success,"import string
+def capTitle(line):
+    
+    specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in',
+           'of', 'on', 'to', 'up', 'and', 'as',
+           'but', 'or', 'nor']
+    
+    # Convert the original line in a list of words
+    words = line.split()
+
+    # Create a copy of the list 
+    new_line = words[:]
+
+    # First word always capitalized
+    new_line[0] = new_line[0].capitalize()
+
+    for index, word in enumerate(words):
+        # Here we compare with a list of 'special words'
+        if word not in [specialWords]:
+            new_line[index] = word.capitalize()
+
+    # Rebuild and return the modified line        
+    return ' '.join(new_line)
+
+print(capTitle(input(""Enter title: "")))"

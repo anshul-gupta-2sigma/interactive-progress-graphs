@@ -1,0 +1,91 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0102,, 
+1,2,2019-10-13 05:36:35,0.9606194352712051,0.9119,success,"def drugPotency(loss, expire):
+    potency = 100.0
+    month = 0
+    
+    while potency > expire:
+        print('Month:', month, 'effectiveness:', potency)
+        percentAmt = (potency * 4)/100
+        potency = potency - percentAmt
+    print('Month:', month, 'effectiveness:', potency,'DISCARDED')
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+2,3,2019-10-13 06:02:17,1.0,0.9235,success,"def drugPotency(loss, expire):
+    potency = 100.0
+    month = 0
+    
+    while potency > expire:
+        print('Month:', month, 'effectiveness:', potency)
+        percentAmt = (potency * 4)/100
+        potency = potency - percentAmt
+        month += 1
+    print('Month:', month, 'effectiveness:', potency,'DISCARDED')
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+3,4,2019-10-17 03:16:38,0.9725724765221304,0.9131,success,"def drugPotency(loss, expire):
+    potency = 100.0
+    month = 0
+    
+    while potency > expire:
+        print('Month:', month, 'effectiveness:', potency)
+        percentAmt = (potency * 4)/100
+        potency = potency - percentAmt
+        month += 1
+    print('Month:', month, ' effectiveness:', potency,'DISCARDED')
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+4,5,2019-10-17 03:17:45,0.9579903397563841,0.9045,success,"def drugPotency(loss, expire):
+    potency = 100.0
+    month = 0
+    
+    while potency > expire:
+        print('Month:', month, ' effectiveness:', potency)
+        percentAmt = (potency * 4)/100
+        potency = potency - percentAmt
+        month += 1
+    print('Month:', month, ' effectiveness:', potency,'DISCARDED')
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"
+5,6,2019-10-17 03:18:12,1.0,0.9235,success,"def drugPotency(loss, expire):
+    potency = 100.0
+    month = 0
+    
+    while potency > expire:
+        print('Month:', month, 'effectiveness:', potency)
+        percentAmt = (potency * 4)/100
+        potency = potency - percentAmt
+        month += 1
+    print('Month:', month, 'effectiveness:', potency,'DISCARDED')
+
+def main():
+    drugPotency(4.0, 50.0)
+
+if __name__ == ""__main__"":
+    main()
+
+"

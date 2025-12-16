@@ -1,0 +1,83 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0696,, 
+1,2,2019-10-17 17:04:17,0.8971781673148524,0.9538,success,"# Write your code here
+n1 = int(input(""enter first number:""))
+n2 = int(input(""enter second number:""))
+print(""first number:"",n1)
+print(""second number:"",n2)
+sum=0 
+count= 0 
+nextnum=n1
+while(nextnum<n2):
+    nextnum = nextnum+count
+    count+=1
+    print(""Number to sum is :"", nextnum)
+    sum=sum+nextnum
+print(""Summation:"",sum)"
+2,3,2019-10-17 17:07:39,0.8971781673148524,0.9538,success,"
+n1 = int(input(""enter first number:""))
+n2 = int(input(""enter second number:""))
+print(""first number:"",n1)
+print(""second number:"",n2)
+sum=0 
+count= 0 
+nextnum=n1
+while(nextnum<n2):
+    nextnum = nextnum+count
+    count+=1
+    print(""Number to sum is :"", nextnum)
+    sum=sum+nextnum
+print(""Summation:"",sum)
+"
+3,4,2019-10-17 17:09:21,0.9748861514575362,0.9478,NameError: name 'nextnum' is not defined on line 11,"
+n1 = int(input(""enter first number:""))
+n2 = int(input(""enter second number:""))
+
+print(""first number:"",n1)
+print(""second number:"",n2)
+sum=0 
+count= 0 
+
+Next=n1
+while(nextnum<n2):
+    Next = Next+count
+    count+=1
+    print(""Number to sum is :"", Next)
+    sum=sum+Next
+print(""Summation:"",sum)
+"
+4,5,2019-10-17 17:09:44,1.0,0.9452,success,"
+n1 = int(input(""enter first number:""))
+n2 = int(input(""enter second number:""))
+
+print(""first number:"",n1)
+print(""second number:"",n2)
+sum=0 
+count= 0 
+
+Next=n1
+while(Next<n2):
+    Next = Next+count
+    count+=1
+    print(""Number to sum is :"", Next)
+    sum=sum+Next
+print(""Summation:"",sum)
+"
+5,6,2019-10-17 17:10:11,1.0,0.9452,success,"
+n1 = int(input(""enter first number:""))
+n2 = int(input(""enter second number:""))
+
+print(""first number:"",n1)
+print(""second number:"",n2)
+
+sum=0 
+count= 0 
+Next=n1
+while(Next<n2):
+    Next = Next+count
+    count+=1
+    
+    print(""Number to sum is :"", Next)
+    sum=sum+Next
+print(""Summation:"",sum)
+"

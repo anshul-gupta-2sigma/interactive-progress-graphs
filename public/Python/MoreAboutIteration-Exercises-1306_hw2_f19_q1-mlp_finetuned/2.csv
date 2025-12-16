@@ -1,0 +1,2127 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.1135,, 
+1,2,2019-10-10 18:59:45,0.33278154204910393,0.4833,SyntaxError: bad input on line 5,"def isPrimes(number):
+    if number == 1:
+        return False 
+    for x in range(2, number-1):
+        if number % x == 0
+        return False 
+    return True 
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+2,3,2019-10-17 00:55:08,0.34097233011843375,0.4975,SyntaxError: bad input on line 6,"def isPrimes(number):
+    if number == 1:
+        return False 
+    for x in range(2, number-1):
+        if number % x == 0:
+        return False 
+    return True 
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+3,4,2019-10-17 00:55:43,0.2773525362482616,0.4545,SyntaxError: bad input on line 4,"def isPrimes(number): 
+    for x in range(2, number):
+        if number % x == 0:
+        return False 
+    return True 
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+4,5,2019-10-17 00:59:35,0.27104659368321005,0.452,SyntaxError: bad input on line 12,"def isPrimes(number): 
+    for x in range(2, number):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    # your code here
+
+
+"
+5,6,2019-10-17 01:05:21,0.6338484464990479,0.6913,SyntaxError: bad input on line 14,"def isPrimes(P): 
+    for x in range(2, P):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True
+                start = start + 1
+                
+    return start
+
+"
+6,7,2019-10-17 01:05:29,0.6430975009153563,0.703,success,"def isPrimes(P): 
+    for x in range(2, P):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                start = start + 1
+                
+    return start
+
+"
+7,8,2019-10-17 01:05:51,0.6430975009153563,0.703,success,"def isPrimes(P): 
+    for x in range(2, P):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                start = start + 1
+                
+    return start
+
+
+"
+8,9,2019-10-17 01:05:59,0.6051139058092739,0.672,SyntaxError: bad input on line 17,"def isPrimes(P): 
+    for x in range(2, P):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+             
+                
+    return start
+
+
+"
+9,10,2019-10-17 01:06:15,0.6253507699700087,0.6943,success,"def isPrimes(P): 
+    for x in range(2, P):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                 start += 1
+                
+    return start
+
+
+"
+10,11,2019-10-17 01:06:54,0.20913855397401715,0.3805,SyntaxError: bad input on line 1,"def isPrimes(100): 
+    for x in range(2, 100):
+        if number % x == 0:
+            return False 
+    return True 
+
+
+
+"
+11,12,2019-10-17 01:09:41,0.2695816324715603,0.4267,success,"def isPrime(n):
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
+            return False
+
+    return True
+
+"
+12,13,2019-10-17 01:12:02,0.6523428315758639,0.7327,NameError: name 'start' is not defined on line 18,"def isPrimes(): 
+    for x in range(2, 100):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                 start += 1
+                
+    return start
+print(start)
+"
+13,14,2019-10-17 01:12:13,0.6512299644342278,0.7268,NameError: name 'P' is not defined on line 19,"def isPrimes(): 
+    for x in range(2, 100):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                 start += 1
+                
+    return start
+
+print(P)
+"
+14,15,2019-10-17 01:12:18,0.6488888118891927,0.7495,success,"def isPrimes(): 
+    for x in range(2, 100):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                 start += 1
+                
+    return start
+
+print(1000)
+"
+15,16,2019-10-17 01:13:09,0.7400927993438527,0.7265,success,"def isPrimes(P): 
+    for x in range(2, P):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True:
+                 start += 1
+                
+    return start
+P = input(""enter a number"")
+
+print(P)
+"
+16,17,2019-10-17 01:18:19,0.12391394308564063,0.2295,SyntaxError: bad input on line 4,"def isPrimes(P): 
+  
+
+def FindPrimes(P):
+   
+
+
+"
+17,18,2019-10-17 02:01:25,0.6743965861992993,0.7404,SyntaxError: bad input on line 14,"def isPrimes(number): 
+    for x in range(2, number):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(P):
+    start = 0
+    for y in range (1,P):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            if check == True
+                start = start + 1
+                
+    return start
+print(number)
+"
+18,19,2019-10-17 02:29:21,0.6799089195777293,0.7342,SyntaxError: bad input on line 14,"def isPrimes(number): 
+    for x in range(2, number):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True
+                start = start + 1
+                
+    return start
+print(number)
+"
+19,20,2019-10-17 02:35:22,0.6895747428644685,0.7494,NameError: name 'number' is not defined on line 18,"def isPrimes(number): 
+    for x in range(2, number):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+                
+    return start
+print(number)
+"
+20,21,2019-10-17 02:35:47,0.7147187915407761,0.7668,success,"def isPrimes(number): 
+    for x in range(2, number):
+        if number % x == 0:
+            return False 
+    return True 
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+number = 1000
+print(number)
+"
+21,22,2019-10-17 02:41:27,0.7855627055888416,0.8332,SyntaxError: bad input on line 10,"def isPrimes(number): 
+    if number > 1:
+        for i in range(2, number):
+             if (number % 1) == 0:
+                    return False;
+                
+        else: 
+            return True;
+        
+else: 
+    return false;
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+22,23,2019-10-17 02:41:43,0.7855627055888416,0.8332,NameError: name 'number' is not defined on line 25,"def isPrimes(number): 
+    if number > 1:
+        for i in range(2, number):
+             if (number % 1) == 0:
+                    return False;
+                
+        else: 
+            return True;
+        
+    else: 
+        return false;
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+23,24,2019-10-17 02:46:59,0.8090843380698014,0.791,SyntaxError: bad input on line 6,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False:
+                
+        else: 
+            return True:
+        
+    else: 
+        return False:
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+24,25,2019-10-17 02:48:18,0.8090843380698014,0.791,SyntaxError: bad input on line 6,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                    return False:
+                
+        else: 
+            return True:
+        
+    else: 
+        return False:
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+25,26,2019-10-17 02:48:54,0.8021865217923363,0.7991,IndentationError: unindent does not match any outer indentation level on line 6\n            return False:\n\n            ^\n,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+            return False:
+                
+        else: 
+            return True:
+        
+    else: 
+        return False:
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+26,27,2019-10-17 02:49:02,0.8090843380698014,0.791,SyntaxError: bad input on line 6,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False:
+                
+        else: 
+            return True:
+        
+    else: 
+        return False:
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+27,28,2019-10-17 02:49:09,0.8028581845016938,0.7821,SyntaxError: bad input on line 9,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True:
+        
+    else: 
+        return False:
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+28,29,2019-10-17 02:49:15,0.7977526971239617,0.7927,SyntaxError: bad input on line 12,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False:
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+29,30,2019-10-17 02:49:19,0.7933680784213228,0.8021,success,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(number)
+"
+30,31,2019-10-17 02:50:00,0.7925228505182429,0.797,NameError: name 'y' is not defined on line 26,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(y)
+"
+31,32,2019-10-17 02:50:30,0.7930349414659634,0.7958,NameError: name 'i' is not defined on line 26,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(i)
+"
+32,33,2019-10-17 02:52:43,0.7846741408344188,0.7738,SyntaxError: bad input on line 21,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True
+                start = start + 1
+            
+          
+    return start
+print(i)
+"
+33,34,2019-10-17 02:52:51,0.7930349414659634,0.7958,NameError: name 'i' is not defined on line 26,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(i)
+"
+34,35,2019-10-17 02:53:06,0.7934842683071344,0.8013,NameError: name 'start' is not defined on line 26,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    start = 0
+    for y in range (1,number):
+        check = True 
+        for i in range (1,y):
+            if y % i == 0:
+                check = False
+            elif check == True:
+                start = start + 1
+            
+          
+    return start
+print(start)
+"
+35,36,2019-10-17 03:01:36,0.7256995009107707,0.8094,SyntaxError: bad input on line 21,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrimes = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print num
+                
+"
+36,37,2019-10-17 03:01:46,0.7447595810889927,0.8198,success,"number = 1000
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrimes = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+                
+"
+37,38,2019-10-17 03:01:59,0.7224373167062215,0.8064,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrimes = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+                
+"
+38,39,2019-10-17 03:03:28,0.7160654121518,0.8008,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2, number):
+             if (number % 1) == 0:
+                return False
+                
+        else: 
+            return True
+        
+    else: 
+        return False
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+                
+"
+39,40,2019-10-17 03:25:04,0.7757977968358929,0.7243,SyntaxError: bad input on line 6,"def isPrimes(number): 
+    if (number==1):
+        return False 
+    elif (number==2):
+        return True
+    else 
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+40,41,2019-10-17 03:25:11,0.7803679704103259,0.7251,success,"def isPrimes(number): 
+    if (number==1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+41,42,2019-10-17 03:25:55,0.8362458514636126,0.7878,success,"def isPrimes(number): 
+    if (number==1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(9))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+42,43,2019-10-17 03:26:01,0.8362228652173266,0.7885,success,"def isPrimes(number): 
+    if (number==1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+43,44,2019-10-17 03:26:17,0.8363813293928878,0.7866,success,"def isPrimes(number): 
+    if (number==1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(100))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+44,45,2019-10-17 03:32:45,0.7851946196614772,0.8416,SyntaxError: bad input on line 8,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else: 
+            return True 
+else:
+    return False
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+45,46,2019-10-17 03:33:07,0.8362228652173266,0.7885,success,"def isPrimes(number): 
+    if (number==1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+46,47,2019-10-17 03:33:55,0.8354712570386288,0.7847,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+47,48,2019-10-17 03:35:47,0.8356880521005574,0.7897,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(6))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+48,49,2019-10-17 03:36:05,0.8384947904586637,0.785,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(-1))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+49,50,2019-10-17 03:36:27,0.8357250176985133,0.7829,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(100))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+            
+                
+"
+50,51,2019-10-17 03:42:00,0.8606423159884022,0.8471,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(10))
+            
+                
+"
+51,52,2019-10-17 03:43:15,0.8597727240742339,0.8476,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(1000))
+            
+                
+"
+52,53,2019-10-17 03:43:31,0.8606423159884022,0.8471,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(10))
+            
+                
+"
+53,54,2019-10-17 03:44:03,0.8354712570386288,0.7847,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+#print(FindPrimes(10))
+            
+                
+"
+54,55,2019-10-17 03:45:48,0.8617044639149988,0.8452,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(1,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(10))
+            
+                
+"
+55,56,2019-10-17 03:46:26,0.8605519949725111,0.8389,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(100))
+            
+                
+"
+56,57,2019-10-17 03:55:36,0.8534776035872645,0.8319,UnboundLocalError: local variable 'isPrime' referenced before assignment on line 19,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        #isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(100))
+            
+                
+"
+57,58,2019-10-17 04:00:31,0.8455137250597214,0.8284,SyntaxError: bad input on line 18,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (isPrimes(num)):
+            print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+58,59,2019-10-17 04:00:44,0.8023365363061945,0.7765,SyntaxError: bad input on line 18,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+#print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (isPrimes(num)):
+            print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+59,60,2019-10-17 04:01:13,0.770532033774078,0.7567,SyntaxError: bad input on line 17,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+#print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        for i in range(2,num):
+            if (isPrimes(num)):
+            print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+60,61,2019-10-17 04:01:55,0.7652337984168968,0.7605,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+#print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        for i in range(2,num):
+            if (isPrimes(num)):
+                print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+61,62,2019-10-17 04:08:23,0.6951243420230748,0.7059,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+#print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+62,63,2019-10-17 04:10:52,0.6916944984200757,0.6943,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(99))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+#print(FindPrimes(100))
+            
+                
+"
+63,64,2019-10-17 04:11:16,0.85880442995354,0.8379,success,"def isPrimes(number): 
+    if (number<=1):
+        return False 
+    elif (number==2):
+        return True
+    else:
+        for i in range (2, number):
+            if(number % i == 0):
+                return False 
+            return True 
+print(isPrimes(99))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        isPrime = True
+        for i in range(2,num):
+            if (num % i == 0):
+                isPrime = False
+        if isPrime:
+            print(num)
+print(FindPrimes(1000))
+            
+                
+"
+64,65,2019-10-17 04:13:33,0.4923028672013243,0.7522,SyntaxError: bad input on line 3,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number/2)
+print(isPrimes(5))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+#print(FindPrimes(100))
+            
+                
+"
+65,66,2019-10-17 04:15:49,0.6408762309371645,0.83,TypeError: stop must be a integer on line 3,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number/2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(99))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+#print(FindPrimes(100))
+            
+                
+"
+66,67,2019-10-17 04:16:11,0.6405263153334305,0.8249,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(99))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+#print(FindPrimes(100))
+            
+                
+"
+67,68,2019-10-17 04:17:03,0.6404042664174873,0.8347,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+#print(FindPrimes(100))
+            
+                
+"
+68,69,2019-10-17 04:17:21,0.6419420456766236,0.8544,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+#print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+69,70,2019-10-17 04:18:37,0.6232996531430091,0.8376,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+#print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            return num
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+70,71,2019-10-17 04:19:07,0.6483208442637096,0.8603,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+#print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            return print(num)
+            
+                
+print(FindPrimes(100))
+            
+                
+"
+71,72,2019-10-17 04:19:50,0.6155943947880639,0.8204,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+#print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+FindPrimes(100)
+            
+                
+"
+72,73,2019-10-17 04:23:47,0.6140283784495753,0.8252,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+#print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+FindPrimes(35)
+            
+                
+"
+73,74,2019-10-17 04:25:23,0.6835814785253925,0.8766,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+FindPrimes(35)
+            
+                
+"
+74,75,2019-10-17 04:25:32,0.6848614729734708,0.8678,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+FindPrimes(100)
+            
+                
+"
+75,76,2019-10-17 04:26:32,0.6837631740241834,0.8758,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number//2):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+FindPrimes(1000)
+            
+                
+"
+76,77,2019-10-17 04:37:54,0.668298893036035,0.8766,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+print(isPrimes(35))
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+                
+FindPrimes(1000)
+            
+                
+"
+77,78,2019-10-17 04:41:07,0.6673213990100344,0.8878,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(35))             
+
+FindPrimes(1000)
+            
+                
+"
+78,79,2019-10-17 05:20:10,0.7218811320874264,0.8697,TypeError: stop must be a integer on line 13,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(35))             
+
+FindPrimes(input(""enter a number""))
+            
+                
+"
+79,80,2019-10-17 05:25:05,0.7692345294084545,0.8946,TypeError: stop must be a integer on line 13,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(35))             
+
+number = (input(""enter a number""))
+FindPrimes(number)
+            
+                
+"
+80,81,2019-10-17 05:25:25,0.6673213990100344,0.8878,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(35))             
+
+FindPrimes(1000)
+            
+                
+"
+81,82,2019-10-17 07:06:21,0.5989717954506226,0.8198,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+#print(isPrimes(35))             
+
+FindPrimes(1000)
+            
+                
+"
+82,83,2019-10-17 07:28:53,0.6663582673588182,0.8868,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(1000))             
+
+FindPrimes(1000)
+            
+                
+"
+83,84,2019-10-17 07:30:58,0.8132716230745878,0.8908,SyntaxError: bad input on line 17,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+x = int(input(""number"") 
+print(isPrimes(x))             
+
+print(FindPrimes(x), 'is a prime number')
+            
+                
+"
+84,85,2019-10-17 07:31:21,0.6673213990100344,0.8878,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(35))             
+
+FindPrimes(1000)
+            
+                
+"
+85,86,2019-10-17 07:31:45,0.6663582673588182,0.8868,success,"def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(1000))             
+
+FindPrimes(1000)
+            
+                
+"
+86,87,2019-10-17 07:32:31,0.7583321808427923,0.8583,success,"x = int(input('number'))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+87,88,2019-10-17 07:34:22,0.8329943233633008,0.8792,success,"x = int(input('number'))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(""Input number:"", x)            
+print(FindPrimes(x), ""is a prime number"")
+
+                
+"
+88,89,2019-10-17 07:35:05,0.8568664427010947,0.8771,success,"x = int(input('number'))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+y = FindPrimes(x)             
+print(""Input number:"", x)            
+print(y, ""is a prime number"")
+
+                
+"
+89,90,2019-10-17 07:36:11,0.8329943233633008,0.8792,SyntaxError: bad input on line 19,"x = int(input('number'))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(""Input number:"", x)            
+    print(FindPrimes(x), ""is a prime number"")
+
+                
+"
+90,91,2019-10-17 07:38:20,0.7814094954603845,0.8442,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+91,92,2019-10-17 13:05:14,0.7124549612975151,0.7945,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+#print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+92,93,2019-10-17 15:23:10,0.6641983907596152,0.7475,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num)
+            
+#print(isPrimes(x))             
+
+#FindPrimes(x)
+            
+                
+"
+93,94,2019-10-17 15:23:30,0.7645568536473861,0.8151,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num, ""is a prime number"")
+            
+#print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+94,95,2019-10-17 15:24:56,0.9633002156864664,0.9294,SyntaxError: bad input on line 19,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    counter = 0
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num, ""is a prime number"")
+            counter = counter + 1
+    print(""NUmber of prime numbers between 1 and "", ,number, ""is:"", counter)
+            
+#print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+95,96,2019-10-17 15:25:06,0.9711334947331616,0.937,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    counter = 0
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num, ""is a prime number"")
+            counter = counter + 1
+    print(""NUmber of prime numbers between 1 and"" ,number, ""is:"", counter)
+            
+#print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+96,97,2019-10-17 16:43:21,1.0,0.9451,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    counter = 0
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num, ""is a prime number"")
+            counter = counter + 1
+    print(""Number of prime numbers between 1 and"" ,number, ""is:"", counter)
+            
+#print(isPrimes(x))             
+
+FindPrimes(x)
+            
+                
+"
+97,98,2019-10-17 16:55:52,1.0,0.9451,success,"x = int(input(""Enter a number""))
+def isPrimes(number): 
+    if number > 1:
+        for i in range (2,number):
+            if (number % i) == 0:
+                return False
+        else:
+            return True 
+    else:
+        return False
+
+
+def FindPrimes(number):
+    counter = 0
+    for num in range(1,number):
+        if (isPrimes(num)):
+            print(num, ""is a prime number"")
+            counter = counter + 1
+    print(""Number of prime numbers between 1 and"" ,number, ""is:"", counter)
+            
+
+FindPrimes(x)
+            
+                
+"

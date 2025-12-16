@@ -1,0 +1,2271 @@
+,snapshot,timestamp,real_progress,reg_est_prog,feedback_text,code
+0,1,,0.0,0.0236,, 
+1,2,2019-10-10 15:34:19,0.5551920969078954,0.7588,SyntaxError: bad input on line 17,"#def isPrimes(number):
+    # your code here
+    #if (n==1):
+        #return False
+    #elif (n==2):
+        #return True;
+    #else:
+        #for x in range(2,n):
+            #if(n % x==0):
+                #return False
+        #return True
+    
+
+#def FindPrimes2(Q):
+    # your code here
+    
+    def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+"
+2,3,2019-10-10 17:03:57,0.5437141030971208,0.7351,success,"#def isPrimes(number):
+    # your code here
+    #if (n==1):
+        #return False
+    #elif (n==2):
+        #return True;
+    #else:
+        #for x in range(2,n):
+            #if(n % x==0):
+                #return False
+        #return True
+    
+
+#def FindPrimes2(Q):
+    # your code here
+    
+def isPrimes(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+"
+3,4,2019-10-10 17:07:59,0.5935828247790076,0.6571,success,"def isPrimes(number):
+    # your code here
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def FindPrimes2(Q):
+    factor = 2
+    while (factor * factor <= Q):
+        if Q % factor == 0:
+             return False
+        factor +=1
+    return True
+    
+
+
+
+
+"
+4,5,2019-10-10 17:08:30,0.7718837688532769,0.7259,success,"def isPrimes(number):
+    # your code here
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def FindPrimes2(Q):
+    prime_list = [2]
+    # first number to test if prime
+    num = 3
+    # keep generating primes until we get to the nth one
+    while len(prime_list) < n:
+
+        # check if num is divisible by any prime before it
+        for p in prime_list:
+            # if there is no remainder dividing the number
+            # then the number is not a prime
+            if num % p == 0:
+                # break to stop testing more numbers, we know it's not a prime
+                break
+
+        # if it is a prime, then add it to the list
+        # after a for loop, else runs if the ""break"" command has not been given
+        else:
+            # append to prime list
+            prime_list.append(num)
+
+        # same optimization you had, don't check even numbers
+        num += 2
+
+    # return the last prime number generated
+    return prime_list[-1]
+
+
+
+
+"
+5,6,2019-10-10 17:08:40,0.773243204750796,0.7344,success,"def isPrimes(number):
+    # your code here
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def FindPrimes2(num):
+    prime_list = [2]
+    # first number to test if prime
+    num = 3
+    # keep generating primes until we get to the nth one
+    while len(prime_list) < n:
+
+        # check if num is divisible by any prime before it
+        for p in prime_list:
+            # if there is no remainder dividing the number
+            # then the number is not a prime
+            if num % p == 0:
+                # break to stop testing more numbers, we know it's not a prime
+                break
+
+        # if it is a prime, then add it to the list
+        # after a for loop, else runs if the ""break"" command has not been given
+        else:
+            # append to prime list
+            prime_list.append(num)
+
+        # same optimization you had, don't check even numbers
+        num += 2
+
+    # return the last prime number generated
+    return prime_list[-1]
+
+
+
+
+"
+6,7,2019-10-10 17:09:01,0.5551920969078954,0.7588,success,"def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+
+"
+7,8,2019-10-10 17:09:38,0.5990257380266448,0.8309,success,"def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+print(is_prime)
+
+
+
+"
+8,9,2019-10-10 17:09:57,0.6213695953140341,0.8654,success,"def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+print(is_prime(100))
+
+
+
+"
+9,10,2019-10-10 17:10:22,0.7055621366456871,0.8887,NameError: name 'n' is not defined on line 21,"def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+print(is_prime(100))
+print(nth_prime_number(n))
+
+
+
+"
+10,11,2019-10-10 17:10:26,0.7007923271100442,0.8933,success,"def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+11,12,2019-10-10 17:11:55,0.6679472262879852,0.6965,NameError: name 'nth_prime_number' is not defined on line 21,"def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+print(nth_prime_number(5))
+
+
+
+"
+12,13,2019-10-10 17:12:02,0.6679472262879852,0.6965,IndentationError: unindent does not match any outer indentation level on line 21\n print(nth_prime_number(5))\n\n ^\n,"def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+ print(nth_prime_number(5))
+
+
+
+"
+13,14,2019-10-10 17:13:00,0.6592934930624756,0.7159,success,"def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+print(isPrimes(5))
+
+
+
+"
+14,15,2019-10-10 17:13:52,0.7742000103588804,0.7725,NameError: name 'is_prime' is not defined on line 19,"def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+
+print(nth_prime_number(5))
+
+
+
+"
+15,16,2019-10-10 17:14:19,0.7007923271100442,0.8933,success,"def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+16,17,2019-10-10 17:14:51,0.7048007818815396,0.7993,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+17,18,2019-10-10 17:15:15,0.8345565449442058,0.8325,NameError: name 'is_prime' is not defined on line 27,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+18,19,2019-10-10 17:15:22,0.7747996557116554,0.7784,NameError: name 'is_prime' is not defined on line 23,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+#print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+19,20,2019-10-10 17:15:35,0.7805590712878392,0.7845,NameError: name 'is_Primes' is not defined on line 23,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_Primes(num):
+            count +=1
+    return num
+
+#print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+20,21,2019-10-10 17:15:42,0.781447856572291,0.7789,NameError: name 'is_Primes' is not defined on line 23,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_Primes(n):
+            count +=1
+    return num
+
+#print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+21,22,2019-10-10 17:16:00,0.786219406862545,0.7946,ExternalError: RangeError: Maximum call stack size exceeded on line 23,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if nth_prime_number(n):
+            count +=1
+    return num
+
+#print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+22,23,2019-10-10 17:16:08,0.7048007818815396,0.7993,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+23,24,2019-10-10 17:17:50,0.7048007818815396,0.7993,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+24,25,2019-10-10 17:28:50,0.7050789215203918,0.7894,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(1))
+print(nth_prime_number(100))
+
+
+
+"
+25,26,2019-10-10 17:30:00,0.4627681422671881,0.6355,NameError: name 'is_prime' is not defined on line 21,"
+
+#def is_prime(num):
+    #factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(1))
+print(nth_prime_number(100))
+
+
+
+"
+26,27,2019-10-10 17:30:55,0.8351862202457111,0.8309,NameError: name 'is_prime' is not defined on line 34,"
+
+#def is_prime(num):
+    #factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+    
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(1))
+print(nth_prime_number(100))
+
+
+
+"
+27,28,2019-10-10 17:31:09,0.8351862202457111,0.8309,IndentationError: unindent does not match any outer indentation level on line 21\n              return True\n\n              ^\n,"
+
+#def is_prime(num):
+    #factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+    
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+              return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(1))
+print(nth_prime_number(100))
+
+
+
+"
+28,29,2019-10-10 17:31:15,0.8351862202457111,0.8309,NameError: name 'is_prime' is not defined on line 34,"
+
+#def is_prime(num):
+    #factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+    
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(1))
+print(nth_prime_number(100))
+
+
+
+"
+29,30,2019-10-10 17:31:35,0.8393759449680371,0.8404,NameError: name 'is_prime' is not defined on line 30,"
+
+#def is_prime(num):
+    #factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+    
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+        return num
+
+print(isPrimes(1))
+print(nth_prime_number(100))
+
+
+
+"
+30,31,2019-10-10 17:32:19,0.840790144402238,0.8612,success,"
+
+#def is_prime(num):
+    #factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+    
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(1))
+print(nth_prime_number(100))
+
+
+
+"
+31,32,2019-10-10 17:32:32,0.8401319985062194,0.8583,success,"
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(5))
+print(nth_prime_number(100))
+
+
+
+"
+32,33,2019-10-10 17:32:39,0.8384565501103292,0.8519,success,"
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(5))
+print(nth_prime_number(44))
+
+
+
+"
+33,34,2019-10-10 17:32:48,0.8390260690413975,0.8536,success,"
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(7))
+print(nth_prime_number(44))
+
+
+
+"
+34,35,2019-10-10 17:32:53,0.839144426221488,0.8546,success,"
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(1))
+print(nth_prime_number(44))
+
+
+
+"
+35,36,2019-10-10 17:33:01,0.8410397215510091,0.8553,success,"
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(1))
+print(nth_prime_number(1))
+
+
+
+"
+36,37,2019-10-10 17:33:07,0.8399768189231156,0.8552,success,"
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+    return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if isPrimes(num):
+            count +=1
+        return num
+
+print(isPrimes(1))
+print(nth_prime_number(5))
+
+
+
+"
+37,38,2019-10-10 17:34:16,0.8345565449442058,0.8325,NameError: name 'is_prime' is not defined on line 26,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+38,39,2019-10-10 17:34:27,0.8354193069881239,0.834,NameError: name 'is_prime' is not defined on line 26,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_Primes(num):
+            count +=1
+    return num
+
+print(is_prime(100))
+print(nth_prime_number(100))
+
+
+
+"
+39,40,2019-10-10 17:34:37,0.8437766330311556,0.8474,NameError: name 'is_Primes' is not defined on line 26,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_Primes(num):
+            count +=1
+    return num
+
+print(is_Primes(100))
+print(nth_prime_number(100))
+
+
+
+"
+40,41,2019-10-10 17:34:49,0.7805590712878392,0.7845,NameError: name 'is_Primes' is not defined on line 22,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_Primes(num):
+            count +=1
+    return num
+
+#print(is_Primes(100))
+print(nth_prime_number(100))
+
+
+
+"
+41,42,2019-10-10 17:35:06,0.781447856572291,0.7789,NameError: name 'is_Primes' is not defined on line 22,"
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+    
+def nth_prime_number(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_Primes(n):
+            count +=1
+    return num
+
+#print(is_Primes(100))
+print(nth_prime_number(100))
+
+
+
+"
+42,43,2019-10-10 17:43:17,0.6861855728032082,0.7924,NameError: name 'nth_prime_number' is not defined on line 30,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+
+
+
+
+
+def FindPrimes2(Q):
+    if Q==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < Q):
+        num +=2 
+        if is_prime(num):
+            count +=1
+    return num
+
+
+print(is_prime(1))
+print(nth_prime_number(100))
+
+
+
+"
+43,44,2019-10-10 17:44:44,0.604886104477848,0.797,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+
+
+
+
+
+
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 #optimization
+        if is_prime(num):
+            count +=1
+    return num
+print(nPrime(100))
+
+
+
+"
+44,45,2019-10-10 17:48:27,0.604886104477848,0.797,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+
+
+
+
+
+
+
+
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if is_prime(num):
+            count +=1
+    return num
+print(nPrime(100))
+
+
+
+"
+45,46,2019-10-10 19:11:03,0.604886104477848,0.797,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if is_prime(num):
+            count +=1
+    return num
+print(nPrime(100))
+
+
+
+"
+46,47,2019-10-10 19:11:08,0.6044259325463761,0.7843,success,"
+
+def is_prime(num):
+    factor = 2
+    while (factor * factor <= num):
+        if num % factor == 0:
+             return False
+        factor +=1
+    return True
+
+
+
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if is_prime(num):
+            count +=1
+    return num
+print(nPrime(5))
+
+
+
+"
+47,48,2019-10-10 19:11:45,0.7374941377749523,0.777,NameError: name 'is_prime' is not defined on line 30,"
+
+#def is_prime(num):
+    ##factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if is_prime(num):
+            count +=1
+    return num
+print(nPrime(5))
+
+
+
+"
+48,49,2019-10-10 19:11:59,0.7438355679288111,0.7772,NameError: name 'is_Primes' is not defined on line 30,"
+
+#def is_prime(num):
+    ##factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if is_Primes(num):
+            count +=1
+    return num
+print(nPrime(5))
+
+
+
+"
+49,50,2019-10-10 19:12:23,0.7418448944210856,0.7909,success,"
+
+#def is_prime(num):
+    ##factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(nPrime(5))
+
+
+
+"
+50,51,2019-10-10 19:12:49,0.742482432953464,0.7993,success,"
+
+#def is_prime(num):
+    ##factor = 2
+    #while (factor * factor <= num):
+        #if num % factor == 0:
+             #return False
+        #factor +=1
+    #return True
+
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(nPrime(100))
+
+
+
+"
+51,52,2019-10-10 19:16:12,0.7897642931338675,0.8273,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(nPrime(100))
+
+print(""f"")
+
+"
+52,53,2019-10-10 19:16:23,0.8297569768835593,0.8782,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""f"")
+print(nPrime(100))
+
+print(""f"")
+
+"
+53,54,2019-10-10 19:16:40,0.8504780257008409,0.8868,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""f"")
+print(nPrime(100),""f"")
+
+print(""f"")
+
+"
+54,55,2019-10-10 19:18:08,0.8727364262082159,0.9154,TypeError: cannot concatenate 'str' and 'int' objects on line 25,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""f"")
+print(""ggg"" + nPrime(100),""f"")
+
+print(""f"")
+
+"
+55,56,2019-10-10 19:18:13,0.8780492579285261,0.9155,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""f"")
+print(""ggg"" ,+ nPrime(100),""f"")
+
+print(""f"")
+
+"
+56,57,2019-10-10 19:18:36,0.8694461356446684,0.8943,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""f"")
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+57,58,2019-10-10 19:18:42,0.8309597269875011,0.8545,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+58,59,2019-10-10 19:19:15,0.8926322572374633,0.9069,NameError: name 'n' is not defined on line 24,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",n)
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+59,60,2019-10-10 19:19:24,0.8917019333669599,0.9047,NameError: name 'num' is not defined on line 24,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",num)
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+60,61,2019-10-10 19:19:31,0.8957162759248197,0.9113,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",nPrime)
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+61,62,2019-10-10 19:19:41,0.9139437156357124,0.9348,NameError: name 'n' is not defined on line 24,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",nPrime(n))
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+62,63,2019-10-10 19:19:54,0.9007870788552,0.9065,success,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",isPrimes)
+print(""Input number:"",+ nPrime(100))
+
+print(""f"")
+
+"
+63,64,2019-10-10 19:20:22,0.9056543359474708,0.9112,NameError: name 'n' is not defined on line 25,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",isPrimes)
+print(""Input number:"",+ nPrime(n))
+
+print(""f"")
+
+"
+64,65,2019-10-10 19:20:41,0.9251579620555308,0.956,NameError: name 'n' is not defined on line 26,"
+def isPrimes(n):
+    #n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+    n = int(input(""enter""))
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",isPrimes)
+print(""Input number:"",+ nPrime(n))
+
+print(""f"")
+
+"
+65,66,2019-10-10 19:20:47,0.9306275434883313,0.9546,NameError: name 'n' is not defined on line 26,"
+def isPrimes(n):
+    n = int(input(""enter""))
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",isPrimes)
+print(""Input number:"",+ nPrime(n))
+
+print(""f"")
+
+"
+66,67,2019-10-10 19:20:55,0.9367785541652291,0.952,SyntaxError: bad input on line 1," n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",isPrimes)
+print(""Input number:"",+ nPrime(n))
+
+print(""f"")
+
+"
+67,68,2019-10-10 19:21:00,0.9367785541652291,0.952,success,"n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",isPrimes)
+print(""Input number:"",+ nPrime(n))
+
+print(""f"")
+
+"
+68,69,2019-10-10 19:21:13,0.9435566790655864,0.9534,success,"n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",n)
+print(""Input number:"",+ nPrime(n))
+
+print(""f"")
+
+"
+69,70,2019-10-10 19:22:27,0.939442603207159,0.9526,success,"n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",n)
+print(n,""th prime number is "",+ nPrime(n))
+
+print(""f"")
+
+"
+70,71,2019-10-10 19:22:47,0.9713607923373602,0.9423,TypeError: bad operand type for unary +: 'str' on line 26,"n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",n)
+print(n,+""th prime number is "",+ nPrime(n))
+
+
+
+"
+71,72,2019-10-10 19:22:55,0.9693770113027346,0.9387,SyntaxError: bad input on line 26,"n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",n)
+print(n+,""th prime number is "",+ nPrime(n))
+
+
+
+"
+72,73,2019-10-10 19:22:59,0.9761252436834349,0.9345,success,"n = int(input(""enter""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number"",n)
+print(n,""th prime number is "",+ nPrime(n))
+
+
+
+"
+73,74,2019-10-10 19:26:03,1.0,0.9369,success,"n = int(input(""input number""))
+def isPrimes(n):
+   
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+print(""input number:"",n)
+print(n,""th prime number is"",+ nPrime(n))
+
+
+
+"
+74,75,2019-10-10 19:27:24,1.0,0.9369,success,"n = int(input(""input number""))
+def isPrimes(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True
+
+def nPrime(n):
+  
+    if n==1:
+        return 2
+    count = 1
+    num = 1
+    while(count < n):
+        num +=2 
+        if isPrimes(num):
+            count +=1
+    return num
+
+print(""input number:"",n)
+print(n,""th prime number is"",+ nPrime(n))
+
+
+
+"
