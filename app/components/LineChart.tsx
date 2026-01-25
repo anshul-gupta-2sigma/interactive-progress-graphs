@@ -32,8 +32,8 @@ function LineChartComponent({ data, onClickPoint, selectedPoints }: LineChartPro
         borderColor: 'rgb(141, 99, 255, 0.5)',
         backgroundColor: 'rgb(141, 99, 255, 0.5)',
         pointRadius: new Array(data.length).fill(4),
-        pointBackgroundColor: new Array(data.length).fill('rgb(141, 99, 255)'),
-        pointBorderColor: new Array(data.length).fill('rgb(141, 99, 255)'),
+        pointBackgroundColor: data.map((d) => d.action == 'code_run' ? (d.correct == 'True' ? 'rgb(0, 170, 0)' : "rgb(0, 70, 170)") : 'rgb(141, 99, 255)'),
+        pointBorderColor: data.map((d) => d.action == 'code_run' ? (d.correct == 'True' ? 'rgb(0, 170, 0)' : "rgb(0, 70, 170)") : 'rgb(141, 99, 255)'),
         pointBorderWidth: new Array(data.length).fill(1),
       },
       {
@@ -42,8 +42,8 @@ function LineChartComponent({ data, onClickPoint, selectedPoints }: LineChartPro
         borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgba(255, 99, 132, 0.5)",
         pointRadius: new Array(data.length).fill(4),
-        pointBackgroundColor: new Array(data.length).fill('rgb(255, 99, 132)'),
-        pointBorderColor: new Array(data.length).fill('rgb(255, 99, 132)'),
+        pointBackgroundColor: data.map((d) => d.action == 'code_run' ? (d.correct == 'True' ? "rgb(0, 170, 0)" : "rgb(170, 0, 0)") : "rgb(255, 99, 132)"),
+        pointBorderColor: data.map((d) => d.action == 'code_run' ? (d.correct == 'True' ? "rgb(0, 170, 0)" : "rgb(170, 0, 0)") : "rgb(255, 99, 132)"),
         pointBorderWidth: new Array(data.length).fill(1),
       },
     ],
@@ -127,13 +127,13 @@ function LineChartComponent({ data, onClickPoint, selectedPoints }: LineChartPro
     const reg_est = chart.data.datasets[0];
     const real = chart.data.datasets[1];
 
-    reg_est.pointRadius = createArray(i => isSelected(i)?8:4);
-    reg_est.pointBorderWidth = createArray(i => isSelected(i)?2:1);
-    reg_est.pointBorderColor = createArray(i => isSelected(i)?'black':'rgb(141, 99, 255)');
+    reg_est.pointRadius = createArray(i => isSelected(i) ? 8 : (data[i]['action'] == 'code_run' ? 5 : 4));
+    reg_est.pointBorderWidth = createArray(i => isSelected(i) ? 2 : 1)
+    reg_est.pointBorderColor = createArray(i => isSelected(i) ? 'rgb(0, 0, 0)' : (data[i]['action'] == 'code_run' ? (data[i]['correct'] == 'True' ? 'rgb(0, 170, 0)' : "rgb(0, 70, 170)") : 'rgb(141, 99, 255)')),
 
-    real.pointRadius = createArray(i => isSelected(i)?8:4);
-    real.pointBorderWidth = createArray(i => isSelected(i)?2:1);
-    real.pointBorderColor = createArray(i => isSelected(i)?'black':'rgb(255, 99, 132)');
+    real.pointBorderWidth = createArray(i => isSelected(i) ? 2 : 1)
+    real.pointBorderColor = createArray(i => isSelected(i) ? 'rgb(0, 0, 0)' : (data[i]['action'] == 'code_run' ? (data[i]['correct'] == 'True' ? "rgb(0, 170, 0)" : "rgb(170, 0, 0)") : "rgb(255, 99, 132)")),
+    real.pointRadius = createArray(i => isSelected(i) ? 10 : (data[i]['action'] == 'code_run' ? 5 : 4));
 
     chart.update('none');
   }, [selectedSnapshots, data]);

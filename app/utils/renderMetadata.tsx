@@ -4,7 +4,8 @@ export const renderMetadata = (metadata: Metadata) => {
     const fields = [
       { key: 'snapshot', label: 'Snapshot' },
       { key: 'timestamp', label: 'Timestamp' },
-      { key: 'feedback_text', label: 'Feedback Text' },
+      { key: 'action', label: 'Action' },
+      { key: 'correct', label: 'Correct' },
     ];
 
     return (
