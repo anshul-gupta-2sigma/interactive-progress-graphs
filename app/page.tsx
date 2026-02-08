@@ -246,6 +246,7 @@ export default function Home() {
             key={`${file}-${selectedFiles.length}`} 
             file={file} 
             selectedPoints={globalSelectedPoints} 
+            setSelectedPoints={setGlobalSelectedPoints}
             onPointSelect={handleGlobalPointSelection} 
           />
         ))}
