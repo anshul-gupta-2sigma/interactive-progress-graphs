@@ -38,17 +38,23 @@ export const GraphSection = ({ file, selectedPoints, setSelectedPoints, onPointS
   const handleArrowsDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (!data) return
 
-    const indexSelectedPoints = [...selectedPoints]
+    const filteredSelectedPoints = [...selectedPoints]
                   .map((p, i) => ({p, i}))
                   .filter(({p}) => p.source === file)
-                  .at(-1)?.i
-    if (indexSelectedPoints === undefined) return
+    const indexSelectedPointStart = filteredSelectedPoints.at(0)?.i
+    const indexSelectedPointEnd = filteredSelectedPoints.at(-1)?.i
+    if (indexSelectedPointStart === undefined || indexSelectedPointEnd === undefined) return
 
     const moveSelectedPoint = (index: number, shift: number) => {
       const oldPoint = selectedPoints[index]
+      const newGlobalIndex = oldPoint.metadata.snapshot-1+shift
+      if (newGlobalIndex+shift >= data.length) return
+      if (selectedPoints.length == 2 && 
+        selectedPoints[index === 0 ? 1 : 0].metadata.snapshot-1 === newGlobalIndex) return
+
       const newPoint: Point = {
-        code: data[oldPoint.metadata.snapshot-1+shift]['code'] as string | null,
-        metadata: {...data[oldPoint.metadata.snapshot-1+shift]} as Metadata,
+        code: data[newGlobalIndex]['code'] as string | null,
+        metadata: {...data[newGlobalIndex]} as Metadata,
         source: file
       }
       const newSelectedPoints = selectedPoints.map((p, i) => i === index ? newPoint : p)
@@ -56,8 +62,10 @@ export const GraphSection = ({ file, selectedPoints, setSelectedPoints, onPointS
       localSelectedPoints = newSelectedPoints.filter(point => point.source === file);
     }
 
-    if (e.key === 'ArrowRight') moveSelectedPoint(indexSelectedPoints, +1);
-    if (e.key === 'ArrowLeft') moveSelectedPoint(indexSelectedPoints, -1);
+    if (e.key === 'ArrowRight') moveSelectedPoint(indexSelectedPointEnd, +1); e.preventDefault();
+    if (e.key === 'ArrowLeft') moveSelectedPoint(indexSelectedPointEnd, -1); e.preventDefault();
+    if (e.key === 'ArrowUp') moveSelectedPoint(indexSelectedPointStart, +1); e.preventDefault();
+    if (e.key === 'ArrowDown') moveSelectedPoint(indexSelectedPointStart, -1); e.preventDefault();
   };
 
   const handlePointClick = (point: { code: string | null; metadata: Metadata } | null, isCtrl: boolean) => {

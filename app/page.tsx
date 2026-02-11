@@ -274,11 +274,11 @@ export default function Home() {
                 <h3 className="text-lg font-semibold">Code Differences</h3>
                 <div className={`px-4 py-1 rounded-full text-sm font-medium border
                                 bg-purple-200 text-purple-700 border-purple-400`}>
-                  <span>Real Diff: {((globalSelectedPoints[1].metadata.real_progress as number) - (globalSelectedPoints[0].metadata.real_progress as number)).toFixed(1)}%</span>
+                  <span>Real Diff: {(((globalSelectedPoints[1].metadata.real_progress as number) - (globalSelectedPoints[0].metadata.real_progress as number))*100).toFixed(1)}%</span>
                 </div>
                 <div className={`px-4 py-1 rounded-full text-sm font-medium border
                                 bg-green-200 text-green-700 border-green-400`}>
-                  <span>Reg Diff: {((globalSelectedPoints[1].metadata.reg_est_prog as number) - (globalSelectedPoints[0].metadata.reg_est_prog as number)).toFixed(1)}%</span>
+                  <span>Reg Diff: {(((globalSelectedPoints[1].metadata.reg_est_prog as number) - (globalSelectedPoints[0].metadata.reg_est_prog as number))*100).toFixed(1)}%</span>
                 </div>
                 <div className={`px-4 py-1 rounded-full text-sm font-medium border ${
                   astError 
